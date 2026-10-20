@@ -1,0 +1,103 @@
+/* breadcrumb — canon .breadcrumb-cmp (breadcrumbs.min.css); sits above main's 48px top margin */
+.breadcrumb {
+  position: relative;
+  left: calc(50% - 50vw);
+  width: 100vw;
+  padding: 0 16px;
+}
+
+.breadcrumb .breadcrumb-nav {
+  margin-bottom: 24px;
+}
+
+.breadcrumb .breadcrumb-crumbs ul,
+.breadcrumb .breadcrumb-crumbs ol,
+.breadcrumb .breadcrumb-crumbs-mobile {
+  display: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb .breadcrumb-crumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  color: var(--color-primary-dark);
+  white-space: nowrap;
+}
+
+.breadcrumb .breadcrumb-crumb a {
+  display: block;
+  font-size: 12px;
+  color: var(--color-primary-dark-70);
+  border-bottom: 1px solid var(--color-primary-dark-70);
+  text-decoration: none;
+  transition: none;
+}
+
+.breadcrumb .breadcrumb-crumb a:hover {
+  color: var(--color-primary-dark-120);
+  border-color: var(--color-primary-dark-120);
+}
+
+.breadcrumb .breadcrumb-separator {
+  display: block;
+  flex: none;
+}
+
+.breadcrumb .breadcrumb-separator path {
+  stroke: var(--color-primary-dark-70);
+}
+
+.breadcrumb .breadcrumb-crumb-last {
+  font-weight: 500;
+}
+
+.breadcrumb .breadcrumb-crumbs-mobile {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.breadcrumb .breadcrumb-crumbs-mobile .breadcrumb-crumb a,
+.breadcrumb .breadcrumb-crumbs-mobile .breadcrumb-crumb a:hover {
+  border-color: transparent;
+}
+
+.breadcrumb .breadcrumb-crumbs-mobile .breadcrumb-separator {
+  transform: rotate(180deg);
+}
+
+@media (width >= 576px) {
+  .breadcrumb .breadcrumb-crumbs ul,
+  .breadcrumb .breadcrumb-crumbs ol {
+    display: flex;
+  }
+
+  .breadcrumb .breadcrumb-crumbs-mobile {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .breadcrumb {
+    padding: 0 32px;
+  }
+}
+
+/* main carries a 48px top margin from 992px; the trail sits above it in the source */
+@media (width >= 992px) {
+  .breadcrumb {
+    margin-top: -48px;
+  }
+
+  /* main's 48px top margin collapses with the trail's 24px in the source → 48px gap */
+  .breadcrumb .breadcrumb-nav {
+    margin-bottom: 48px;
+  }
+}

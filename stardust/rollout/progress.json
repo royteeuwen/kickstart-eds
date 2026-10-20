@@ -1,0 +1,188 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "listing",
+        "program",
+        "form",
+        "article"
+      ],
+      "startedAt": "2026-10-19T18:39:14.301Z",
+      "endedAt": "2026-10-19T19:36:17.791Z",
+      "blocks": 2,
+      "pages": 0,
+      "gates": {
+        "360": {
+          "headerCrop": "0.35%",
+          "footerCrop": "0.72%",
+          "siteSwitch": "165x272 = live"
+        },
+        "1440": {
+          "headerCrop": "0.17%",
+          "footerCrop": "1.70%",
+          "panelHeights": "7/7 = live"
+        },
+        "chrome": "chrome-compare vs interior contract: 28 red = 26 panel-visual (live crops covered by TrustArc dialog; chrome-explore cannot dismiss) + 2 close-path outside:null (no outside point on short shell) — re-check on the deployed home/listing page; NL dropdown 53x119 vs 55x121"
+      },
+      "verdict": "foundation: files 21, chrome docs 3 live (nav, footer, footer-short), shell /drafts/foundation-shell (preview only), lint ok, header-js synced yes"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "slug": "particulieren-nl-html",
+      "startedAt": "2026-10-19T19:37:39.950Z",
+      "endedAt": "2026-10-19T19:58:10.636Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "pixel": "7.49%",
+          "dh": 30,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "pixel": "3.15%",
+          "dh": 2,
+          "clip": 0,
+          "missing": 0
+        }
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 6, gate 1440 3.15% / 360 7.49%, requests 0"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+      "startedAt": "2026-10-19T19:37:39.950Z",
+      "endedAt": "2026-10-19T20:20:12.456Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "pixel": "2.92%",
+          "dh": 3,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "pixel": "1.1%",
+          "dh": 1,
+          "clip": 0,
+          "missing": 0
+        },
+        "notes": "origin captures reused from the archetype rounds (fresh live captures kept the consent banner); register IR-1 comparison mobile ticks"
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 4, gate 1440 1.1% / 360 2.92%, requests 0"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "startedAt": "2026-10-19T20:36:19.405Z",
+      "endedAt": "2026-10-19T21:03:27.726Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "pixel": "0.18%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "pixel": "0.12%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0
+        }
+      },
+      "verdict": "archetype-program: pages 1/1 live, blocks 4, gate 1440 0.12% / 360 0.18%, requests 1"
+    },
+    "archetype-form": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "form"
+      ],
+      "pages": 1,
+      "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "startedAt": "2026-10-19T20:20:12.456Z",
+      "endedAt": "2026-10-19T20:36:09.851Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": "0.85%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "pixel": "0.14%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0
+        }
+      },
+      "verdict": "archetype-form: pages 1/1 live, blocks 3, gate 1440 0.14% / 360 0.85%, requests 0"
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "pages": 1,
+      "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "startedAt": "2026-10-19T19:58:25.753Z",
+      "endedAt": "2026-10-19T20:24:17.406Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "pixel": "0.11%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0
+        },
+        "1440": {
+          "pixel": "0.12%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0
+        }
+      },
+      "verdict": "archetype-article: pages 1/1 live, blocks 4, gate 1440 0.12% / 360 0.11%, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-10-19T21:03:40.134Z",
+      "endedAt": "2026-10-19T21:16:42.565Z",
+      "pages": 5,
+      "gates": {
+        "360": "3 PASS + 2 documented overrides (units probe origin-side fault; pixel 0.11–7.49%)",
+        "1440": "5/5 PASS (0.12–3.15%)"
+      },
+      "verdict": "gate-all: 5/5 delivered at 1440 and 360; roster state stardust/.work/rollout/gate-all/state.json"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-10-19T21:17:49.000Z",
+      "endedAt": "2026-10-19T21:17:49.000Z",
+      "verdict": "final: freeze check unchanged (13 files), 1 foundation request dispositioned block-scoped (page grids notInFoundation), no re-gate needed; coverage gate rows 5/5 pass"
+    }
+  }
+}

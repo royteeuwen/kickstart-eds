@@ -1,0 +1,410 @@
+{
+ "source": "file:///workspace/ede281e9/stardust/prototypes/particulieren-nl-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "home-intro",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vind je volgende auto in KBC Mobile"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Ontdek het ruime aanbod nieuwe en tweedehands auto’s met exclusieve voordelen."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Ontdek het in KBC Mobile",
+     "href": "https://www.kbc.be/particulieren/nl/thema/mymobility/product/car-sales.html?zone=homepage-header"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.chaptertitle",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "more-services",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Waarmee kunnen we je helpen?"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Betalen"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zichtrekeningen",
+     "href": "https://www.kbc.be/content/particulieren/nl/product/betalen/zichtrekeningen?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Krediet- en prepaidkaarten",
+     "href": "https://www.kbc.be/content/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/vergelijk-kredietkaarten-en-prepaid?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Digitaal bankieren",
+     "href": "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Toon meer",
+     "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=more-services"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Lenen"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Hypothecaire lening",
+     "href": "https://www.kbc.be/particulieren/nl/lenen/lenen-voor-je-woning.html?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Op zoek naar een autolening",
+     "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening.html?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Persoonlijke lening",
+     "href": "https://www.kbc.be/particulieren/nl/lenen/persoonlijke-lening.html?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Toon meer",
+     "href": "https://www.kbc.be/particulieren/nl/lenen.html?zone=more-services"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Verzekeren"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Brandverzekering",
+     "href": "https://www.kbc.be/content/particulieren/nl/product/verzekeren/wonen?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Autoverzekering",
+     "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/autoverzekering.html?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Hospitalisatieverzekering",
+     "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/hospitalisatieverzekering.html?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Toon meer",
+     "href": "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=more-services"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Sparen en beleggen"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Spaarrekening",
+     "href": "https://www.kbc.be/particulieren/nl/sparen.html?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Pensioensparen",
+     "href": "https://www.kbc.be/content/particulieren/nl/pensioensparen/pensioensparen?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Beginnen met beleggen",
+     "href": "https://www.kbc.be/content/particulieren/nl/beleggen/beginnen-met-beleggen?zone=more-services"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Toon meer",
+     "href": "https://www.kbc.be/particulieren/nl/beleggen.html?zone=more-services"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.more-services__column",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 4,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "visual-usp",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Pensioenplanning begint vandaag"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Van veraf tot net met pensioen: wat kun je vandaag doen dat straks het verschil maakt? Denk vooruit, plan en maak bewuste keuzes. Zo bouw je meer vrijheid en zekerheid op."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Naar je toekomstplan",
+     "href": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "visual-usp",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Samen bouwen we aan een duurzamere wereld"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wil je je steentje bijdragen, maar weet je niet hoe je begint? Of wil je weten wat we bij KBC doen voor milieu, mens en maatschappij? Ontdek het hier!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "#samenduurzamer"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Wat kun je zelf doen?",
+     "href": "https://www.kbc.be/particulieren/nl/duurzaamheid/samen-meer-duurzaamheid.html"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Wat doen wij?",
+     "href": "https://www.kbc.be/particulieren/nl/duurzaamheid/onze-impact.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "A.btn",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "visual-usp-home",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Start met KBC Mobile, ook als je geen KBC-rekening hebt"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Beste bankapp van de wereld"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Veilig en vlot bankieren zonder kaartlezer"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Tal van handige extra diensten"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Oefen gratis voor je rijbewijs B"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Mooie aanbiedingen dankzij"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Kate Coins",
+     "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Download KBC Mobile",
+     "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile-banking.html?zone=visual-usp-home"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "contact-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Contacteer ons waar en wanneer je maar wilt"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Heb je een vraag?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Kate helpt je graag verder"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Kate is je digitale assistent in KBC Mobile"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Kate staat 24/7 klaar voor al je vragen over je bankzaken, verzekeringen en extra diensten"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Toch KBC Live nodig? Dan verbindt Kate je met voorrang door"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Ga naar Kate",
+     "href": "https://ul.kbc.be/nl/kate/welcome?payload=%2Fwelcome&zone=contact-block"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Maak je liever een afspraak?"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Dan kan dat met Kate in KBC Mobile"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Met KBC Live, voor een telefonisch gesprek of videogesprek"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Met je KBC-kantoor"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Wil je een afspraak bij een verzekeringsagent? Die maak je telefonisch."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Hier vind je een agentschap in je buurt.",
+     "href": "https://www.kbc.be/particulieren/nl/kantoor.html"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Maak een afspraak",
+     "href": "https://www.kbc.be/particulieren/nl/contact.html?zone=contact-block"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.contact-block__wrapper",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

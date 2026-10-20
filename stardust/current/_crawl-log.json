@@ -1,0 +1,246 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 5,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto (missed)",
+    "gateDismiss": ".pdynamicbutton a.required",
+    "widget": "TrustArc (Weiger cookies / Aanvaard alle cookies)"
+  },
+  "favicon": {
+    "url": "https://wcmassets.kbc.be/content/dam/kdl-assets/favicons/kbc/favicon.ico.cdn.res/last-modified/0/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 5,
+    "pagesWithSameSiteData": 5,
+    "pagesWithSearchForm": 5,
+    "pagesHydrated": 5,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.kbc.be",
+        "path": "/x0a-p-analytics/set-fpid.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.kbc.be/x0a-p-analytics/set-fpid.json",
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "es6-elasticapm.kbc.be",
+        "path": "/config/v1/rum/agents",
+        "query": [
+          "service.environment",
+          "service.name"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://es6-elasticapm.kbc.be/config/v1/rum/agents",
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.truste.com",
+        "path": "/analytics",
+        "query": [
+          "action",
+          "domain",
+          "implied",
+          "new",
+          "referer",
+          "session"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://consent.truste.com/analytics",
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.truste.com",
+        "path": "/cm/exp-w1.kbc.be/modalconfig",
+        "query": [
+          "country",
+          "layout",
+          "locale",
+          "type"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://consent.truste.com/cm/exp-w1.kbc.be/modalconfig",
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "es6-elasticapm.kbc.be",
+        "path": "/intake/v2/rum/events",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": true,
+        "example": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.kbc.be",
+        "path": "/bin/kbc/profilecondition/profiles.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.kbc.be/bin/kbc/profilecondition/profiles.json",
+        "pages": 4,
+        "examples": [
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html",
+          "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.kbc.be",
+        "path": "/content/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.kbc.securedeeplinks.nocache.json",
+        "query": [
+          "paramsFromUrl",
+          "secureDeeplinkChannel",
+          "secureDeeplinkPath",
+          "secureDeeplinkScheme"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.kbc.be/content/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.kbc.securedeeplinks.nocache.json",
+        "pages": 1,
+        "examples": [
+          "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      },
+      {
+        "host": "consent.truste.com",
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      }
+    ],
+    "globalState": [],
+    "formTargets": [
+      {
+        "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 5,
+        "examples": [
+          "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+          "particulieren-nl-betalen-zichtrekeningen-html",
+          "particulieren-nl-html"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "particulieren-nl-html",
+      "verdict": "ok",
+      "notes": "Rendered page; TrustArc consent dialog overlays the first viewport in the crawl screenshot (crawler auto-dismiss did not match \"Weiger cookies\"). Content under it is captured in the record; gates dismiss with .pdynamicbutton a.required."
+    },
+    {
+      "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+      "verdict": "ok",
+      "notes": "Rendered page; TrustArc consent dialog overlays the first viewport in the crawl screenshot (crawler auto-dismiss did not match \"Weiger cookies\"). Content under it is captured in the record; gates dismiss with .pdynamicbutton a.required."
+    },
+    {
+      "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "verdict": "ok",
+      "notes": "Rendered page; TrustArc consent dialog overlays the first viewport in the crawl screenshot (crawler auto-dismiss did not match \"Weiger cookies\"). Content under it is captured in the record; gates dismiss with .pdynamicbutton a.required."
+    },
+    {
+      "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "verdict": "ok",
+      "notes": "Rendered page; TrustArc consent dialog overlays the first viewport in the crawl screenshot (crawler auto-dismiss did not match \"Weiger cookies\"). Content under it is captured in the record; gates dismiss with .pdynamicbutton a.required."
+    },
+    {
+      "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "verdict": "ok",
+      "notes": "Rendered page; TrustArc consent dialog overlays the first viewport in the crawl screenshot (crawler auto-dismiss did not match \"Weiger cookies\"). Content under it is captured in the record; gates dismiss with .pdynamicbutton a.required."
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://www.kbc.be (FR/DE/EN locale trees)",
+      "confidence": "high",
+      "evidence": "language switch on every page",
+      "decision": "excluded — same origin, out of the fixed 5-page scope"
+    }
+  ]
+}

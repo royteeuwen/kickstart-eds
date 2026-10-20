@@ -1,0 +1,49 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "listing",
+        "program",
+        "form",
+        "article"
+      ],
+      "pages": 5,
+      "startedAt": "2026-10-19T18:35:36.159Z",
+      "endedAt": "2026-10-19T18:35:36.159Z",
+      "verdict": "5 archetypes (Branch A, approved prototypes), 0 siblings; one render unit for the 5 archetype pages"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "listing",
+        "program",
+        "form",
+        "article"
+      ],
+      "pages": 5,
+      "startedAt": "2026-10-19T18:35:40Z",
+      "endedAt": "2026-10-19T18:36:10.994Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [
+        "landing",
+        "listing",
+        "program",
+        "form",
+        "article"
+      ],
+      "pages": 5,
+      "startedAt": "2026-10-19T18:36:24Z",
+      "endedAt": "2026-10-19T18:36:30.914Z",
+      "verdict": "5/5 migrated (archetype tier), 0 refused"
+    }
+  }
+}

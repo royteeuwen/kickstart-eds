@@ -1,0 +1,122 @@
+{
+  "media/zichtrekeningen/bankoverstap-hero2.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/bankoverstap-hero2.jpg",
+    "size": 39833,
+    "sha256": "12816adeebe0d1cea965ce952f5d5170c5846c4c545fc9488b86d228742c90b8",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/bankoverstap-hero2.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:26.931Z"
+  },
+  "media/zichtrekeningen/gemeenschappelijke-rekening-koppel-terras.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/gemeenschappelijke-rekening-koppel-terras.jpg",
+    "size": 60688,
+    "sha256": "3d3f0e01b0e07852e5101bbc0b3488f6941eeb33c49ddc33f209d10f079bf6bd",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/gemeenschappelijke-rekening-koppel-terras.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:27.562Z"
+  },
+  "media/zichtrekeningen/basisbankdienst-hero-kdl.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/basisbankdienst-hero-kdl.jpg",
+    "size": 55527,
+    "sha256": "8b5bb4d6fae79032cf59080c42b5193432c0a3d24bd51bfdeead348c368d8c60",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/basisbankdienst-hero-kdl.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:27.620Z"
+  },
+  "media/zichtrekeningen/hero-basisbankdienst.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/hero-basisbankdienst.jpg",
+    "size": 20951,
+    "sha256": "31f65a86ca41264e1987c3c1ca4faf8a5287366e7deddda16b96989769858533",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/hero-basisbankdienst.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:27.648Z"
+  },
+  "media/zichtrekeningen/business-pro-rendition-a.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/business-pro-rendition-a.jpg",
+    "size": 12831,
+    "sha256": "1b5a3a1963873a64de020ddc456eaba9bdee1db64493ce4e8a49ce3aab53e8ef",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/business-pro-rendition-a.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:27.861Z"
+  },
+  "media/zichtrekeningen/hero-productpage-jongerenrekening-18-25-mobile.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/hero-productpage-jongerenrekening-18-25-mobile.jpg",
+    "size": 46814,
+    "sha256": "12bc4d98978d7dc5ce44a71713cf1b45c658a9c115bf4284ca8ce0de77dbeb03",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/hero-productpage-jongerenrekening-18-25-mobile.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:28.101Z"
+  },
+  "media/zichtrekeningen/online-rekening-openen.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/online-rekening-openen.jpg",
+    "size": 29243,
+    "sha256": "cf5217d8c3b0d187762fe39b66bff2c8af0317470b08b0621006f91e646a12f1",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/online-rekening-openen.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:28.115Z"
+  },
+  "media/zichtrekeningen/kbcmobilewerktniet7.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/kbcmobilewerktniet7.jpg",
+    "size": 59974,
+    "sha256": "ba47fbd73d07a044dde1d79e72d083b9a19999675c95352fa607409363c07e00",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/kbcmobilewerktniet7.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:28.332Z"
+  },
+  "media/zichtrekeningen/webhero-eigen-rekening-kind-3.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/webhero-eigen-rekening-kind-3.jpg",
+    "size": 30367,
+    "sha256": "1033ea9ab69bfc6c1abe9c0b8fcfa7d12b9d506d648b40a2fdd52665ac4a2e67",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/webhero-eigen-rekening-kind-3.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:28.661Z"
+  },
+  "media/zichtrekeningen/zichtrekening-nieuwelook17.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/zichtrekening-nieuwelook17.jpg",
+    "size": 99210,
+    "sha256": "4c8f8121d1d0e089a8435694e6b523cb88a775689d2d43cf9f027ff458d0b0aa",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/zichtrekeningen/zichtrekening-nieuwelook17.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:28.710Z"
+  }
+}

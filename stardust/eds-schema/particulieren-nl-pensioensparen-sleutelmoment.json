@@ -1,0 +1,584 @@
+{
+ "source": "file:///workspace/ede281e9/stardust/prototypes/particulieren-nl-pensioensparen-sleutelmoment-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "home-intro",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vier de vrijheid van vrije tijd"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Het beste moment om met je pensioen bezig te zijn, is nu. Of je nu 50 of 70 bent, particulier of ondernemer: werk aan je plan zodat (later) alles kan."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "key-steps",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Klaar om je toekomstplan te maken?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wat wil je doen?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "1. Droom gerust"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Hoe geraak je er?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "2. Plan slim"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Stuur bij waar nodig"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "3. Kies bewust"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Zorg voor zekerheid"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "4. Bescherm goed"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Voor ondernemers:"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Onderneem vooruit >",
+     "href": "/ondernemen/nl/sleutelmomenten/met-pensioen.html"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Voor wie al met pensioen is:"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Blijf vooruitkijken >",
+     "href": "/particulieren/nl/pensioensparen/sleutelmoment/pensioen.html"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid-layout",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 4,
+      "textRuns": 8
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.text-image",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.text-image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "1. Droom gerust"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Je pensioen opent de deur naar nieuwe kansen. Van en tot ."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "hobby's"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "reizen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "meer tijd voor wie je lief is"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Graag ? Denk dan aan een . Of zet je in voor iets dat echt voldoening geeft met ."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "bezig blijven en wat bijverdienen"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "flexi-job"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "vrijwilligerswerk"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Maak van morgen iets om naar uit te kijken"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.split__col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 11
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "2. Plan slim"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wil je langer blijven werken of liever vroeger stoppen? En hoeveel zal je pensioen ongeveer bedragen?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Breng je inkomsten en uitgaven in kaart en kijk hoe het met je pensioen staat."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Gebruik ons om een beter beeld te krijgen van waar je staat."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "handige overzicht"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Bekijk het overzicht en begin met plannen",
+     "href": "/particulieren/nl/pensioensparen/sleutelmoment/plan-slim.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.split__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "aem-highlight",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Laat geen voordeel liggen op deze belangrijke leeftijden"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Doe je aan , of beide? Dan zijn , belangrijke 'fiscale mijlpalen' waarop je om zoveel mogelijk te blijven krijgen. Je komt er alles over te weten bij '3. Kies bewust'."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "pensioensparen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "langetermijnsparen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "54"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "60 en"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "64 jaar"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "actie moet ondernemen"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "belastingvermindering"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": ": zet 'Extra gebruiksgemak' aan in KBC Mobile. n. Ga in de app naar Instellingen > Privacy > Extra gebruiksgemak. Geen KBC Mobile of geen klant?"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Tip"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Kate geeft je dan een seintje op belangrijke momente"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Download hier KBC Mobile.",
+     "href": "/particulieren/nl/info/waarom-klant-worden.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.text-image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 8
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "3. Kies bewust"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": ": draagt hoe je nu spaart en belegt bij aan je toekomstplannen, of doe je best al enkele aanpassingen?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Sparen en beleggen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": ": zijn renovaties aan je woning nodig, huur je liever of wil je net verder investeren in vastgoed?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Vastgoed"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Met ons overzicht maak je ."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "de keuzes die het best geschikt zijn voor jouw toekomst"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Bekijk het overzicht en maak keuzes",
+     "href": "/particulieren/nl/pensioensparen/sleutelmoment/kies-bewust.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.split__col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 8
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "4. Bescherm goed"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": ", , , ... Niet de leukste onderwerpen, maar ze geven wel rust en zekerheid."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Gezondheidskosten"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "zorgvolmachten"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "nalatenschap"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Denk na over je oude dag en de dag waarop je er niet meer bent en ."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "neem nu de tijd om alles op orde te zetten"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Bekijk het overzicht en ga voor gemoedsrust",
+     "href": "/particulieren/nl/pensioensparen/sleutelmoment/bescherm-goed.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.split__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "aem-highlight",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Herbekijk je toekomstplan af en toe"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dromen en plannen kunnen veranderen. Wij vullen al deze informatie regelmatig opnieuw aan zodat je steeds mee blijft."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Check af en toe of je toekomstplan nog steeds bij je behoeften past."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "5. Onderneem vooruit"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Als je ondernemer bent, denk je ongetwijfeld na over de toekomst van je vennootschap, eenmanszaak of zelfstandige activiteit. Bereid jezelf en je bedrijf voor en"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "stel jezelf tijdig de volgende vragen:"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Hoe zorg ik voor mijn pensioenopbouw?",
+     "href": "/ondernemen/nl/sleutelmomenten/pensioenopbouw-ondernemer.html"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Hoe bescherm ik mezelf, mijn gezin en mijn zaak?",
+     "href": "/ondernemen/nl/sleutelmomenten/onderneming-beschermen.html"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Wat gebeurt er met mijn zaak als ik met pensioen ga?",
+     "href": "/ondernemen/nl/sleutelmomenten/ondernemer-pensioen.html"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "vandaag betekent ."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Vooruitdenken"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "zorgeloos genieten morgen"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Bekijk het overzicht",
+     "href": "/ondernemen/nl/sleutelmomenten/met-pensioen.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.split__col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 4,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-links",
+   "items": [],
+   "imgCount": 3,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.page-links__col",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

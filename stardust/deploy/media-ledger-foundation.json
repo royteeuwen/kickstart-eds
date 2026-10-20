@@ -1,0 +1,14 @@
+{
+  "media/chrome/secure4u-logo.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/foundation/media/secure4u-logo.png",
+    "size": 3333,
+    "sha256": "bd7c9a45eebcd11634a2acafc47f0dd652f2e9460828a562cc0b2d549c86bfd5",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/chrome/secure4u-logo.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T18:56:31.685Z"
+  }
+}

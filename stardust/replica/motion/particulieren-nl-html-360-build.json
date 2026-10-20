@@ -1,0 +1,473 @@
+{
+  "url": "http://localhost:8791/particulieren-nl-html-proposed.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4045,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2545,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".aem-main-nav__mobile-tile__trigger",
+      "frames": [
+        {
+          "t": 10723.299999982119,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 10930.90000000596,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11139.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11347.09999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".nav--trigger",
+      "frames": [
+        {
+          "t": 12367.59999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12575.40000000596,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12782.299999982119,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12987.59999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > path",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > path",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > circle",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > path",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > path",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > path",
+        "y": 60,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > path",
+        "y": 60,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > circle",
+        "y": 60,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > path",
+        "y": 60,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header > div.logo > a.aem-logo > svg > path",
+        "y": 60,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.brand__row > div.aem-mobile-header > div.aem-main-nav__mobile-tile > button.aem-main-nav__mobile-tile__trigger > i.icon.icon--down-bold",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.brand__row > div.aem-mobile-header.aem-mobile-header--active > div.aem-main-nav__mobile-tile > button.aem-main-nav__mobile-tile__trigger > i.icon.icon--down-bold",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header.aem-mobile-header--active > div.logo > a.aem-logo > svg > path",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header.aem-mobile-header--active > div.logo > a.aem-logo > svg > path",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header.aem-mobile-header--active > div.logo > a.aem-logo > svg > circle",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header.aem-mobile-header--active > div.logo > a.aem-logo > svg > path",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.aem-mobile-header.aem-mobile-header--active > div.logo > a.aem-logo > svg > path",
+        "y": 0,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html > body.page--home.header--mobilesticky",
+        "y": 400
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "html > body.page--home.header--mobilesticky > div.header.header--transparent.header--text-white > header.site__header > div.brand__row__container.brand__row__container--top",
+        "y": 4045
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "html > body.page--home > div.header.header--transparent.header--text-white > header.site__header > div.brand__row__container.brand__row__container--top",
+        "y": 60
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "html > body.page--home > div.header.header--transparent.header--text-white > header.site__header > div.brand__row__container.brand__row__container--top",
+        "y": 30
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "html > body.page--home > div.header.header--transparent.header--text-white > header.site__header > div.brand__row__container.brand__row__container--top",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "header.site__header > div.brand__row__container.brand__row__container--top > div.brand__row > div.aem-mobile-header.aem-mobile-header--active > button.nav--trigger.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "aem-mobile-header--active"
+        ],
+        "el": "div.header.header--transparent.header--text-white > header.site__header > div.brand__row__container.brand__row__container--top > div.brand__row > div.aem-mobile-header.aem-mobile-header--active",
+        "y": 0
+      },
+      {
+        "added": [
+          "mobile-navigation-open"
+        ],
+        "el": "html.mobile-navigation-open",
+        "y": 0
+      }
+    ]
+  }
+}

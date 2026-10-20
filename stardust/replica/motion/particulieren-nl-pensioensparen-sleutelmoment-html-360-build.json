@@ -1,0 +1,455 @@
+{
+  "url": "http://localhost:8791/particulieren-nl-pensioensparen-sleutelmoment-html-proposed.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6056,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4556,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".btn--cta",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 153, 133)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 122, 106)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".page-link",
+      "changed": [
+        "self.color",
+        "img.page-link__image.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": [
+          {
+            "el": "img.page-link__image",
+            "transform": "none",
+            "color": "rgb(0, 174, 239)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 139, 191)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": [
+          {
+            "el": "img.page-link__image",
+            "transform": "none",
+            "color": "rgb(0, 139, 191)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "border-top-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 1862,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 1862,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 1862,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 1862,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 1862,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 5376,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 5376,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 5376,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 5376,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.split__col > div.aem-btngroup.aem-btngroup--flush > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.btn--color-primary",
+        "y": 5376,
+        "dur": "0.22s, 0.22s, 0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "main.main > section.page-links > div.page-links__inner > div.page-links__col > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "main.main > section.page-links > div.page-links__inner > div.page-links__col > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "main.main > section.page-links > div.page-links__inner > div.page-links__col > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "main.main > section.page-links > div.page-links__inner > div.page-links__col > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html > body.page--article.header--mobilesticky",
+        "y": 400
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "html > body.page--article.header--mobilesticky > div.header.header--transparent.header--text-primary-dark > header.site__header > div.brand__row__container.brand__row__container--top",
+        "y": 6056
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "html > body.page--article > div.header.header--transparent.header--text-primary-dark > header.site__header > div.brand__row__container.brand__row__container--top",
+        "y": 60
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "html > body.page--article > div.header.header--transparent.header--text-primary-dark > header.site__header > div.brand__row__container.brand__row__container--top",
+        "y": 30
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "html > body.page--article > div.header.header--transparent.header--text-primary-dark > header.site__header > div.brand__row__container.brand__row__container--top",
+        "y": 0
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html > body.page--article.header--mobilesticky",
+        "y": 1862
+      }
+    ]
+  }
+}

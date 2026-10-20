@@ -1,0 +1,80 @@
+/* table — canon .aem-table + .table--blocked__container (main.min.css values, gated program
+   prototype) */
+.table {
+  margin-bottom: 24px;
+}
+
+.table table {
+  width: 100%;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  border-spacing: 0;
+  border-collapse: separate;
+  table-layout: auto;
+  font-family: var(--font-family-base);
+  text-align: left;
+}
+
+.table td {
+  display: table-cell;
+  padding: 8px 12px 8px 0;
+  border: none;
+  border-bottom: 1px solid var(--color-primary-dark-10);
+  background-color: var(--color-white);
+  color: var(--color-primary-dark);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  overflow-wrap: break-word;
+}
+
+.table td p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.table td:last-child {
+  min-width: 100px;
+  text-align: right;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+/* included / not included (canon .icon.icon--2x.icon--checkmark / .icon--cancel) */
+.table .table-icon {
+  font-size: 2em;
+  font-weight: normal;
+  line-height: inherit;
+  vertical-align: baseline;
+}
+
+.table .table-icon-yes {
+  color: green;
+}
+
+.table .table-icon-no {
+  color: red;
+}
+
+.table .table-icon-yes::before {
+  content: "\e630" / "";
+}
+
+.table .table-icon-no::before {
+  content: "\e62f" / "";
+}
+
+@media (width >= 576px) {
+  .table td {
+    padding-right: 24px;
+  }
+
+  .table td:last-child {
+    min-width: 140px;
+  }
+}

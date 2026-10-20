@@ -1,0 +1,82 @@
+/* key-steps — canon grid-layout-container + text-image--center (values from the gated
+   article prototype) */
+.key-steps .key-steps-head :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.key-steps .key-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  justify-items: center;
+}
+
+@media (width >= 768px) {
+  .key-steps .key-steps-grid-steps {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (width >= 992px) {
+  .key-steps .key-steps-grid {
+    gap: 24px;
+  }
+}
+
+.key-steps .key-steps-item {
+  display: flow-root;
+  margin-bottom: 24px;
+}
+
+.key-steps .key-steps-item-steps {
+  margin-bottom: 32px;
+}
+
+.key-steps .key-steps-image {
+  display: none;
+  width: 80px;
+  margin: 8px 40px 0;
+}
+
+@media (width >= 768px) {
+  .key-steps .key-steps-image {
+    display: block;
+  }
+}
+
+.key-steps .key-steps-image :is(p, picture) {
+  display: block;
+  margin: 0;
+}
+
+.key-steps .key-steps-image img {
+  display: block;
+  width: 80px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.key-steps .key-steps-text {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.key-steps .key-steps-text p {
+  margin-bottom: 1.65em;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.key-steps .key-steps-text > p:last-child {
+  margin-bottom: 0;
+}
+
+.key-steps .key-steps-spacer {
+  height: 24px;
+}

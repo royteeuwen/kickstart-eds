@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "iconskbc",
+        "createdAt": "2026-10-19T18:47:56.343Z",
+        "reason": "parent brief: iconskbc is KBC's own icon font loaded from the owner CDN (canon.css), not a text face"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "fontawesome",
+        "createdAt": "2026-10-19T18:48:32.409Z",
+        "reason": "gated canon.css: FontAwesome icon glyph font (drawer back chevron) from the owner CDN, not a text face"
+      }
+    ]
+  }
+}

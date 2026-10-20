@@ -1,0 +1,113 @@
+/* more-services — "Waarmee kunnen we je helpen?" action-list columns (gated landing prototype) */
+.more-services {
+  margin-bottom: 32px;
+}
+
+.more-services .more-services-head {
+  padding: 0 var(--gutter);
+}
+
+.more-services .chaptertitle :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+.more-services .more-services-head :is(h1, h2, h3, h4, h5, h6) {
+  text-align: center;
+}
+
+.more-services .more-services-column .chaptertitle :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.more-services .more-services-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.more-services .more-services-column {
+  width: 25%;
+  padding: 0 var(--gutter);
+}
+
+/* action list (styles.css .aem-action-list family, applied through descendant selectors) */
+.more-services .aem-action-list li {
+  border-bottom: 1px solid var(--color-primary-dark-10);
+}
+
+.more-services .aem-action-list li:last-child {
+  border: none;
+}
+
+.more-services .aem-action-list li:hover {
+  background-color: var(--color-primary-light-10);
+}
+
+.more-services .aem-action-list li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--color-primary-dark);
+  overflow-wrap: break-word;
+  border: none;
+  transition: none;
+}
+
+.more-services .aem-action-list li:hover a {
+  color: var(--color-primary-light-120);
+}
+
+.more-services .more-services-icon {
+  display: block;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+}
+
+.more-services .more-services-icon svg {
+  display: block;
+}
+
+.more-services .more-services-icon svg path {
+  stroke: var(--color-primary-dark-70);
+}
+
+.more-services .aem-action-list .more-services-more p {
+  margin: 0;
+}
+
+.more-services .aem-action-list .more-services-more p a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-decoration: underline;
+  border: none;
+  transition: none;
+}
+
+.more-services .aem-action-list .more-services-more p a:hover {
+  color: var(--color-primary-light-120);
+}
+
+@media (width >= 768px) {
+  .more-services .more-services-column .chaptertitle {
+    margin-bottom: 16px;
+  }
+}
+
+@media (width <= 767px) {
+  .more-services .more-services-column {
+    width: 100%;
+  }
+}

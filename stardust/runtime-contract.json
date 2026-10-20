@@ -1,0 +1,300 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica C0 foundation",
+    "writtenAt": "2026-10-19T19:02:07.640Z",
+    "source": "stardust/prototypes/canon.css + canon.js + the 5 *-proposed.html (gated)"
+  },
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": "a.button (+ .primary / .secondary / .accent) in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonMapping": {
+    "primary (**link**)": "canon .btn--cta.btn--color-primary — sea-blue fill (#009985), hover sea-blue-120",
+    "secondary (_link_)": "canon .btn--cta.btn--color-secondary — sea-blue outline",
+    "accent (**_link_**)": "canon .btn — cyan fill (#00aeef), hover primary-light-120",
+    "note": "all pills: padding 7px 24px, 16/24 MuseoSans 500, radius 100px; groups use .aem-cta-btngroup (flex, gap 12px 24px). Tertiary / inline-block variants are block CSS."
+  },
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "lang": "nl (scripts.js sets <html lang=\"nl\">)",
+  "classNaming": {
+    "rule": "canon BEM class names ported to kebab-case: '__' and '--' become '-' (e.g. .chaptertitle__text--center → .chaptertitle-text-center, .aem-main-nav__block--active → .aem-main-nav-block-active). The canon icon font class .icon / .icon--x is .kbc-icon / .kbc-icon-x (EDS owns .icon). Block CSS must lint under stylelint-config-standard (kebab-case selector-class-pattern).",
+    "foundationClasses": [
+      "btn",
+      "btn-color-primary",
+      "btn-cta",
+      "btn-cta-text",
+      "aem-cta-btngroup",
+      "chaptertitle",
+      "chaptertitle-text",
+      "chaptertitle-text-center",
+      "chaptertitle-condensed",
+      "alpha",
+      "beta",
+      "gamma",
+      "delta",
+      "aem-action-list",
+      "aem-action-list-item",
+      "aem-action-list-link",
+      "aem-action-list-text",
+      "aem-action-list-icon",
+      "aem-action-list-more-info-link",
+      "aem-rich-text",
+      "aem-rich-text-bullet-checkmark-green",
+      "aem-divider",
+      "aem-loan-warning",
+      "sr-only",
+      "kbc-icon",
+      "kbc-icon-down",
+      "kbc-icon-down-bold",
+      "kbc-icon-phone3",
+      "fa",
+      "fa-angle-left"
+    ]
+  },
+  "tokens": {
+    "file": "styles/styles.css :root",
+    "colors": [
+      "--color-white",
+      "--color-white-24",
+      "--color-white-32",
+      "--color-white-70",
+      "--color-primary-dark",
+      "--color-primary-dark-120",
+      "--color-primary-dark-70",
+      "--color-primary-dark-50",
+      "--color-primary-dark-40",
+      "--color-primary-dark-24",
+      "--color-primary-dark-16",
+      "--color-primary-dark-10",
+      "--color-primary-dark-08",
+      "--color-primary-dark-10-solid",
+      "--color-primary-light",
+      "--color-primary-light-120",
+      "--color-primary-light-50",
+      "--color-primary-light-10",
+      "--color-primary-light-10-solid",
+      "--color-primary-main-100",
+      "--color-sea-blue",
+      "--color-sea-blue-120",
+      "--color-background-light",
+      "--color-success"
+    ],
+    "type": [
+      "--font-family-base (\"MuseoSans\", sans-serif)"
+    ],
+    "layout": [
+      "--gutter (12px; 16px ≤767)",
+      "--max-width (1200px)",
+      "--main-navigation-height (88px)",
+      "--top-navigation-height (48px)",
+      "--nav-height (EDS header reservation: 144px ≥992, 88px ≤991)"
+    ],
+    "rule": "every var(--x) a block uses must exist here; never redefine a foundation token in block CSS"
+  },
+  "fonts": {
+    "file": "styles/fonts.css (loaded by loadFonts — eager ≥900px, else in loadLazy)",
+    "faces": [
+      "MuseoSans 300/500/700 woff2 (owner CDN wcmassets.kbc.be, CORS *, never rehosted)",
+      "iconskbc (icons-kbc.v31.woff, font-display block)",
+      "FontAwesome 4.6.3 (drawer back chevron)"
+    ]
+  },
+  "baseType": "html 500 100%/1.65 MuseoSans; body color --color-primary-dark on #fff, overflow-x hidden; p 16/24 300; h1–h6, p, ul, ol, figure margin/padding 0; lists unstyled; a = cyan + 1px border-bottom (--color-primary-light-50), plain `a` specificity (not :any-link) so module/block link rules win",
+  "breakpoints": {
+    "inUse": [
+      "575/576",
+      "767/768",
+      "991/992",
+      "1199/1200",
+      "1440"
+    ],
+    "note": "DESIGN.json extensions.breakpoints.target is unset → lint:breakpoints skips; stay on these canon steps (media range syntax: (width <= 991px) / (width >= 992px))"
+  },
+  "templates": {
+    "metadata": "Template (page metadata) → body class",
+    "values": {
+      "landing": "home — main is flex column, max-width 1200, margin-top 48 (24 ≤991)",
+      "listing": "main .responsivegrid: 100% → 760 (≥768) → 864 + margin-top 48 (≥992) → 1200 (≥1440)",
+      "program": "as listing",
+      "form": "as listing; footer defaults to /footer-short",
+      "article": "as listing but flow-root and margin-top 48 (24 ≤991)"
+    },
+    "sections": "main > .section has margin 0 / no max-width: the page rhythm and full-bleed escapes (left: calc(50% - 50vw)) belong to blocks, as in the prototypes. main > .section:empty is hidden."
+  },
+  "defaultContent": {
+    "headings": "inside .default-content-wrapper: h1 = alpha (24/28, 30/36 ≥768), h2 = beta (20/28), h3 = gamma (18/24), h4–h6 = delta (16/24); all 700, margin-bottom 24",
+    "prose": "p / ul / ol margin-bottom 1.65em; li 16/24 300 (14/20 ≤767) with 36px indent (= canon .aem__rich-text); wrapper margin-bottom 24",
+    "sectionStyles": {
+      "center": "centred default-content headings and CTA rows",
+      "checkmarks": "green checkmark bullets on default-content lists (/icons/checkmark-green.svg)"
+    },
+    "rule": "one style value per section; descendant selectors only (EW2/EW10)"
+  },
+  "experienceWorkspace": "styles.css ships the .prosemirror-editor CTA repaint (strong = sea-blue fill, em = sea-blue outline, strong+em = cyan) and the card-as-link inner-anchor reset",
+  "imagePolicy": {
+    "editorial": "upload with da-media-upload.mjs --scope <page-or-block> (never media/<x>), author <img src=\"https://content.da.live/aemcoder/ede281e9/media/<scope>/<file>\" alt=\"…\">",
+    "decorative": "CSS only; fixed brand assets root-relative under /icons/ (kbc-logo.svg, social-*.svg, checkmark-green.svg)",
+    "fallback": "captured src first; wcmassets.kbc.be answered 200 to a plain curl for the chrome image",
+    "chromeMedia": "https://content.da.live/aemcoder/ede281e9/media/chrome/secure4u-logo.png (footer social proof)"
+  },
+  "header": {
+    "block": "blocks/header — DOM = canon .site-header (top-navigation-container + brand-row-container), template-slotted from /nav; renders a div.site-header (never a <header> element inside the block)",
+    "document": "/nav (content/nav.html; page metadata `nav` overrides)",
+    "sections": [
+      "brand — <p><a href=\"/particulieren/nl?zone=topnav\">KBC Particulieren</a></p> (logo SVG from /icons/kbc-logo.svg, link text → sr-only)",
+      "sites — <ul> site switch; the li without a link is the active site (also the ≤991 site-switch tile)",
+      "tools — <p><a href=search-page>Zoeken...</a></p> (form action + placeholder), <p><a href=contact>Contact</a></p>",
+      "languages — <h3>Taalkeuze</h3><ul><li>NL</li><li><a title>FR</a></li><li>DE</li><li>EN</li></ul>",
+      "menu ×7 — <h2><a href=landing>Label</a></h2> then per column <h3>title (link or text)</h3><ul>links</ul>[<p><a>Toon meer</a></p>]; columns padded to 4; the 4th of a 4-column menu is the separated column",
+      "buttons — <strong>Word klant</strong> (prospects), <em>Open een zichtrekening</em> (clients, hidden for prospects), plain Aanmelden (KBC Touch)"
+    ],
+    "roleDetection": "section-metadata style (brand | sites | tools | languages | menu | buttons), else by content/order",
+    "behaviour": "desktop: click/Enter toggles mega menus (html.aem-submenu-open, li.aem-main-nav-list-item-active, block.aem-main-nav-block-active), outside click + Escape close; NL dropdown (aria-expanded); ≤991: MENU drawer (html.mobile-navigation-open, scroll lock), drill-down tiles + back, language tile, site-switch tile; body.header-sticky + .brand-row-container-top scroll state ≤991",
+    "variants": {
+      "metadata": "header-variant",
+      "values": {
+        "white": "header-white header-text-primary-dark (default)",
+        "transparent-white": "header-transparent header-text-white (default for Template landing — white over the hero)",
+        "transparent-dark": "header-transparent header-text-primary-dark (default for Template article)"
+      }
+    },
+    "overlay": "header stays in flow (--nav-height reserved, transparent ground for the transparent variants); a hero that runs behind it extends upward with its own negative offset (prototype: .introduction-block-home__image-wrapper top -192px, z-index -2) — never give header/main a background",
+    "fixVsCanon": "drawer open: .mobile-navigation-open .brand-row { height: 100% } — the canon kept the 88px row height, which clipped the drawer menu to 0px (the gated prototypes never exercised the open drawer)"
+  },
+  "footer": {
+    "block": "blocks/footer — DOM = canon footer: footer-full[lead divider, social proof, divider] · footer-grid[doormat] · footer-full[divider] · footer-grid[loan warning, nav.aem-nav-footer(legal ul + sharing)]",
+    "documents": {
+      "/footer": "social-proof, doormat, loan-warning, legal, sharing",
+      "/footer-short": "same without the doormat (form/process pages)"
+    },
+    "roleDetection": "section-metadata style (social-proof | doormat | loan-warning | legal | sharing), else by content",
+    "social": "sharing links get their inline SVG from /icons/social-{facebook|twitter|linkedin}.svg by hostname; link text kept as sr-only label"
+  },
+  "chromeVariantMechanism": {
+    "summary": "Page metadata only — the archetype units never fork the header/footer: `Template` picks the header ground and the footer document by default, `header-variant` / `footer` override them, `footer-hide` (comma list: lead-divider, social-proof, doormat, loan-warning) or `loan-warning | off` drop footer parts, and `alternate-fr|de|en` + `alternate-<lang>-title` set the language switcher (desktop NL dropdown + mobile language tile) and inject <link rel=\"alternate\" hreflang>.",
+    "metadataKeys": {
+      "Template": "landing | listing | program | form | article",
+      "header-variant": "white | transparent-white | transparent-dark",
+      "footer": "/footer | /footer-short",
+      "footer-hide": "lead-divider, social-proof, doormat, loan-warning",
+      "loan-warning": "off",
+      "alternate-fr": "URL",
+      "alternate-fr-title": "text",
+      "alternate-de": "URL",
+      "alternate-de-title": "text",
+      "alternate-en": "URL",
+      "alternate-en-title": "text"
+    },
+    "perPage": {
+      "particulieren-nl-html": {
+        "path": "/particulieren/nl",
+        "prototypeHeader": "header header--transparent header--text-white",
+        "prototypeFooter": "footer__full:aem-divider,aem__social-proof__container aem__social-proof__container--images,aem-divider / footer__grid:doormat / footer__full:aem-divider / footer__grid:aem-loan-warning,aem-nav aem-nav--footer",
+        "metadata": {
+          "Template": "landing",
+          "alternate-fr": "https://www.kbc.be/particuliers/fr.html?zone=topnav",
+          "alternate-fr-title": "Home",
+          "alternate-de": "https://www.kbc.be/privatkunden/de.html?zone=topnav",
+          "alternate-de-title": "home",
+          "alternate-en": "https://www.kbc.be/retail/en.html?zone=topnav",
+          "alternate-en-title": "Home"
+        }
+      },
+      "particulieren-nl-betalen-zichtrekeningen-html": {
+        "path": "/particulieren/nl/betalen/zichtrekeningen",
+        "prototypeHeader": "header header--white header--text-primary-dark",
+        "prototypeFooter": "footer__full:aem-divider / footer__grid:doormat / footer__full:aem-divider / footer__grid:aem-loan-warning,aem-nav aem-nav--footer",
+        "metadata": {
+          "Template": "listing",
+          "alternate-fr": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+          "alternate-fr-title": "Comptes à vue",
+          "alternate-de": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+          "alternate-de-title": "Girokonten",
+          "alternate-en": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+          "alternate-en-title": "Current accounts",
+          "footer-hide": "social-proof"
+        }
+      },
+      "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html": {
+        "path": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen",
+        "prototypeHeader": "header header--white header--text-primary-dark",
+        "prototypeFooter": "footer__full:aem__social-proof__container aem__social-proof__container--images,aem-divider / footer__grid:doormat / footer__full:aem-divider / footer__grid:aem-loan-warning,aem-nav aem-nav--footer",
+        "metadata": {
+          "Template": "program",
+          "alternate-fr": "https://www.kbc.be/particuliers/fr/produits/paiements/comptes-a-vue/ouvrir-un-compte-de-base.html?zone=topnav",
+          "alternate-fr-title": "KBC-Basisrekening",
+          "alternate-de": "https://www.kbc.be/privatkunden/de/bankgeschaefte/zahlungen/girokonten/basiskonto-eroffnen.html?zone=topnav",
+          "alternate-de-title": "Das KBC-Basisrekening",
+          "alternate-en": "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+          "alternate-en-title": "KBC Basic Account",
+          "footer-hide": "lead-divider"
+        }
+      },
+      "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html": {
+        "path": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen",
+        "prototypeHeader": "header header--white header--text-primary-dark",
+        "prototypeFooter": "footer__full:aem-divider,aem__social-proof__container aem__social-proof__container--images,aem-divider / footer__grid:aem-loan-warning,aem-nav aem-nav--footer",
+        "metadata": {
+          "Template": "form",
+          "alternate-fr": "https://www.kbc.be/particuliers/fr/processus/paiements/comptes-a-vue/ouvrir-compte-base.html?zone=topnav",
+          "alternate-fr-title": "Ouvrez votre KBC-Basisrekening",
+          "alternate-de": "https://www.kbc.be/privatkunden/de/prozess/zahlungen/girokonten/basiskonto-eroeffnen.html?zone=topnav",
+          "alternate-de-title": "KBC-Basisrekening Eröffnen",
+          "alternate-en": "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav",
+          "alternate-en-title": "Open the KBC-Basisrekening",
+          "footer": "/footer-short"
+        }
+      },
+      "particulieren-nl-pensioensparen-sleutelmoment-html": {
+        "path": "/particulieren/nl/pensioensparen/sleutelmoment",
+        "prototypeHeader": "header header--transparent header--text-primary-dark",
+        "prototypeFooter": "footer__full:aem-divider,aem__social-proof__container aem__social-proof__container--images,aem-divider / footer__grid:doormat / footer__full:aem-divider / footer__grid:aem-nav aem-nav--footer",
+        "metadata": {
+          "Template": "article",
+          "alternate-fr": "https://www.kbc.be/particuliers/fr/epargne-pension/moment-cle.html?zone=topnav",
+          "alternate-fr-title": "Votre pension : planifier, construire et anticiper",
+          "alternate-de": "https://www.kbc.be/privatkunden/de/pensionssparen/schluesselmoment.html?zone=topnav",
+          "alternate-de-title": "Ihre Pension: planen, aufbauen und vorausschauend gestalten",
+          "alternate-en": "https://www.kbc.be/retail/en/pension-saving/key-moment.html?zone=topnav",
+          "alternate-en-title": "Your pension: planning, building, and looking ahead",
+          "loan-warning": "off"
+        }
+      }
+    },
+    "verify": "per-page metadata only applies on the delivered page (the local harness has no pipeline) — check on the preview origin"
+  },
+  "notInFoundation": [
+    "breadcrumb (sits between header and main in the listing/program/form prototypes) — page content: author it as the first section/block of those pages",
+    "WOW reveal (.animated / fadeIn) — listing block CSS/JS",
+    "page grids (.grid-col, col-8 offset-2 …) and per-template CSS"
+  ],
+  "shell": {
+    "path": "/drafts/foundation-shell",
+    "state": "previewed, never published",
+    "variant": "no Template → white interior header + full footer; compare its bands with an interior live page (e.g. /particulieren/nl/betalen/zichtrekeningen.html) or set header-variant on a copy"
+  },
+  "foundationFiles": [
+    "styles/styles.css",
+    "styles/fonts.css",
+    "blocks/header/header.js",
+    "blocks/header/header.css",
+    "blocks/footer/footer.js",
+    "blocks/footer/footer.css",
+    "icons/kbc-logo.svg",
+    "icons/social-facebook.svg",
+    "icons/social-twitter.svg",
+    "icons/social-linkedin.svg",
+    "icons/checkmark-green.svg",
+    "favicon.ico",
+    "scripts/scripts.js",
+    "package.json",
+    ".eslintignore",
+    ".hlxignore",
+    "content/nav.html",
+    "content/footer.html",
+    "content/footer-short.html",
+    "content/drafts/foundation-shell.html",
+    "stardust/runtime-contract.json"
+  ]
+}

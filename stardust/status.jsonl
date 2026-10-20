@@ -1,0 +1,48 @@
+{"ts":"2026-10-19T16:30:18Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"extract --prep --dynamics over the 5 planned KBC pages"}
+{"ts":"2026-10-19T16:43:23Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"5/5 live; types landing/listing/program/form/article; uncaptured first-level targets: none","artifact":"stardust/current/_crawl-log.json"}
+{"ts":"2026-10-19T16:43:34Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"verbatim promotion of current/ spec, empty register, dynamics triage"}
+{"ts":"2026-10-19T16:46:41Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"verbatim promotion; register empty (pure replica); dynamics 13 features all dispositioned; martech scaffolded off","artifact":"stardust/direction.md"}
+{"ts":"2026-10-19T16:46:52Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"5 archetypes: landing, listing, program, form, article"}
+{"ts":"2026-10-19T17:20:32Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"landing archetype gate"}
+{"ts":"2026-10-19T17:20:32Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"landing particulieren-nl-html: 1440 pixel 0.56% dh 0 red 0 clip 0; 360 pixel 0.35% dh 0 red 0 clip 0; cap-probe PASS"}
+{"ts":"2026-10-19T17:44:38Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"listing archetype gate"}
+{"ts":"2026-10-19T17:44:38Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"listing particulieren-nl-betalen-zichtrekeningen-html: 1440 pixel 0.04% dh 0 clip 0; 360 pixel 0.46% dh 0 clip 0; 10 red = live inline digitalData script read as CTA label (artefact); cap-probe PASS"}
+{"ts":"2026-10-19T18:05:47Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"program archetype gate"}
+{"ts":"2026-10-19T18:05:47Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"program basisrekening: 1440 pixel 0.06% dh 0 red 0 clip 0; 360 pixel 0.12% dh 0 red 0 clip 0; cap-probe PASS; units 12/12"}
+{"ts":"2026-10-19T18:23:45Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"article archetype gate"}
+{"ts":"2026-10-19T18:23:45Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"article sleutelmoment: 1440 pixel 0.02% dh 0 red 0 clip 0; 360 pixel 0.06% dh 0 red 0 clip 0; cap-probe PASS"}
+{"ts":"2026-10-19T18:24:37Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"form archetype gate"}
+{"ts":"2026-10-19T18:24:37Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"form basisrekening-openen: 1440 pixel 0.17% dh 0 red 0 clip 0; 360 pixel 0.54% dh 0 red 0 clip 0; cap-probe PASS"}
+{"ts":"2026-10-19T18:34:57Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"5/5 archetypes gated; prototype table 1440 5/5 PASS, 360 5/5 PASS","artifact":"stardust/replica/progress.json"}
+{"ts":"2026-10-19T18:35:13Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"5 archetype pages: migrate, deploy and publish to EDS, rollout A-I"}
+{"ts":"2026-10-19T18:35:31Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"5 archetype pages, 5 templates, no siblings"}
+{"ts":"2026-10-19T18:35:40Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"5 archetypes, 0 siblings, page map 0 collisions","artifact":"stardust/migrate/progress.json"}
+{"ts":"2026-10-19T18:35:40Z","skill":"stardust:migrate","phase":"render","event":"start","detail":"render unit archetypes: 5 approved prototypes"}
+{"ts":"2026-10-19T18:36:11Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"rendered 5, unchanged 0, refused 0, passthrough 0","artifact":"stardust/migrated/"}
+{"ts":"2026-10-19T18:36:24Z","skill":"stardust:migrate","phase":"state-and-report","event":"start","detail":"advance 5 pages to migrated"}
+{"ts":"2026-10-19T18:36:30Z","skill":"stardust:migrate","phase":"state-and-report","event":"end","detail":"5/5 migrated, 0 refused"}
+{"ts":"2026-10-19T18:36:41Z","skill":"stardust:rollout","phase":"A-inventory","event":"start","detail":"inventory of 5 migrated pages"}
+{"ts":"2026-10-19T18:36:47Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"5 pages, 5 templates","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-10-19T18:36:47Z","skill":"stardust:rollout","phase":"B-block","event":"start","detail":"block dedup + plan"}
+{"ts":"2026-10-19T18:36:53Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"20 distinct blocks, 24 instances, plan 5 reps","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-10-19T18:37:01Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start","detail":"fresh dynamics evidence vs target, martech carried off"}
+{"ts":"2026-10-19T18:38:32Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"14 findings, 15 curated rows dispositioned, martech all off","artifact":"stardust/dynamic-features.md"}
+{"ts":"2026-10-19T18:39:14Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation, 5 archetype units, gate-all, final (no sibling clusters)"}
+{"ts":"2026-10-19T21:17:57Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"5/5 pages live; gate-all 1440 5/5, 360 5/5 (2 documented overrides); foundation unchanged; 1 request kept block-scoped","artifact":"stardust/rollout/progress.json"}
+{"ts":"2026-10-19T21:18:09Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap, redirects sheet, root, chrome noindex, verify-origin"}
+{"ts":"2026-10-19T21:19:11Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 5 = assembled 5; redirects wired (7 rows, live); / 200","artifact":"stardust/rollout/site/manifest.json"}
+{"ts":"2026-10-19T21:19:23Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"dynamics-check parity replay on the live origin, martech verified"}
+{"ts":"2026-10-19T21:21:15Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity 16 features; dynamics-check 12/12 PASS on aem.live; martech gated, all parts off","artifact":"stardust/qa/dynamics-report.md"}
+{"ts":"2026-10-19T21:21:26Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify.mjs on the live origin, 5 pages"}
+{"ts":"2026-10-19T21:21:48Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"5/5 verified, 0 failed; WOW reveal 10/10 revealed on scroll","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-10-19T21:21:58Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"nav/footer/page link targets on the live tree"}
+{"ts":"2026-10-19T21:24:07Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"7 links localized + republished; internal 6/6 200, external 215/216 200; out-of-scope targets kept on source","artifact":"stardust/direction.md"}
+{"ts":"2026-10-19T21:24:19Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize sweep on the live origin, 5 pages"}
+{"ts":"2026-10-19T21:24:27Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"health 100; open P1 0 P2 0 P3 0; 5 source-parity informational","artifact":"stardust/rollout/optimize/scorecard.json"}
+{"ts":"2026-10-19T21:24:37Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix dry-run over open findings"}
+{"ts":"2026-10-19T21:24:42Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"0 autofix candidates; no edits"}
+{"ts":"2026-10-19T21:24:52Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"summary block + learnings"}
+{"ts":"2026-10-19T21:25:03Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"5/5 pages verified, 20/20 blocks, health 100, 0 to deliver in scope","artifact":"stardust/rollout/report.md"}
+{"ts":"2026-10-19T21:25:13Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"dashboard"}
+{"ts":"2026-10-19T21:25:17Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard: 5 identified, 5 prototyped, 5 deployed","artifact":"stardust/rollout/dashboard/index.html"}
+{"ts":"2026-10-19T21:25:24Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"5/5 pages live and verified; rollout A-I done; done-check complete","artifact":"stardust/rollout/report.md"}

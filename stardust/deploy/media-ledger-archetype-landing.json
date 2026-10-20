@@ -1,0 +1,50 @@
+{
+  "media/home/duurzaamheid-visual-usp.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-landing/media/duurzaamheid-visual-usp.jpg",
+    "size": 272843,
+    "sha256": "54a175370625ee30636f67314684c1b5a8699b2ce72afe03e4af2dae05f44989",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/home/duurzaamheid-visual-usp.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:10.771Z"
+  },
+  "media/home/home-hero-mobility.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-landing/media/home-hero-mobility.jpg",
+    "size": 87659,
+    "sha256": "9266f114eeb52618c2d51a2ac37d1acf12f8f00a260d4499e53ffa81e3dd215d",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/home/home-hero-mobility.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:11.721Z"
+  },
+  "media/home/pensioen-visual-usp.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-landing/media/pensioen-visual-usp.jpg",
+    "size": 103469,
+    "sha256": "f76b14ce878f2844d280bfa70ccb72654891e466a371745b88384e2e3c639500",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/home/pensioen-visual-usp.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:11.899Z"
+  },
+  "media/home/kbc-mobile-highlight.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-landing/media/kbc-mobile-highlight.png",
+    "size": 126524,
+    "sha256": "dc580c97038583a25f17105eb53d3f8e602815a062d3ea5d998f9072b7910be3",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/home/kbc-mobile-highlight.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T19:41:11.960Z"
+  }
+}

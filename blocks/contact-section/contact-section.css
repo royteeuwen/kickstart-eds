@@ -1,0 +1,150 @@
+/* contact-section — contact cards (gated landing prototype values) */
+.contact-section .contact-section-head {
+  padding: 0 var(--gutter);
+}
+
+.contact-section .contact-section-head :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.contact-section .contact-section-group {
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--gutter);
+}
+
+.contact-section .contact-section-card-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.contact-section .contact-section-card-wrapper:first-child {
+  margin-right: 24px;
+}
+
+.contact-section .contact-section-card {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin-bottom: 32px;
+  padding: 24px 24px 24px 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary-dark-24);
+  border-radius: 8px;
+}
+
+.contact-section .contact-section-icon {
+  flex-shrink: 0;
+  width: 48px;
+  margin-left: 56px;
+}
+
+.contact-section .contact-section-icon p {
+  margin: 0;
+  line-height: 0;
+}
+
+.contact-section .contact-section-icon :is(.icon, img) {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.contact-section .contact-section-body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.contact-section .contact-section-body > :last-child {
+  margin-top: auto;
+}
+
+.contact-section .contact-section-title :is(p, h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.contact-section .contact-section-subtitle {
+  margin-bottom: 24px;
+}
+
+.contact-section .contact-section-subtitle p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.contact-section .contact-section-text {
+  max-width: 348px;
+  margin-bottom: 24px;
+}
+
+.contact-section .contact-section-text .aem-rich-text {
+  margin-bottom: 0;
+}
+
+@media (width <= 1439px) {
+  .contact-section .contact-section-icon {
+    margin-left: 32px;
+  }
+}
+
+@media (width <= 1199px) {
+  .contact-section .contact-section-icon {
+    display: none;
+  }
+}
+
+@media (width <= 991px) {
+  .contact-section .contact-section-group {
+    flex-direction: column;
+  }
+
+  .contact-section .contact-section-card-wrapper:first-child {
+    margin-right: 0;
+  }
+
+  .contact-section .contact-section-card {
+    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 72px;
+  }
+
+  .contact-section .contact-section-body {
+    margin-left: 0;
+  }
+
+  .contact-section .contact-section-subtitle p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (width <= 767px) {
+  .contact-section .contact-section-group {
+    padding: 0 4px;
+  }
+
+  .contact-section .contact-section-card {
+    padding-left: 32px;
+  }
+}
+
+@media (width <= 575px) {
+  .contact-section .contact-section-card {
+    padding-left: 24px;
+  }
+
+  .contact-section .contact-section-text {
+    max-width: 295px;
+  }
+}

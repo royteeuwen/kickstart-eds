@@ -1,0 +1,2776 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.kbc.be/particulieren/nl.html",
+ "at": "2026-10-19T16:36:57.549Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "body>div:nth-of-type(3)",
+   "controls": [
+    {
+     "name": "KBC Particulieren",
+     "key": "kbc particulieren",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://www.kbc.be/particulieren/nl.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      16,
+      12,
+      64,
+      64
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Particulieren",
+     "key": "particulieren",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div>button",
+     "expanded": "false",
+     "rect": [
+      130,
+      35,
+      101,
+      18
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Ondernemers",
+          "href": "https://www.kbc.be/ondernemen/nl.html?zone=mobile-menu"
+         },
+         {
+          "text": "Private Banking",
+          "href": "https://www.kbc.be/private-banking/nl.html?zone=mobile-menu"
+         },
+         {
+          "text": "Commercial Banking",
+          "href": "https://www.kbc.be/commercial-banking/nl.html?zone=mobile-menu"
+         },
+         {
+          "text": "Jongvolwassenen",
+          "href": "https://www.kbc.be/young-adults?zone=mobile-menu"
+         },
+         {
+          "text": "Alle websites",
+          "href": "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         114,
+         57,
+         165,
+         272
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 220,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.aem-main-nav__mobile-tile__text"
+        }
+       ],
+       "shot": "390-001-Particulieren-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "MENU",
+     "key": "menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      266,
+      33,
+      84,
+      26
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Word klant",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Verzend de zoekopdracht",
+         "Betalen",
+         "Sparen",
+         "Beleggen",
+         "Lenen",
+         "Verzekeren",
+         "MyHome",
+         "MyMobility",
+         "Nederlands"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         756
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "390-002-MENU-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": false
+     },
+     "children": [
+      {
+       "name": "Zoeken...",
+       "key": "zoeken",
+       "role": "input",
+       "kind": "search",
+       "sel": "#main-menu>div:nth-of-type(1)>div>form>div>div>input",
+       "expanded": null,
+       "rect": [
+        33,
+        89,
+        289,
+        34
+       ],
+       "actions": {},
+       "search": {
+        "probe": "particulieren",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": null
+       }
+      },
+      {
+       "name": "Verzend de zoekopdracht",
+       "key": "verzend de zoekopdracht",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>div:nth-of-type(1)>div>form>div>button",
+       "expanded": null,
+       "rect": [
+        338,
+        88,
+        36,
+        36
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "navigates": "https://www.kbc.be/particulieren/nl/zoek.html?q="
+        }
+       }
+      },
+      {
+       "name": "Betalen",
+       "key": "betalen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>div:nth-of-type(1)>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        149,
+        390,
+        48
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "Betalen",
+            "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Dagelijks bankieren",
+            "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Zichtrekeningen",
+            "href": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Voor jongeren",
+            "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Betaalkaarten",
+            "href": "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Onder nul gaan",
+            "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Cash",
+            "href": "https://www.kbc.be/particulieren/nl/betalen/cash.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Toon meer",
+            "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Helemaal digitaal",
+            "href": "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Bankieren op je smartphone",
+            "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Bankieren op tablet of computer",
+            "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-tablet-of-pc.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Andere betaalmethodes",
+            "href": "https://www.kbc.be/particulieren/nl/betalen/betaalmethodes.html?zone=topnav&zone=topnav"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Terug naar het menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           113,
+           390,
+           731
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-003-Betalen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       },
+       "children": [
+        {
+         "name": "Terug naar het menu",
+         "key": "terug naar het menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mobile-tile-menu-item-771894214>button",
+         "expanded": null,
+         "rect": [
+          16,
+          113,
+          165,
+          20
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 13,
+           "panel": {
+            "links": [
+             {
+              "text": "Word klant",
+              "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "search"
+            ],
+            "buttons": [
+             "Verzend de zoekopdracht",
+             "Betalen",
+             "Sparen",
+             "Beleggen",
+             "Lenen",
+             "Verzekeren",
+             "MyHome",
+             "MyMobility",
+             "Nederlands"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             88,
+             390,
+             756
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-004-Terug-naar-het-menu-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "Sparen",
+       "key": "sparen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>div:nth-of-type(1)>ul>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        198,
+        390,
+        48
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "Sparen",
+            "href": "https://www.kbc.be/particulieren/nl/sparen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Spaarrekeningen",
+            "href": "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Gratis spaarrekening",
+            "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/spaarrekening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Sparen voor je kind of iemand anders",
+            "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/groeispaarrekening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Huurwaarborg",
+            "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/huurwaarborgspaarrekening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Pamperrekening",
+            "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/pamperrekening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Toon meer",
+            "href": "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Pensioensparen",
+            "href": "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Pensioensparen",
+            "href": "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Pensioenspaarfonds",
+            "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarfonds.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Pensioenspaarverzekering",
+            "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Toon meer",
+            "href": "https://www.kbc.be/particulieren/nl/sparen/bijleren-fiscaal.html?zone=topnav&zone=topnav"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Terug naar het menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           113,
+           390,
+           716
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-005-Sparen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       },
+       "children": [
+        {
+         "name": "Terug naar het menu",
+         "key": "terug naar het menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mobile-tile-menu-item--581736264>button",
+         "expanded": null,
+         "rect": [
+          16,
+          113,
+          165,
+          20
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 13,
+           "panel": {
+            "links": [
+             {
+              "text": "Word klant",
+              "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "search"
+            ],
+            "buttons": [
+             "Verzend de zoekopdracht",
+             "Betalen",
+             "Sparen",
+             "Beleggen",
+             "Lenen",
+             "Verzekeren",
+             "MyHome",
+             "MyMobility",
+             "Nederlands"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             88,
+             390,
+             756
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-006-Terug-naar-het-menu-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "Beleggen",
+       "key": "beleggen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>div:nth-of-type(1)>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        247,
+        390,
+        48
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "Beleggen",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Je vermogen opbouwen als belegger",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Beleggingen zoeken",
+            "href": "https://www.kbc.be/particulieren/nl/proces/beleggen/fondsenzoeker.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Laten beleggen",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/slim-beleggen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Zelf beleggen met Bolero",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/aandelen/online-beleggen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Fondsen bijkopen",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/fondsen-bijkopen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Thematisch beleggen",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/thematisch-beleggen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Verantwoord beleggen",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/duurzaam-beleggen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Beleggingen opvolgen",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggingen-opvolgen-in-mobile-en-touch.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Toon meer",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Zet je eerste stappen als belegger",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "KBC-Beleggingsplan",
+            "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggingsplan.html?zone=topnav&zone=topnav"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Terug naar het menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           113,
+           390,
+           731
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-007-Beleggen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       },
+       "children": [
+        {
+         "name": "Terug naar het menu",
+         "key": "terug naar het menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mobile-tile-menu-item-1598104360>button",
+         "expanded": null,
+         "rect": [
+          16,
+          113,
+          165,
+          20
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 13,
+           "panel": {
+            "links": [
+             {
+              "text": "Word klant",
+              "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "search"
+            ],
+            "buttons": [
+             "Verzend de zoekopdracht",
+             "Betalen",
+             "Sparen",
+             "Beleggen",
+             "Lenen",
+             "Verzekeren",
+             "MyHome",
+             "MyMobility",
+             "Nederlands"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             88,
+             390,
+             756
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-008-Terug-naar-het-menu-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "Lenen",
+       "key": "lenen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>div:nth-of-type(1)>ul>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        296,
+        390,
+        48
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "Lenen",
+            "href": "https://www.kbc.be/particulieren/nl/lenen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Voor je woning",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Hypothecaire lening",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/hypothecaire-lening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Overbruggingskrediet",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/overbruggingskrediet.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Renovatielening",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/renovatielening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Energielening",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/groene-energielening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Lenen voor je wooninrichting",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/interieurlening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Lenen voor terras en tuin",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/tuinlening.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Toon meer",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/lenen-voor-je-woning.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Voor je voertuig",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Benzine- of dieselauto",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-benzine-diesel.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Plug-in hybride auto",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-hybride-auto.html?zone=topnav&zone=topnav"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Terug naar het menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           113,
+           390,
+           731
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-009-Lenen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       },
+       "children": [
+        {
+         "name": "Terug naar het menu",
+         "key": "terug naar het menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mobile-tile-menu-item-783155713>button",
+         "expanded": null,
+         "rect": [
+          16,
+          113,
+          165,
+          20
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 13,
+           "panel": {
+            "links": [
+             {
+              "text": "Word klant",
+              "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "search"
+            ],
+            "buttons": [
+             "Verzend de zoekopdracht",
+             "Betalen",
+             "Sparen",
+             "Beleggen",
+             "Lenen",
+             "Verzekeren",
+             "MyHome",
+             "MyMobility",
+             "Nederlands"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             88,
+             390,
+             756
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-010-Terug-naar-het-menu-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "Verzekeren",
+       "key": "verzekeren",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>div:nth-of-type(1)>ul>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        345,
+        390,
+        48
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "Verzekeren",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Verzeker je woning",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Brandverzekering",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/brandverzekering.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Bijstandsverzekering",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/bijstandaanhuis.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Schuldsaldoverzekering",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/schuldsaldoverzekering.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Welke verzekeringen voor je woning",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/welke-verzekeringen-voor-een-woning.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Toon meer",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Verzeker je voertuig",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Autoverzekering",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/autoverzekering.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Verzekering elektrische auto",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-elektrische-auto.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Fietsverzekering",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/fietsverzekering.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Brommerverzekering",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-voor-je-scooter-of-speed-pedelec.html?zone=topnav&zone=topnav"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Terug naar het menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           113,
+           390,
+           731
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-011-Verzekeren-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       },
+       "children": [
+        {
+         "name": "Terug naar het menu",
+         "key": "terug naar het menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mobile-tile-menu-item-436881910>button",
+         "expanded": null,
+         "rect": [
+          16,
+          113,
+          165,
+          20
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 13,
+           "panel": {
+            "links": [
+             {
+              "text": "Word klant",
+              "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "search"
+            ],
+            "buttons": [
+             "Verzend de zoekopdracht",
+             "Betalen",
+             "Sparen",
+             "Beleggen",
+             "Lenen",
+             "Verzekeren",
+             "MyHome",
+             "MyMobility",
+             "Nederlands"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             88,
+             390,
+             756
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-012-Terug-naar-het-menu-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "MyHome",
+       "key": "myhome",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>div:nth-of-type(1)>ul>li:nth-of-type(6)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        394,
+        390,
+        48
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "MyHome",
+            "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "KBC ondersteunt jou in elke fase",
+            "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Een woning kopen",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/huis-kopen-zonder-zorgen.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Je woning renoveren",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/renoveren.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Je woning energiezuinig maken",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/energiezuinig-optimaliseren.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Toon meer",
+            "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav&zone=topnav"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Terug naar het menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           407
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-013-MyHome-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       },
+       "children": [
+        {
+         "name": "Terug naar het menu",
+         "key": "terug naar het menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mobile-tile-menu-item-109302265>button",
+         "expanded": null,
+         "rect": [
+          16,
+          113,
+          165,
+          20
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 7,
+           "panel": {
+            "links": [
+             {
+              "text": "Word klant",
+              "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "search"
+            ],
+            "buttons": [
+             "Verzend de zoekopdracht",
+             "Betalen",
+             "Sparen",
+             "Beleggen",
+             "Lenen",
+             "Verzekeren",
+             "MyHome",
+             "MyMobility",
+             "Nederlands"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             88,
+             390,
+             756
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-014-Terug-naar-het-menu-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "MyMobility",
+       "key": "mymobility",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>div:nth-of-type(1)>ul>li:nth-of-type(7)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        443,
+        390,
+        48
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "MyMobility",
+            "href": "https://www.kbc.be/particulieren/nl/thema/mymobility.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "MyMobility in KBC Mobile",
+            "href": "https://www.kbc.be/particulieren/nl/thema/mymobility/product/car-sales.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Lenen voor je voertuig",
+            "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav&zone=topnav"
+           },
+           {
+            "text": "Je voertuig verzekeren",
+            "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav&zone=topnav"
+           }
+          ],
+          "headings": [
+           "KBC helpt je bij elke stap van je mobiliteitsplan"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Terug naar het menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           346
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-015-MyMobility-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       },
+       "children": [
+        {
+         "name": "Terug naar het menu",
+         "key": "terug naar het menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mobile-tile-menu-item-1330078815>button",
+         "expanded": null,
+         "rect": [
+          16,
+          113,
+          165,
+          20
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 6,
+           "panel": {
+            "links": [
+             {
+              "text": "Word klant",
+              "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "search"
+            ],
+            "buttons": [
+             "Verzend de zoekopdracht",
+             "Betalen",
+             "Sparen",
+             "Beleggen",
+             "Lenen",
+             "Verzekeren",
+             "MyHome",
+             "MyMobility",
+             "Nederlands"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             88,
+             390,
+             756
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-016-Terug-naar-het-menu-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "Nederlands",
+       "key": "nederlands",
+       "role": "toggle",
+       "kind": "locale",
+       "sel": "#main-menu>div:nth-of-type(3)>div>button",
+       "expanded": null,
+       "rect": [
+        0,
+        797,
+        390,
+        47
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "Deutsch",
+            "href": "https://www.kbc.be/privatkunden/de.html?zone=topnav"
+           },
+           {
+            "text": "English",
+            "href": "https://www.kbc.be/retail/en.html?zone=topnav"
+           },
+           {
+            "text": "Français",
+            "href": "https://www.kbc.be/particuliers/fr.html?zone=topnav"
+           }
+          ],
+          "headings": [
+           "Taalkeuze"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Terug naar het menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           373
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-017-Nederlands-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false
+       },
+       "children": [
+        {
+         "name": "Terug naar het menu",
+         "key": "terug naar het menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#main-menu>div:nth-of-type(2)>div:nth-of-type(2)>button",
+         "expanded": null,
+         "rect": [
+          16,
+          113,
+          165,
+          20
+         ],
+         "actions": {
+          "click": null,
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Word klant",
+              "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "search"
+            ],
+            "buttons": [
+             "Verzend de zoekopdracht",
+             "Betalen",
+             "Sparen",
+             "Beleggen",
+             "Lenen",
+             "Verzekeren",
+             "MyHome",
+             "MyMobility",
+             "Nederlands"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             88,
+             390,
+             756
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-018-Terug-naar-het-menu-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "returns": true
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 88,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 88,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 18,
+   "truncated": null,
+   "loads": 3
+  },
+  "1440": {
+   "root": "body>div:nth-of-type(3)",
+   "controls": [
+    {
+     "name": "Ondernemers",
+     "key": "ondernemers",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>ul>li:nth-of-type(2)>a",
+     "href": "https://www.kbc.be/ondernemen/nl.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      138,
+      18,
+      90,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Private Banking",
+     "key": "private banking",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>ul>li:nth-of-type(3)>a",
+     "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      252,
+      18,
+      100,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Commercial Banking",
+     "key": "commercial banking",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>ul>li:nth-of-type(4)>a",
+     "href": "https://www.kbc.be/commercial-banking/nl.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      376,
+      18,
+      136,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Jongvolwassenen",
+     "key": "jongvolwassenen",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>ul>li:nth-of-type(5)>a",
+     "href": "https://www.kbc.be/young-adults?zone=topnav",
+     "expanded": null,
+     "rect": [
+      535,
+      18,
+      116,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Alle websites",
+     "key": "alle websites",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>ul>li:nth-of-type(6)>a",
+     "href": "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      676,
+      18,
+      84,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Zoeken...",
+     "key": "zoeken",
+     "role": "input",
+     "kind": "search",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>div>div:nth-of-type(1)>form>div>div>input",
+     "expanded": null,
+     "rect": [
+      946,
+      11,
+      247,
+      34
+     ],
+     "actions": {},
+     "search": {
+      "probe": "particulieren",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": null
+     }
+    },
+    {
+     "name": "Verzend de zoekopdracht",
+     "key": "verzend de zoekopdracht",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>div>div:nth-of-type(1)>form>div>button",
+     "expanded": null,
+     "rect": [
+      1217,
+      10,
+      36,
+      36
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": false,
+       "navigates": "https://www.kbc.be/particulieren/nl/zoek.html?q=&zone=topnav"
+      }
+     }
+    },
+    {
+     "name": "Contact",
+     "key": "contact",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>div>div:nth-of-type(2)>a",
+     "href": "https://www.kbc.be/particulieren/nl/contact.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      1277,
+      18,
+      73,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "NL",
+     "key": "nl",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(1)>div>div>div>div>div:nth-of-type(3)>div>button",
+     "expanded": "false",
+     "rect": [
+      1381,
+      20,
+      36,
+      15
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FR",
+          "href": "https://www.kbc.be/particuliers/fr.html?zone=topnav"
+         },
+         {
+          "text": "DE",
+          "href": "https://www.kbc.be/privatkunden/de.html?zone=topnav"
+         },
+         {
+          "text": "EN",
+          "href": "https://www.kbc.be/retail/en.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1365,
+         39,
+         55,
+         121
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        }
+       ],
+       "shot": "1440-001-NL-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "KBC Particulieren",
+     "key": "kbc particulieren",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://www.kbc.be/particulieren/nl.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      32,
+      69,
+      64,
+      64
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Betalen",
+     "key": "betalen",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      136,
+      88,
+      80,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Betalen",
+          "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav"
+         },
+         {
+          "text": "Dagelijks bankieren",
+          "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav"
+         },
+         {
+          "text": "Zichtrekeningen",
+          "href": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=topnav"
+         },
+         {
+          "text": "Voor jongeren",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html?zone=topnav"
+         },
+         {
+          "text": "Betaalkaarten",
+          "href": "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten.html?zone=topnav"
+         },
+         {
+          "text": "Onder nul gaan",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav"
+         },
+         {
+          "text": "Cash",
+          "href": "https://www.kbc.be/particulieren/nl/betalen/cash.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav"
+         },
+         {
+          "text": "Helemaal digitaal",
+          "href": "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav"
+         },
+         {
+          "text": "Bankieren op je smartphone",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone.html?zone=topnav"
+         },
+         {
+          "text": "Bankieren op tablet of computer",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-tablet-of-pc.html?zone=topnav"
+         },
+         {
+          "text": "Andere betaalmethodes",
+          "href": "https://www.kbc.be/particulieren/nl/betalen/betaalmethodes.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav"
+         },
+         {
+          "text": "Makkelijk online shoppen",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mobilepay.html?zone=topnav"
+         },
+         {
+          "text": "Foto op je debetkaart",
+          "href": "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten/debetkaarten/bankkaart-met-foto.html?zone=topnav"
+         },
+         {
+          "text": "Extra verzekerd met de KBC-kredietkaart",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/voordelen-kredietkaart.html?zone=topnav"
+         },
+         {
+          "text": "Kate Coins",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html?zone=topnav"
+         },
+         {
+          "text": "Veilig online",
+          "href": "https://www.kbc.be/particulieren/nl/info/secure4u.html?zone=topnav"
+         },
+         {
+          "text": "Zakelijke rekening",
+          "href": "https://www.kbc.be/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html?zone=topnav"
+         },
+         {
+          "text": "Betalen en betaald worden",
+          "href": "https://www.kbc.be/ondernemen/nl/betalen.html?zone=topnav"
+         },
+         {
+          "text": "Online bankieren",
+          "href": "https://www.kbc.be/ondernemen/nl/online-bankieren.html?zone=topnav"
+         },
+         {
+          "text": "Tools voor je administratie",
+          "href": "https://www.kbc.be/ondernemen/nl/sleutelmomenten/extra-diensten.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         136,
+         1440,
+         455
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "nav.nav--main"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "div.site__header__buttons"
+        }
+       ],
+       "shot": "1440-002-Betalen-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "Sparen",
+     "key": "sparen",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      240,
+      88,
+      75,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Sparen",
+          "href": "https://www.kbc.be/particulieren/nl/sparen.html?zone=topnav"
+         },
+         {
+          "text": "Spaarrekeningen",
+          "href": "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav"
+         },
+         {
+          "text": "Gratis spaarrekening",
+          "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/spaarrekening.html?zone=topnav"
+         },
+         {
+          "text": "Sparen voor je kind of iemand anders",
+          "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/groeispaarrekening.html?zone=topnav"
+         },
+         {
+          "text": "Huurwaarborg",
+          "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/huurwaarborgspaarrekening.html?zone=topnav"
+         },
+         {
+          "text": "Pamperrekening",
+          "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/pamperrekening.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav"
+         },
+         {
+          "text": "Pensioensparen",
+          "href": "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav"
+         },
+         {
+          "text": "Pensioensparen",
+          "href": "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav"
+         },
+         {
+          "text": "Pensioenspaarfonds",
+          "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarfonds.html?zone=topnav"
+         },
+         {
+          "text": "Pensioenspaarverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/sparen/bijleren-fiscaal.html?zone=topnav"
+         },
+         {
+          "text": "Langetermijnsparen",
+          "href": "https://www.kbc.be/particulieren/nl/sparen/fiscaal-sparen.html?zone=topnav"
+         },
+         {
+          "text": "Langetermijnsparen",
+          "href": "https://www.kbc.be/particulieren/nl/sparen/wat-betekent-langetermijnsparen.html?zone=topnav"
+         },
+         {
+          "text": "Tak 21-spaarverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering/home-long-term-plan.html?zone=topnav"
+         },
+         {
+          "text": "Tak 23-beleggingsverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/product/sparen/tak-23/life-long-term-fund-plan.html?zone=topnav"
+         },
+         {
+          "text": "Fiscaal interessant pensioensparen",
+          "href": "https://www.kbc.be/ondernemen/nl/artikel/einde-ondernemerscarriere/pensioen/vrij-aanvullend-pensioen-zelfstandigen.html?zone=topnav"
+         },
+         {
+          "text": "Aanvullend pensioen voor zelfstandigen met POZ",
+          "href": "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/poz.html?zone=topnav"
+         },
+         {
+          "text": "Aanvullend pensioen voor bedrijfsleiders met IPT",
+          "href": "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/ipt-individuele-pensioentoezegging.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         136,
+         1440,
+         413
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "nav.nav--main"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "div.site__header__buttons"
+        }
+       ],
+       "shot": "1440-003-Sparen-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "Beleggen",
+     "key": "beleggen",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      340,
+      88,
+      94,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Beleggen",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen.html?zone=topnav"
+         },
+         {
+          "text": "Je vermogen opbouwen als belegger",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav"
+         },
+         {
+          "text": "Beleggingen zoeken",
+          "href": "https://www.kbc.be/particulieren/nl/proces/beleggen/fondsenzoeker.html?zone=topnav"
+         },
+         {
+          "text": "Laten beleggen",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/slim-beleggen.html?zone=topnav"
+         },
+         {
+          "text": "Zelf beleggen met Bolero",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/aandelen/online-beleggen.html?zone=topnav"
+         },
+         {
+          "text": "Fondsen bijkopen",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/fondsen-bijkopen.html?zone=topnav"
+         },
+         {
+          "text": "Thematisch beleggen",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/thematisch-beleggen.html?zone=topnav"
+         },
+         {
+          "text": "Verantwoord beleggen",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/duurzaam-beleggen.html?zone=topnav"
+         },
+         {
+          "text": "Beleggingen opvolgen",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggingen-opvolgen-in-mobile-en-touch.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav"
+         },
+         {
+          "text": "Zet je eerste stappen als belegger",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav"
+         },
+         {
+          "text": "KBC-Beleggingsplan",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggingsplan.html?zone=topnav"
+         },
+         {
+          "text": "Beleggen voor een kind",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-een-kind.html?zone=topnav"
+         },
+         {
+          "text": "Beleggen voor beginners",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-beginners.html?zone=topnav"
+         },
+         {
+          "text": "Bijleren over beleggen",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/bijleren.html?zone=topnav"
+         },
+         {
+          "text": "Beleggen met je wisselgeld",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html?zone=topnav"
+         },
+         {
+          "text": "Waarom sparen en beleggen combineren",
+          "href": "https://www.kbc.be/particulieren/nl/sparen/bijleren/sparen-en-beleggen.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav"
+         },
+         {
+          "text": "Grote vermogens",
+          "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav"
+         },
+         {
+          "text": "Private Banking",
+          "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav"
+         },
+         {
+          "text": "Beleggen overlaten aan onze experts",
+          "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/business-invest-service.html?zone=topnav"
+         },
+         {
+          "text": "Beleggen met persoonlijk advies",
+          "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/expert-vermogensopbouw-voor-ondernemers.html?zone=topnav"
+         },
+         {
+          "text": "Zelf beleggen met Bolero",
+          "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/online-beleggen.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         136,
+         1440,
+         540
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "nav.nav--main"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "div.site__header__buttons"
+        }
+       ],
+       "shot": "1440-004-Beleggen-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "Lenen",
+     "key": "lenen",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>ul>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      457,
+      88,
+      69,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Lenen",
+          "href": "https://www.kbc.be/particulieren/nl/lenen.html?zone=topnav"
+         },
+         {
+          "text": "Voor je woning",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen.html?zone=topnav"
+         },
+         {
+          "text": "Hypothecaire lening",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/hypothecaire-lening.html?zone=topnav"
+         },
+         {
+          "text": "Overbruggingskrediet",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/overbruggingskrediet.html?zone=topnav"
+         },
+         {
+          "text": "Renovatielening",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/renovatielening.html?zone=topnav"
+         },
+         {
+          "text": "Energielening",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/groene-energielening.html?zone=topnav"
+         },
+         {
+          "text": "Lenen voor je wooninrichting",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/interieurlening.html?zone=topnav"
+         },
+         {
+          "text": "Lenen voor terras en tuin",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/tuinlening.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/lenen-voor-je-woning.html?zone=topnav"
+         },
+         {
+          "text": "Voor je voertuig",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav"
+         },
+         {
+          "text": "Benzine- of dieselauto",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-benzine-diesel.html?zone=topnav"
+         },
+         {
+          "text": "Plug-in hybride auto",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-hybride-auto.html?zone=topnav"
+         },
+         {
+          "text": "100% Elektrische auto",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/lening-elektrische-wagen.html?zone=topnav"
+         },
+         {
+          "text": "Fiets, scooter of motor",
+          "href": "https://www.kbc.be/content/particulieren/nl/lenen/voertuig#tweewieler.html?zone=topnav"
+         },
+         {
+          "text": "Mobilhome, caravan, aanhangwagen of boot",
+          "href": "https://www.kbc.be/content/particulieren/nl/lenen/voertuig#ander.html?zone=topnav"
+         },
+         {
+          "text": "Autolening Plus",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-plus.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav"
+         },
+         {
+          "text": "Voor andere doeleinden",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/gezin.html?zone=topnav"
+         },
+         {
+          "text": "Voor kleine uitgaven, studies, vakantie ...",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/persoonlijke-lening.html?zone=topnav"
+         },
+         {
+          "text": "Kredietkaartuitgaven flexibel terugbetalen",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/kbc-flex-budget.html?zone=topnav"
+         },
+         {
+          "text": "Onder nul gaan op je rekening",
+          "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/gezin.html?zone=topnav"
+         },
+         {
+          "text": "Lenen voor je bedrijfswagen(s)",
+          "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfswagens-vergelijken.html?zone=topnav"
+         },
+         {
+          "text": "Lenen voor je bedrijfsuitrusting",
+          "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfsuitrusting-vergelijken.html?zone=topnav"
+         },
+         {
+          "text": "Lenen voor je werkkapitaal",
+          "href": "https://www.kbc.be/ondernemen/nl/financieren/werkkapitaal.html?zone=topnav"
+         },
+         {
+          "text": "Lenen voor onroerend goed",
+          "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/vergelijking-kredieten-onroerend.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         136,
+         1440,
+         524
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "nav.nav--main"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "div.site__header__buttons"
+        }
+       ],
+       "shot": "1440-005-Lenen-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "Verzekeren",
+     "key": "verzekeren",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>ul>li:nth-of-type(5)>button",
+     "expanded": "false",
+     "rect": [
+      550,
+      88,
+      108,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Verzekeren",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=topnav"
+         },
+         {
+          "text": "Verzeker je woning",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav"
+         },
+         {
+          "text": "Brandverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/brandverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Bijstandsverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/bijstandaanhuis.html?zone=topnav"
+         },
+         {
+          "text": "Schuldsaldoverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/schuldsaldoverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Welke verzekeringen voor je woning",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/welke-verzekeringen-voor-een-woning.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav"
+         },
+         {
+          "text": "Verzeker je voertuig",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav"
+         },
+         {
+          "text": "Autoverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/autoverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Verzekering elektrische auto",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-elektrische-auto.html?zone=topnav"
+         },
+         {
+          "text": "Fietsverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/fietsverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Brommerverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-voor-je-scooter-of-speed-pedelec.html?zone=topnav"
+         },
+         {
+          "text": "Motorverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/motorverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Schade of diefstal",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/schade-of-diefstal.html?zone=topnav"
+         },
+         {
+          "text": "Vind de verzekering die bij je past",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav"
+         },
+         {
+          "text": "Verzeker jezelf of je gezin",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin.html?zone=topnav"
+         },
+         {
+          "text": "Reisverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/reisverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Familiale verzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/je-familiale-verzekering.html?zone=topnav"
+         },
+         {
+          "text": "Hospitalisatieverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/hospitalisatieverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Ongevallenverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/ongevallenverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Overlijdensverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/overlijdensverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Uitvaartverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/uitvaartverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Levensverzekering",
+          "href": "https://www.kbc.be/particulieren/nl/beleggen/waarom-kiezen-voor-levensverzekering.html?zone=topnav"
+         },
+         {
+          "text": "Verzekering internetfraude",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/cybersecure-verzekering.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin.html?zone=topnav"
+         },
+         {
+          "text": "Aansprakelijkheid en rechtsbijstand",
+          "href": "https://www.kbc.be/ondernemen/nl/verzekeren/aansprakelijkheid-en-rechtsbijstand.html?zone=topnav"
+         },
+         {
+          "text": "Lichamelijke schade",
+          "href": "https://www.kbc.be/ondernemen/nl/verzekeren/lichamelijke-schade-en-gevolgen.html?zone=topnav"
+         },
+         {
+          "text": "Materiële schade",
+          "href": "https://www.kbc.be/ondernemen/nl/verzekeren/materiele-schade-en-gevolgen.html?zone=topnav"
+         },
+         {
+          "text": "Schade aangeven",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/schade-aangeven.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         136,
+         1440,
+         583
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "nav.nav--main"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "div.site__header__buttons"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        }
+       ],
+       "shot": "1440-006-Verzekeren-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "MyHome",
+     "key": "myhome",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>ul>li:nth-of-type(6)>button",
+     "expanded": "false",
+     "rect": [
+      682,
+      88,
+      91,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "MyHome",
+          "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav"
+         },
+         {
+          "text": "KBC ondersteunt jou in elke fase",
+          "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav"
+         },
+         {
+          "text": "Een woning kopen",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/huis-kopen-zonder-zorgen.html?zone=topnav"
+         },
+         {
+          "text": "Je woning renoveren",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/renoveren.html?zone=topnav"
+         },
+         {
+          "text": "Je woning energiezuinig maken",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/energiezuinig-optimaliseren.html?zone=topnav"
+         },
+         {
+          "text": "Toon meer",
+          "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         136,
+         1440,
+         371
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "nav.nav--main"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "div.site__header__buttons"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        }
+       ],
+       "shot": "1440-007-MyHome-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "MyMobility",
+     "key": "mymobility",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>ul>li:nth-of-type(7)>button",
+     "expanded": "false",
+     "rect": [
+      798,
+      88,
+      107,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "MyMobility",
+          "href": "https://www.kbc.be/particulieren/nl/thema/mymobility.html?zone=topnav"
+         },
+         {
+          "text": "MyMobility in KBC Mobile",
+          "href": "https://www.kbc.be/particulieren/nl/thema/mymobility/product/car-sales.html?zone=topnav"
+         },
+         {
+          "text": "Lenen voor je voertuig",
+          "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav"
+         },
+         {
+          "text": "Je voertuig verzekeren",
+          "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         136,
+         1440,
+         359
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "nav.nav--main"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "i.icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "div.site__header__buttons"
+        }
+       ],
+       "shot": "1440-008-MyMobility-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true
+     },
+     "children": []
+    },
+    {
+     "name": "Word klant",
+     "key": "word klant",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>div>div>a:nth-of-type(1)",
+     "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      1127,
+      80,
+      131,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Aanmelden",
+     "key": "aanmelden",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-f24bb2f540>div:nth-of-type(3)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>div>div>span>a:nth-of-type(1)",
+     "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-pc.html?zone=topnav",
+     "expanded": null,
+     "rect": [
+      1274,
+      80,
+      134,
+      40
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 144,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 144,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 144,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 144,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 8,
+   "truncated": null,
+   "loads": 3
+  }
+ },
+ "probe": "particulieren"
+}

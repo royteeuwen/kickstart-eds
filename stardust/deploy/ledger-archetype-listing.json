@@ -1,0 +1,11 @@
+{
+  "/particulieren/nl/betalen/zichtrekeningen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-19T19:56:37.066Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

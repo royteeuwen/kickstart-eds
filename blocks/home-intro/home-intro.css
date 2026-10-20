@@ -1,0 +1,172 @@
+/* home-intro — canon .introduction-block-home (values from the gated landing prototype) */
+.home-intro {
+  margin-bottom: 48px;
+  padding: 0 var(--gutter);
+}
+
+.home-intro .home-intro-inner {
+  position: relative;
+}
+
+.home-intro .home-intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(448px - var(--top-navigation-height) - var(--main-navigation-height) + 24px);
+  padding-bottom: 56px;
+  color: var(--color-white);
+  text-shadow: 0 0 8px var(--color-primary-dark-70);
+}
+
+.home-intro .home-intro-content .chaptertitle {
+  max-width: 70%;
+  margin-bottom: 24px;
+}
+
+.home-intro .chaptertitle :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.home-intro .chaptertitle h1 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+@media (width >= 576px) {
+  .home-intro .chaptertitle h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+.home-intro .home-intro-text {
+  margin-bottom: 24px;
+}
+
+.home-intro .home-intro-text :is(p, li) {
+  color: inherit;
+}
+
+.home-intro .aem-cta-btngroup a {
+  text-shadow: none;
+}
+
+.home-intro .home-intro-image {
+  position: absolute;
+  inset: -192px calc(50% - 50vw) 0;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.home-intro .home-intro-image :is(p, picture) {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.home-intro .home-intro-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.home-intro .home-intro-mask {
+  position: relative;
+  margin-inline: calc(50% - 50vw);
+}
+
+.home-intro .home-intro-curve {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.home-intro .home-intro-curve svg {
+  width: 100vw;
+  margin-bottom: -1px;
+}
+
+.home-intro .home-intro-curve-md,
+.home-intro .home-intro-curve-xs {
+  display: none;
+}
+
+@media (width <= 991px) {
+  .home-intro .home-intro-content {
+    min-height: calc(284px - var(--main-navigation-height) + 16px);
+  }
+
+  .home-intro .home-intro-content .chaptertitle {
+    max-width: 100%;
+  }
+
+  .home-intro .home-intro-image {
+    top: -112px;
+  }
+}
+
+@media (width <= 767px) {
+  .home-intro .home-intro-curve-md {
+    display: block;
+  }
+
+  .home-intro .home-intro-curve-xxl {
+    display: none;
+  }
+
+  .home-intro .home-intro-content .aem-cta-btngroup {
+    padding-bottom: 24px;
+  }
+}
+
+@media (width <= 575px) {
+  .home-intro .home-intro-curve-xs {
+    display: block;
+  }
+
+  .home-intro .home-intro-curve-md {
+    display: none;
+  }
+}
+
+/* variant `lead` (article archetype): the intro paragraph is a 20/28 bold lead at 60% width
+   (additive — only blocks carrying the `lead` class are affected) */
+.home-intro.lead .home-intro-text {
+  max-width: 60%;
+  margin-bottom: 0;
+}
+
+.home-intro.lead .home-intro-text p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+/* canon: the lead's 1.65em collapses with the rich text's 24px bottom margin */
+.home-intro.lead .home-intro-text > p:last-child {
+  margin-bottom: max(1.65em, 24px);
+}
+
+@media (width <= 991px) {
+  .home-intro.lead .home-intro-text {
+    max-width: 100%;
+  }
+}
+
+@media (width <= 767px) {
+  .home-intro.lead .home-intro-text p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
