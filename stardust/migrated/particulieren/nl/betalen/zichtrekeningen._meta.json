@@ -1,0 +1,1596 @@
+{
+  "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "column-control",
+    "comparison",
+    "list"
+  ],
+  "slotsFilled": [
+    "chaptertitle",
+    "column-control",
+    "chaptertitle",
+    "comparison",
+    "comparison",
+    "chaptertitle",
+    "list"
+  ],
+  "canonShas": {
+    "header": "7783cea7c108",
+    "footer": "01cd7de58407",
+    "css": "6af38000e2af"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Zichtrekeningen - KBC Bank &amp; Verzekering",
+    "description": "Overzicht zichtrekeningen bij KBC",
+    "canonical": null,
+    "lang": "nl"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Zichtrekeningen - KBC Bank &amp; Verzekering",
+    "description": "Overzicht zichtrekeningen bij KBC",
+    "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services"
+  },
+  "migratedAt": "2026-10-19T18:35:40Z",
+  "designMdSha": "e384e891c298",
+  "designJsonSha": "334785d6ce40",
+  "sourceCurrentSha": "430ad4cf3996",
+  "sourceProposedSha": "92eba4435765",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "source-fidelity gate --full content-diff 0 structural red on main+header+footer at 1440 and 360 (stardust/replica/progress.json)",
+    "pixel-gate-1440": "0.04%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-1440/summary.md) [prototype regime]",
+    "pixel-gate-360": "0.46%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-360/summary.md) [prototype regime]",
+    "content-count": "OPEN: content-diff: 60 (10 structural 🔴) (zr-360-iter3.log)",
+    "media-reconcile": "n/a: no delivered content file yet (content/particulieren/nl/betalen/zichtrekeningen.html) — media-reconcile runs in the delivery chain (row C)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /particulieren/nl/betalen/zichtrekeningen)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 3,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.kbc.be/ondernemen/nl.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/commercial-banking/nl.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/young-adults?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/contact.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl.html?zone=mobile-menu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/private-banking/nl.html?zone=mobile-menu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/commercial-banking/nl.html?zone=mobile-menu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/young-adults?zone=mobile-menu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-pc.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-android-phone.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-iphone.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-windows-phone.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-tablet.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-ipad.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/cash.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-tablet-of-pc.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/betaalmethodes.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mobilepay.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten/debetkaarten/bankkaart-met-foto.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/voordelen-kredietkaart.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/secure4u.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/betalen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/online-bankieren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/sleutelmomenten/extra-diensten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/spaarrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/groeispaarrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/huurwaarborgspaarrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/pamperrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarfonds.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/bijleren-fiscaal.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/fiscaal-sparen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/wat-betekent-langetermijnsparen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering/home-long-term-plan.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/tak-23/life-long-term-fund-plan.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/artikel/einde-ondernemerscarriere/pensioen/vrij-aanvullend-pensioen-zelfstandigen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/poz.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/ipt-individuele-pensioentoezegging.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/proces/beleggen/fondsenzoeker.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/slim-beleggen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/aandelen/online-beleggen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/fondsen-bijkopen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/thematisch-beleggen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/duurzaam-beleggen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggingen-opvolgen-in-mobile-en-touch.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggingsplan.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-een-kind.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-beginners.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/bijleren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/bijleren/sparen-en-beleggen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/business-invest-service.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/expert-vermogensopbouw-voor-ondernemers.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/online-beleggen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/hypothecaire-lening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/overbruggingskrediet.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/renovatielening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/groene-energielening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/interieurlening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/tuinlening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/lenen-voor-je-woning.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-benzine-diesel.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-hybride-auto.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/lening-elektrische-wagen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/particulieren/nl/lenen/voertuig#tweewieler.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/particulieren/nl/lenen/voertuig#ander.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-plus.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/gezin.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/persoonlijke-lening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/kbc-flex-budget.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/gezin.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfswagens-vergelijken.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfsuitrusting-vergelijken.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/financieren/werkkapitaal.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/vergelijking-kredieten-onroerend.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/brandverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/bijstandaanhuis.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/schuldsaldoverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/welke-verzekeringen-voor-een-woning.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/autoverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-elektrische-auto.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/fietsverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-voor-je-scooter-of-speed-pedelec.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/motorverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/schade-of-diefstal.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/reisverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/je-familiale-verzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/hospitalisatieverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/ongevallenverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/overlijdensverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/uitvaartverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/waarom-kiezen-voor-levensverzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/cybersecure-verzekering.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/verzekeren/aansprakelijkheid-en-rechtsbijstand.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/verzekeren/lichamelijke-schade-en-gevolgen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/verzekeren/materiele-schade-en-gevolgen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/schade-aangeven.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/huis-kopen-zonder-zorgen.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/renoveren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/energiezuinig-optimaliseren.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/mymobility.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/mymobility/product/car-sales.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/cash.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-tablet-of-pc.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/betaalmethodes.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mobilepay.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten/debetkaarten/bankkaart-met-foto.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/voordelen-kredietkaart.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/secure4u.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/betalen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/online-bankieren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/sleutelmomenten/extra-diensten.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/spaarrekening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/groeispaarrekening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/huurwaarborgspaarrekening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/pamperrekening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarfonds.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/bijleren-fiscaal.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/fiscaal-sparen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/wat-betekent-langetermijnsparen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering/home-long-term-plan.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/sparen/tak-23/life-long-term-fund-plan.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/artikel/einde-ondernemerscarriere/pensioen/vrij-aanvullend-pensioen-zelfstandigen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/poz.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/ipt-individuele-pensioentoezegging.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/proces/beleggen/fondsenzoeker.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/slim-beleggen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/aandelen/online-beleggen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/fondsen-bijkopen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/thematisch-beleggen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/duurzaam-beleggen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggingen-opvolgen-in-mobile-en-touch.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggingsplan.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-een-kind.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-beginners.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/bijleren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen/bijleren/sparen-en-beleggen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/business-invest-service.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/expert-vermogensopbouw-voor-ondernemers.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/online-beleggen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/hypothecaire-lening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/overbruggingskrediet.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/renovatielening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/groene-energielening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/interieurlening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/tuinlening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/lenen-voor-je-woning.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-benzine-diesel.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-hybride-auto.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/lening-elektrische-wagen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/particulieren/nl/lenen/voertuig#tweewieler.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/particulieren/nl/lenen/voertuig#ander.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-plus.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/gezin.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/persoonlijke-lening.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/kbc-flex-budget.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/gezin.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfswagens-vergelijken.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfsuitrusting-vergelijken.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/financieren/werkkapitaal.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/product/kredieten/vergelijking-kredieten-onroerend.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/brandverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/bijstandaanhuis.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/schuldsaldoverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen/welke-verzekeringen-voor-een-woning.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/autoverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-elektrische-auto.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/fietsverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-voor-je-scooter-of-speed-pedelec.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/motorverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/schade-of-diefstal.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/reisverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/je-familiale-verzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/hospitalisatieverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/ongevallenverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/overlijdensverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/uitvaartverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen/waarom-kiezen-voor-levensverzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin/cybersecure-verzekering.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/gezin.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/verzekeren/aansprakelijkheid-en-rechtsbijstand.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/verzekeren/lichamelijke-schade-en-gevolgen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl/verzekeren/materiele-schade-en-gevolgen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/schade-aangeven.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/huis-kopen-zonder-zorgen.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/renoveren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/wonen/energiezuinig-optimaliseren.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/mymobility.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/thema/mymobility/product/car-sales.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav&zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/privatkunden/de/zahlungen/girokonten.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particuliers/fr/paiements/comptes-a-vue.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-pc.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-android-phone.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-iphone.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-windows-phone.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-tablet.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-ipad.html?zone=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/betalen.html?zone=breadcrumb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/betalen.html?zone=breadcrumb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/zichtrekeningen-vergelijken.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/proces/betalen/zichtrekeningen/plusrekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/proces/betalen/zichtrekeningen/jongerenrekening-zelf-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/proces/betalen/zichtrekeningen/plusrekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/proces/betalen/zichtrekeningen/jongerenrekening-zelf-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/gezamenlijke-rekening.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/info/bankoverstapdienst-veranderen-van-bank.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/betalen/zichtrekening-voor-mijn-kind.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/betalen/online-rekening-openen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/universele-bankdienst.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisbankdienst.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen.html?zone=footer-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sparen.html?zone=footer-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/particulieren/nl/pensioensparen/fiscaal-sparen-vergelijken?zone=footer-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/beleggen.html?zone=footer-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/lenen.html?zone=footer-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=footer-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/proces/maak-je-afspraak-online.html?zone=footer-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/kantoor.html?zone=footer-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/contact.html?zone=footer-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/particulieren/nl/product/betalen/betaalkaarten/kaart-kwijt-gestolen-of-ingeslikt?zone=footer-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/secure4u/meld-fraude.html?zone=footer-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/secure4u.html?zone=footer-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/campagne/bespaar-tijd-met-kate.html?zone=footer-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sponsoring-actie/kbc-trakteert.html?zone=footer-3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sponsoring-actie/sponsoring.html?zone=footer-3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/jobs/nl.html?zone=footer-3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/duurzaamheid/samen-meer-duurzaamheid.html?zone=footer-3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html?zone=footer-3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/ondernemen/nl.html?zone=footer-4",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/commercial-banking/nl.html?zone=footer-4",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/private-banking/nl.html?zone=footer-4",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html?zone=footer-4",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/sitemap.html?zone=doormat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/tarieven.html?zone=doormat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/juridische-info.html?zone=doormat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/contact/uitschrijven.html?zone=doormat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/info/secure4u/responsible-disclosure-beleid.html?zone=doormat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.kbc.be/particulieren/nl/toegankelijkheid.html?zone=doormat",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "particulieren/nl/betalen/zichtrekeningen.html",
+  "outputPathDefault": null,
+  "sidecar": "particulieren/nl/betalen/zichtrekeningen._meta.json",
+  "driverVersion": "1"
+}

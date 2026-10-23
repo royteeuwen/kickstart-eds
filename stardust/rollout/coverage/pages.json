@@ -1,0 +1,242 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-19T18:36:41.344Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T21:21:28.560Z",
+  "pages": [
+    {
+      "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+      "path": "/particulieren/nl/betalen/zichtrekeningen",
+      "title": "Zichtrekeningen - KBC Bank &amp; Verzekering",
+      "templateId": "particulieren-nl-betalen-zichtrekeningen-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/particulieren/nl/betalen/zichtrekeningen.html",
+        "metaJson": "stardust/migrated/particulieren/nl/betalen/zichtrekeningen._meta.json",
+        "sourceHash": "sha256:66ddbf6ce4a92b3d17ebe5427539d396ad2d596bb3cb5c5781f4fbf9371a22c0",
+        "sourceUrl": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services"
+      },
+      "blocks": [
+        "column-control",
+        "comparison",
+        "list"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ede281e9--aemcoder.aem.live/particulieren/nl/betalen/zichtrekeningen",
+        "deployedAt": "2026-10-19T20:19:40.797Z",
+        "verifiedAt": "2026-10-19T21:21:28.560Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.92,
+          "heightDelta": 3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 9,
+            "variable": []
+          },
+          "reasons": [
+            "units off 20 hidden 0 missing 10"
+          ],
+          "override": "delivered",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-19T21:16:35.247Z"
+        }
+      }
+    },
+    {
+      "slug": "particulieren-nl-html",
+      "path": "/particulieren/nl",
+      "title": "Hoe kunnen we je helpen? - KBC Bank &amp; Verzekering",
+      "templateId": "particulieren-nl-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/particulieren/nl.html",
+        "metaJson": "stardust/migrated/particulieren/nl._meta.json",
+        "sourceHash": "sha256:90b458f27a4dc6f0042115075aa44f0d726313297f9a432e620a7ca8ffb69711",
+        "sourceUrl": "https://www.kbc.be/particulieren/nl.html"
+      },
+      "blocks": [
+        "home-intro",
+        "more-services",
+        "visual-usp",
+        "visual-usp-home",
+        "contact-section",
+        "text-image"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ede281e9--aemcoder.aem.live/particulieren/nl",
+        "deployedAt": "2026-10-19T19:57:42.916Z",
+        "verifiedAt": "2026-10-19T21:21:28.560Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.49,
+          "heightDelta": 30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-19T21:16:35.247Z"
+        }
+      }
+    },
+    {
+      "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "path": "/particulieren/nl/pensioensparen/sleutelmoment",
+      "title": "Maak je toekomstplan - KBC Bank &amp; Verzekering",
+      "templateId": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/particulieren/nl/pensioensparen/sleutelmoment.html",
+        "metaJson": "stardust/migrated/particulieren/nl/pensioensparen/sleutelmoment._meta.json",
+        "sourceHash": "sha256:e8678ea4ba67e6c49faeaad143255d082f84e0c8a5a0a61d778f7e1455c1c00a",
+        "sourceUrl": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html"
+      },
+      "blocks": [
+        "home-intro",
+        "key-steps",
+        "split",
+        "highlight",
+        "page-links"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ede281e9--aemcoder.aem.live/particulieren/nl/pensioensparen/sleutelmoment",
+        "deployedAt": "2026-10-19T20:23:54.768Z",
+        "verifiedAt": "2026-10-19T21:21:28.560Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-19T21:16:35.247Z"
+        }
+      }
+    },
+    {
+      "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "path": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen",
+      "title": "Open nu je KBC-Basisrekening - KBC Bank &amp; Verzekering",
+      "templateId": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+        "metaJson": "stardust/migrated/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen._meta.json",
+        "sourceHash": "sha256:a5f5964c37a3f038ba2ed05babea68768d575260f21162b3841d2e4ff7ffe4d8",
+        "sourceUrl": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+      },
+      "blocks": [
+        "process-page",
+        "text-image",
+        "quick-response",
+        "cta-btngroup"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ede281e9--aemcoder.aem.live/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen",
+        "deployedAt": "2026-10-19T20:35:54.122Z",
+        "verifiedAt": "2026-10-19T21:21:28.560Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.85,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-19T21:16:35.247Z"
+        }
+      }
+    },
+    {
+      "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "path": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen",
+      "title": "Ontdek de KBC-Basisrekening - KBC Bank &amp; Verzekering",
+      "templateId": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+        "metaJson": "stardust/migrated/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen._meta.json",
+        "sourceHash": "sha256:8af9c0f3aa0eeacf5b7a13ba638d8c52c2bc76c3edc630e4a7a2b94ed50f9659",
+        "sourceUrl": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+      },
+      "blocks": [
+        "introduction-block",
+        "text-image",
+        "faq",
+        "download-list",
+        "table",
+        "cta-btngroup"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ede281e9--aemcoder.aem.live/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen",
+        "deployedAt": "2026-10-19T21:03:11.747Z",
+        "verifiedAt": "2026-10-19T21:21:28.560Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.18,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [
+            "units off 9 hidden 0 missing 0"
+          ],
+          "override": "delivered",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-19T21:16:35.247Z"
+        }
+      }
+    }
+  ]
+}

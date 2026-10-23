@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.kbc.be/" target="_blank" rel="noopener">https://www.kbc.be/</a><br>Preview site: <a href="https://main--ede281e9--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--ede281e9--aemcoder.aem.page/</a><br>Last updated: 2026-10-19 21:25 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 5 pages. 5 of 5 are published on the preview site; 5 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>5 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.kbc.be/particulieren/nl.html" target="_blank" rel="noopener">https://www.kbc.be/particulieren/nl.html</a></td><td><a href="https://main--ede281e9--aemcoder.aem.page/particulieren/nl" target="_blank" rel="noopener">Hoe kunnen we je helpen? - KBC Bank &amp;amp; Verzekering</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services" target="_blank" rel="noopener">https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services</a></td><td><a href="https://main--ede281e9--aemcoder.aem.page/particulieren/nl/betalen/zichtrekeningen" target="_blank" rel="noopener">Zichtrekeningen - KBC Bank &amp;amp; Verzekering</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html" target="_blank" rel="noopener">https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html</a></td><td><a href="https://main--ede281e9--aemcoder.aem.page/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen" target="_blank" rel="noopener">Ontdek de KBC-Basisrekening - KBC Bank &amp;amp; Verzekering</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html" target="_blank" rel="noopener">https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html</a></td><td><a href="https://main--ede281e9--aemcoder.aem.page/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen" target="_blank" rel="noopener">Open nu je KBC-Basisrekening - KBC Bank &amp;amp; Verzekering</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html" target="_blank" rel="noopener">https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html</a></td><td><a href="https://main--ede281e9--aemcoder.aem.page/particulieren/nl/pensioensparen/sleutelmoment" target="_blank" rel="noopener">Maak je toekomstplan - KBC Bank &amp;amp; Verzekering</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Life moment guides</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Application start pages</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Product overview pages</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Product detail pages</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>Your five pages are live on the new platform and match the current site closely on desktop and mobile. Links, menus, redirects and search-engine settings have all been checked, and your analytics and consent set-up is in place, ready for you to switch on.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>The site is ready for your review; the open choices (wider page scope, other languages, switching on tracking) are listed in the handover report.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

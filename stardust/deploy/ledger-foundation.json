@@ -1,0 +1,29 @@
+{
+  "/footer-short": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-19T18:57:17.842Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-19T18:57:17.842Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-19T19:23:26.113Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

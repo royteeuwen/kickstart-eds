@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-10-19T21:25:13.255Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.kbc.be/",
+    "liveHost": "main--ede281e9--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 5,
+    "prototyped": 5,
+    "deployed": 5,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 5,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "particulieren-nl-html",
+      "path": "/particulieren/nl",
+      "stage": "deployed",
+      "templateId": "particulieren-nl-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+      "path": "/particulieren/nl/betalen/zichtrekeningen",
+      "stage": "deployed",
+      "templateId": "particulieren-nl-betalen-zichtrekeningen-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "path": "/particulieren/nl/pensioensparen/sleutelmoment",
+      "stage": "deployed",
+      "templateId": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "path": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen",
+      "stage": "deployed",
+      "templateId": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "path": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen",
+      "stage": "deployed",
+      "templateId": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "isTemplate": true,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "particulieren-nl-betalen-zichtrekeningen-html",
+      "archetype": "particulieren-nl-betalen-zichtrekeningen-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "particulieren-nl-html",
+      "archetype": "particulieren-nl-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "archetype": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "archetype": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "archetype": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 20,
+    "converted": 20
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 5
+    },
+    "byAutofix": {}
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 5141,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3641,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".aem-dropdown-select",
+      "frames": [
+        {
+          "t": 15207.90000000596,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15415.600000023842,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15623,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15828.800000011921,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "txt": "var digitalData = digitalData || {};\n    digitalDa",
+        "y": 4800
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "txt": "var digitalData = digitalData || {};\n    digitalDa",
+        "y": 4800
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "txt": "var digitalData = digitalData || {};\n    digitalDa",
+        "y": 4800
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "txt": "var digitalData = digitalData || {};\n    digitalDa",
+        "y": 4800
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "txt": "var digitalData = digitalData || {};\n    digitalDa",
+        "y": 5200
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "txt": "var digitalData = digitalData || {};\n    digitalDa",
+        "y": 5200
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "txt": "var digitalData = digitalData || {};\n    digitalDa",
+        "y": 5200
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "visibility",
+        "el": "div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4 > a",
+        "y": 4400,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4 > a",
+        "y": 4400,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4 > a",
+        "y": 4400,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4 > a",
+        "y": 4400,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4 > a",
+        "y": 4800,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4 > a",
+        "y": 4800,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4 > a",
+        "y": 4800,
+        "dur": "0.22s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui",
+        "y": 400
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui > body.aem-body.device--desktop.os--macOS",
+        "y": 400
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "y": 4400
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "y": 4400
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "y": 4400
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "y": 4400
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "y": 4800
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "y": 4800
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.list.aem-GridColumn.aem-GridColumn--default--12 > div.list-container > div.row > div.grid.bp3-grid-6.bp4-grid-4",
+        "y": 4800
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 5141
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 60
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 30
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 0
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui",
+        "y": 581
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui > body.aem-body.device--desktop.os--macOS",
+        "y": 581
+      }
+    ]
+  }
+}

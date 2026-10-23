@@ -1,0 +1,421 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-19T18:36:47.346Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T21:03:12.249Z",
+  "blocks": [
+    {
+      "id": "column-control",
+      "label": "column-control",
+      "kind": "module",
+      "signature": "module:column-control",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-betalen-zichtrekeningen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-betalen-zichtrekeningen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "column-control",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "comparison",
+      "label": "comparison",
+      "kind": "module",
+      "signature": "module:comparison",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-betalen-zichtrekeningen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-betalen-zichtrekeningen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "comparison",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contact-section",
+      "label": "contact-section",
+      "kind": "module",
+      "signature": "module:contact-section",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "contact-section",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-btngroup",
+      "label": "cta-btngroup",
+      "kind": "module",
+      "signature": "module:cta-btngroup",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cta-btngroup",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "download-list",
+      "label": "download-list",
+      "kind": "module",
+      "signature": "module:download-list",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "download-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq",
+      "label": "faq",
+      "kind": "module",
+      "signature": "module:faq",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "faq",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "highlight",
+      "label": "highlight",
+      "kind": "module",
+      "signature": "module:highlight",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "highlight",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "home-intro",
+      "label": "home-intro",
+      "kind": "module",
+      "signature": "module:home-intro",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-html",
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-html",
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "home-intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "introduction-block",
+      "label": "introduction-block",
+      "kind": "module",
+      "signature": "module:introduction-block",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "introduction-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "key-steps",
+      "label": "key-steps",
+      "kind": "module",
+      "signature": "module:key-steps",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "key-steps",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "list",
+      "label": "list",
+      "kind": "module",
+      "signature": "module:list",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-betalen-zichtrekeningen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-betalen-zichtrekeningen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "more-services",
+      "label": "more-services",
+      "kind": "module",
+      "signature": "module:more-services",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "more-services",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "page-links",
+      "label": "page-links",
+      "kind": "module",
+      "signature": "module:page-links",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "page-links",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "process-page",
+      "label": "process-page",
+      "kind": "module",
+      "signature": "module:process-page",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "process-page",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quick-response",
+      "label": "quick-response",
+      "kind": "module",
+      "signature": "module:quick-response",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "quick-response",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "split",
+      "label": "split",
+      "kind": "module",
+      "signature": "module:split",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "split",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "table",
+      "label": "table",
+      "kind": "module",
+      "signature": "module:table",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "text-image",
+      "label": "text-image",
+      "kind": "module",
+      "signature": "module:text-image",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-html",
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-html",
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "text-image",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "visual-usp",
+      "label": "visual-usp",
+      "kind": "module",
+      "signature": "module:visual-usp",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "visual-usp",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "visual-usp-home",
+      "label": "visual-usp-home",
+      "kind": "module",
+      "signature": "module:visual-usp-home",
+      "source": null,
+      "usedByTemplates": [
+        "particulieren-nl-html"
+      ],
+      "usedByPages": [
+        "particulieren-nl-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "visual-usp-home",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

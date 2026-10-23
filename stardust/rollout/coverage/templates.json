@@ -1,0 +1,118 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-19T18:36:41.344Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T21:21:28.560Z",
+  "templates": [
+    {
+      "id": "particulieren-nl-betalen-zichtrekeningen-html",
+      "representativeSlug": "particulieren-nl-betalen-zichtrekeningen-html",
+      "pages": [
+        "particulieren-nl-betalen-zichtrekeningen-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "column-control",
+        "comparison",
+        "list"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "particulieren-nl-html",
+      "representativeSlug": "particulieren-nl-html",
+      "pages": [
+        "particulieren-nl-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "contact-section",
+        "home-intro",
+        "more-services",
+        "text-image",
+        "visual-usp",
+        "visual-usp-home"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "representativeSlug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "pages": [
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "highlight",
+        "home-intro",
+        "key-steps",
+        "page-links",
+        "split"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "representativeSlug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "pages": [
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta-btngroup",
+        "process-page",
+        "quick-response",
+        "text-image"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "representativeSlug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "pages": [
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta-btngroup",
+        "download-list",
+        "faq",
+        "introduction-block",
+        "table",
+        "text-image"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

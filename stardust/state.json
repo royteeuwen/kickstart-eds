@@ -1,0 +1,284 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-19T18:36:25Z",
+    "stardustVersion": "0.33.0"
+  },
+  "site": {
+    "originUrl": "https://www.kbc.be",
+    "deployUrl": null,
+    "extractedAt": "2026-10-19T16:34:42.313Z",
+    "pageCap": null,
+    "totalDiscovered": 5,
+    "crawled": 5
+  },
+  "direction": {
+    "resolvedAt": "2026-10-19T16:43:47.363Z",
+    "phrase": "replica — keep the current design",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-19T16:34:42.313Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "particulieren-nl-html",
+      "url": "https://www.kbc.be/particulieren/nl.html",
+      "title": "Hoe kunnen we je helpen? - KBC Bank & Verzekering",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T16:30:51.955Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T16:43:47Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T17:20:32Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T17:20:32Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-19T18:36:24Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/particulieren-nl-html.json",
+      "prototypePath": "stardust/prototypes/particulieren-nl-html-proposed.html",
+      "migratedPath": "stardust/migrated/particulieren/nl.html"
+    },
+    {
+      "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+      "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+      "title": "Zichtrekeningen - KBC Bank & Verzekering",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T16:30:51.955Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T16:43:47Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T17:44:38Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T17:44:38Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-19T18:36:24Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/particulieren-nl-betalen-zichtrekeningen-html.json",
+      "prototypePath": "stardust/prototypes/particulieren-nl-betalen-zichtrekeningen-html-proposed.html",
+      "migratedPath": "stardust/migrated/particulieren/nl/betalen/zichtrekeningen.html"
+    },
+    {
+      "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+      "title": "Ontdek de KBC-Basisrekening - KBC Bank & Verzekering",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T16:30:50.837Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T16:43:47Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T18:05:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T18:05:47Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-19T18:36:25Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html.json",
+      "prototypePath": "stardust/prototypes/particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html-proposed.html",
+      "migratedPath": "stardust/migrated/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+      "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+      "title": "Open nu je KBC-Basisrekening - KBC Bank & Verzekering",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T16:30:58.485Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T16:43:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T18:24:37Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-19T18:36:25Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html.json",
+      "prototypePath": "stardust/prototypes/particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html-proposed.html",
+      "migratedPath": "stardust/migrated/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+      "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+      "title": "Maak je toekomstplan - KBC Bank & Verzekering",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T16:30:59.594Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T16:43:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T18:23:45Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-19T18:36:25Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/particulieren-nl-pensioensparen-sleutelmoment-html.json",
+      "prototypePath": "stardust/prototypes/particulieren-nl-pensioensparen-sleutelmoment-html-proposed.html",
+      "migratedPath": "stardust/migrated/particulieren/nl/pensioensparen/sleutelmoment.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-19T18:35:40Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/particulieren/nl.html",
+        "outputPath": "particulieren/nl.html",
+        "slug": "particulieren-nl-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/particulieren/nl/betalen/zichtrekeningen.html",
+        "outputPath": "particulieren/nl/betalen/zichtrekeningen.html",
+        "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+        "outputPath": "particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+        "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+        "outputPath": "particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+        "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/particulieren/nl/pensioensparen/sleutelmoment.html",
+        "outputPath": "particulieren/nl/pensioensparen/sleutelmoment.html",
+        "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 8,
+    "bundledAssets": [
+      "canon.css",
+      "canon.js",
+      "particulieren-nl-betalen-zichtrekeningen-html.css",
+      "particulieren-nl-html.css",
+      "particulieren-nl-pensioensparen-sleutelmoment-html.css",
+      "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html-qr.png",
+      "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html.css",
+      "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html.css"
+    ],
+    "pages": [
+      {
+        "slug": "particulieren-nl-html",
+        "file": "stardust/migrated/particulieren/nl.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+        "file": "stardust/migrated/particulieren/nl/betalen/zichtrekeningen.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+        "file": "stardust/migrated/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+        "assetsBundled": 3
+      },
+      {
+        "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+        "file": "stardust/migrated/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+        "assetsBundled": 4
+      },
+      {
+        "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+        "file": "stardust/migrated/particulieren/nl/pensioensparen/sleutelmoment.html",
+        "assetsBundled": 3
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-19T18:35:40Z",
+      "rendered": [
+        "particulieren-nl-html",
+        "particulieren-nl-betalen-zichtrekeningen-html",
+        "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+        "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+        "particulieren-nl-pensioensparen-sleutelmoment-html"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

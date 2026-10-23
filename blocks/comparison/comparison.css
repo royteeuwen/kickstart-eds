@@ -1,0 +1,494 @@
+/* comparison — canon .aem-comparison-cmp (table ≥992, per-feature cards ≤991) + juridical notes */
+/* stylelint-disable no-descending-specificity */
+.comparison .comparison-head {
+  display: flow-root;
+  padding: 0 var(--gutter);
+}
+
+.comparison .comparison-head :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.comparison .comparison-head h1 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.comparison .comparison-head h3 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.comparison .comparison-head :is(h4, h5, h6) {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.comparison .comparison-body {
+  padding: 0 12px;
+}
+
+.comparison sup {
+  margin-left: 1px;
+  font-size: .75em;
+  line-height: 1;
+  vertical-align: super;
+}
+
+.comparison .comparison-sr-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.comparison .comparison-check-glyph {
+  font-size: 2em;
+  line-height: 28px;
+  font-weight: 400;
+  color: green;
+  vertical-align: middle;
+}
+
+.comparison .comparison-check-glyph::before {
+  content: "\e630" / "";
+}
+
+.comparison .comparison-check-cell svg polyline {
+  stroke: var(--color-success);
+}
+
+.comparison .comparison-cross-cell svg path {
+  stroke: #d64040;
+}
+
+/* cells may arrive with or without a <p>: either way the text takes the cell's type */
+.comparison :is(.comparison-value-label, .comparison-name-data, .comparison-header-link,
+  .comparison-cta, .comparison-more) p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+/* ---------- desktop table (≥992) ---------- */
+.comparison table.comparison-table {
+  width: 100%;
+  margin: 24px 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  border-radius: 5px;
+  text-align: left;
+  font-family: var(--font-family-base);
+}
+
+.comparison .comparison-table :is(td, th) {
+  padding: .75em;
+  text-align: center;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  font-weight: 700;
+}
+
+.comparison .comparison-table td {
+  background-color: #fff;
+  font-weight: 500;
+}
+
+.comparison .comparison-table p {
+  margin-bottom: 0;
+}
+
+.comparison .comparison-table thead th {
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+
+.comparison .comparison-table thead th.comparison-highlight {
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+
+.comparison .comparison-table tbody tr {
+  border-bottom: 1px solid var(--color-primary-dark-10);
+}
+
+.comparison .comparison-table tbody td {
+  vertical-align: middle;
+}
+
+.comparison .comparison-table .comparison-highlight,
+.comparison .comparison-item .comparison-highlight > td {
+  background-color: rgb(0 174 239 / 4%);
+}
+
+.comparison .comparison-table .comparison-badge {
+  display: table;
+  position: absolute;
+  top: -9px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--color-sea-blue);
+}
+
+.comparison .comparison-table .comparison-badge p,
+.comparison .comparison-item-badge p {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.comparison .comparison-header-link a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--color-primary-light);
+  text-decoration: underline;
+  border: none;
+}
+
+.comparison .comparison-table .comparison-price-title {
+  display: block;
+  margin-top: 16px;
+  color: var(--color-primary-dark);
+}
+
+.comparison .comparison-table .comparison-price-title p {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.comparison .comparison-table .comparison-price-title :is(strong, b) {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.comparison .comparison-price-subtitle {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--color-primary-dark-70);
+}
+
+.comparison .comparison-price-subtitle p {
+  color: var(--color-primary-dark-70);
+}
+
+.comparison .comparison-table .comparison-name-cell {
+  max-width: 174px;
+  padding-left: 16px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--color-primary-dark);
+}
+
+.comparison .comparison-name-data {
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.comparison .comparison-table .comparison-text-cell {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: var(--color-primary-dark);
+}
+
+.comparison .comparison-table :is(.comparison-check-cell, .comparison-cross-cell) {
+  line-height: 0;
+}
+
+.comparison .comparison-table .comparison-cta {
+  padding: 24px 0 0;
+  line-height: 0;
+}
+
+.comparison .comparison-table .comparison-cta a.button {
+  display: inline-block;
+  padding: 7px 24px;
+}
+
+.comparison .comparison-table .comparison-more {
+  padding: 16px 0;
+  line-height: 26.4px;
+}
+
+.comparison .comparison-table .comparison-more a {
+  border: none;
+  text-decoration: underline;
+}
+
+.comparison .comparison-table .comparison-more.comparison-highlight {
+  border-radius: 0 0 8px 8px;
+}
+
+/* ---------- per-feature cards (≤991) ---------- */
+.comparison .comparison-mobile {
+  display: none;
+  margin: 24px 0;
+}
+
+.comparison .comparison-filter {
+  position: relative;
+  margin-bottom: 34px;
+}
+
+.comparison .comparison-select {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-height: 74px;
+  padding: 10px 44px 10px 16px;
+  border: 1px solid var(--color-primary-dark-10);
+  border-radius: 8px;
+  background-color: var(--color-white);
+  line-height: 26.4px;
+  cursor: pointer;
+}
+
+.comparison .comparison-select-chevron {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  transform: rotate(90deg);
+}
+
+.comparison .comparison-select-chevron path {
+  stroke: #99afc1;
+}
+
+.comparison .comparison-select-placeholder {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.comparison .comparison-select-box {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: -8px;
+  z-index: 5;
+  max-height: 220px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  background: #fff;
+  border: 1px solid var(--color-primary-dark-10);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px var(--color-primary-dark-10);
+}
+
+.comparison .comparison-select[aria-expanded="true"] .comparison-select-box {
+  display: block;
+}
+
+.comparison .comparison-select-option {
+  display: list-item;
+  position: relative;
+  min-height: 50px;
+  padding: 12px 16px;
+  color: var(--color-primary-dark-70);
+  font-weight: 300;
+}
+
+.comparison .comparison-select-option:hover {
+  background-color: var(--color-primary-light-10);
+}
+
+.comparison table.comparison-item {
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+  padding-top: 24px;
+  border: 1px solid var(--color-primary-dark-10);
+  border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  text-align: left;
+  font-family: var(--font-family-base);
+}
+
+.comparison .comparison-item :is(td, th) {
+  display: table-cell;
+  padding: 0;
+  text-align: left;
+}
+
+.comparison .comparison-item tr > :last-child {
+  text-align: right;
+}
+
+.comparison .comparison-item-header th {
+  padding: 0 16px;
+  vertical-align: top;
+}
+
+.comparison .comparison-item-more {
+  display: none;
+}
+
+.comparison .comparison-item-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+.comparison .comparison-item-content > td {
+  height: 64px;
+  padding: 12px 16px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+.comparison .comparison-item tr:last-child td:first-child {
+  border-radius: 0 0 0 8px;
+}
+
+.comparison .comparison-item tr:last-child td:last-child {
+  border-radius: 0 0 8px;
+}
+
+.comparison a.comparison-item-link {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  border: none;
+  text-decoration: underline;
+}
+
+.comparison .comparison-item-badge {
+  padding-top: 3px;
+  line-height: 0;
+}
+
+.comparison .comparison-item-badge p {
+  display: inline;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--color-sea-blue);
+}
+
+.comparison .comparison-item-value .comparison-price-title p {
+  font-size: 12px;
+  line-height: 0;
+  font-weight: 500;
+}
+
+.comparison .comparison-item-value .comparison-price-title :is(strong, b) {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.comparison .comparison-item-value.comparison-price-solo .comparison-price-title p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.comparison .comparison-item-value .comparison-price-subtitle {
+  font-weight: 300;
+}
+
+.comparison .comparison-item-value .comparison-price-subtitle p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.comparison .comparison-item-value.comparison-text-cell {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.comparison .comparison-item-value:is(.comparison-check-cell, .comparison-cross-cell) {
+  line-height: 0;
+}
+
+/* ---------- juridical notes ---------- */
+.comparison .comparison-note {
+  margin-bottom: 24px;
+}
+
+.comparison small.comparison-note-text {
+  display: inline-block;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: var(--color-primary-dark-70);
+}
+
+.comparison .comparison-note-text p {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+/* ---------- phone panels (variant `phone`: phone user agents only) ---------- */
+.comparison.phone {
+  display: none;
+}
+
+.comparison .comparison-panel {
+  margin-bottom: 24px;
+  padding: 24px 16px;
+  border: 1px solid var(--color-primary-dark-10);
+  border-radius: 8px;
+}
+
+.comparison .comparison-panel :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.comparison .comparison-panel-amount p:first-child {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.comparison .comparison-panel-amount {
+  margin-bottom: 24px;
+}
+
+@media (width <= 991px) {
+  .comparison table.comparison-table {
+    display: none;
+  }
+
+  .comparison .comparison-mobile {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+@media (width >= 768px) {
+  .comparison .comparison-head h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}

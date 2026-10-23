@@ -1,0 +1,166 @@
+/* process-page — canon .process-page (gated form prototype: process-group, deep-qr,
+   conditional-container, text-image--intro, juridical-text values) */
+
+/* ---------- section layout: media column + content column ---------- */
+main > .section.process-page-container {
+  margin-bottom: 48px;
+}
+
+.process-page .process-page-media,
+.process-page .process-page-content,
+.process-page-container .default-content-wrapper,
+.process-page-container .cta-btngroup-wrapper,
+.process-page-container .quick-response-wrapper {
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+/* <992 the device-conditional group (title, buttons, QR) sits on a 12px gutter */
+@media (width <= 991px) {
+  .process-page-container .cta-btngroup-wrapper,
+  .process-page-container .quick-response-wrapper {
+    padding: 0 12px;
+  }
+}
+
+@media (width >= 992px) {
+  main > .section.process-page-container {
+    display: flow-root;
+  }
+
+  .process-page .process-page-media {
+    float: left;
+    width: 41.6667%;
+    padding: 0 12px;
+  }
+
+  .process-page .process-page-content,
+  .process-page-container .default-content-wrapper,
+  .process-page-container .cta-btngroup-wrapper,
+  .process-page-container .quick-response-wrapper {
+    margin-left: 41.6667%;
+    padding: 0 12px;
+  }
+}
+
+/* ---------- media (text-image + image--inset; hidden on mobile) ---------- */
+.process-page .process-page-image :is(p, picture) {
+  display: block;
+  margin: 0;
+}
+
+.process-page .process-page-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+@media (width <= 767px) {
+  .process-page .process-page-media {
+    display: none;
+  }
+}
+
+/* ---------- head: title, intro, checkmark list ---------- */
+.process-page .process-page-title :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+@media (width >= 768px) {
+  .process-page .process-page-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.process-page .process-page-intro {
+  margin-bottom: 16px;
+}
+
+.process-page .process-page-intro p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+/* social-proof line */
+.process-page .process-page-intro :is(strong, b) {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  color: var(--color-sea-blue);
+}
+
+@media (width >= 768px) {
+  .process-page .process-page-intro :is(strong, b) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.process-page .process-page-list {
+  margin-bottom: 16px;
+}
+
+.process-page .process-page-list :is(ul, ol) {
+  margin-bottom: 0;
+}
+
+.process-page .process-page-text p {
+  margin-bottom: 1.65em;
+}
+
+/* ---------- default content in the section: process title + legal text ---------- */
+
+/* the wrapper keeps its own bottom spacing (2.4px = the canon inline-block small's line
+   descent + 24px); on the title it completes the 48px gap to the buttons */
+.process-page-container .default-content-wrapper {
+  margin-bottom: 24px;
+  padding-bottom: 2.4px;
+}
+
+.process-page-container .default-content-wrapper :is(h2, h3, h4, h5, h6) {
+  margin-bottom: 21.6px;
+  padding-top: 13.2px;
+  font-size: 18px;
+  line-height: 23.76px;
+  font-weight: 700;
+}
+
+@media (width <= 991px) {
+  .process-page-container .default-content-wrapper :is(h2, h3, h4, h5, h6) {
+    margin-right: -4px;
+    margin-left: -4px;
+  }
+}
+
+/* legal text (canon .juridical-text) */
+.process-page-container .default-content-wrapper p {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: var(--color-primary-dark-70);
+}
+
+.process-page-container .default-content-wrapper p + p {
+  margin-top: 1.65em;
+}
+
+/* the process group's bottom spacing (48px, 96px from 1440) */
+.process-page-container .cta-btngroup {
+  margin-bottom: 48px;
+}
+
+@media (width >= 1440px) {
+  .process-page-container .cta-btngroup {
+    margin-bottom: 96px;
+  }
+}

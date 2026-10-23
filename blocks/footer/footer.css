@@ -1,20 +1,226 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* Footer — canon.css FOOTER (gated prototypes), class names in kebab-case.
+   Bands (in order): footer-full [lead divider, social proof, divider] ·
+   footer-grid [doormat] · footer-full [divider] ·
+   footer-grid [loan warning, legal nav + sharing].
+   Per-page parts are switched by page metadata (see stardust/runtime-contract.json). */
+
+.footer {
+  position: relative;
+  padding-bottom: 24px;
+  background-color: var(--color-white);
+  color: var(--color-primary-dark);
 }
 
-footer .footer > div {
-  margin: auto;
+.footer-full {
+  padding: 0 var(--gutter);
+}
+
+.footer-grid {
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
 }
 
-footer .footer p {
+.aem-social-proof-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
+
+.aem-social-proof-container a {
+  border-bottom: none;
+}
+
+.aem-social-proof-container-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aem-social-proof-container-item-hoverable:hover {
+  background-color: var(--color-background-light);
+}
+
+.aem-social-proof-container-item picture {
+  display: flex;
+}
+
+.aem-social-proof-container-item img {
+  display: flex;
+  width: 105px;
+  height: 19.25px;
+  border-radius: 3px;
+}
+
+.doormat {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  padding-top: 24px;
+}
+
+.doormat-column {
+  width: 25%;
+  padding-right: 24px;
+}
+
+.doormat-column:last-child {
+  padding-right: 0;
+}
+
+.doormat-column-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 8px;
+}
+
+.doormat-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.doormat-link:last-child {
+  margin-bottom: 0;
+}
+
+.doormat-link-text {
+  border-bottom: none;
+}
+
+.doormat-link-text span {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 300;
+  color: var(--color-primary-dark-70);
+  border-bottom: 1px solid var(--color-primary-dark-70);
+}
+
+.doormat-link-text span:hover {
+  color: var(--color-primary-dark-120);
+  border-color: var(--color-primary-dark-120);
+}
+
+.aem-nav-footer {
+  display: flex;
+}
+
+.aem-nav-footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+.aem-nav-footer li {
+  margin-right: 12px;
+}
+
+.aem-nav-footer ul a {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 300;
+  color: var(--color-primary-dark-70);
+  border-bottom: 1px solid var(--color-primary-dark-70);
+}
+
+.aem-nav-footer ul a:hover {
+  color: var(--color-primary-dark-120);
+  border-bottom-color: var(--color-primary-dark-120);
+}
+
+.aem-sharing-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: flex-start;
+  width: 25%;
+}
+
+.aem-sharing-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin: 7px 0 0 10px;
+}
+
+.aem-sharing-buttons {
+  display: flex;
+}
+
+.btn-sharing {
+  display: block;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  font-weight: 300;
+  margin-left: 4px;
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: 18px;
+  line-height: 0;
+  text-align: center;
+  color: var(--color-primary-dark-70);
+}
+
+.aem-sharing-btn-icon {
+  line-height: 0;
+}
+
+.aem-sharing-btn-icon svg {
+  display: block;
+  max-width: 24px;
+  max-height: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+@media (width <= 767px) {
+  .doormat {
+    flex-direction: column;
   }
+
+  .doormat-column {
+    width: 100%;
+    padding-right: 16px;
+    margin-bottom: 24px;
+  }
+
+  .doormat-column:last-child {
+    margin-bottom: 0;
+  }
+
+  .aem-nav-footer {
+    flex-direction: column;
+  }
+
+  .aem-nav-footer ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aem-sharing-wrapper {
+    width: 100%;
+    padding-top: 24px;
+  }
+
+  .aem-sharing-text {
+    margin: 7px 0;
+  }
+}
+
+
+/* authored elements slotted into the canon wrappers keep the wrapper's type (EW2) */
+.doormat-column-title :is(h1, h2, h3, h4, h5, h6),
+.aem-loan-warning-text p,
+.aem-sharing-text p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
 }

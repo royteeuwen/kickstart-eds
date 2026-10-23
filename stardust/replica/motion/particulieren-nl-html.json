@@ -1,0 +1,836 @@
+{
+  "url": "https://www.kbc.be/particulieren/nl.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1371,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".aem-main-nav__list__item:first-child > button",
+      "frames": [
+        {
+          "t": 12893.399999976158,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13098.299999982119,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13303.59999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13509.199999988079,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".nav--language__list-item--trigger",
+      "frames": [
+        {
+          "t": 14532.09999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14737.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14943,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15147.59999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".aem-action-list__item",
+      "changed": [
+        "self.background",
+        "a.aem-action-list__link.color",
+        "span.aem-action-list__icon.color",
+        "g.[object.SVGAnimatedString].color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 54, 101)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.aem-action-list__link",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          },
+          {
+            "el": "span.aem-action-list__icon",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "g.[object.SVGAnimatedString]",
+            "transform": "matrix(0.8, 0, 0, 0.8, 2.4, 2.4)",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 54, 101)",
+          "background": "rgba(0, 174, 239, 0.1)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.aem-action-list__link",
+            "transform": "none",
+            "color": "rgb(0, 139, 191)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          },
+          {
+            "el": "span.aem-action-list__icon",
+            "transform": "none",
+            "color": "rgb(0, 139, 191)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "g.[object.SVGAnimatedString]",
+            "transform": "matrix(0.8, 0, 0, 0.8, 2.4, 2.4)",
+            "color": "rgb(0, 139, 191)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".btn--cta",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 153, 133)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 153, 133)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".site__header__buttons",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 54, 101)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s ease-in"
+        },
+        "subs": [
+          {
+            "el": "a.btn.btn--prospects",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 153, 133)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          },
+          {
+            "el": "a.btn.btn--clients",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 153, 133)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          },
+          {
+            "el": "a.btn.btn--touch",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 174, 239)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          },
+          {
+            "el": "a.btn.btn--touch",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 174, 239)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          },
+          {
+            "el": "a.btn.btn--touch",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 174, 239)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 54, 101)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s ease-in"
+        },
+        "subs": [
+          {
+            "el": "a.btn.btn--prospects",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 153, 133)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          },
+          {
+            "el": "a.btn.btn--clients",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 153, 133)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          },
+          {
+            "el": "a.btn.btn--touch",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 174, 239)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          },
+          {
+            "el": "a.btn.btn--touch",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 174, 239)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          },
+          {
+            "el": "a.btn.btn--touch",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 174, 239)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".aem-main-nav__list__item",
+      "changed": [
+        "self.color",
+        "i.icon.icon--down-bold.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "i.icon.icon--down-bold",
+            "transform": "none",
+            "color": "rgb(0, 174, 239)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "0.7",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 139, 191)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "i.icon.icon--down-bold",
+            "transform": "none",
+            "color": "rgb(0, 139, 191)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "0.7",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 54, 101)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".doormat__link__text",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 139, 191)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".aem-action-list__more-info__link",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "none"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 139, 191)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "none"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".btn--inlineblock",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 174, 239)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 174, 239)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "color",
+        "el": "header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav > div.row.brand__row.brand__row--dropdownnav > div.grid.brand__grid > div.site__header__buttons",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav > div.row.brand__row.brand__row--dropdownnav > div.grid.brand__grid > nav.nav--main.aem-main-nav",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.nav--main.aem-main-nav > ul.aem-main-nav__list > li.aem-main-nav__list__item.aem-main-nav__list__item--active > button > i.icon.icon--down-bold",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.top-navigation__items > div.languagenav.show-on--desktop.show-on > div.nav--language > button.nav--language__list-item.nav--language__list-item--trigger > i.icon.icon--down-bold",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 2490,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 2490,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 2490,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 2490,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 2490,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 401,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 401,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 401,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 401,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "ul.doormat > li.doormat__column.grid.bp2-grid-6 > ul.doormat__column__links > li.doormat__link > a.doormat__link__text",
+        "y": 401,
+        "dur": "0.22s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "aem-main-nav__block--active"
+        ],
+        "el": "div.grid.brand__grid > nav.nav--main.aem-main-nav > ul.aem-main-nav__list > li.aem-main-nav__list__item.aem-main-nav__list__item--active > div.aem-main-nav__block.aem-main-nav__block--active",
+        "y": 0
+      },
+      {
+        "added": [
+          "aem-main-nav__list__item--active"
+        ],
+        "el": "div.row.brand__row.brand__row--dropdownnav > div.grid.brand__grid > nav.nav--main.aem-main-nav > ul.aem-main-nav__list > li.aem-main-nav__list__item.aem-main-nav__list__item--active",
+        "y": 0
+      },
+      {
+        "added": [
+          "aem-submenu-open"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui",
+        "y": 0
+      },
+      {
+        "added": [
+          "hover"
+        ],
+        "el": "div.grid.brand__grid > nav.nav--main.aem-main-nav > ul.aem-main-nav__list.active > li.aem-main-nav__list__item.aem-main-nav__list__item--active > button.hover",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.brand__row__container.brand__row__container--dropdownnav > div.row.brand__row.brand__row--dropdownnav > div.grid.brand__grid > nav.nav--main.aem-main-nav > ul.aem-main-nav__list.active",
+        "y": 0
+      }
+    ]
+  }
+}

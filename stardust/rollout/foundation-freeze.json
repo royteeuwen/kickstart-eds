@@ -1,0 +1,27 @@
+{
+  "frozenAt": "2026-10-19T19:36:17.715Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "351d83f2d5312d4c64b0325b3c15a5060431fe94bd35f7d8b4d3bfd8bbaf0a03",
+    "blocks/footer/footer.js": "834f57393c8015a8a1b2b4b5becf25ebbcb4df36f54ecce9c110760505bb73ee",
+    "blocks/header/header.css": "9e27b85f1522f38c0c297434d9f7cac0fe8ebc4a8c4db6f9258080bf336c6afa",
+    "blocks/header/header.js": "5da4a93074424a62814480afbe1be9a2c4b4bfc1bfd1a37e4bc1bd02eb1fbcec",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "e112acc6bf96988d1f7d0879e6c3224ce555e0e2cdb5f0e4f701163299564277",
+    "scripts/scripts.js": "df8c87b3322de3af3ed075d03afdbd2a645522fa526a589130078837c51c3533",
+    "styles/fonts.css": "7ceb35f8ddd7684a9ab8c8f81765d6c571869fb2518a51520bf852c8b0a4fbb8",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "acf7e4958acecbf081287b43af509142889686823db782f34500a2e0bc5c0115"
+  }
+}

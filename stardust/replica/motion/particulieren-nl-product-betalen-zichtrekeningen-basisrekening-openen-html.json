@@ -1,0 +1,756 @@
+{
+  "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1822,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 322,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "details.faq__item > summary",
+      "frames": [
+        {
+          "t": 13531.200000017881,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13742.40000000596,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13949.700000017881,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14155.700000017881,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".faq__item__title",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 54, 101)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 54, 101)",
+          "background": "rgba(0, 174, 239, 0.1)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".introduction-block a.btn",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 153, 133)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 122, 106)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".aem-btngroup a.btn--cta",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 153, 133)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 122, 106)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".download-item__text-wrapper__link",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 139, 191)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".crumbs a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(0, 54, 101, 0.7)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 43, 81)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".text-image__text a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".aem__rich-text--bullet-warning a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 139, 191)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.aem-Grid.aem-Grid--8.aem-Grid--tablet--10 > div.faq__item__container.aem-GridColumn--tablet--10.aem-GridColumn > details.faq__item > summary.faq__item__title > div.faq__item__title-wrapper",
+        "y": 494,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 27,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 27,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 27,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 27,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 27,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.introduction-block__content.introduction-block__content--white > div.introduction-block__content__parsys > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.cta.base.aem-GridColumn > a.btn.btn--inlineblock.btn--color-primary",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--12 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1355,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 2192,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 2192,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 2192,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 2192,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 2192,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 2192,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.grid > ul > li.download-item > div.download-item__text-wrapper > a.download-item__text-wrapper__link",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.row > div.grid > ul.crumbs > li.crumb > a",
+        "y": 0,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.richtext > div.aem__rich-text.aem__rich-text--bullet-warning.default-margin > ul > li > a",
+        "y": 85,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.richtext > div.aem__rich-text.aem__rich-text--bullet-warning.default-margin > ul > li > a",
+        "y": 85,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "div.richtext > div.aem__rich-text.aem__rich-text--bullet-warning.default-margin > ul > li > a",
+        "y": 85,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.richtext > div.aem__rich-text.aem__rich-text--bullet-warning.default-margin > ul > li > a",
+        "y": 85,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "div.richtext > div.aem__rich-text.aem__rich-text--bullet-warning.default-margin > ul > li > a",
+        "y": 85,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.richtext > div.aem__rich-text.aem__rich-text--bullet-warning.default-margin > ul > li > a",
+        "y": 85,
+        "dur": "0.22s"
+      }
+    ],
+    "classMutations": []
+  }
+}

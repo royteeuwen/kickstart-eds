@@ -1,0 +1,481 @@
+{
+  "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 5433,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3933,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".btn--cta",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 153, 133)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 122, 106)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".page-link",
+      "changed": [
+        "self.color",
+        "img.page-link__image.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": [
+          {
+            "el": "img.page-link__image",
+            "transform": "none",
+            "color": "rgb(0, 174, 239)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 139, 191)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.22s ease-in-out"
+        },
+        "subs": [
+          {
+            "el": "img.page-link__image",
+            "transform": "none",
+            "color": "rgb(0, 139, 191)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "border-top-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1862,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1862,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1862,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1862,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 1862,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.cmp-container.aem-Grid.aem-Grid--6 > div.aem-btngroup.aem-GridColumn--default--none.aem-GridColumn > div.aem-cta-btngroup.aem-cta-btngroup--stacked.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.container.responsivegrid.responsivegrid--bg-light > div.layoutContainer > div.cmp-container.aem-Grid.aem-Grid--12 > div.newpagelink.base.aem-GridColumn--default--none > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.container.responsivegrid.responsivegrid--bg-light > div.layoutContainer > div.cmp-container.aem-Grid.aem-Grid--12 > div.newpagelink.base.aem-GridColumn--default--none > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "outline-width",
+        "el": "div.container.responsivegrid.responsivegrid--bg-light > div.layoutContainer > div.cmp-container.aem-Grid.aem-Grid--12 > div.newpagelink.base.aem-GridColumn--default--none > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.container.responsivegrid.responsivegrid--bg-light > div.layoutContainer > div.cmp-container.aem-Grid.aem-Grid--12 > div.newpagelink.base.aem-GridColumn--default--none > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "div.container.responsivegrid.responsivegrid--bg-light > div.layoutContainer > div.cmp-container.aem-Grid.aem-Grid--12 > div.newpagelink.base.aem-GridColumn--default--none > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.container.responsivegrid.responsivegrid--bg-light > div.layoutContainer > div.cmp-container.aem-Grid.aem-Grid--12 > div.newpagelink.base.aem-GridColumn--default--none > a.page-link",
+        "y": 5376,
+        "dur": "0.22s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui",
+        "y": 400
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui > body.aem-body.aem-body--white.device--desktop",
+        "y": 400
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--transparent.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 5433
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--transparent.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 60
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--transparent.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 30
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--transparent.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 0
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui",
+        "y": 1862
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui > body.aem-body.aem-body--white.device--desktop",
+        "y": 1862
+      }
+    ]
+  }
+}

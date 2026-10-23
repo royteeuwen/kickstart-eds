@@ -1,0 +1,14 @@
+{
+  "media/kbc-basisrekening/bankkaarten-jonge-vrouw-2022-hero-kdl.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-program/media/bankkaarten-jonge-vrouw-2022-hero-kdl.jpg",
+    "size": 118654,
+    "sha256": "9780f3c8393b0e8f1b327533208e4a0009d22b3a063b8427ca25292470012411",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/kbc-basisrekening/bankkaarten-jonge-vrouw-2022-hero-kdl.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T20:45:36.710Z"
+  }
+}

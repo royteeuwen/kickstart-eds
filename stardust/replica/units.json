@@ -1,0 +1,50 @@
+{
+  "listing-more-info-cards": {
+    "origin": "div.list.aem-GridColumn .list-rendition--block",
+    "build": "main section.list .list-rendition--block",
+    "n": 7,
+    "required": true,
+    "pages": [
+      "particulieren-nl-betalen-zichtrekeningen-html"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "listing-image-tiles": {
+    "origin": ".column--left .block--image-tile",
+    "build": ".column--left .block--image-tile",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "particulieren-nl-betalen-zichtrekeningen-html"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "program-faq-rows": {
+    "origin": ".faq .faq__item__container",
+    "build": ".faq .faq-entry",
+    "n": 8,
+    "required": true,
+    "pages": [
+      "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "program-download-items": {
+    "origin": ".download-list .download-item__text-wrapper",
+    "build": ".download-list .download-list-text",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+    ],
+    "templates": [
+      "program"
+    ]
+  }
+}

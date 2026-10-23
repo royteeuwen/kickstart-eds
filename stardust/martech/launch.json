@@ -1,0 +1,6392 @@
+{
+ "url": "https://assets.adobedtm.com/launch-EN0f6839f46e854ca791823915d04fd52b.min.js",
+ "pages": 5,
+ "build": "buildInfo:{minified:!0,buildDate:\"2026-10-19T10:01:54Z\",turbineBuildDate:\"2026-06-04T21:23:22Z\",turbineVersion:\"29.1.0\"}",
+ "orgId": "DB71403D53BBF4B80A490D4C@AdobeOrg",
+ "extensions": [
+  "Adobe Analytics",
+  "Rule Logger",
+  "Bing Ads UET Tag",
+  "CDM Utils",
+  "Google Global Site Tag (gtag)",
+  "Contentsquare",
+  "Adobe Target v2",
+  "Pixel Loader",
+  "LinkedIn Insight Tag",
+  "Experience Cloud ID Service",
+  "Core",
+  "Mapping Table"
+ ],
+ "webSdk": null,
+ "target": {
+  "atjs": "adobe-target-v2",
+  "renderRules": [],
+  "prehiding": false
+ },
+ "dataElements": [
+  {
+   "name": "entryURLparameter",
+   "type": "queryStringParameter",
+   "source": "entry",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.company",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.company",
+   "selectors": []
+  },
+  {
+   "name": "digitalChannelUnprocessed",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.digitalChannel",
+   "selectors": []
+  },
+  {
+   "name": "authorName",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.authorName",
+   "selectors": []
+  },
+  {
+   "name": "previousPage",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventTypeCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "productTags",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.productTags",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.flowName",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.flowName",
+   "selectors": []
+  },
+  {
+   "name": "current URL",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "TrustArc All Consent Given",
+   "type": "conditionalValue",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Any Consent Given",
+   "type": "conditionalValue",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "pillar",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.pageInfo.pillar",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.siteToolStatusCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.siteToolStatusCode",
+   "selectors": []
+  },
+  {
+   "name": "Demo Navigation Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "SSL Tracking Server",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.contentTag",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.contentTag",
+   "selectors": []
+  },
+  {
+   "name": "Has Faceted Search",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "section[data-id="
+   ]
+  },
+  {
+   "name": "cookiePolicyView",
+   "type": "cookie",
+   "source": "cookiepolicy_popup_shown",
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Conditional Enabled Commercial Non-Financial ",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "subcategory",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.category.subCategory2",
+   "selectors": []
+  },
+  {
+   "name": "page.category.subCategory1",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.category.subCategory1",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.companyCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.companyCode",
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventDetailCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.ABVersion",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.ABVersion",
+   "selectors": []
+  },
+  {
+   "name": "softwareId",
+   "type": "queryStringParameter",
+   "source": "softwareId",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.pageZonePosition",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.pageZonePosition",
+   "selectors": []
+  },
+  {
+   "name": "profileId",
+   "type": "javascriptVariable",
+   "source": "digitalData.user.attributes.personaProfileId",
+   "selectors": []
+  },
+  {
+   "name": "channel",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.category.primaryCategory",
+   "selectors": []
+  },
+  {
+   "name": "Target limit language hostname",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "reportSuiteID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Enabled Comfort",
+   "type": "conditionalValue",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.language",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.language",
+   "selectors": []
+  },
+  {
+   "name": "Customer ID",
+   "type": "queryStringParameter",
+   "source": "amccid",
+   "selectors": []
+  },
+  {
+   "name": "marketingCloudId",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "user.attributes.loggedIn",
+   "type": "javascriptVariable",
+   "source": "digitalData.user.attributes.loggedIn",
+   "selectors": []
+  },
+  {
+   "name": "triggerRelevanceCode",
+   "type": "queryStringParameter",
+   "source": "triggerrelevancecode",
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Enabled Modelling",
+   "type": "conditionalValue",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Tracking Server",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Feature Enabled",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    ".aem__third-party-service-offer-page"
+   ]
+  },
+  {
+   "name": "language",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.language",
+   "selectors": []
+  },
+  {
+   "name": "Demo Total Steps",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "[aem-demo-item="
+   ]
+  },
+  {
+   "name": "pagination current page PA",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "div.pagination div ul li.current span"
+   ]
+  },
+  {
+   "name": "Jobsite (JADA) - Screen type",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.pageInfo.screenType",
+   "selectors": []
+  },
+  {
+   "name": "ContentSquare ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "campaignCID",
+   "type": "queryStringParameter",
+   "source": "cid",
+   "selectors": []
+  },
+  {
+   "name": "user.initiative.treatmentCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.user.initiative.treatmentCode",
+   "selectors": []
+  },
+  {
+   "name": "test flag",
+   "type": "queryStringParameter",
+   "source": "amctest",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.distributorCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.distributorCode",
+   "selectors": []
+  },
+  {
+   "name": "cuid",
+   "type": "queryStringParameter",
+   "source": "cuid",
+   "selectors": []
+  },
+  {
+   "name": "Analytics ID",
+   "type": "queryStringParameter",
+   "source": "amcaid",
+   "selectors": []
+  },
+  {
+   "name": "search term LO",
+   "type": "queryStringParameter",
+   "source": "searchQuery",
+   "selectors": []
+  },
+  {
+   "name": "articleName",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.articleName",
+   "selectors": []
+  },
+  {
+   "name": "version date",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.pageInfo.issueDate",
+   "selectors": []
+  },
+  {
+   "name": "Demo Current Step Number",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Last Demo Item",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "[aem-demo-item]",
+    "[aem-demo-item][active="
+   ]
+  },
+  {
+   "name": "Global Pageview Sent",
+   "type": "domAttribute",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "company",
+   "type": "javascriptVariable",
+   "source": "digitalData.user.attributes.company",
+   "selectors": []
+  },
+  {
+   "name": "PLA",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventSubTypeCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CTA Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.platformCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.platformCode",
+   "selectors": []
+  },
+  {
+   "name": "page.category.pageType",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.category.pageType",
+   "selectors": []
+  },
+  {
+   "name": "campaignPLA",
+   "type": "queryStringParameter",
+   "source": "pla",
+   "selectors": []
+  },
+  {
+   "name": "touchDomainTags",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.touchDomainTags",
+   "selectors": []
+  },
+  {
+   "name": "campaignPLA_ND_TEST",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "triggerCode",
+   "type": "queryStringParameter",
+   "source": "triggercode",
+   "selectors": []
+  },
+  {
+   "name": "help-me-choose-active-radiobuttons",
+   "type": "domAttribute",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Jobsite (JADA) - Matching Rate",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.digitalAssetCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.digitalAssetCode",
+   "selectors": []
+  },
+  {
+   "name": "domain",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Spotify Ads Tag ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "campaignTrackingCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.pageEvent",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Demo Navigate To Step Number",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "[aem-demo-item][active=",
+    "[aem-demo-item="
+   ]
+  },
+  {
+   "name": "at_property",
+   "type": "constant",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.category.subCategory2",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.category.subCategory2",
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Conditional Enabled Commercial Financial",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.pageInfo.pageID",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.pageInfo.pageID",
+   "selectors": []
+  },
+  {
+   "name": "doNotTrack",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "FPID Cookie",
+   "type": "javascriptVariable",
+   "source": "window.fpid",
+   "selectors": []
+  },
+  {
+   "name": "category",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.category.subCategory1",
+   "selectors": []
+  },
+  {
+   "name": "touchDomainTagsColonSeperated",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "data-analytics-track",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Query Parameter 'q'",
+   "type": "queryStringParameter",
+   "source": "q",
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventLinkTypeCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "contentOrientedTags",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.contentOrientedTags",
+   "selectors": []
+  },
+  {
+   "name": "Zone Parameter",
+   "type": "queryStringParameter",
+   "source": "zone",
+   "selectors": []
+  },
+  {
+   "name": "dayOfWeek",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.siteToolCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.siteToolCode",
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventLifeCycleCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "campaignTYPE",
+   "type": "queryStringParameter",
+   "source": "type",
+   "selectors": []
+  },
+  {
+   "name": "TrustArc domain",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.touchTagCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.touchTagCode",
+   "selectors": []
+  },
+  {
+   "name": "help-me-choose-active-checkboxes",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    ".help-me-choose__checkbox--active"
+   ]
+  },
+  {
+   "name": "Cookie Reset Dates",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.ABTest",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.ABTest",
+   "selectors": []
+  },
+  {
+   "name": "suid",
+   "type": "cookie",
+   "source": "s_uid",
+   "selectors": []
+  },
+  {
+   "name": "sector",
+   "type": "javascriptVariable",
+   "source": "digitalData.user.attributes.personaSector",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.systemCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.systemCode",
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventJourneyCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CTA Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "search term",
+   "type": "mappingTable",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.siteToolTypeCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.siteToolTypeCode",
+   "selectors": []
+  },
+  {
+   "name": "Launch Build Date",
+   "type": "javascriptVariable",
+   "source": "_satellite.buildInfo.buildDate",
+   "selectors": []
+  },
+  {
+   "name": "campaignCRE",
+   "type": "queryStringParameter",
+   "source": "cre",
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventAction",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "pagination current page LO",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "ul.pagination li.current span"
+   ]
+  },
+  {
+   "name": "search term PA",
+   "type": "queryStringParameter",
+   "source": "q",
+   "selectors": []
+  },
+  {
+   "name": "page type",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.pageInfo.pageType",
+   "selectors": []
+  },
+  {
+   "name": "number of results",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.onSiteSearchResults",
+   "selectors": []
+  },
+  {
+   "name": "touchPageEvent",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "clientType",
+   "type": "queryStringParameter",
+   "source": "clientType",
+   "selectors": []
+  },
+  {
+   "name": "TrustArc language",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.currentPaginationNumber",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.currentPaginationNumber",
+   "selectors": []
+  },
+  {
+   "name": "merchantId",
+   "type": "queryStringParameter",
+   "source": "merchantId",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.tags",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.tags",
+   "selectors": []
+  },
+  {
+   "name": "user.initiative.offerCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.user.initiative.offerCode",
+   "selectors": []
+  },
+  {
+   "name": "hourOfDay",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "contentOrientedTagsColonSeperated",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "user.attributes.marketing",
+   "type": "javascriptVariable",
+   "source": "digitalData.user.attributes.marketing",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.digitalChannel",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "subaudience",
+   "type": "cookie",
+   "source": "subaudience",
+   "selectors": []
+  },
+  {
+   "name": "page position",
+   "type": "queryStringParameter",
+   "source": "PP",
+   "selectors": []
+  },
+  {
+   "name": "LinkedIn Insights Tag ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.pageZone",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.pageZone",
+   "selectors": []
+  },
+  {
+   "name": "pagination current page",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CSP Nonce",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "script[nonce]"
+   ]
+  },
+  {
+   "name": "page.pageInfo.pageType",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.pageInfo.pageType",
+   "selectors": []
+  },
+  {
+   "name": "component[].product.productInfo.productID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "product[].productInfo.productID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Data Component Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "user.initiative.contentCode",
+   "type": "javascriptVariable",
+   "source": "digitalData.user.initiative.contentCode",
+   "selectors": []
+  },
+  {
+   "name": "analyticsPageId",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "sourceUrl",
+   "type": "queryStringParameter",
+   "source": "s_url",
+   "selectors": []
+  },
+  {
+   "name": "sUid",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Marketing Cloud ID",
+   "type": "queryStringParameter",
+   "source": "amcmid",
+   "selectors": []
+  },
+  {
+   "name": "reportSuite",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Trustarc Cookie Preference",
+   "type": "cookie",
+   "source": "notice_gdpr_prefs",
+   "selectors": []
+  },
+  {
+   "name": "search term [unfiltered]",
+   "type": "queryStringParameter",
+   "source": "q",
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventNameCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "search type",
+   "type": "javascriptVariable",
+   "source": "digitalData.events[0].eventInfo.eventDetail",
+   "selectors": []
+  },
+  {
+   "name": "Bing Ads Base Tag ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Enabled Analysis",
+   "type": "conditionalValue",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Advertisement Consent given - Pixel Consent",
+   "type": "conditionalValue",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "productTagsWithoutAttributes",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.title",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.title",
+   "selectors": []
+  },
+  {
+   "name": "FB IDs KBC/CBC",
+   "type": "mappingTable",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "consentOptions",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Link HREF",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "top-level domain",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.category.primaryCategory",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.category.primaryCategory",
+   "selectors": []
+  },
+  {
+   "name": "page.attributes.onSiteSearchResults",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.attributes.onSiteSearchResults",
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Previous Consent",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "TrustArc Commercial Messages",
+   "type": "conditionalValue",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventLinkValue",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "event[].eventInfo.eventDetail",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  }
+ ],
+ "rules": [
+  {
+   "id": "RL015e6edd165a48b087531e15aaa3dbac",
+   "name": "[Pixel-P0497] KBC_MCC - Conversie - Retail vacatures_AW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/jobs/nl/expertises/retail/vacatures.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL01acc6853bde42fe8eb0553a3a53a4f9",
+   "name": "[GoogleAds - P0451] KBC_KBC - SLAM FE - overlijdensvzk - procespagina - CTA click_Click_AW-10831550709/UZprCOe5_5MYEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/gezin/je-overlijdensverzekering.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0208fdb82a2540cd82ef71bee8148a3b",
+   "name": "[GoogleAds - P0364] KBC_Conversie - IPEX_Click_AW-1008129255/7X12COO23ZMDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/ipex\\\\.html"
+   ],
+   "selectors": [
+    "div.cta,div.aem-product-btngroup__wrapper,div.cta--block__footer"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL028102ffbb3f45ccbb734662630ba616",
+   "name": "[GoogleAds/Facebook - P0529] KBC_CTA: Naar Kate in KBC Mobile CTA: Ga naar Kate_AW-1008129255/FXLBCInZjKkZEOep2-AD_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "/particulieren/nl/campagne/tijdengeld.html",
+    "/particulieren/nl/campagne/bespaar-tijd-met-kate.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL02da2a1e4d8749feb85699b6ac559b46",
+   "name": "[GoogleAds - P0518] BXL_CTA: 'start met pensioensparen' en 'Contacteer ons'_AW-435497192/VhZcCP6bv4kZEOjR1M8B",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/retail/en/pension-saving.html|/nl/pensioensparen.html|/fr/epargne-pension.html|/retail/en/pension-saving/pension-savings-fund.html|/particulieren/nl/pensioensparen/pensioenspaarfonds.html|/particuliers/fr/epargne-pension/fonds-d-epargne-pension.html|/retail/en/pension-saving/pension-savings-fund/pricos-pension-savings-fund.html|/particulieren/nl/pensioensparen/pensioenspaarfonds/pricos.html|/particuliers/fr/epargne-pension/fonds-d-epargne-pension/fonds-d-epargne-pension-pricos.html|/retail/en/pension-saving/pension-savings-fund/pricos-defensive-pension-savings-fund.html|/particulieren/nl/pensioensparen/pensioenspaarfonds/pensioenspaarfonds-pricos-defensive.html|/particuliers/fr/epargne-pension/fonds-d-epargne-pension/pensioenspaarfonds-pricos-defensive.html|/retail/en/pension-saving/pension-savings-insurance-plan.html|/particulieren/nl/pensioensparen/pensioenspaarverzekering.html|/particuliers/fr/epargne-pension/assurance-epargne-pension.html|/retail/en/pension-saving/pension-savings-insurance-plan/home-pension-plan.html|/particulieren/nl/pensioensparen/pensioenspaarverzekering/home-pension-plan.html|/particuliers/fr/epargne-pension/assurance-epargne-pension/home-pension-plan.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL033665e787ce4f11b6132e01c8167a55",
+   "name": "[GoogleAds - P0391] KBC_Conversie - Mijn Energie_Click_AW-1008129255/4HHLCKzj9c8DEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mijnenergie.html"
+   ],
+   "selectors": [
+    "a[data-analytics-cta-type]"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL05687d51351b409cbe030ce131e5691f",
+   "name": "[GoogleAds - P0367] KBC_Conversie - Monizze_Click_AW-1008129255/5My9COqkk5QDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/maaltijdcheques-monizze\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL068842c3f4a24ac38196abcce9639344",
+   "name": "[GoogleAds - P0460] CBC_FinanceMyMaterial-RDV-ConfirmationPage_Pageview_AW-777911832/tPE7CPyOq6MYEJj89_IC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/entreprendre/fr/processus/demande-rendez-vous-credit-confirmation.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL07c809cd3bb042f897de59b883023733",
+   "name": "Survey Accept Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "a[data-analytics-track='survey-popup-accept']"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL09e05df5b4c24b0c96d3419d8608a1cc",
+   "name": "[Pixel-P0637] KBC_Conversie - E-sim_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0b6d42d6514b4929800fded39afe745c",
+   "name": "[Pixel-P0632] KBC_Conversie - Win je droom_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0ba3fef122a44db4bdbe0eb714ab120d",
+   "name": "[GoogleAds - P0423] KBC_CTA Energielening_AW-1015431215/sR7HCLPd74cYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/wonen\\\\/groene-energielening-aanvragen\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0d6292782e694becb68b92a8e44dc393",
+   "name": "[GoogleAds - P0591] KBC_Alle groene CTA-knoppen met 'Vraag je attest en keuringen aan_AW-1015431215/A5J2CNnJ0f8ZEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0d677fccedcd4095b2a0af20471f6069",
+   "name": "[GoogleAds - P0508] KBC_CTA: Ontdek de Kate Coin in KBC Mobile CTA: Ontdek je voordeel_AW-1008129255/dLxRCK7S5fwYEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/kate-coin.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0d7355596fdc4bc3aa1fe27e4e6ee3f5",
+   "name": "[Pixel-P0589] KBC_Conversie - Alle groene CTA-knoppen met 'Simuleer ...'_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1112642a65784ecebf7874acd749e94d",
+   "name": "Third Party Service Offer - Page View",
+   "events": [
+    "elementExists"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    ".aem__third-party-service-offer-page"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL11cef0b9667e4f6198c9b619b4fee3e2",
+   "name": "[GoogleAds - P0408] KBC_CTA: vraag je prepaidkaart online aan_AW-986543525/lt_FCNninoUYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/prepaid-kaart|\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten-en-prepaid-kaarten\\\\/vergelijk-kredietkaarten-en-prepaid\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL12ae7d7b99104f948399b51e0eab0186",
+   "name": "TrustArc - Reload Page",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC8c5ba7ba3ed844b3b492cd09bc9a1a39-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL13728553de574240be4b8f7f8e4c9638",
+   "name": "[GoogleAds - P0439] KBC_CTA_AW-952022329/eUJiCOrMypEYELnq-sUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/procespaginas-kate\\\\/kate-energie\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL14de6f7924894a71b7196e1a792db45d",
+   "name": "[Pixel-P0640] KBC_Conversie - kredietkaartond proces_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL14fa00a66a994691b7bfe4f22f3d6d81",
+   "name": "[Pixel-P0659] KBC_Conversie - back-to-school jongerenrekening_AW/FB",
+   "events": [
+    "click",
+    "submit"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "form#terug-naar-school, form#terug-naar-school-kbcmobile"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL160c37043d3a4792bc4ecdff1c0c63a3",
+   "name": "[GoogleAds - P0446] KBC_KBC - SLAM FE - gezinspolis - procespagina - CTA click_Click_AW-10831550709/qM6SCJOY_5MYEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/gezin/je-familiale-verzekering.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL16859a698a1945efbeb4fd617fb2fba1",
+   "name": "AA - Succesful Search Click (Generic/Branch/Job/Fund)",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "a[data-analytics-track=short-search-click]",
+    "a[data-analytics-track='short-branch-search-click']"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL16d99c04f7e94d7287b928dfc04e8791",
+   "name": "[GoogleAds - P0369] KBC_Conversie - Telecom_Click_AW-1008129255/v63TCPWK3pMDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/telecom\\\\.html"
+   ],
+   "selectors": [
+    "div.productbutton.button.base.section"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL16dbbe3ef4374039b1e5c5956a6a7ec2",
+   "name": "YouTube 100%",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "body"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL177e31d8134a4eb29b23264b824d4c5f",
+   "name": "[GoogleAds - P0584] KBC_Conversie - De Lijn_Click_AW-950883408/bqlOCM_wofsZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL19922c3013bc4fdb975464638b444698",
+   "name": "[GoogleAds/Facebook - P0600] KBC_Groene CTA onderaan: betaal je facuteren zelf in KBC mobile_AW-986543525/O8EtCJ233bIaEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL19c596497c7c4dbba5ed4863ef8d1569",
+   "name": "[Pixel-P0625] KBC_Conversie - slimmer ondernemen - zakelijke mobiliteit_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1a2ffdd542224545997ea9e09180feea",
+   "name": "[GoogleAds - P0360] KBC_Conversie - Deals_Click_AW-1008129255/wzffCMzfkpQDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/deals.html|/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/deals/ervaringen-kate-deals.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1a32ffddc49a4fb180d3ec0a20d40cc0",
+   "name": "[GoogleAds - P0509] KBC_CTA: Check nu je Kate Coins in KBC Mobile CTA: Check je Kate Coins in KBC Mobile_AW-1008129255/fRFXCI3p6PwYEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/katecoin.html",
+    "particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1a7c10986cc34c4d98dbcc9717a15696",
+   "name": "[GoogleAds - P0379] KBC_KBC - SLAM MM - PA autoLOA - procespagina - CTA click_Click_AW-950883408/a3k0COfR1ZkDENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/autolening-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/lening-elektrische-wagen-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/tweedehands-autolening-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/lening-nieuwe-auto-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/lening-benzine-diesel-auto-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/autolening-aanvragen-hybride\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1f67bd24e4034cb3ba0a0de9f89f36fc",
+   "name": "[GoogleAds - P0609] KBC_Click op CTA productpagina IKLR bedrijfsuitrusting - CTA-klik_Click_AW-1015431215/DlUhCJ3WwZwbEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2024914fe0924cccbf1f4572e955bcb3",
+   "name": "[GoogleAds/Facebook - P0598] KBC_Groene CTA bovenaan: simuleer en vraag aan Groene CTA midden: simuleer en vraag aan Groene CTA onderaan: simuleer en vraag aan_AW-986543525/AiNYCOeL_bEaEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL21a4e11990464d3683d7ec707e92250f",
+   "name": "[Facebook - P0577] CBC_Klik all buttons (D\\xe9marrer XXX / Optez XXX)__433523906848648",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL222e432426b248e69ec3a2e57c31bd4f",
+   "name": "[GoogleAds - P0426] KBC_CTA HWB_AW-1015431215/HJD6CNGp9YcYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/sparen\\\\/spaarrekeningen\\\\/huurwaarborg\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL24ebe0324b41432394804c44aad0cdb8",
+   "name": "[Pixel-P0660] KBC_conversie - admin - 30 sec pageview_AW/FB/UET",
+   "events": [
+    "timeOnPage",
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL256a104589ad4de1a26c6697fce0c3c4",
+   "name": "[GoogleAds - P0442] KBC_CTA klik: vraag je shoppingpakket aan_Click_AW-986543525/iwdQCMz9p5MYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten\\\\/shoppingpakket\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL26f809afd5304a6aac43a964127ff292",
+   "name": "[GoogleAds - P0444] KBC_CTA klik: vraag je luxepakket aan_Click_AW-986543525/tlS1CJCts5MYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten\\\\/luxepakket\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL285d26e86c35475d9e24fc5384e83277",
+   "name": "[GoogleAds - P0538] KBC_KBC - SLAM FE - persoonlijke lening - productpagina - CTA click_Click_AW-10831550709/6HJQCKvn1LgZEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/lenen/persoonlijke-lening.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL285deb52f7fa4fab9c36d0461fd86f2e",
+   "name": "[GoogleAds/Facebook - P0523] KBC_Conversie - Impact_CTA_AW-1015431215/jdMXCJadxJIZEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/impact.html",
+    "/particulieren/nl/lenen/wonen/verwarm-woning-duurzaam.html",
+    "/particulieren/nl/lenen/wonen/isoleer-je-woning.html",
+    "/particulieren/nl/lenen/wonen/besparen-met-ramen.html",
+    "/particulieren/nl/thema/myhome/producten/verwarmen-met-airco.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2e40c331adb94a6ab393fa1256049e58",
+   "name": "[GoogleAds - P0474] KBC_Soft conversie - gezamenlijke rekening  - pageload_Pageview_AW-724289667/pH6ICJOcjIAYEIORr9kC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/betalen\\\\/zichtrekeningen\\\\/plusrekening-openen\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2ecd3988b6cd4c76b6e229b749ebeece",
+   "name": "Cookie policy view",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2f23f457ce7e4a7ca6cdefb887f9b834",
+   "name": "[GoogleAds - P0505] KBC_CTA: kies voor fiscaal voordelig sparen_AW-950561820/hwrJCP7dyvIYEJzYocUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/je-belegging.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3132747970c54be495aed8e7ff8335d3",
+   "name": "[GoogleAds - P0458] CBC_PrivateBanking-RDV-ConfirmationPage_Pageview_AW-777911832/HF1dCNn6m6MYEJj89_IC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/private-banking/fr/contact/confirmation-rendez-vous.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL33449c44a8274030b87b243bb64bbf93",
+   "name": "[GoogleAds/Facebook - P0553] KBC_CTA's: Start je aanvraag in KBC Mobile_AW-948822784/0rgiCMbbnt0ZEIDGt8QD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "/ondernemen/nl/campagne/zakelijke-kredieten.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL335a15bf62d3403284fe4392b656e47e",
+   "name": "(More) Services Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3450158665fc4f728a65e64e94456cfb",
+   "name": "[GoogleAds - P0485] CBC_RentaHouse - click CTA -page ass inc locataire_Click_AW-777911832/gNbMCJy51tgYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particuliers/fr/assurer/logement/assurance-incendie-locataire.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL36325090bdd34014a646fe6d91b9e01f",
+   "name": "[GoogleAds/Facebook - P0596] KBC_CTA Maak je droom in KBC Mobile CTA Maak je droom aan in KBC Mobile CTA Probeer de spaarboosters in KBC Mobile_AW-11319519906/vnFyCN-1_6gaEKLVyJUq",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL36db8be978c64cf88a504341fb4bb787",
+   "name": "Help Assistant Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL37b50ac9fb844c0da7cb9c48b7d7c73d",
+   "name": "[GoogleAds - P0512] KBC_CTA: Vind je job (2x)_AW-11319519906/kBWKCIbd4YQZEKLVyJUq",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/jobs/nl/waarom-werken-bij-kbc/verzekeringsagentschap.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3811dcdddab24126a60a8fdf383a4c99",
+   "name": "[GoogleAds - P0378] KBC_Conversie - Monard Law_Click_AW-591681434/dxImCLCjlpQDEJqvkZoC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/monard-law\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL397e72abfe4545cdad22a6749d790a2b",
+   "name": "[GoogleAds - P0452] KBC_Conversie - iChoosr_Click_AW-1015431215/mqJsCK-hsJUYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/ichoosr.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3a5f20b94f944f7cb2e699729ce2bd23",
+   "name": "[GoogleAds - P0494] KBC_CTA: Akkoord gebruik gegevens en gids aanvragen_AW-803209525/p-KqCP_Ku8IDELWCgP8C",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/private-banking/nl/proces/aanvraag-publicaties/vastgoedrapport-bedankt.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3ac793254cfb4a209cc8f7961c018f9b",
+   "name": "[GoogleAds - P0384] KBC_KBC - SLAM MM - PA fietsVZK - procespagina - CTA click_Click_AW-863805644/Ut5UCJWx06gDEMzB8psD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/voertuig/fietsverzekering-simuleren.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3afe607cdf434be4b0da3abaf3e98e54",
+   "name": "[Pixel-P0515] KBC_Conversie - Kredietkaart ondernemers_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3c03dfd5df904b8e85d6cb1a691a1e71",
+   "name": "AA - Search Event (Generic/Branch/Job/Fund)",
+   "events": [
+    "windowLoaded",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "queryStringParameter"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3cb37e4dd96d4980aa765d249ba3cee8",
+   "name": "[GoogleAds - P0495] KBC_CTA: Bereken je persoonlijk tarief in KBC Touch_AW-986543525/9ddBCI3s7uIYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/proces/financieren/voorafbetalingsplan-aanvragen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3cd86be875a743efa3781a214560cee1",
+   "name": "[Pixel-P0464] KBC_Conversie - Beleggingsplan_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/beleggingsplan.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3d064163ba964eb39513176ca869c452",
+   "name": "[GoogleAds/Facebook - P0560] KBC_Klik op CTA: vraag d\\xe9 kaart meteen aan_AW-952022329/0Mx1CIz6-d8ZELnq-sUD_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3d35a49a0b2748498861966920335541",
+   "name": "[GoogleAds - P0376] KBC_Conversie - Onkosten versturen_Click_AW-591681434/AOq3CPSOj5QDEJqvkZoC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/onkostenbeheer\\\\.html"
+   ],
+   "selectors": [
+    "div.cta.base.aem-GridColumn.aem-GridColumn--default--12"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3e84dab9ca1241418fa6d82d05fad39e",
+   "name": "[GoogleAds/Facebook - P0592] KBC_CTA: 'verzenden'_AW-1008129255/8bIrCNLVxZUaEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3f33008109a0461280edd1f7954f9c0b",
+   "name": "Embedded page view",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "(.*)\\\\.embedded\\\\.(.*)"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4041387d24ed4ca7b7aeb9796c094a41",
+   "name": "[GoogleAds - P0473] KBC_Soft conversie - plusrekening openen - pageload_Pageview_AW-724289667/iowXCPH8qIAYEIORr9kC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/betalen\\\\/zichtrekeningen\\\\/gezamenlijke-rekening-openen\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL40cfd60b2ebc4d07963777a530740bac",
+   "name": "Form Submit TransactionID",
+   "events": [
+    "submit"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "form"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL40e75ad181b94473b7088663b9fa4257",
+   "name": "[GoogleAds - P0425] KBC_CTA Woningpolis_AW-1015431215/zcS9CJSM8IcYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-eigenaar\\\\.html|\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-huurder\\\\.html|\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-verhuurder\\\\.html|\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-eigenaar-tweede-verblijf\\\\.html|\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-huurder-tweede-verblijf\\\\.html|/particulieren/nl/verzekeren/wonen/brandverzekering.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL42b00a035512463db1f0939c301b8a60",
+   "name": "[Pixel-P0573] KBC_Conversie - Kredietkaart_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL435522c7da984827a15813652dcd362a",
+   "name": "[GoogleAds - P0374] KBC_Conversie - Go Solid_Click_AW-591681434/CVQQCJ-D35MDEJqvkZoC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/gosolid-wanbetalers\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4356e407c16940888fcd6c273a33be8c",
+   "name": "[GoogleAds/Facebook - P0486] KBC_CTA klik 'Naar Kate in mobile'_CTA_AW-1008129255/JIOpCMqD9oYaEOep2-AD258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/campagne/bespaar-tijd-met-kate.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL43585b1345a244f1a898824b7b7e25e3",
+   "name": "[Pixel-P0644] KBC_Conversie - E-sim - 30sec pageview_AW/FB/UET",
+   "events": [
+    "click",
+    "timeOnPage"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL438c9f06a12e43b2995c3bdc87cf3003",
+   "name": "Content Banner Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL43f90e3c42cd4feda21bdb9998a7ff2f",
+   "name": "[GoogleAds/Facebook - P0611] KBC_Click op CTA procespagina IKLR overkoepelend_CTA-click_Click_AW-948822784/k6f5COGo158bEIDGt8QD & AW-1015431215/JlvVCKja2Z8bEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL44b1a7af9428419ea94043cb5810a8ea",
+   "name": "Hyperlink text clicks",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "div.text-image a"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL46a21687dfe9462f8064cca8111786bb",
+   "name": "[Pixel-P0537] KBC_Conversie - Ongevallenverzekering_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL476473df8f7a482c993297cdab77f3b4",
+   "name": "[GoogleAds/Facebook - P0533] KBC_2x CTA Naar de Tesla-website_AW-11319519906/dpcsCLi_3LQZEKLVyJUq_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/product/kredieten/financiele-leasing-wagens/tijdelijke-actie-voor-tesla-model-y.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL47d9503e15bd4a2a9e0a58d1ded6e6c0",
+   "name": "[GoogleAds/Facebook - P0581] KBC_klik op CTA: kies je werkkapitaalfinanciering_AW-986543525/USAkCPX00fIZEKXrtdYD_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL48a72198b4694502a0e11d69001214a9",
+   "name": "[GoogleAds - P0519] BXL_CTA clicks naar procespagina_AW-435497192/1i2NCIKU5okZEOjR1M8B",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/beleggingsplan.html|/particuliers/fr/placements/plan-investissement.html|/retail/en/investments/investment-plan.html|/particulieren/nl/beleggen/slim-beleggen.html|/particuliers/fr/placements/slim-|beleggen.html|/retail/en/investments/slim-beleggen.html|/particulieren/nl/beleggen/beleggen-voor-een-kind.html|/particuliers/fr/placements/investir-pour-un-enfant.html|/retail/en/investments/investing-for-a-child.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL491e7f2f19c7425fbfd43d7d357b80f5",
+   "name": "touchPageEvent - HomeSim [PL - AA]",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4945d5d4cfb7437dad0f34e01fb87de6",
+   "name": "[Pixel-P0641] KBC_conversie - starters_AW/FB/UET",
+   "events": [
+    "timeOnPage",
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4971e26639294d3ebe8e8c7032f813c1",
+   "name": "[GoogleAds - P0365] KBC_Conversie - Kinepolis_Click_AW-1008129255/g7tyCIGWjJQDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/vrije-tijd\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL49a2266776cb499091c6d82d4db356a4",
+   "name": "[Pixel-P0642] KBC_Conversie - koppeling facturatiepakket_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4cb80279ae8f407f87326421e154d6df",
+   "name": "Form Submit",
+   "events": [
+    "submit"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4d755bff45f7466db2dbb7a83cc68c01",
+   "name": "[Pixel-P0438] CBC_BuyAHouse-click CTA-productpage_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particuliers\\\\/fr\\\\/processus\\\\/logement\\\\/simulez-votre-pret-hypothecaire\\\\.html|/particuliers/fr/emprunter/logement/demarches-preparation-pret-hypothecaire.html|/particuliers/fr/emprunter/logement/taux-credit-hypothecaire-fixe-variable.html|/particuliers/fr/emprunter/logement/astuces-achat-habitation.html|/particuliers/fr/emprunter/quel-montant-puis-je-emprunter.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5051287c40094341948af1c6ca58850a",
+   "name": "[GoogleAds - P0457] CBC_2CTA Button: J'ouvre mon compte bancaire gratuit AND 2 links je suis d\\xe9j\\xe0 client_AW-777911832/6CVECMiuoosYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particuliers/fr/produits/paiements/cartes-de-paiement/cartes-de-credit-et-cartes-prepayees/gratuit-mastercard-prepaid.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL509c695e88ae42059dd86b605382db77",
+   "name": "[GoogleAds - P0547] KBC_CTA: Simuleer nu je autolening_AW-952022329/0FjVCNCCtNAZELnq-sUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "/particulieren/nl/lenen/voertuig/autolening.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL518b9fe6a2f9415b9df23cf7bfd854cd",
+   "name": "[GoogleAds - P0502] KBC_CTA: simuleer je tarief_AW-986543525/IYlXCM2bwPIYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/product/kredieten/werkkapitaalfinanciering.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL51a8e6bc4db94b9694388d624356e0ce",
+   "name": "[Pixel-P0652] KBC_Conversie - Beleggen_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/start-beleggen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL51e839e0feae43e2bb1626a187ac1f8b",
+   "name": "[GoogleAds - P0531] KBC_CTA: Contacteer je relatiebeheerder (2x)_AW-952249978/m5yVCIihhqwZEPrciMYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/corporate/nl/product/betalingsverkeer/services/kbc-invoicing-services.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL52420e2a45c94179b8a77e677c5aca62",
+   "name": "[GoogleAds/Facebook - P0526] KBC_CTA: open eerst een zichtrekening_AW-986543525/vL7nCI3GsJ0ZEKXrtdYD_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/je-reisplannen-beginnen-met-je-kredietkaart-b.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL55f2db25e2ab4abba4def85eba72a7fc",
+   "name": "[GoogleAds - P0621] KBC_pageview bevestigingspagina afspraak agro_AW-628468182/qY06CIbL-egbENbT1qsC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL56cca4c13e9c48a69cfbe5f518898530",
+   "name": "Display Cookie TrustArc Campaigns",
+   "events": [
+    "pageBottom"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL58625666bd8e482099f5ac385e5bcce5",
+   "name": "[GoogleAds/Facebook - P0588] KBC_KBC - SLAM MM - PA autoLOA - productpagina - CTA click_Click_AW-950883408/wQmYCPS0rP8ZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5b480dbd42d743ec9c0b2cddcc48e39f",
+   "name": "[GoogleAds - P0630] KBC_Thankyou page pensioengids_AW-803209525/mvEaCMraqYwcELWCgP8C - versie2",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5b9f69555bc24bcea550f39e708962d9",
+   "name": "[GoogleAds - P0447] KBC_KBC - SLAM FE - ongevallenvzk - procespagina - CTA click_Click_AW-10831550709/m1QLCO3L-JMYEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/gezin/ongevallenverzekering.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5c2d61df263541589b8c299536b91229",
+   "name": "[GoogleAds - P0517] KBC_CTA: 'Krijg persoonlijk beleggingsadvies'_AW-950561820/eA_OCJ_k54kZEJzYocUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/digitaal-beleggingsvoorstel.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5c6586c8cb3f4b029120aac8b727d24e",
+   "name": "[GoogleAds - P0381] KBC_KBC - SLAM MM - LO rollende kredieten - procespagina - CTA click_Click_AW-948822784/A4edCKim2pkDEIDGt8QD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5cd564ef2c2e40e384637ad648b33c0c",
+   "name": "[GoogleAds - P0477] KBC_CTA: Open je spaarrekening online en word klant_Click_AW-1007353803/-uLsCLOMsYUYEMv_q-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/sparen/spaarrekeningen/spaarrekening-openen"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5e797ccc98c94ebf8ea0ebf3d75a7662",
+   "name": "TrustArc - Remove Analytics Cookies",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC13202b5d745f4820874a2b24420893ae-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5f21ab4835404c6abf441d1ff24a3a01",
+   "name": "Remove Sensitive URL Parameters in CS & AA",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "(\\\\?|&)(state=|token=|nonce=|code=)"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC79235d451bba4fdaa277a63a08fac6e1-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5f8429009d7245c686351e661fb78f44",
+   "name": "Old cookie consent banner click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "cookie"
+   ],
+   "paths": [],
+   "selectors": [
+    "[data-cookies-interact]"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5faf49500c5140039b759de8622f3799",
+   "name": "[GoogleAds - P0441] KBC_CTA klik: vraag aan in Mobile/Touch_Click_AW-986543525/ADp8CKjTp5MYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten\\\\/vraag-je-kredietkaart-aan\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL61fb1d8f34864ea6935cfb0722081d99",
+   "name": "[GoogleAds - P0490] CBC_all CTA: Calculez le prix de votre assurance incendie_AW-777911832/z_wKCKiJn-EYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particuliers/fr/assurer/logement/assurance-incendie-locataire.html|/particuliers/fr/assurer/logement/assurance-incendie.html|/particuliers/fr/assurer/logement/assurance-incendie-bailleur.html|/particuliers/fr/assurer/logement/assurance-incendie-proprietaire.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL63b00c137d7e4b1cbbe7e1b1b55fd2f7",
+   "name": "[GoogleAds/Facebook - P0541] KBC_Alle CTA's: 'koppel je maaltijdcheques in KBC Mobile'_AW-986543525/wOVPCOSJz7sZEKXrtdYD_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/betalen-met-maaltijdcheques-in-mobile.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6484fd0f7f834cfd8931270b64668681",
+   "name": "[GoogleAds/Facebook - P0597] KBC_Groene CTA bovenaan: aan de slag met wero Groene CTA: Ontdek Wero in KBC Mobile Groene CTA onderaan: aan de slag met wero_AW-986543525/EUH5CN3uybAaEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL666d206ad84a4ca6a930e340396933a8",
+   "name": "[GoogleAds - P0539] KBC_KBC - SLAM FE - kasplanningskrediet - productpagina - CTA click_Click_AW-10831550709/UjEtCKLt1LgZEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/product/kredieten/kasplanningskrediet.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL69db86f6662d4879b5fe85306ef76955",
+   "name": "[GoogleAds - P0459] CBC_BusinessPureOnline-click CTA-productpage_Click_AW-777911832/e18JCJPwnaMYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/entreprendre/fr/produits/payer-et-etre-paye/comptes-professionnels/business-pure-online.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6b1acd3d78d5442383be8dd006df2e2d",
+   "name": "YouTube 50%",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "body"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6bc1a9354a4f4057bd6b61172b3b457b",
+   "name": "[GoogleAds - P0587] KBC_Conversie - Rijbewijs_Click_AW-950883408/F03yCImWovsZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6bc48b21a9c344e0b9615598e3d05467",
+   "name": "[GoogleAds - P0582] KBC_Conversie - Brussels Airport_Click_AW-950883408/u1AUCNjepvsZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6c6ff1f9d67c4416a20644860f5a71aa",
+   "name": "TrustArc remove cookies - Advertisement",
+   "events": [
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC621afeef87424860bd0e05ce8927040f-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL70d49724dbcd4720879fa4637bf1d5e6",
+   "name": "[GoogleAds - P0373] KBC_Conversie - Billit_Click_AW-591681434/gd_gCKfglJQDEJqvkZoC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/billit-facturatieprogramma\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7159dbf6ce07457d8bb88f9cce2294a9",
+   "name": "[GoogleAds/Facebook - P0605] KBC_Click op CTA's VAB-vignetten_AW-950883408/SvQLCNSyqssaENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL71da37b2bf5a431d971b77f79646f09a",
+   "name": "Kate Search Component Load",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL71e69060ef824df5978427b99d3c0495",
+   "name": "[GoogleAds - P0540] KBC_KBC - SLAM FE - overlijdensvzk - productpagina - CTA click_Click_AW-10831550709/-GTHCMaA2LgZEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/verzekeren/gezin/overlijdensverzekering.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL725475f4b9864098a2503adbb3bcae60",
+   "name": "[GoogleAds/Facebook - P0612] KBC_Click op CTA productpagina IKLR overkoepelend_CTA-click_Click_AW-948822784/XCpnCM-Tm6AbEIDGt8QD & AW-1015431215/VDnHCPirraAbEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL72b84e7d0bb040df85889366f6ee5b79",
+   "name": "[Pixel-P0666] KBC_Pageview - bedanktpagina Kate wedstrijd_AW/FB",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL734e87d7e45d4aa18eeb29b44f9b940f",
+   "name": "[Pixel-P0595] KBC_Conversie - Billit_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL74c8039a538a485b961f9476fe7c6ce6",
+   "name": "[GoogleAds - P0513] KBC_KateKickoffBedankt_AW-793142725/HzaKCL2u34cZEMXLmfoC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/campagne/katekickoff/bedankt"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7502e91965f9496087adce9154a687ca",
+   "name": "[GoogleAds - P0383] KBC_KBC - SLAM MM - PA fietsLOA - procespagina - CTA click_Click_AW-950883408/9rkzCPXZz6gDENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/voertuig/lening-fiets-aanvragen.html|/particulieren/nl/proces/voertuig/tweedehands-fiets-of-steplening-aanvragen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL75d68a249787436d9ae6441edfaad7d6",
+   "name": "Target - Deploy Library",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL778aa58f787642a4bcb1fd904e2aec9e",
+   "name": "[GoogleAds - P0382] KBC_IKRL bedrijfsmateriaal procespagina_Click_AW-1015431215/KrNcCKqTiYobEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/proces/financieren/krediet-bedrijfsuitrusting-simuleren.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL77e2b7b0fc0646c99eb5e064689cd917",
+   "name": "Global PageView Send Beacon",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC69e02be31c8b487ebe837f1ba1eb5612-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL782330fa6ba84508acc9fc017a7a2a4c",
+   "name": "Rewrite Youtube Links",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC11578d5fe41d4d748bdfa64b90a107ba-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7c5a055faf8942029c45606b3fdba0cf",
+   "name": "[Pixel-P0655] _P0655-guide-starter-ClickCTA_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7c707fa763dd4011bf17769a8c7ccb42",
+   "name": "[GoogleAds - Preload Gtag] Global Page View KBC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain",
+    "queryStringParameter"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7c779d0a28d14a609ba926a1b23d4f7f",
+   "name": "[GoogleAds - P0395] KBC_Conversie - The click_Click_AW-1008129255/MTtcCJq-iIAYEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/the-click\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7ccd3f7400d74f4ba303814786c54e64",
+   "name": "[GoogleAds - P0493] KBC_CTA: Akkoord gebruik gegevens en gids ontvangen_AW-803209525/KFGQCIiNvsIDELWCgP8C",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/private-banking/nl/proces/aanvraag-publicaties/gids-nieuw-erfrecht-bedankpagina.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7e836415fba6466db4975b9187536908",
+   "name": "[Pixel-P0674] KBC_Conversie - QPV 30 sec VAB_UET",
+   "events": [
+    "timeOnPage"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7ea4ca62df5f4797bdf963b2f0bc7f13",
+   "name": "[GoogleAds/Facebook - P0603] _Click op all CTA 'Calculez votre prime en 2 minutes' et 'Calculez votre prime'_AW-777911832/jAmZCIaTk8saEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7f4dc220212e4f7d97e55cbb41b319c5",
+   "name": "[Pixel-P0648] CBC_Conversion-esim-30s pageview_AW/FB",
+   "events": [
+    "click",
+    "timeOnPage"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL804c6cf692014d90a7d8a241c8952c3c",
+   "name": "[GoogleAds - P0555] BXL_CTA: Verstuur mijn deelname_AW-11319519906/2cddCKW2qd0ZEKLVyJUq",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8090d432d0814d9aa74177602c016fbb",
+   "name": "TrustArc remove cookies - Analytics",
+   "events": [
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC862656fe0686495faa51644dd2555abb-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL814f91ae72414dbba8b88eabea326c62",
+   "name": "[GoogleAds - P0456] CBC_2CTA Button: J'ouvre mon compte bancaire gratuit_AW-777911832/6CVECMiuoosYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particuliers/fr/paiements/cartes-de-paiement/cartes-de-credit/offre-gratuite.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL81765a2098be491a9d133a5aeb62106f",
+   "name": "[Pixel-P0636] KBC_Conversie - Multicurrency_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL81cc7120641643f9bbacc6b384cd972c",
+   "name": "[GoogleAds - P0449] KBC_KBC - SLAM FE - cyber secure - productpagina - CTA click_Click_AW-10831550709/DYoWCOqq_5MYEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/verzekeren/gezin/cybersecure-verzekering.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8253c7973398445c8bed274a430ee709",
+   "name": "CTA click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL827e678ff6274649a15066e0f9dc8127",
+   "name": "[GoogleAds - P0472] KBC_Soft conversie - basisrekening openen - pageload_Pageview_AW-724289667/4eASCJq8iIAYEIORr9kC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl/proces\\\\/betalen\\\\/zichtrekeningen\\\\/basisrekening-openen\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8287e952301b45059721a0ba48b6ad6f",
+   "name": "[GoogleAds - P0484] CBC_PureOnline-ProcessPage-pageload_Pageview_AW-777911832/8N-BCNXtkNcYEJj89_IC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particuliers/fr/processus/paiements/comptes-a-vue/ouvrir-compte-bancaire-gratuit.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL82f9081d68894547b35d06761373d8d2",
+   "name": "[Pixel-P0645] KBC_Conversie - overzichtspagina spaarrekeningen_AW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    ".aem-highlight a"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL834331e4d73d48169b69e5515732c03e",
+   "name": "[Pixel-P0557] CBC_BusinessPureOnline-click CTA-productpage_FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "pathAndQuerystring",
+    "domain"
+   ],
+   "paths": [
+    "/entreprendre/fr/produits/payer-et-etre-paye/comptes-professionnels/business-pure-online.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL83c46a5d7cf0470d8dad4f6bf17c13dd",
+   "name": "[GoogleAds - P0500] KBC_CTA: vraag een kredietlijn aan en ga onder nul_AW-986543525/g6QMCN3_wvIYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/product/kredieten/geldreserve-business-budgetfaciliteit.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL87bd8bfabcab42178f9177d8ca82ff12",
+   "name": "[GoogleAds/Facebook - P0619] KBC_CTA-klik campagnepagina vindjeauto_AW-950883408/nZMtCPTU8tUbENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL89dacc9557cb49c690159da03eeae610",
+   "name": "[GoogleAds/Facebook - P0624] KBC_Klik op CTA: vraag gratis aan. _AW-724289667/bHmUCM3JuPcbEIORr9kC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/reis-zorgeloos-met-de-kbc-kredietkaart.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8ad46ec9c70341f6989a6ce5b77916dc",
+   "name": "[GoogleAds - P0453] BXL_CTA: Simuleer nu je brandverzekering_AW-1015431215/jZ0-CM-t6ZUYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particuliers/fr/assurer/logement/assurance-incendie-general.html|/particuliers/fr/assurer/logement/assurance-incendie-proprietaire.html|/particuliers/fr/assurer/logement/assurance-incendie-locataire.html|/particuliers/fr/assurer/logement/assurance-incendie-bailleur.html|/particuliers/fr/assurer/logement/assurance-incendie-proprietaire-residence-secondaire.html|/particuliers/fr/assurer/logement/assurance-incendie-locataire-residence-secondaire.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8ae04246b9d4410e88469911237b9630",
+   "name": "[Pixel-P0562] CBC_DigitalPrivateBanking-click CTA-productpage_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8c03522e39ae46f798f40d9257283555",
+   "name": "[GoogleAds/Facebook - P0525] KBC_CTA: Vraag je kredietkaart aan_AW-986543525/HfX0CNGxqZ0ZEKXrtdYD_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/je-reisplannen-beginnen-met-je-kredietkaart.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8ca6e8f55c6b4863b7141597c39da745",
+   "name": "[GoogleAds - P0583] KBC_Conversie - Cambio_Click_AW-950883408/l7t3CMmXl_sZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8d32ab9eb34f4ceba908f3c20172d47b",
+   "name": "[Pixel-P0647] CBC_Conversion-multicurrency-30s pageview_AW/FB",
+   "events": [
+    "timeOnPage",
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8dd3abb8770c461cbdb830f863ad4c66",
+   "name": "[Pixel-P0670] KBC_Ontdek De Lijn in KBC Mobile_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8e895353d00b4b73a9fe9e069ca6a0ab",
+   "name": "[GoogleAds/Facebook - P0606] KBC_Click op CTA's CO2-voetafdruk_AW-11319519906/nI5qCJ7G6e0aEKLVyJUq",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL90786303f39a431fbcf67489c0ec0447",
+   "name": "[GoogleAds/Facebook - P0604] KBC_Click op CTA 'indienen'_AW-724289667/d5SgCLDpkssaEIORr9kC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL90e95edc40784f3abd77f25ba51f286b",
+   "name": "[Pixel-P0649] CBC_Conversion-assurance familiale - click CTA_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL912f72776de04959972a74ba23ed36cc",
+   "name": "[Pixel-P0631] KBC_Conversie - Kredietkaart Shopping PP_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL91c3e26ac7e34c0d908e5229d17ca692",
+   "name": "marketingCloudId - Classic Form",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC99a834839ab7456ca9ee16d633d476ec-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL94e250cd8c3b46129238f5d0652fcb31",
+   "name": "[GoogleAds - P0375] KBC_Conversie - Graydon_Click_AW-591681434/lJbrCMaHj5QDEJqvkZoC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/graydon-bedrijfsinformatie\\\\.html"
+   ],
+   "selectors": [
+    "div.cta.base.aem-GridColumn.aem-GridColumn--default--12,div.cta--block__footer"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL95f6f5841f3d4fa69127b41bb42a2edf",
+   "name": "[GoogleAds - P0501] KBC_CTA: bereken je tarief in KBC Touch_AW-986543525/15tKCOD_wvIYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/proces/financieren/business-budgetfaciliteit-aanvragen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9691e84dc8d94c4eb8a8e8b6becf1821",
+   "name": "[GoogleAds - P0461] CBC_FinanceMyMaterial-click CTA-processpage_Click_AW-777911832/vEY_COOY6qMYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/entreprendre/fr/processus/financer/demande-credit-investissement.html|/entreprendre/fr/processus/financer/simuler-credit.html|/entreprendre/fr/processus/financer/leasing-bedrijfsuitrusting-aanvragen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9776b1506bfa4597bbeafb230be77e70",
+   "name": "[Pixel-P0650] KBC_MCC - Conversie - IT vacatures_AW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/jobs/nl/expertises/informatietechnologie/vacatures-in-informatietechnologie.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL98a61e38c4174b32a3ae00c2c0560c94",
+   "name": "[GoogleAds - P0496] KBC_CTA: Bereken nu je tarief_AW-986543525/lhW5CM2swegYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/product/kredieten/voorafbetalingsplan.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL994614b2a5ad401a8db959b7698c29ab",
+   "name": "YouTube 75%",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "body"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RCd60fd6edcde24989b488f63b1c72edb8-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9b7c96072433417cb05b0f86addaa2e9",
+   "name": "[GoogleAds/Facebook - P0498] KBC_CTA: Doe nu je storting_AW-11319519906/UKdHCLe--O8YEKLVyJUq",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/sponsoring-actie/acties/de-warmste-week.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9c6b3387a9e14cd187c760bd2b757809",
+   "name": "[Pixel-P0663] KBC_Conversie - autoverzekering - simuleer je verzekering_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9cb6aed60ff84d6d90de44ddb50d7621",
+   "name": "[GoogleAds - P0445] KBC_KBC - SLAM FE - reisvzk - procespagina - CTA click_Click_AW-10831550709/f_pZCPrngJQYEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/gezin\\\\/reis-en-vakantieverzekering-aanvragen\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9ce99ebc6fb8427a82d77b7f3e5c1eba",
+   "name": "[GoogleAds - P0476] KBC_CTA: Open je spaarrekening in KBC Touch / Mobile_Click_AW-1007353803/AB-5CKTksIUYEMv_q-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/sparen/spaarrekeningen/spaarrekening-openen"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9e2495671a08449c930e252f1fd89774",
+   "name": "[GoogleAds - P0487] KBC_Conversie - Setle_CTA_AW-1015431215/-kqSCLTp6NoYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/setle.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa0784c3d5fcb4a01aab8ebd3f5b02432",
+   "name": "[Pixel-P0629] KBC_Conversie - Kate Coin - partners_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa131f1ca8a05419684ff66fbcda0f9d1",
+   "name": "[GoogleAds - P0368] KBC_Conversie - Parkeren_Click_AAW-950883408/ij7LCMnH2tkZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/auto.html",
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/4411.html",
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/q-park.html",
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/daguitstapjes.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa16dce6c03b5481eae3d5f8c4cdd82b7",
+   "name": "[GoogleAds - P0480] KBC_CTA: Open een jongerenrekening online _Click_AW-1007353803/aYXdCPyjroUYEMv_q-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/betalen/zichtrekeningen/jongerenrekening-zelf-openen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa1d3579ad69e4ebd9147c9da1c1ffa0e",
+   "name": "[Pixel-P0639] KBC_Conversie - MyHome dashboard_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa2aba573a209410d9781bd8670005ad4",
+   "name": "[Facebook - P0546] KBC_CTA: bereken nu je tarief__258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa51360c23eb94fd4820c18438836da56",
+   "name": "[Facebook - P0516] KBC_CTA: vraag je kredietkaart online aan_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/kredietkaart-voor-tijdens-en-na-je-reis.html|/particulieren/nl/betalen/betaalkaarten/kredietkaarten/bouwen-of-renoveren-met-je-kredietkaart.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa6ee0a705daf47bba7423ab7156f9791",
+   "name": "[GoogleAds - Preload Gtag] Global Page View CBC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain",
+    "queryStringParameter"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa7134ac777dd4502b97658a098efebe3",
+   "name": "[GoogleAds - P0470] CBC_PrivateBanking-click CTA-podcast_Click_AW-777911832/jswRCK3zuswYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/private-banking/fr/podcast-finance-bourse-economie/acheter-bien-en-couple.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa8676fc23d4548168e8471eee07bcf8e",
+   "name": "[GoogleAds - Preload Gtag] Global Page View BXL",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain",
+    "queryStringParameter"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa9e8deb19cf1495bbe6108f4d1b9a7f0",
+   "name": "[GoogleAds/Facebook - P0506] KBC_CTA: Open een termijnrekening_AW-950561820/rO4uCPvUpPoYEJzYocUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/sparen/termijnrekening.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLaced818f1b9646a9b902886a36c7227b",
+   "name": "[GoogleAds - P0454] BXL_CTA: Faites une simulation_AW-1015431215/ijCkCKazsJYYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particuliers/fr/processus/logement/simulez-votre-projet-immobilier.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLad442f74d3f84587a7c28e0e030771ad",
+   "name": "MarketingCloudId AEM Form",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC66e6a61bff2041359dc57731b76a170b-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLad895052beb341db8c0ca0087c672cfc",
+   "name": "[Pixel-P0406] KBC_Conversie - Pensioensparen_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLae108c7eadbd407fa8ece819079793fc",
+   "name": "[GoogleAds - P0396] KBC_Conversie - Laadpalen_Click_AW-591681434/hnpaCLnHiIAYEJqvkZoC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/laadstation\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLaee9e772317b42f58d85efeb99093b83",
+   "name": "Cookie Interaction",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [
+    "[data-cookies-interact]"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RCb2695d9bbdf54b90872316aa471ae191-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLaf964c54a79d45c3ae1f624144487075",
+   "name": "[GoogleAds/Facebook - P0628] KBC_Click op CTA: Schrijf je nu in!_AW-1015000223/7MmfCInonYMcEJ_Z_uMD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb15dda0f67f44523af5cdab6e5f34f3f",
+   "name": "Contentsquare - CTA Button Event",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb241ba91d2f04c8d931dafdaefe3fc9c",
+   "name": "[GoogleAds - P0504] KBC_CTA: bekijk alle beleggingsoplossingen_AW-950561820/PA-FCPvdyvIYEJzYocUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/je-belegging.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb299a514ac92460b88f6804def39bf6b",
+   "name": "[GoogleAds - P0514] KBC_CTA: Vraag je kaart meteen aan_AW-986543525/x62XCOv72ocZEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/product/betalen-en-betaald-worden/kaarten/mastercard-business-essential.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb33d28880fe84d62a45605dad5bb7070",
+   "name": "[Pixel-P0433] _PureOnline-click CTA-productpage_AW/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particuliers\\\\/fr\\\\/produits\\\\/paiements\\\\/comptes-a-vue\\\\/compte-bancaire-gratuit\\\\.html|/particuliers/fr/produits/paiements/cartes-de-paiement/cartes-de-credit-et-cartes-prepayees/gratuit-mastercard-prepaid.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb386e4776a7d4f568ae891daca9aab1e",
+   "name": "[GoogleAds - P0475] KBC_Soft conversie - mobile download_Pageview_AW-724289667/DA0VCIDOqIAYEIORr9kC",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/starten-met-kbc-mobile.html|/particulieren/nl/proces/betalen/zelf-bankieren/installeer-mobile.html|/particulieren/nl/proces/betalen/zelf-bankieren/installeer-mobile-extra-diensten.html|/particulieren/nl/proces/betalen/zelf-bankieren/installeer-mobile-kate.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb3ee4cc84a0d4652bc99ba2a2893442a",
+   "name": "[GoogleAds - P0450] KBC_KBC - SLAM FE - kasplanningskrediet - procespagina - CTA click_Click_AW-10831550709/FngKCNKw_5MYEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/proces/financieren/kasplanningkrediet-aanvragen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb510e1620fa640029163f157f1accfe9",
+   "name": "[GoogleAds - P0521] BXL_CTA: 'Krijg persoonlijk beleggingsadvies'_AW-435497192/7CILCNLs5YkZEOjR1M8B",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/digitaal-beleggingsvoorstel.html|/particuliers/fr/placements/proposition-d-investissement-digitale.html|/retail/en/investments/digital-investment-proposal.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb74dde57fe7f431795240a97b234f027",
+   "name": "[GoogleAds - P0528] CBC_Click op all CTA_AW-777911832/rBgQCKzZn6UZEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particuliers/fr/paiements/cartes-de-paiement/cartes-de-credit/carte-de-credit.html|/particuliers/fr/paiements/cartes-de-paiement/cartes-de-credit/une-carte-de-credit-pour-avant-pendant-et-apres-le-voyage.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb7f3fed391684b7ca1f1baa5e0674173",
+   "name": "[Pixel-P0489] KBC_MCC - Conversie - Sollicitatie verstuurd_AW",
+   "events": [
+    "submit"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/jobs/nl/vacatures/ID(.*)"
+   ],
+   "selectors": [
+    "form#_content_jobs_classic_form"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb86214b62dc44493b0ae1203205e96e0",
+   "name": "[Pixel-P0535] KBC_Conversie - Reisverzekering_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/verzekeren/gezin/reisverzekering.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb939ab6f96e14dee81a6335b9b821905",
+   "name": "[Pixel-P0671] KBC_Ontdek Deelfietsen in KBC Mobile_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb98696782ac9413aae7036b85adf4cc4",
+   "name": "[Pixel-P0664] KBC_Conversie - woningpolis - simuleer je brandverzekering_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLba12d4949ebb4726b6bc8340fa1a998e",
+   "name": "[GoogleAds/Facebook - P0544] KBC_CTA: Verzenden_AW-793142725/-fI-CNTJ0cYZEMXLmfoC_258861407627468",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/campagne/dreams-launchwedstrijd/bedankt.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLba46964e40064cd5bec46cc635edbdfd",
+   "name": "[GoogleAds - P0437] CBC_CTA Button: ouvrir un compte commun gratuit (on top + sticky button)_AW-777911832/6CVECMiuoosYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particuliers\\\\/fr\\\\/produits\\\\/paiements\\\\/comptes-a-vue\\\\/compte-bancaire-commun-gratuit\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbb32e7e878844c899e961e3239f00cbd",
+   "name": "[Pixel-P0407] KBC_Conversie - Langetermijnsparen_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "/particulieren/nl/sparen/tak-21/home-long-term-plan.html",
+    "/particulieren/nl/sparen/tak-23/life-long-term-fund-plan.html",
+    "/particulieren/nl/sparen/wat-is-langetermijnsparen.html",
+    "/particulieren/nl/sparen/start-langetermijnsparen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbb81cdffbae546078f7b9b16b6377fb2",
+   "name": "[Pixel-P0657] _P0657-assurance-auto-click-cta_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbeeff5ccd4574a35bff2ff62591a248c",
+   "name": "Survey Close Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "button[data-analytics-track='survey-popup-close']"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc0b7df9946b644ac8716ddd6f4094b67",
+   "name": "[GoogleAds/Facebook - P0580] KBC_klik op CTA: Bereken je tarief_AW-986543525/jadnCLS80fIZEKXrtdYD_258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc0d78cbafc604999b14a2b8a48655532",
+   "name": "[GoogleAds - P0366] KBC_Conversie - Klantenkaarten_Click_AW-1008129255/FCzrCMafjJQDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/klantenkaarten\\\\.html"
+   ],
+   "selectors": [
+    "div.productbutton.button.base.section"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc16733ff439343ce82a3751118280591",
+   "name": "[GoogleAds/Facebook - P0607] KBC_Click op CTA's Ramen_AW-1015431215/q8h9CMer1PwaEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc1eeafb7f3e64a1a8cabbce02ac6e0e2",
+   "name": "[Pixel-P0665] KBC_Conversie - activeer Kate Wallet_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc2e80165fa1545d6bad7df8ffe738bf6",
+   "name": "[Pixel-P0618] KBC_Conversie - productpagina carsales_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc39e1de70318493d971d07e4aca0ace9",
+   "name": "[GoogleAds - P0359] KBC_Conversie - NMBS_Click_AW-950883408/BxPHCK-L3tkZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/openbaar-vervoer.html",
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/uitstap-met-gezin.html",
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/uitstap-met-vrienden.html",
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/zomer-date.html",
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/nmbs.html",
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/daguitstapjes.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc4d11a84242e43c385d7e8989ed68a7f",
+   "name": "Support Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "a[data-analytics-track=support]"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc68793b9e4f14404b6077dfc2f078f48",
+   "name": "[GoogleAds - P0455] KBC_CTA: open eerst een zichtrekening_AW-986543525/8S3KCJ7ox5sYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/kbc-kredietkaart.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc6c60eb75cea4e1c9c11a6418c0d49f9",
+   "name": "[Pixel-P0614] KBC_Conversie - Slim beleggen_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/slim-beleggen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc7803533b73b4bf58f5fbfe8394dff4b",
+   "name": "[GoogleAds - P0377] KBC_Conversie - Nowjobs_Click_AW-591681434/05qGCLqWj5QDEJqvkZoC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/nowjobs-personeel-zoeken\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc8f62d682789428098a08001e874a6ef",
+   "name": "[GoogleAds - P0432] CBC_CTA Button_AW-777911832/Xdi-CNvuoIsYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particuliers\\\\/fr\\\\/emprunter\\\\/logement\\\\/pret-hypothecaire\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLca2f3a51c8ed43218289076e292c3f06",
+   "name": "[Pixel-P0633] KBC_Conversie - Business pro_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    ".aem-btngroup__wrapper__btn--primary"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcb39e68e78064026a9cd5a2b3337be0e",
+   "name": "[GoogleAds/Facebook - P0545] KBC_Pageview: https://www.kbc.be/particulieren/nl/beleggen/overzicht.html_AW-950561820/Wp0FCNrg3sYZEJzYocUD_258861407627468",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/overzicht.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcc5e812e24fe4793b5fed52cd25f56a7",
+   "name": "[Pixel-P0672] KBC_Ga naar Cambio in KBC Mobile_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcd36389d3ab6470ca7a7305242f44598",
+   "name": "[GoogleAds - P0503] KBC_CTA: bereken je tarief in KBC Touch_AW-986543525/O1RiCNCbwPIYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/proces/financieren/kredieten-werkkapitaal-aanvragen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcd52807db56047cdb954dbfeb403a835",
+   "name": "[GoogleAds - P0554] KBC_CTA: Verstuur mijn deelname_AW-11319519906/4kVVCOL6p90ZEKLVyJUq",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLce6d542afc5b43909fff34d64ae24a97",
+   "name": "[GoogleAds - P0586] KBC_Conversie - Q8_Click_AW-950883408/rrxhCI79ofsZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd06b46c2efd847e0b9c8a3db9e92b2de",
+   "name": "[GoogleAds - P0478] KBC_Start met beleggen voor een kind_Pageview_AW-1007353803/ykF4CKSXsYUYEMv_q-AD",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/beleggen/beleggen-voor-een-kind-fb"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd094d5bd9c9a4b2c8eb77113df7454dd",
+   "name": "Kate Search Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "a[data-analytics-track=kate-search-click]"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd0a1d5703fa94869a929eba7fa8c9590",
+   "name": "[GoogleAds - P0422] KBC_CTA Renovatielening_AW-1015431215/sf_MCM7g8IcYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/wonen\\\\/renovatielening-aanvragen\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd1b0b15eaad946a087cd25c542c856b4",
+   "name": "[GoogleAds - P0507] BXL_CTA: Open een termijnrekening_AW-435497192/f4ZxCPqxqvoYEOjR1M8B",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/ondernemen/nl/product/sparen-beleggen/termijnrekening.html|/entreprendre/fr/produits/epargne-et-placements/compte-a-terme.html|/business/en/products/saving-and-investing/time-deposit-account%20.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd2e83be8e97d40eb87da93776e8b539e",
+   "name": "[GoogleAds - P0363] KBC_Conversie - Financieel nieuws_Click_AW-1008129255/EUnCCNqw3ZMDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/financieel-nieuws\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd58bf5f25ec94da1917d3c7b5e3fab06",
+   "name": "[GoogleAds - P0532] KBC_CTA: Start met pensioensparen (3x)_AW-950561820/q6MPCOH1y7AZEJzYocUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/pensioensparen/open-je-pensioenspaarfonds.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd6c52e1c42594dd6a4541281979485dd",
+   "name": "[GoogleAds - P0434] KBC_click_AW-793142725/w0wFCLzAyeUYEMXLmfoC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/campaigns\\\\/kate\\\\/nl\\\\/"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd7cea524edcd404b8a24eb6db430e4e5",
+   "name": "Social share click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "a[data-analytics-track=social-share], button[data-analytics-track=social-share]"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd8473421014742c3a468aa180f355621",
+   "name": "[Pixel-P0635] KBC_Conversie - Kate - cases_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd8e916aa92954dca9ce1fa40a76fc886",
+   "name": "[Pixel-P0613] KBC_Conversie - Belegggen voor een kind_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd91687ea90884295ae73176716a53ec5",
+   "name": "userid sync AAM",
+   "events": [
+    "customCode"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd954e4fd77984ed29aca1299dc605944",
+   "name": "Click Apply Trustarc Cookie",
+   "events": [
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC2953a533d5ef428bb45bfe212741aaf9-source.min.js",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC4fd8cf6dfc0b4041ae487e5fa3d8871d-source.min.js",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC9930034c6c5a415e98eb20352f7cef57-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLda37d3b634f8489da3a9c61acf7078e3",
+   "name": "[GoogleAds - P0466] KBC_Spaarrekening - click op CTA_Click_AW-950561820/rBtOCL_Xk7gYEJzYocUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/sparen/spaarrekeningen/spaarrekening.html",
+    "/particulieren/nl/sparen/spaarrekeningen/start2save.html",
+    "/particulieren/nl/sparen/spaarrekeningen/start2save4.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdb0e0eb6624749238bc9008407024321",
+   "name": "[Pixel-P0465] KBC_Conversie - Beleggen met je wisselgeld_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html|/particulieren/nl/beleggen/start-beleggen-met-je-wisselgeld.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdb934c50f2e74bdca87036d285193aaa",
+   "name": "YouTube 0%",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "body"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdbfe2a0f4e6546aa8031a8c1b4253a51",
+   "name": "YouTube 25%",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "body"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdc1ed10e24444fe892d03575062cfbe9",
+   "name": "[Pixel-P0668] KBC_Conversie - Private banking droom_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdc6dc31990044432ba8bf5678a985d51",
+   "name": "Live Carousel Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLddf914d32afe484997b6d4275e7fa158",
+   "name": "[Pixel-P0673] KBC_Koppel je Q8-account in KBC Mobile_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdf251b2116e94ff1adb7647c303fddf2",
+   "name": "[Pixel-P0667] KBC_SIA - personaliseer KBC Mobile_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdfb70a8ba815400897b094275335f376",
+   "name": "PageBottom TrustArc Cookie",
+   "events": [
+    "pageBottom"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdfe3882f62194a249978241e5e2d5a57",
+   "name": "[GoogleAds - P0427] KBC_CTA: Simuleer nu je financiering in je Business Dashboard; Simuleer en vergelijk je financiering in je Business Dashboard; Simuleer en vergelijk_AW-952249978/6SAACO7shIkYEPrciMYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/corporate\\\\/nl\\\\/product\\\\/financieren\\\\/leasing\\\\/je-bedrijfsvoertuig-financieren\\\\.html|\\\\/corporate\\\\/fr\\\\/produit\\\\/financer\\\\/leasing\\\\/je-bedrijfsvoertuig-financieren\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdfe8f468879e4d5eb88ad82c7cad84c4",
+   "name": "[Pixel-P0380] KBC_Conversie - CTA autoverzekering_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/autoverzekering-simuleren\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe22bd38a722f4ec89d523ae76760c49d",
+   "name": "Message banner view",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    ".aem-app-banner-content-component[data-component-tracking-view]"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe319120449bd44f3bbaa1c65bfbff93c",
+   "name": "[Pixel-P0662] KBC_conversie -  agro 30sec pageview_AW",
+   "events": [
+    "timeOnPage"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe368cafc76fb4347a42a86f2ee09a46c",
+   "name": "[GoogleAds/Facebook - P0615] KBC_KBC - SLAM RE - Waardeschatting - procespagina - CTA click_Click_AW-1015431215/kaO9CIXWj6UbEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe4462443f10f4a5aaf28780ace3eac9b",
+   "name": "[GoogleAds - P0463] KBC_2306 ATL Beleggen_Click_AW-950561820/PnovCOKT9aoYEJzYocUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/jouw-belegging.html",
+    "/particulieren/nl/beleggen/overzicht.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe49267823d8c47e4851d1fb971333122",
+   "name": "[GoogleAds - P0524] KBC_Conversie - Energyathome_CTA_AW-1015431215/YPHtCI6ruJIZEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/lenen/wonen/zonnepanelen-en-thuisbatterij.html|/particulieren/nl/proces/wonen/zonnepanelen-en-thuisbatterij-fb.html|/particulieren/nl/lenen/wonen/voordeel-thuisbatterij-plaatsen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe49425f0b1564b22bca468b9139a3f85",
+   "name": "[Pixel-P0536] KBC_Conversie - CTA familiale verzekering_AW/FB/UET",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe4af45b8b77c422b872207d221b90996",
+   "name": "[GoogleAds - P0424] KBC_CTA Woonkrediet_AW-1015431215/R9PbCJP-8IcYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/proces\\\\/wonen\\\\/woonproject-simuleren\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe4fd7a720e1c426d8997a5131b56883e",
+   "name": "[GoogleAds/Facebook - P0590] KBC_KBC - SLAM MM - LO rollende kredieten - productpagina - CTA click_Click_AW-948822784/9u05CM3enP8ZEIDGt8QD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe684fb852a6e4afab1016006a961a350",
+   "name": "[GoogleAds - P0585] KBC_Conversie - Deelfietsen_Click_AW-950883408/jYgRCKuCp_sZENCotcUD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe81efd1e4a414d47ada2ecc03b20efb8",
+   "name": "[GoogleAds - P0372] KBC_Conversie - Dienstencheques_Click_AW-1008129255/Etr_CLDsjJQDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/sodexo\\\\.html"
+   ],
+   "selectors": [
+    "div.cta,div.aem-product-btngroup__wrapper,div.cta--block__footer"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe917ff3608944ae1a5586e1c00c42070",
+   "name": "[GoogleAds/Facebook - P0522] KBC_CTA: teken in _AW-11319519906/daEaCNv-n5AZEKLVyJUq258861407627468",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/beleggen/aandelen/cera-e-aandelen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe9460a37043641eaaecc5ea7c4e87564",
+   "name": "[GoogleAds - P0499] KBC_CTA: Koop een vlammetje_AW-11319519906/HeCWCLq--O8YEKLVyJUq",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/sponsoring-actie/acties/de-warmste-week.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe9e6fd1aa7334e29bcbc4a89754bb322",
+   "name": "[Pixel-P0675] KBC_Conversie - QPV 30 sec Private banking droom_AW/FB",
+   "events": [
+    "timeOnPage"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLea0289e80b784551beb6e612cec473ce",
+   "name": "Rating Component - Negative rating",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLea31845ce95149a19ec3d174330516fe",
+   "name": "[Ad Scripts] Sitewide Global Tags FB/LI/UET/SPOTIFY",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC5e30d2864f4640218e5ca6c73dd3e14e-source.min.js",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC0276da3f680c46228d45b2a24f83e1c3-source.min.js",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RCadbe06f9f5514b12b07348377dff6d22-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "snap.licdn.com",
+    "pixel.byspotify.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLea4bc1c4d4c84f868f350cf9c61a58d2",
+   "name": "Deploy ContentSquare Tag",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLeb9e6f1e846f4c738e77cbe29bea5395",
+   "name": "Survey Cancel Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "button[data-analytics-track='survey-popup-cancel']"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLebc285527b50456c97b4d76b21220acd",
+   "name": "[GoogleAds/Facebook - P0617] KBC_Bezoek webpagina Goed Verzekerd",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLec9be20879d14cf9a18693ab7f1738d2",
+   "name": "[GoogleAds/Facebook - P0599] KBC_Groene CTA bovenaan: probeer het zelf_<AW-986543525/aEuXCOWo3bIaEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLee673e9f6b9e4905973412bbef90aac3",
+   "name": "[GoogleAds - P0492] KBC_CTA: Verzenden_AW-803209525/YejJCI3wiMIDELWCgP8C",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/private-banking/nl/contact/bevestiging-afspraak.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLeecec1e541e8446eac111d6a2b3ed950",
+   "name": "CDM Pageload",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf107ebeb3a944af5a616d59b02dc9705",
+   "name": "[GoogleAds/Facebook - P0610] CBC_Click op CTA 'T\\xe9l\\xe9chargez gratuitement votre guide'_AW-777911832/jAmZCIaTk8saEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf212705270b442999e2f03ee0a1e589f",
+   "name": "[GoogleAds - P0488] KBC_Conversie - Eliq (Inzicht energieverbruik)_CTA_AW-1015431215/AfaUCIL83doYEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/energie-inzichten.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf282d4f66ed74874b9026470cb53dd55",
+   "name": "[GoogleAds - P0479] KBC_CTA: Open een jongerenrekening in KBC Touch  / Mobile_Click_AW-1007353803/g48wCPmjroUYEMv_q-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/betalen/zichtrekeningen/jongerenrekening-zelf-openen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf28a82625eb64a078cec27a4dd9cbcba",
+   "name": "[GoogleAds - P0527] CBC_all CTA: Postuler_AW-777911832/Ug7FCL6m358ZEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "\\\\/jobs\\\\/fr\\\\/postes-vacants\\\\/.*"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf5185b7c4732456699aa49c450d8a4b5",
+   "name": "[GoogleAds - P0481] KBC_Conversie - Pro Rekening openen_Pageview_AW-1008848615/TA-bCMbqx4sYEOedh-ED",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/ondernemen/nl/proces/business-pro-openen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf5220584ad0e4fb7b48c57f0db9af927",
+   "name": "[GoogleAds - P0469] CBC_ParcoursRse-click CTA-contentpage_Click_AW-777911832/YTjECP-C7MsYEJj89_IC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/entreprendre/fr/article/croissance-et-gestion-de-votre-entreprise/organisation/responsabilite-societale-entreprises.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf781265ae5604522a96316f372ad1ba8",
+   "name": "[Pixel-P0661] KBC_Conversie - CTA agro_AW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf7b3ae734be54c42a658c42c89fba15b",
+   "name": "Kate Search Read More Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "a[data-analytics-track=kate-search-click]"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf7e54cbda3ff49e9bdc68a7a8ef812a2",
+   "name": "[GoogleAds - P0491] KBC_CTA:Versturen_AW-1008129255/JwCGCLqa0uEYEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/campagne/mobiliteit-wedstrijd.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf835cf42b3ef4982a19f1722363b7c89",
+   "name": "[GoogleAds - P0543] KBC_CTA: Kom met ons praten_AW-952249978/NkjTCPfO4cMZEPrciMYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/corporate/nl/duurzaamheid.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf83a7d1d646841a9947e26faef84cfb7",
+   "name": "[Pixel-P0658] KBC_Conversie - tiener geldbewust opvoeden_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf8839428ba2c43768b76a768fc648335",
+   "name": "Display Cookie TrustArc - Third Party Service Offer",
+   "events": [
+    "pageBottom",
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf8b7766d8a6c4f259740fe4f824f1017",
+   "name": "[GoogleAds - P0362] KBC_Conversie - Digitale kluis_Click_AW-1008129255/14S2CNmp3ZMDEOep2-AD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/digitale-kluis\\\\.html"
+   ],
+   "selectors": [
+    "div.cta,div.aem-product-btngroup__wrapper,div.cta--block__footer"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf8c7e92d44da4e9ca15f6e8b2401a04b",
+   "name": "[GoogleAds - P0471] KBC_Degroof prospecten afspraken_Click_AW-803209525/b0RCCJ3dk88YELWCgP8C",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/private-banking/nl/over-ons/klant-worden-bij-kbc-private-banking.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf8dcebab532141e3a900d2961918e757",
+   "name": "Rating Component - Positive rating",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf9e156a6255a4974bb9a4cfd403dea49",
+   "name": "[GoogleAds - P0448] KBC_KBC - SLAM FE - loa divers - procespagina - CTA click_Click_AW-10831550709/vzFSCIvS-JMYEPWx8awo",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/particulieren/nl/proces/gezin/persoonlijke-lening-aanvragen.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfabfd49296ac47c08bdfc0614e79b5f6",
+   "name": "Deny All Optin Categories Rule",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RCf023852de3b0464fb4e163def44a93f2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfb147f7589c14d549d332efb6e62af00",
+   "name": "[Pixel-P0669] KBC_Ontdek NMBS in KBC Mobile_AW/FB",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfb7fe7f6d3704fa398371d2c01286db5",
+   "name": "[GoogleAds/Facebook - P0622] KBC_Click op CTA 'Check het in MyNWS!'_AW-724289667/BUZaCOry_eobEIORr9kC",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mynws.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfbc601bee0e347bea33a4d2c04a1bfbd",
+   "name": "[GoogleAds - P0520] BXL_CTA: 'Beleg met je wisselgeld'_AW-435497192/Se1WCNe37okZEOjR1M8B",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [
+    "/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html|/particuliers/fr/placements/investir-votre-menue-monnaie.html|/retail/en/investments/invest-your-spare-change.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfca91ebff93b456bb86d513b26223057",
+   "name": "[Pixel-P0643] KBC_Conversie - Multicurrency - 30sec pageview_AW/FB/UET",
+   "events": [
+    "timeOnPage",
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfced2c26f92a4232854b641015f1d267",
+   "name": "[GoogleAds - P0443] KBC_CTA klik: vraag je reispakket aan_Click_AW-986543525/R-SvCNTIopMYEKXrtdYD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "\\\\/particulieren\\\\/nl\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten\\\\/reispakket\\\\.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfd0935eecca14ae6bb099676af5e62c6",
+   "name": "[GoogleAds/Facebook - P0594] KBC_KBC - SLAM RE - Waardeschatting - productpagina - CTA click_Click_AW-1015431215/GR67CIWlrJkaEK-AmeQD",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfe0a584a5543458eac6b81d45ab2e4bd",
+   "name": "[Spotify - Event] Event pixel spotifyEvent DC",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC8bbc485dafa349679a70c32e1bfe9833-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "pixel.byspotify.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLff90a8d599004ba8b59c4f72d3ce9291",
+   "name": "MCID - Add to deeplinks & universal links",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC3004166b827545ba8c08e467e454c94c-source.min.js",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC6ac00cd4655242fb99286db20f5ee383-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  }
+ ]
+}

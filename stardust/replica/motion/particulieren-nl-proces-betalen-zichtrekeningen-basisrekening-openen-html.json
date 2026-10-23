@@ -1,0 +1,296 @@
+{
+  "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 180,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 180,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 180,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 180,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 180,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 180,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "144px",
+      "transform": "none",
+      "transition": "none",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".aem__process-group__actions .aem-btngroup__wrapper__btn--primary",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 153, 133)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 122, 106)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".aem__process-group__actions .aem-btngroup__wrapper__btn--tertiary",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 153, 133)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 122, 106)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.22s ease-in-out, color 0.22s ease-in-out, border 0.22s ease-in-out"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "border-top-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      },
+      {
+        "prop": "color",
+        "el": "div.aem__process-group__actions > div > div.aem-cta-btngroup.aem-conditional-button-group.aem-cta-btngroup--left > div.aem-cta-btngroup__wrapper > a.btn.btn--cta.aem-btngroup__wrapper__btn",
+        "y": 51,
+        "dur": "0.22s"
+      }
+    ],
+    "classMutations": []
+  }
+}
