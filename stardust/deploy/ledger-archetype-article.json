@@ -1,0 +1,11 @@
+{
+  "/particulieren/nl/pensioensparen/sleutelmoment": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-19T20:08:56.061Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,42 @@
+/* text-image — canon .text-image base (gated landing prototype values) */
+.text-image {
+  clear: both;
+  margin-bottom: 24px;
+}
+
+.text-image::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text-image .text-image-text,
+.text-image .text-image-text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.text-image .text-image-text > p:last-child {
+  margin-bottom: 0;
+}
+
+.text-image .text-image-image :is(p, picture) {
+  margin: 0;
+}
+
+.text-image .text-image-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* landing (home): the disclaimer line sits on the page gutter */
+body.landing .text-image {
+  padding: 0 var(--gutter);
+}
+
+/* variant `spacious` — canon .text-image.aem__mb--48 (product page note before the footnotes) */
+.text-image.spacious {
+  margin-bottom: 48px;
+}

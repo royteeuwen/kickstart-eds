@@ -1,0 +1,55 @@
+/* download-list — canon .download-container / .download-list / .download-item (gated program
+   prototype values) */
+.download-list {
+  margin-bottom: 24px;
+}
+
+.download-list .download-list-items {
+  margin: 0;
+  padding: 0 12px;
+  list-style: none;
+}
+
+.download-list .download-list-item {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.download-list .download-list-icon {
+  max-height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.download-list .download-list-icon svg {
+  display: block;
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.download-list .download-list-icon svg path {
+  stroke: var(--color-primary-dark-70);
+}
+
+.download-list .download-list-text,
+.download-list .download-list-text p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+/* the divider li and its inner canon .aem-divider each pad 16px; the rule sits on top */
+.download-list .download-list-divider {
+  padding-bottom: 16px;
+}
+
+.download-list .download-list-divider .aem-divider {
+  padding-bottom: 16px;
+}
+
+@media (width >= 768px) {
+  .download-list {
+    padding: 0 12px;
+  }
+}

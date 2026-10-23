@@ -1,0 +1,1972 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-19T18:37:02.957Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.kbc.be/particulieren/nl.html",
+   "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+   "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+   "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+   "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/particulieren/nl.html": {
+   "url": "https://www.kbc.be/particulieren/nl.html",
+   "status": 200,
+   "host": "www.kbc.be",
+   "title": "Hoe kunnen we je helpen? - KBC Bank & Verzekering",
+   "forms": [
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "zone"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "email:to",
+      "text:subject"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookie Voorkeursinstellingen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "link",
+      "heading": "",
+      "textLen": 28,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 307,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 20,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h4",
+     "heading": "",
+     "textLen": 20,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 56,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 11,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "nl",
+    "hreflang": [
+     "de-be",
+     "fr-be",
+     "en-be",
+     "nl-be"
+    ],
+    "switcher": [
+     "https://apps.apple.com/be/app/kbc-mobile/id458066754?l=nl",
+     "https://ul.kbc.be/nl/kate/welcome?payload=%2Fwelcome&zone=contact-block",
+     "https://www.kbc.com/nl/newsroom/persberichtenarchief.html?zone=footer-3"
+    ]
+   },
+   "cms": {
+    "digitalData": [
+     "page",
+     "product",
+     "event",
+     "user",
+     "component"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-height grid bp4-grid-6",
+     "attrs": [],
+     "text": "Het e-mailadres van je bestemmeling"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "aem-action-list__container aem-action-list__container--title-chevron",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-action-list__container aem-action-list__container--title-chevron",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-action-list__container aem-action-list__container--title-chevron",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-action-list__container aem-action-list__container--title-chevron",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 27,
+   "inlineFetch": false,
+   "mainText": 1867,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.kbc.be": 3,
+    "wcmassets.kbc.be": 84,
+    "consent.truste.com": 7,
+    "assets.adobedtm.com": 4,
+    "consent.trustarc.com": 3,
+    "es6-elasticapm.kbc.be": 2
+   },
+   "thirdPartyHosts": [
+    "consent.truste.com",
+    "assets.adobedtm.com",
+    "consent.trustarc.com"
+   ],
+   "scripts": [
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/load.min.ACSHASH2f9fe7dcb61e98188fa475a856df0504.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/redirect.min.ACSHASHca17e63a43ed0b2e2f7541e69f9b321c.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/elasticsearch-apm.min.ACSHASH9049b514abbf4fd88c26e2a18d756413.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/adobe-target-async.min.ACSHASH87dc28862eeb37139cc08aac07ec9d42.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/fpid.min.ACSHASHbd2abb462fedb88d8c03d1cf7217f4a8.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/page-zone.min.ACSHASHf18d1aed4d7a1a36e40ce1813a3344ec.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/experience-settings.min.ACSHASH986e59f8ac49063190441f4f4fbf7659.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/display-cookie-trustarc/loader.min.ACSHASH399baee67138222c087c1576bc21e46b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head/globals.min.ACSHASHf50b1428093b72db43ef6b618095f5f1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head.min.ACSHASH4b8ec49d4c29a66f047864b752e87768.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/enquire.min.ACSHASH3875f09577a561b3a2e3499baddc3c61.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery.min.ACSHASHc02040f4b6a4790e1995fbf005cc20c9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery-extensions/jquery-custom-extensions.min.ACSHASHf96060aa1d6f82883706d8fb7c46ccf1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/http-helper.min.ACSHASHc06e367876ed863d8b69ae6786639e0f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/disclaimer-buttons.min.ACSHASH6a3128c1f0af96d6c324990098fe83b6.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/conditional-container.min.ACSHASH94d5fe0cda8cef71478aa6e3857e21eb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/url-params.min.ACSHASH76d447d9722f1cb8ea4d56249a746e95.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/app-banner.min.ACSHASH87de34406ed5566a28ba0abad2212007.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/head.min.ACSHASH8ea4f3776e6544298024a9cbb3d52fdd.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/dropdown-menu.min.ACSHASH98a11d80c0a485d3f2587de7f5266222.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/searchbar.min.ACSHASHf5001b48765418675090a22aa7399f06.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/image-resize-to-top.min.ACSHASH770e2dc2035a689054c025b8f34c62f6.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/adobe-target/prd.min.ACSHASH615f1ef8e3c96c5541dbeaa59dd2efc9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/autocompleter-web.min.ACSHASH1111ab2a434a9d4ad8d89766005c6442.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/live.min.ACSHASH9b5d8fcd42e6d5386ccb3448df7570fb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/profiles.min.ACSHASH83e6ff96533e25418118ec2dad75424a.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/become-a-customer.min.ACSHASH0553da0732259215c8779d64d634594b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.main-navigation.min.ACSHASH2d54637718dffe0f4c1e137399294719.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/vee24.min.ACSHASH5f429a10070a132c723d8e0aed57a711.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/help-assistant.min.ACSHASH6fe6f7d1abd074e9fb13101c994910b5.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/kate-search-api.min.ACSHASH3fb12288cea352bc45cfa283929b65d3.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/error-message.min.ACSHASHdefb7e5d6d315e860f4b605896fee157.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/browser-warning.min.ACSHASH98aa203f4b7d14b4b9774cae57672ace.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/contact-block.min.ACSHASH71b3e5b887128a2aa00d93bfedac2e53.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.device-detection.min.ACSHASHe04b5d4d39169beac739e13637ae3d40.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/loaders.min.ACSHASH008dbcf285b20bb452fead9143ae3665.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/settings/wcm/designs/particulieren/clientlibs/main.min.ACSHASHe345f7f7e91fcacb2acee63e2c11bf4b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/modernizr.min.ACSHASH60faed1c174140edc18bfacf39b12683.js",
+    "https://consent.truste.com/notice?domain=exp-w1.kbc.be&c=teconsent&gtm=1&text=true&language=NL&pcookie",
+    "https://assets.adobedtm.com/launch-EN0f6839f46e854ca791823915d04fd52b.min.js",
+    "https://consent.truste.com/asset/notice.js/v/62bb0e7",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://consent.truste.com/asset/adv-bundle.js?v=62bb0e7",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC99a834839ab7456ca9ee16d633d476ec-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/x0a-p-analytics/set-fpid.json",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.kbc.be/x0a-p-analytics/set-fpid.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/bin/kbc/profilecondition/profiles.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.kbc.be/bin/kbc/profilecondition/profiles.json"
+    },
+    {
+     "method": "POST",
+     "host": "es6-elasticapm.kbc.be",
+     "path": "/intake/v2/rum/events",
+     "query": [],
+     "status": 202,
+     "contentType": "",
+     "example": "https://es6-elasticapm.kbc.be/intake/v2/rum/events"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET consent.truste.com/analytics",
+    "GET consent.truste.com/cm/exp-w1.kbc.be/modalconfig"
+   ],
+   "postBodies": [
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    },
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1867,
+   "mainEmptyAtLoad": false
+  },
+  "/particulieren/nl/betalen/zichtrekeningen.html": {
+   "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+   "status": 200,
+   "host": "www.kbc.be",
+   "title": "Zichtrekeningen - KBC Bank & Verzekering",
+   "forms": [
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "zone"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "email:to",
+      "text:subject"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookie Voorkeursinstellingen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "link",
+      "heading": "",
+      "textLen": 28,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 307,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 3524,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 287,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 287,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h4",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 226,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 226,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 33,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 21,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "nl",
+    "hreflang": [
+     "de-be",
+     "fr-be",
+     "en-be",
+     "nl-be"
+    ],
+    "switcher": [
+     "https://www.kbc.com/nl/newsroom/persberichtenarchief.html?zone=footer-3"
+    ]
+   },
+   "cms": {
+    "digitalData": [
+     "page",
+     "product",
+     "event",
+     "user",
+     "component"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-height grid bp4-grid-6",
+     "attrs": [],
+     "text": "Het e-mailadres van je bestemmeling"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "row",
+     "cards": 7,
+     "sameSite": 7,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 31,
+   "inlineFetch": false,
+   "mainText": 2794,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.kbc.be": 3,
+    "wcmassets.kbc.be": 83,
+    "assets.adobedtm.com": 4,
+    "consent.truste.com": 7,
+    "consent.trustarc.com": 3,
+    "es6-elasticapm.kbc.be": 2
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "consent.truste.com",
+    "consent.trustarc.com"
+   ],
+   "scripts": [
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/fpid.min.ACSHASHbd2abb462fedb88d8c03d1cf7217f4a8.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/adobe-target-async.min.ACSHASH87dc28862eeb37139cc08aac07ec9d42.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/redirect.min.ACSHASHca17e63a43ed0b2e2f7541e69f9b321c.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/load.min.ACSHASH2f9fe7dcb61e98188fa475a856df0504.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/elasticsearch-apm.min.ACSHASH9049b514abbf4fd88c26e2a18d756413.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/experience-settings.min.ACSHASH986e59f8ac49063190441f4f4fbf7659.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/display-cookie-trustarc/loader.min.ACSHASH399baee67138222c087c1576bc21e46b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/page-zone.min.ACSHASHf18d1aed4d7a1a36e40ce1813a3344ec.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head.min.ACSHASH4b8ec49d4c29a66f047864b752e87768.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery.min.ACSHASHc02040f4b6a4790e1995fbf005cc20c9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/dropdown-menu.min.ACSHASH98a11d80c0a485d3f2587de7f5266222.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/enquire.min.ACSHASH3875f09577a561b3a2e3499baddc3c61.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head/globals.min.ACSHASHf50b1428093b72db43ef6b618095f5f1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/modernizr.min.ACSHASH60faed1c174140edc18bfacf39b12683.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery-extensions/jquery-custom-extensions.min.ACSHASHf96060aa1d6f82883706d8fb7c46ccf1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.device-detection.min.ACSHASHe04b5d4d39169beac739e13637ae3d40.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/adobe-target/prd.min.ACSHASH615f1ef8e3c96c5541dbeaa59dd2efc9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/http-helper.min.ACSHASHc06e367876ed863d8b69ae6786639e0f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/autocompleter-web.min.ACSHASH1111ab2a434a9d4ad8d89766005c6442.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/searchbar.min.ACSHASHf5001b48765418675090a22aa7399f06.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/head.min.ACSHASH8ea4f3776e6544298024a9cbb3d52fdd.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/become-a-customer.min.ACSHASH0553da0732259215c8779d64d634594b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/vee24.min.ACSHASH5f429a10070a132c723d8e0aed57a711.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/live.min.ACSHASH9b5d8fcd42e6d5386ccb3448df7570fb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/url-params.min.ACSHASH76d447d9722f1cb8ea4d56249a746e95.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/disclaimer-buttons.min.ACSHASH6a3128c1f0af96d6c324990098fe83b6.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/conditional-container.min.ACSHASH94d5fe0cda8cef71478aa6e3857e21eb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/comparison-cmp.min.ACSHASH6a70886d0b1431ef543e27e8905817aa.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/browser-warning.min.ACSHASH98aa203f4b7d14b4b9774cae57672ace.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/error-message.min.ACSHASHdefb7e5d6d315e860f4b605896fee157.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.main-navigation.min.ACSHASH2d54637718dffe0f4c1e137399294719.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/help-assistant.min.ACSHASH6fe6f7d1abd074e9fb13101c994910b5.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/loaders.min.ACSHASH008dbcf285b20bb452fead9143ae3665.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/kate-search-api.min.ACSHASH3fb12288cea352bc45cfa283929b65d3.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/time-me.min.ACSHASH4c95b831b958340df19153763e25ee5b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/nps-survey.min.ACSHASH02c6e79f9cb7c17bff5ae9477c266a5b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/settings/wcm/designs/particulieren/clientlibs/main.min.ACSHASHe345f7f7e91fcacb2acee63e2c11bf4b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/modal.min.ACSHASH150b9a81404ffbd417e820bd6e29f77f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/timer.min.ACSHASH7758e1f9a09af0f73f4aa6d37a84e0a5.js",
+    "https://assets.adobedtm.com/launch-EN0f6839f46e854ca791823915d04fd52b.min.js",
+    "https://consent.truste.com/notice?domain=exp-w1.kbc.be&c=teconsent&gtm=1&text=true&language=NL&pcookie",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://consent.truste.com/asset/notice.js/v/62bb0e7",
+    "https://consent.truste.com/asset/adv-bundle.js?v=62bb0e7",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC99a834839ab7456ca9ee16d633d476ec-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/x0a-p-analytics/set-fpid.json",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.kbc.be/x0a-p-analytics/set-fpid.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/bin/kbc/profilecondition/profiles.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.kbc.be/bin/kbc/profilecondition/profiles.json"
+    },
+    {
+     "method": "POST",
+     "host": "es6-elasticapm.kbc.be",
+     "path": "/intake/v2/rum/events",
+     "query": [],
+     "status": 202,
+     "contentType": "",
+     "example": "https://es6-elasticapm.kbc.be/intake/v2/rum/events"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET consent.truste.com/analytics",
+    "GET consent.truste.com/cm/exp-w1.kbc.be/modalconfig"
+   ],
+   "postBodies": [
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    },
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1410,
+   "mainEmptyAtLoad": false
+  },
+  "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html": {
+   "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+   "status": 200,
+   "host": "www.kbc.be",
+   "title": "Ontdek de KBC-Basisrekening - KBC Bank & Verzekering",
+   "forms": [
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "zone"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "email:to",
+      "text:subject"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookie Voorkeursinstellingen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "link",
+      "heading": "",
+      "textLen": 28,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 307,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 3524,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 287,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 287,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h4",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 226,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 226,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 33,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 21,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "nl",
+    "hreflang": [
+     "de-be",
+     "fr-be",
+     "en-be",
+     "nl-be"
+    ],
+    "switcher": [
+     "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/betalen/kbc-particulier-pakketreglement.pdf",
+     "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/kbc-algemene-bankvoorwaarden.pdf",
+     "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/BETALEN/KAARTEN/kbc-debetkaart-reglement.pdf",
+     "https://www.ombudsfin.be/nl",
+     "https://www.kbc.com/nl/newsroom/persberichtenarchief.html?zone=footer-3"
+    ]
+   },
+   "cms": {
+    "digitalData": [
+     "page",
+     "product",
+     "event",
+     "user",
+     "component"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-height grid bp4-grid-6",
+     "attrs": [],
+     "text": "Het e-mailadres van je bestemmeling"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 25,
+   "inlineFetch": false,
+   "mainText": 3092,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.kbc.be": 2,
+    "wcmassets.kbc.be": 76,
+    "assets.adobedtm.com": 4,
+    "consent.truste.com": 7,
+    "es6-elasticapm.kbc.be": 2,
+    "consent.trustarc.com": 3
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "consent.truste.com",
+    "consent.trustarc.com"
+   ],
+   "scripts": [
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/adobe-target-async.min.ACSHASH87dc28862eeb37139cc08aac07ec9d42.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/load.min.ACSHASH2f9fe7dcb61e98188fa475a856df0504.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/fpid.min.ACSHASHbd2abb462fedb88d8c03d1cf7217f4a8.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/redirect.min.ACSHASHca17e63a43ed0b2e2f7541e69f9b321c.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/elasticsearch-apm.min.ACSHASH9049b514abbf4fd88c26e2a18d756413.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/display-cookie-trustarc/loader.min.ACSHASH399baee67138222c087c1576bc21e46b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/page-zone.min.ACSHASHf18d1aed4d7a1a36e40ce1813a3344ec.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head.min.ACSHASH4b8ec49d4c29a66f047864b752e87768.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery.min.ACSHASHc02040f4b6a4790e1995fbf005cc20c9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/modernizr.min.ACSHASH60faed1c174140edc18bfacf39b12683.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/enquire.min.ACSHASH3875f09577a561b3a2e3499baddc3c61.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head/globals.min.ACSHASHf50b1428093b72db43ef6b618095f5f1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/experience-settings.min.ACSHASH986e59f8ac49063190441f4f4fbf7659.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.device-detection.min.ACSHASHe04b5d4d39169beac739e13637ae3d40.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/head.min.ACSHASH8ea4f3776e6544298024a9cbb3d52fdd.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/adobe-target/prd.min.ACSHASH615f1ef8e3c96c5541dbeaa59dd2efc9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/dropdown-menu.min.ACSHASH98a11d80c0a485d3f2587de7f5266222.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/http-helper.min.ACSHASHc06e367876ed863d8b69ae6786639e0f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/kate-search-api.min.ACSHASH3fb12288cea352bc45cfa283929b65d3.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/url-params.min.ACSHASH76d447d9722f1cb8ea4d56249a746e95.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.main-navigation.min.ACSHASH2d54637718dffe0f4c1e137399294719.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/utility.min.ACSHASHfbba3e42857453154b000b160648cf9f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/live.min.ACSHASH9b5d8fcd42e6d5386ccb3448df7570fb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/searchbar.min.ACSHASHf5001b48765418675090a22aa7399f06.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/vee24.min.ACSHASH5f429a10070a132c723d8e0aed57a711.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/become-a-customer.min.ACSHASH0553da0732259215c8779d64d634594b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/autocompleter-web.min.ACSHASH1111ab2a434a9d4ad8d89766005c6442.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/loaders.min.ACSHASH008dbcf285b20bb452fead9143ae3665.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/modal.min.ACSHASH150b9a81404ffbd417e820bd6e29f77f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/faq.min.ACSHASHe14720524712fcea64d04981d9686701.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/nps-survey.min.ACSHASH02c6e79f9cb7c17bff5ae9477c266a5b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/help-assistant.min.ACSHASH6fe6f7d1abd074e9fb13101c994910b5.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/timer.min.ACSHASH7758e1f9a09af0f73f4aa6d37a84e0a5.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/browser-warning.min.ACSHASH98aa203f4b7d14b4b9774cae57672ace.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/error-message.min.ACSHASHdefb7e5d6d315e860f4b605896fee157.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/settings/wcm/designs/particulieren/clientlibs/main.min.ACSHASHe345f7f7e91fcacb2acee63e2c11bf4b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery-extensions/jquery-custom-extensions.min.ACSHASHf96060aa1d6f82883706d8fb7c46ccf1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/time-me.min.ACSHASH4c95b831b958340df19153763e25ee5b.js",
+    "https://assets.adobedtm.com/launch-EN0f6839f46e854ca791823915d04fd52b.min.js",
+    "https://consent.truste.com/notice?domain=exp-w1.kbc.be&c=teconsent&gtm=1&text=true&language=NL&pcookie",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://consent.truste.com/asset/notice.js/v/62bb0e7",
+    "https://consent.truste.com/asset/adv-bundle.js?v=62bb0e7",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC99a834839ab7456ca9ee16d633d476ec-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/x0a-p-analytics/set-fpid.json",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.kbc.be/x0a-p-analytics/set-fpid.json"
+    },
+    {
+     "method": "GET",
+     "host": "es6-elasticapm.kbc.be",
+     "path": "/config/v1/rum/agents",
+     "query": [
+      "service.environment",
+      "service.name"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://es6-elasticapm.kbc.be/config/v1/rum/agents"
+    },
+    {
+     "method": "POST",
+     "host": "es6-elasticapm.kbc.be",
+     "path": "/intake/v2/rum/events",
+     "query": [],
+     "status": 202,
+     "contentType": "",
+     "example": "https://es6-elasticapm.kbc.be/intake/v2/rum/events"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET consent.truste.com/analytics",
+    "GET consent.truste.com/cm/exp-w1.kbc.be/modalconfig"
+   ],
+   "postBodies": [
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 3092,
+   "mainEmptyAtLoad": false
+  },
+  "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html": {
+   "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+   "status": 200,
+   "host": "www.kbc.be",
+   "title": "Open nu je KBC-Basisrekening - KBC Bank & Verzekering",
+   "forms": [
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "zone"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "email:to",
+      "text:subject"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookie Voorkeursinstellingen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "link",
+      "heading": "",
+      "textLen": 28,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 307,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 20,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h4",
+     "heading": "",
+     "textLen": 20,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 56,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 11,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "nl",
+    "hreflang": [
+     "de-be",
+     "fr-be",
+     "en-be",
+     "nl-be"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "page",
+     "product",
+     "event",
+     "user",
+     "component"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-height grid bp4-grid-6",
+     "attrs": [],
+     "text": "Het e-mailadres van je bestemmeling"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 17,
+   "inlineFetch": false,
+   "mainText": 550,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.kbc.be": 4,
+    "wcmassets.kbc.be": 81,
+    "consent.truste.com": 7,
+    "assets.adobedtm.com": 4,
+    "es6-elasticapm.kbc.be": 3,
+    "consent.trustarc.com": 3
+   },
+   "thirdPartyHosts": [
+    "consent.truste.com",
+    "assets.adobedtm.com",
+    "consent.trustarc.com"
+   ],
+   "scripts": [
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/load.min.ACSHASH2f9fe7dcb61e98188fa475a856df0504.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/adobe-target-async.min.ACSHASH87dc28862eeb37139cc08aac07ec9d42.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/elasticsearch-apm.min.ACSHASH9049b514abbf4fd88c26e2a18d756413.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/fpid.min.ACSHASHbd2abb462fedb88d8c03d1cf7217f4a8.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/redirect.min.ACSHASHca17e63a43ed0b2e2f7541e69f9b321c.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/page-zone.min.ACSHASHf18d1aed4d7a1a36e40ce1813a3344ec.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/experience-settings.min.ACSHASH986e59f8ac49063190441f4f4fbf7659.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/display-cookie-trustarc/loader.min.ACSHASH399baee67138222c087c1576bc21e46b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head/globals.min.ACSHASHf50b1428093b72db43ef6b618095f5f1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head.min.ACSHASH4b8ec49d4c29a66f047864b752e87768.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/modernizr.min.ACSHASH60faed1c174140edc18bfacf39b12683.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.device-detection.min.ACSHASHe04b5d4d39169beac739e13637ae3d40.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/enquire.min.ACSHASH3875f09577a561b3a2e3499baddc3c61.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery-extensions/jquery-custom-extensions.min.ACSHASHf96060aa1d6f82883706d8fb7c46ccf1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/head.min.ACSHASH8ea4f3776e6544298024a9cbb3d52fdd.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/adobe-target/prd.min.ACSHASH615f1ef8e3c96c5541dbeaa59dd2efc9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/searchbar.min.ACSHASHf5001b48765418675090a22aa7399f06.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/autocompleter-web.min.ACSHASH1111ab2a434a9d4ad8d89766005c6442.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/http-helper.min.ACSHASHc06e367876ed863d8b69ae6786639e0f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/dropdown-menu.min.ACSHASH98a11d80c0a485d3f2587de7f5266222.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/kate-search-api.min.ACSHASH3fb12288cea352bc45cfa283929b65d3.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/securedeeplinking.min.ACSHASHc1c09bec0948cd36a85575e5f179eaea.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/help-assistant.min.ACSHASH6fe6f7d1abd074e9fb13101c994910b5.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/browser-warning.min.ACSHASH98aa203f4b7d14b4b9774cae57672ace.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/error-message.min.ACSHASHdefb7e5d6d315e860f4b605896fee157.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/url-params.min.ACSHASH76d447d9722f1cb8ea4d56249a746e95.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/become-a-customer.min.ACSHASH0553da0732259215c8779d64d634594b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.main-navigation.min.ACSHASH2d54637718dffe0f4c1e137399294719.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/utility.min.ACSHASHfbba3e42857453154b000b160648cf9f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/live.min.ACSHASH9b5d8fcd42e6d5386ccb3448df7570fb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/vee24.min.ACSHASH5f429a10070a132c723d8e0aed57a711.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/disclaimer-buttons.min.ACSHASH6a3128c1f0af96d6c324990098fe83b6.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/conditional-container.min.ACSHASH94d5fe0cda8cef71478aa6e3857e21eb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/awesome-qr.min.ACSHASH4abe88ac6a6a980f89f7ab6d8699eaae.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/deeplinking-util.min.ACSHASH0ae131421c298dadb52b5b2b6718c9d4.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/dlaas-client-api.min.ACSHASH07400f65330cc298605afb26165f1594.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/settings/wcm/designs/particulieren/clientlibs/main.min.ACSHASHe345f7f7e91fcacb2acee63e2c11bf4b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/conditional-button-group.min.ACSHASH3d05467948670d563bab61c37562fa7b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/deep-qr.min.ACSHASH1dce44c3901e9d003c27990f6b92c254.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/deeplinking.min.ACSHASH6d55e4a78e86801be63867ba4337d0bb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/loaders.min.ACSHASH008dbcf285b20bb452fead9143ae3665.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery.min.ACSHASHc02040f4b6a4790e1995fbf005cc20c9.js",
+    "https://consent.truste.com/notice?domain=exp-w1.kbc.be&c=teconsent&gtm=1&text=true&language=NL&pcookie",
+    "https://assets.adobedtm.com/launch-EN0f6839f46e854ca791823915d04fd52b.min.js",
+    "https://consent.truste.com/asset/notice.js/v/62bb0e7",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://consent.truste.com/asset/adv-bundle.js?v=62bb0e7",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC99a834839ab7456ca9ee16d633d476ec-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/x0a-p-analytics/set-fpid.json",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.kbc.be/x0a-p-analytics/set-fpid.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/bin/kbc/profilecondition/profiles.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.kbc.be/bin/kbc/profilecondition/profiles.json"
+    },
+    {
+     "method": "GET",
+     "host": "es6-elasticapm.kbc.be",
+     "path": "/config/v1/rum/agents",
+     "query": [
+      "service.environment",
+      "service.name"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://es6-elasticapm.kbc.be/config/v1/rum/agents"
+    },
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/content/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.kbc.securedeeplinks.nocache.json",
+     "query": [
+      "paramsFromUrl",
+      "secureDeeplinkChannel",
+      "secureDeeplinkPath",
+      "secureDeeplinkScheme"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.kbc.be/content/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.kbc.securedeeplinks.nocache.json"
+    },
+    {
+     "method": "POST",
+     "host": "es6-elasticapm.kbc.be",
+     "path": "/intake/v2/rum/events",
+     "query": [],
+     "status": 202,
+     "contentType": "",
+     "example": "https://es6-elasticapm.kbc.be/intake/v2/rum/events"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET consent.truste.com/analytics",
+    "GET consent.truste.com/cm/exp-w1.kbc.be/modalconfig"
+   ],
+   "postBodies": [
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    },
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 393,
+   "mainEmptyAtLoad": false
+  },
+  "/particulieren/nl/pensioensparen/sleutelmoment.html": {
+   "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+   "status": 200,
+   "host": "www.kbc.be",
+   "title": "Maak je toekomstplan - KBC Bank & Verzekering",
+   "forms": [
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "zone"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "aem-searchbar",
+     "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "email:to",
+      "text:subject"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookie Voorkeursinstellingen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "link",
+      "heading": "",
+      "textLen": 28,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 307,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 3524,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 287,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 287,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Jouw mening is belangrijk!",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h4",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 226,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 226,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 33,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Deel pagina via mail",
+     "textLen": 77,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 21,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "nl",
+    "hreflang": [
+     "de-be",
+     "fr-be",
+     "en-be",
+     "nl-be"
+    ],
+    "switcher": [
+     "https://www.kbc.com/nl/newsroom/persberichtenarchief.html?zone=footer-3"
+    ]
+   },
+   "cms": {
+    "digitalData": [
+     "page",
+     "product",
+     "event",
+     "user",
+     "component"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-height grid bp4-grid-6",
+     "attrs": [],
+     "text": "Het e-mailadres van je bestemmeling"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "aem-grid-layout-container aem-grid-layout-container--alignment-center",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "ol",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "cmp-container aem-Grid",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 24,
+   "inlineFetch": false,
+   "mainText": 3012,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.kbc.be": 7,
+    "wcmassets.kbc.be": 85,
+    "assets.adobedtm.com": 4,
+    "es6-elasticapm.kbc.be": 3,
+    "consent.truste.com": 7,
+    "consent.trustarc.com": 3
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "consent.truste.com",
+    "consent.trustarc.com"
+   ],
+   "scripts": [
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/elasticsearch-apm.min.ACSHASH9049b514abbf4fd88c26e2a18d756413.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/load.min.ACSHASH2f9fe7dcb61e98188fa475a856df0504.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/fpid.min.ACSHASHbd2abb462fedb88d8c03d1cf7217f4a8.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/adobe-target-async.min.ACSHASH87dc28862eeb37139cc08aac07ec9d42.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/redirect.min.ACSHASHca17e63a43ed0b2e2f7541e69f9b321c.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/modernizr.min.ACSHASH60faed1c174140edc18bfacf39b12683.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/page-zone.min.ACSHASHf18d1aed4d7a1a36e40ce1813a3344ec.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/experience-settings.min.ACSHASH986e59f8ac49063190441f4f4fbf7659.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/display-cookie-trustarc/loader.min.ACSHASH399baee67138222c087c1576bc21e46b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head/globals.min.ACSHASHf50b1428093b72db43ef6b618095f5f1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/shared/global/head.min.ACSHASH4b8ec49d4c29a66f047864b752e87768.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.device-detection.min.ACSHASHe04b5d4d39169beac739e13637ae3d40.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/enquire.min.ACSHASH3875f09577a561b3a2e3499baddc3c61.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery.min.ACSHASHc02040f4b6a4790e1995fbf005cc20c9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/shared/jquery-extensions/jquery-custom-extensions.min.ACSHASHf96060aa1d6f82883706d8fb7c46ccf1.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/dropdown-menu.min.ACSHASH98a11d80c0a485d3f2587de7f5266222.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/http-helper.min.ACSHASHc06e367876ed863d8b69ae6786639e0f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/head.min.ACSHASH8ea4f3776e6544298024a9cbb3d52fdd.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/kate-search-api.min.ACSHASH3fb12288cea352bc45cfa283929b65d3.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/searchbar.min.ACSHASHf5001b48765418675090a22aa7399f06.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites.main-navigation.min.ACSHASH2d54637718dffe0f4c1e137399294719.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/vee24.min.ACSHASH5f429a10070a132c723d8e0aed57a711.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/live.min.ACSHASH9b5d8fcd42e6d5386ccb3448df7570fb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/profiles.min.ACSHASH83e6ff96533e25418118ec2dad75424a.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/image-resize-to-top.min.ACSHASH770e2dc2035a689054c025b8f34c62f6.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/disclaimer-buttons.min.ACSHASH6a3128c1f0af96d6c324990098fe83b6.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/loaders.min.ACSHASH008dbcf285b20bb452fead9143ae3665.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/modal.min.ACSHASH150b9a81404ffbd417e820bd6e29f77f.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/become-a-customer.min.ACSHASH0553da0732259215c8779d64d634594b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/autocompleter-web.min.ACSHASH1111ab2a434a9d4ad8d89766005c6442.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/conditional-container.min.ACSHASH94d5fe0cda8cef71478aa6e3857e21eb.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/vendor/websites/time-me.min.ACSHASH4c95b831b958340df19153763e25ee5b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/url-params.min.ACSHASH76d447d9722f1cb8ea4d56249a746e95.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/global/websites/timer.min.ACSHASH7758e1f9a09af0f73f4aa6d37a84e0a5.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/error-message.min.ACSHASHdefb7e5d6d315e860f4b605896fee157.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/browser-warning.min.ACSHASH98aa203f4b7d14b4b9774cae57672ace.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/adobe-target/prd.min.ACSHASH615f1ef8e3c96c5541dbeaa59dd2efc9.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/nps-survey.min.ACSHASH02c6e79f9cb7c17bff5ae9477c266a5b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/settings/wcm/designs/particulieren/clientlibs/main.min.ACSHASHe345f7f7e91fcacb2acee63e2c11bf4b.js",
+    "https://wcmassets.kbc.be/etc.clientlibs/kbc/components/websites/help-assistant.min.ACSHASH6fe6f7d1abd074e9fb13101c994910b5.js",
+    "https://assets.adobedtm.com/launch-EN0f6839f46e854ca791823915d04fd52b.min.js",
+    "https://consent.truste.com/notice?domain=exp-w1.kbc.be&c=teconsent&gtm=1&text=true&language=NL&pcookie",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://consent.truste.com/asset/notice.js/v/62bb0e7",
+    "https://consent.truste.com/asset/adv-bundle.js?v=62bb0e7",
+    "https://assets.adobedtm.com/0e0efd248c1a/d408bddd2fcf/5246ce949115/RC99a834839ab7456ca9ee16d633d476ec-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/x0a-p-analytics/set-fpid.json",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.kbc.be/x0a-p-analytics/set-fpid.json"
+    },
+    {
+     "method": "GET",
+     "host": "es6-elasticapm.kbc.be",
+     "path": "/config/v1/rum/agents",
+     "query": [
+      "service.environment",
+      "service.name"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://es6-elasticapm.kbc.be/config/v1/rum/agents"
+    },
+    {
+     "method": "GET",
+     "host": "www.kbc.be",
+     "path": "/bin/kbc/profilecondition/profiles.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.kbc.be/bin/kbc/profilecondition/profiles.json"
+    },
+    {
+     "method": "POST",
+     "host": "es6-elasticapm.kbc.be",
+     "path": "/intake/v2/rum/events",
+     "query": [],
+     "status": 202,
+     "contentType": "",
+     "example": "https://es6-elasticapm.kbc.be/intake/v2/rum/events"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET consent.truste.com/cm/exp-w1.kbc.be/modalconfig",
+    "GET consent.truste.com/analytics"
+   ],
+   "postBodies": [
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    },
+    {
+     "url": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 3012,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-consent-truste-com",
+   "class": "A",
+   "feature": "unknown third-party host consent.truste.com",
+   "hint": "inspect",
+   "evidence": [
+    "consent.truste.com"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-digitaldata",
+   "class": "A",
+   "feature": "CMS / app settings object digitalData",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-config-v1-rum-agents",
+   "class": "A",
+   "feature": "first-party API GET /config/v1/rum/agents",
+   "api": {
+    "method": "GET",
+    "path": "/config/v1/rum/agents"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /config/v1/rum/agents?service.environment,service.name → 200"
+   ],
+   "pages": [
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ],
+   "reach": {
+    "pages": 5,
+    "of": 5
+   }
+  },
+  {
+   "id": "cr-client-rendered-slot-js-height-grid-bp4-grid-6",
+   "class": "CR",
+   "feature": "client-rendered slot js-height grid bp4-grid-6",
+   "hint": "client-rendered",
+   "evidence": [
+    "Het e-mailadres van je bestemmeling"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-bin-kbc-profilecondition-profile",
+   "class": "D",
+   "feature": "first-party data file GET /bin/kbc/profilecondition/profiles.json",
+   "api": {
+    "method": "GET",
+    "path": "/bin/kbc/profilecondition/profiles.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /bin/kbc/profilecondition/profiles.json → 200"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ],
+   "reach": {
+    "pages": 4,
+    "of": 5
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-particulieren-nl-proces-",
+   "class": "D",
+   "feature": "first-party data file GET /content/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.kbc.securedeeplinks.nocache.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.kbc.securedeeplinks.nocache.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.kbc.securedeeplinks.nocache.json?paramsFromUrl,secureDeeplinkChannel,secureDeeplinkPath,secureDeeplinkScheme → 200"
+   ],
+   "pages": [
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 5
+   }
+  },
+  {
+   "id": "f-form-email-to-text-subject-no-action-js-wired-2-fields",
+   "class": "F",
+   "feature": "form \"email:to+text:subject\" → no action (JS-wired) (2 fields)",
+   "signature": [
+    "email:to",
+    "text:subject"
+   ],
+   "hint": "client-compute?",
+   "evidence": [
+    "email:to,text:subject"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-be-fr-be-en-be-nl-be",
+   "class": "I18N",
+   "feature": "locale variants de-be,fr-be,en-be,nl-be",
+   "hint": "locale",
+   "evidence": [
+    "https://apps.apple.com/be/app/kbc-mobile/id458066754?l=nl",
+    "https://ul.kbc.be/nl/kate/welcome?payload=%2Fwelcome&zone=contact-block",
+    "https://www.kbc.com/nl/newsroom/persberichtenarchief.html?zone=footer-3",
+    "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/betalen/kbc-particulier-pakketreglement.pdf",
+    "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/kbc-algemene-bankvoorwaarden.pdf",
+    "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/BETALEN/KAARTEN/kbc-debetkaart-reglement.pdf"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-row-7-cards",
+   "class": "L",
+   "feature": "listing candidate row (7 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/particulieren/nl/betalen/zichtrekeningen.html"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-link-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → link:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Cookie Voorkeursinstellingen"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ]
+  },
+  {
+   "id": "s-site-search-form-particulieren-nl-zoek-html",
+   "class": "S",
+   "feature": "site search form → /particulieren/nl/zoek.html",
+   "hint": "search",
+   "evidence": [
+    "search:q"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ],
+   "reach": {
+    "pages": 5,
+    "of": 5
+   }
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ]
+  },
+  {
+   "id": "t-consent-trustarc-iab-cmp",
+   "class": "T",
+   "feature": "consent: TrustArc / IAB CMP",
+   "role": "consent: TrustArc / IAB CMP",
+   "hint": "tags",
+   "evidence": [
+    "consent.trustarc.com"
+   ],
+   "pages": [
+    "/particulieren/nl.html",
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/pensioensparen/sleutelmoment.html"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.kbc.be/retail/en/payments/current-accounts.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/retail/en/processes/payments/current-accounts/open-basic-account.html?zone=topnav"
+   ],
+   "pages": [
+    "/particulieren/nl/betalen/zichtrekeningen.html",
+    "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+    "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 5,
+  "of": 5,
+  "endpoints": {
+   "GET www.kbc.be/x0a-p-analytics/set-fpid.json": 5,
+   "GET es6-elasticapm.kbc.be/config/v1/rum/agents": 5,
+   "GET www.kbc.be/bin/kbc/profilecondition/profiles.json": 4,
+   "GET consent.truste.com/analytics": 5,
+   "GET consent.truste.com/cm/exp-w1.kbc.be/modalconfig": 5,
+   "POST es6-elasticapm.kbc.be/intake/v2/rum/events": 5,
+   "GET www.kbc.be/content/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.kbc.securedeeplinks.nocache.json": 1
+  },
+  "searchFormPages": 5,
+  "formPages": 0,
+  "triggerPages": {}
+ }
+}

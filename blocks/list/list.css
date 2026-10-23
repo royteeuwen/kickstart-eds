@@ -1,0 +1,270 @@
+/* list — canon .list with .list-rendition--block cards (listing archetype "Meer info") */
+/* stylelint-disable no-descending-specificity */
+.list .list-head {
+  display: flow-root;
+  padding: 0 var(--gutter);
+}
+
+.list .list-head :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.list .list-head h1 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.list .list-head h3 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list .list-head :is(h4, h5, h6) {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.list .list-body {
+  padding: 0 var(--gutter);
+}
+
+.list .list-container {
+  margin: 0 -24px;
+}
+
+.list .list-row {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.list .list-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list .list-item {
+  clear: both;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.list a.list-link {
+  border-bottom: none;
+  color: inherit;
+}
+
+/* the whole card is the link target (image stays outside the anchor) */
+.list a.list-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.list .list-rendition {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+  padding: 8px;
+  border: 1px solid var(--color-primary-dark-08);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px var(--color-primary-dark-08);
+  background-color: var(--color-white);
+  transition: .22s ease-in-out;
+  transition-property: color, box-shadow;
+}
+
+.list .list-rendition:focus-within,
+.list .list-rendition:hover {
+  box-shadow: var(--color-primary-dark-16) 0 4px 16px;
+  color: var(--color-primary-light-120);
+}
+
+.list .list-rendition-group {
+  display: flex;
+  align-items: center;
+}
+
+.list .list-rendition-group:first-child {
+  flex-direction: column;
+  flex: auto;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.list .list-rendition-title {
+  width: 100%;
+}
+
+.list .list-rendition-title :is(h1, h2, h3, h4, h5, h6) {
+  display: -webkit-box;
+  overflow: hidden;
+  max-height: 48px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.list .list-rendition-description {
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--color-primary-dark);
+}
+
+.list .list-rendition-description > div {
+  overflow: hidden;
+  max-height: 72px;
+}
+
+.list .list-rendition-description :is(p, ul, ol) {
+  display: -webkit-box;
+  overflow: hidden;
+  max-height: 72px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.list .list-rendition-description :is(ul, ol) {
+  margin-left: 0;
+  padding-left: 18px;
+  list-style-position: outside;
+}
+
+.list .list-rendition-description li {
+  display: list-item;
+  list-style-type: disc;
+  line-height: 24px;
+}
+
+.list .list-rendition-image {
+  overflow: hidden;
+  background-color: var(--color-primary-dark-08);
+  width: 100%;
+  height: 10.5em;
+  border-radius: 4px;
+}
+
+.list .list-rendition-image :is(p, picture) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.list .list-rendition-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* WOW reveal (main.min.js .wow.fadeIn → .animated, 1s, delay .2s) */
+.list .list-wow.list-visible {
+  animation: list-fade-in 1s ease .2s both;
+}
+
+@keyframes list-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* the -24px row bleed overflows a 360 viewport on live (+8px); clip it */
+@media (width <= 767px) {
+  .list .list-body {
+    overflow-x: clip;
+  }
+
+  .list .list-rendition {
+    flex-direction: row-reverse;
+    min-height: 80px;
+    max-height: 80px;
+  }
+
+  .list .list-rendition-group:first-child {
+    flex: 1;
+    align-self: center;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .list .list-rendition-title :is(h1, h2, h3, h4, h5, h6) {
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .list .list-rendition-description {
+    display: none;
+  }
+
+  .list .list-rendition-image {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media (width >= 768px) {
+  .list .list-row {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .list .list-item {
+    position: relative;
+    float: left;
+    clear: none;
+    width: 50%;
+  }
+
+  .list .list-rendition-title {
+    margin-bottom: 16px;
+  }
+
+  .list .list-rendition-description {
+    min-height: 72px;
+  }
+
+  .list .list-head h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (width >= 992px) {
+  .list .list-item {
+    width: 33.3333%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .list .list-wow.list-visible {
+    animation: none;
+  }
+}

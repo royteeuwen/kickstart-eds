@@ -1,0 +1,143 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-19T21:21:05.620Z",
+  "origin": "https://main--ede281e9--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "header mega menus",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "265 × header nav a (min 200)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2986,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header mega menus",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "265 × header nav a (min 200)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2318,
+   "environmentLimit": null
+  },
+  {
+   "feature": "mobile drawer",
+   "id": "chrome-drawer",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "31 × header button (min 20)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2305,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search",
+   "id": "site-search",
+   "class": "S",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × header form (min 1)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2288,
+   "environmentLimit": null
+  },
+  {
+   "feature": "proces page deep links",
+   "id": "secure-deeplinks",
+   "class": "D",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × main a (min 3)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2320,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Cookie Voorkeursinstellingen footer trigger",
+   "id": "cookie-prefs-link",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "37 × footer a (min 30)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2376,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Aanmelden / Word klant / KBC Touch",
+   "id": "account-links",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header a[href*='aanmelden'] (min 1)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2310,
+   "environmentLimit": null
+  },
+  {
+   "feature": "FAQ accordions",
+   "id": "faq-accordion",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "8 × .faq [aria-expanded] (min 8)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2385,
+   "environmentLimit": null
+  },
+  {
+   "feature": "proces page PC group + QR",
+   "id": "device-conditional",
+   "class": "CR",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .quick-response img (min 1)",
+   "thirdParty": "wcmassets.kbc.be:200×4",
+   "ms": 2169,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught exceptions",
+   "id": "page-errors",
+   "class": "-",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 5 page(s)",
+   "thirdParty": "",
+   "ms": 11535,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (1 gated · 1 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6322,
+   "environmentLimit": null
+  }
+ ]
+}

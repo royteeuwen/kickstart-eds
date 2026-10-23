@@ -1,0 +1,410 @@
+{
+ "archetypes": {
+  "landing": {
+   "slug": "particulieren-nl-html",
+   "liveUrl": "https://www.kbc.be/particulieren/nl.html",
+   "prototype": "stardust/prototypes/particulieren-nl-html-proposed.html",
+   "css": "stardust/prototypes/particulieren-nl-html.css",
+   "iterations": {
+    "360": 3,
+    "1440": 3
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.35%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "clipped": 0,
+     "overflow": "ok (build 360; live 368)"
+    },
+    "1440": {
+     "pixel": "0.56%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "clipped": 0,
+     "overflow": "ok (1440=1440)"
+    }
+   },
+   "chromeCrop": {
+    "360": {
+     "header": "99.66%",
+     "footer": "99.87%"
+    },
+    "1440": {
+     "header": "99.80%",
+     "footer": "99.88%"
+    }
+   },
+   "capProbe": "PASS at 2560 — 0 of 9 rows failed (advisory: live 12 vs build 7 top-level sections, compared by order)",
+   "residuals": [
+    "360 chrome-parity: header REGION BOX Δy +98 (live -186 vs build -88) — live adds site__header--with-app-banner (device-detected KBC Mobile app banner, app-banner.js) on mobile; the banner never paints in the gate captures and is not recreated (dynamic/martech surface, hand to dynamics). Header pixels match (crop 99.66%).",
+    "visual-diff advisory STRETCHED IMAGE on hero (object-fit:cover, object-position:center top — identical to live) and the two visual-USP sr-only 1x1 imgs (live parity) — justified.",
+    "motion: invisible transition events not reproduced — border-top/left/right-color + outline-width on doormat links (1440), outline-offset (360); no painted effect.",
+    "Button hover fills implemented only where measured: header Word klant / Aanmelden (census hover probe) and secondary CTA (Wat doen wij?); Download KBC Mobile hover measured dead; primary CTA / contact buttons unmeasured (live probe blocked by the open mega menu) — left without hover fill.",
+    "TrustArc footer link (Cookie Voorkeursinstellingen in #teconsent) authored statically with TrustArc standard aria-labels; on EDS it must be injected by the consent script (martech).",
+    "Content-diff yellow: source analytics inline <script> text (digitalData) and contact-block hidden availability labels (Nu bereikbaar tot 22 uur) not recreated."
+   ],
+   "motion": {
+    "observed": [
+     "mega-menu click toggle (aem-main-nav__list__item--active, aem-main-nav__block--active, html.aem-submenu-open)",
+     "main-nav hover classes (button.hover, ul.active)",
+     "NL language dropdown (aria-expanded)",
+     "mobile site-switch tile dropdown",
+     "MENU drawer (html.mobile-navigation-open, aem-mobile-header--active, nav--trigger.active)",
+     "≤991 scroll: body.header--mobilesticky (scrollTop ≥ .site__header height), .brand__row__container--top on scroll-up",
+     "hovers: action-list item bg + link color, nav item color, Toon meer color, doormat link color"
+    ],
+    "implemented": [
+     "all observed classes/behaviours above in canon.js + canon.css",
+     "drill-down tiles + back (header contract), search clear button"
+    ],
+    "dead": [
+     "header scroll-morph at 1440 (static)",
+     "btn--inlineblock hover (Download KBC Mobile)",
+     "site__header--with-app-banner (app banner, not recreated — see residuals)"
+    ],
+    "compare": {
+     "360": "6 parity, 2 missing (app-banner class, outline-offset transition)",
+     "1440": "14 parity, 0 missing (after fixes) → final run 11 parity, 3 missing invisible border-color transition events"
+    }
+   },
+   "canonChanges": [
+    "created stardust/prototypes/canon.css (tokens, @font-face MuseoSans/iconskbc/FontAwesome from owner CDN, base, buttons, chaptertitle, action list, rich text checkmarks, divider, loan warning, header ≥992 two-row + mega menus, ≤991 fixed brand bar + MENU drawer + drill-down tiles, footer)",
+    "created stardust/prototypes/canon.js (mega-menu click, language/site-switch dropdowns, drawer + tiles, nav hover classes, search clear, ≤991 header--mobilesticky + brand__row__container--top scroll state lifted from main.min.js headerScroll)",
+    "homepage header variant = .header.header--transparent.header--text-white wrapper; interior pages use plain .header (white bar, dark text)"
+   ],
+   "status": "passed"
+  },
+  "listing": {
+   "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+   "liveUrl": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+   "prototype": "stardust/prototypes/particulieren-nl-betalen-zichtrekeningen-html-proposed.html",
+   "css": "stardust/prototypes/particulieren-nl-betalen-zichtrekeningen-html.css",
+   "iterations": {
+    "360": 3,
+    "1440": 3
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.46%",
+     "heightDelta": 0,
+     "structuralRed": 10,
+     "structuralRedJustified": "same 10 instrument artefacts",
+     "clipped": 0,
+     "overflow": "ok (build 360; live 368)",
+     "chromeCrop": {
+      "header": "99.76%",
+      "footer": "99.89%"
+     },
+     "chromeParity": "quiet",
+     "unitGeometry": "PASS (10 units, 20 within, 0 off)",
+     "postMotion": "0.46% (symmetric --settle capture)"
+    },
+    "1440": {
+     "pixel": "0.04%",
+     "heightDelta": 0,
+     "structuralRed": 10,
+     "structuralRedJustified": "all 10 = instrument artefact (see residuals[0]); 0 unexplained",
+     "clipped": 0,
+     "overflow": "ok (1440=1440)",
+     "chromeCrop": {
+      "header": "99.84%",
+      "footer": "99.92%"
+     },
+     "chromeParity": "quiet",
+     "postMotion": "0.04% (symmetric --settle capture, see captureState)"
+    }
+   },
+   "capProbe": "PASS at 2560 — 0 of 7 rows failed",
+   "units": [
+    "listing-more-info-cards (7, required)",
+    "listing-image-tiles (3, required)"
+   ],
+   "residuals": [
+    "content-diff 10 structural red (both widths) are an instrument artefact: the source card/tile <a> elements contain an inline analytics <script> (digitalData componentDigitalData), so the source CTA label is the script text; the build carries the same 10 links (same hrefs, visible labels) — reported as the paired 🟠 EXTRA rows. Not recreated: analytics inline scripts (martech).",
+    "Device-conditional comparison: live serves TWO conditional containers — visible-on-deviceIsPhone_nomatch (comparison table ≥992 / per-feature item tables + 'Kies een kenmerk' filter ≤991) and visible-on-deviceIsPhone_match (3 comparison panels). Gates ran with a desktop UA at both widths, so the phone-match panels are authored but `hidden` (section.comparison--phone); EDS needs a device/UA decision (dynamics).",
+    "Live content quirk reproduced verbatim: in the ≤991 item tables the desktop check rows (KBC-/CBC-automaten, Online bankieren, Instant overschrijvingen, Apple Pay Plus/Jongeren) render a CROSS svg with aria-label 'niet inbegrepen' (author error on live) — candidate inconsistency-register entry, not fixed.",
+    "'Kies een kenmerk' dropdown filter: click observed dead on live at 360 (no class/attr/scroll change) — rendered static (listbox hidden); the hidden native <select> duplicate is not recreated.",
+    "Live desktop language links carry page alternates with a double-escaped title 'Comptes &agrave; vue' — reproduced verbatim.",
+    "Static equivalents of live JS: list-rendition description min-height 72px (jquery.matchHeight data-mh-child), last image tile margin-bottom 1.65em at ≤767 (measured).",
+    "360: section.list overflow-x: clip — live overflows the viewport by 8px (row -24px bleed); build clips it.",
+    "visual-diff IMAGERY GAP advisory: tiles/cards are CSS background-images on both sides (live <img> count is header/logo) — justified.",
+    "FONT FORK '**' (source Arial in the hidden native select option) — not recreated, advisory."
+   ],
+   "captureState": [
+    {
+     "what": "WOW entrance (.wow.fadeIn → .animated, fadeIn 1s, delay .2s) on the 3 image tiles + 7 cards",
+     "why": "gate.sh captures the build WITHOUT --settle while the cached live.png was captured WITH --settle; stitch-shot's freeze pauses the just-triggered fadeIn at opacity 0 on the build side only (post-motion gate.sh round read 7.81% / 1.44% with a 41% hot band at 1440 y2000–2500). A symmetric --settle build capture returns the gated values (0.04% / 0.46%).",
+     "restoreAtDelivery": "implemented (canon.js WOW reveal) — keep; no freeze in the deliverable"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "hover .list-rendition: color → primary-light-120, box-shadow dark-16 (.22s)",
+     "hover .block--image-tile: translate(-1px,-1px), box-shadow 1px 1px 3px dark-40, color/h3 primary-light-120 (.22s)",
+     "hover primary buttons in main (Open nu, Vergelijk): background sea-blue-120",
+     "hover breadcrumb links: color dark-120",
+     "WOW scroll reveal: .wow.fadeIn grids get .animated + fadeIn (1440: 4 fired, 360: 7 fired)",
+     "≤991 header--mobilesticky / brand__row__container--top (canon)"
+    ],
+    "implemented": [
+     "all hovers above (page css)",
+     "WOW reveal (canon.js + canon.css .animated/@keyframes fadeIn)"
+    ],
+    "dead": [
+     "comparison header link hover",
+     "'Kies een kenmerk' dropdown click (360)",
+     "header scroll-morph at 1440"
+    ],
+    "compare": {
+     "360": "5 parity, 0 missing, 0 extra",
+     "1440": "16 parity, 0 missing, 0 extra (fadeIn fired-count live 4 vs build 7 — out of tolerance, advisory)"
+    }
+   },
+   "canonChanges": [
+    "canon.css: `.site-switch__item--active .site-switch__link { color: primary-light }` scoped to `.header--text-white` (source .site-switch__link is color: inherit → dark-70 on interior pages; home unaffected — its text-white rules already override)",
+    "canon.css: interior header variant added — `.header--white, .header--white .brand__row__container, .header--white .brand__row { background:#fff }` and `.header--text-primary-dark .site__header { color: primary-dark; background: transparent }` (live interior wrapper is .header.header--white.header--text-primary-dark)",
+    "canon.css: `.aem-main-nav__menu-tile__link .aem-main-nav__menu-tile__text--active { color: primary-light }` (drawer marks the current page)",
+    "canon.css: `.animated`, `@keyframes fadeIn`, `.fadeIn` (main.min.css); canon.js: WOW reveal for `.wow` (no-op on home)",
+    "Home re-verified after the changes: 1440 0.56% / 360 0.35%, Δh 0 (unchanged)"
+   ],
+   "status": "passed"
+  },
+  "program": {
+   "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+   "liveUrl": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+   "prototype": "stardust/prototypes/particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html-proposed.html",
+   "css": "stardust/prototypes/particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html.css",
+   "iterations": {
+    "360": 1,
+    "1440": 3
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.12%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "structuralRedJustified": "same 18 digitalData + 2 canon EXTRA yellows",
+     "clipped": 0,
+     "overflow": "ok (360=360)",
+     "chromeCrop": {
+      "header": "99.76%",
+      "footer": "99.82%"
+     },
+     "chromeParity": "quiet",
+     "unitGeometry": "PASS (12 units, 12 within, 0 off) — uncached unit-geometry run (units-360-nocache.json); the gate.sh postmotion run read FAIL only because unit-geometry caches the origin inventory per slug (stardust/current/measure/<slug>-units.json) regardless of width, so 360 compared against the 1440 origin boxes",
+     "postMotion": "0.12% (gate.sh postmotion --full)"
+    },
+    "1440": {
+     "pixel": "0.06%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "structuralRedJustified": "0 red; 18 yellow MISSING BODY = inline digitalData analytics <script> text (11 main CTA/component, 7 header) — instrument artefact, same hrefs + visible labels in build; 2 yellow EXTRA = canon drawer language-switch button \"Nederlands\" + icon (inherited canon, same on listing)",
+     "clipped": 0,
+     "overflow": "ok (1440=1440)",
+     "chromeCrop": {
+      "header": "99.81%",
+      "footer": "99.88%"
+     },
+     "chromeParity": "quiet",
+     "unitGeometry": "PASS (12 units, 12 within, 0 off)",
+     "postMotion": "0.06% (gate.sh postmotion --full)"
+    }
+   },
+   "capProbe": "PASS at 2560 — 0 of 3 rows failed (wrapper 1200 = 1200; module chaptertitle cap 1000 = 1000)",
+   "units": [
+    "program-faq-rows (8, required)",
+    "program-download-items (4, required)"
+   ],
+   "residuals": [
+    "content-diff (both widths): 18 yellow MISSING BODY rows are the live inline digitalData analytics <script> text inside CTA/summary/header links (instrument artefact; build has the same hrefs + visible labels). Analytics scripts not recreated (martech).",
+    "content-diff EXTRA \"Nederlands\" + icon in header: canon drawer language-switch button, hidden at desktop; present identically on the listing archetype (inherited canon, not page-specific).",
+    "visual-diff advisories: IMAGERY GAP (live counts the display:none print hero img.header__image-print, the TrustArc/tracking pixels and the logo img; build renders hero + secure4u) and STRETCHED IMAGE on the intro hero (object-fit:cover 564x400 of a 960x570 rendition — identical to live) — justified.",
+    "FAQ is native <details>/<summary> on live (faq.min.js only adds analytics attributes): no class mutations fired on click, chevron rotation + content height 0→100% are CSS on [open]; recreated natively, no canon.js accordion added.",
+    "Live markup quirks normalised without visual change: download-list dividers are nested div.aem-divider inside <ul> on live (rendered here as li.aem-divider > div.aem-divider, same double rule); the mobile breadcrumb separator svg sits outside the <li> on live (inside here); the trailing empty bg-light layout container (empty chaptertitle + empty list, 48px padding-block) is a 96px full-bleed band div.",
+    "Trailing empty <li class=download-item> reproduced (authored empty item on live, zero height).",
+    "Instrument note: unit-geometry origin cache is keyed per slug, not per width — a 360 --full run after a 1440 --full run reads the 1440 origin boxes (false FAIL); verify with an uncached --unit run."
+   ],
+   "motion": {
+    "observed": [
+     "hover .faq__item__title: background primary-light-10",
+     "hover primary buttons (intro Open nu, btngroup Open nu): background sea-blue-120, .22s",
+     "hover download links / warning-list links: color primary-light-120 (.22s, canon a:hover)",
+     "hover breadcrumb links: color dark-120 (.22s)",
+     "FAQ summary click: native details open, chevron ::after transform (rotate 90→-90)",
+     "≤991 header--mobilesticky / brand__row__container--top (canon)"
+    ],
+    "implemented": [
+     "all hovers above (page css; links via canon)",
+     "FAQ open/close native <details> + lifted [open] CSS (no JS)"
+    ],
+    "dead": [
+     "header scroll-morph at 1440",
+     "FAQ widget sampler (no track/scroll change — native details only)",
+     "hover .text-image__text a (first match sits in a closed FAQ)"
+    ],
+    "compare": {
+     "360": "4 parity, 0 missing, 0 extra",
+     "1440": "14 parity, 0 missing, 0 extra"
+    }
+   },
+   "canonChanges": [],
+   "status": "passed"
+  },
+  "article": {
+   "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+   "liveUrl": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+   "prototype": "stardust/prototypes/particulieren-nl-pensioensparen-sleutelmoment-html-proposed.html",
+   "css": "stardust/prototypes/particulieren-nl-pensioensparen-sleutelmoment-html.css",
+   "iterations": {
+    "360": 1,
+    "1440": 3
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.06%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "clipped": 0,
+     "overflow": "ok (360=360)"
+    },
+    "1440": {
+     "pixel": "0.02%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "clipped": 0,
+     "overflow": "ok (1440=1440)"
+    }
+   },
+   "chromeCrop": {
+    "360": {
+     "header": "99.57%",
+     "footer": "99.84%"
+    },
+    "1440": {
+     "header": "99.88%",
+     "footer": "99.88%"
+    }
+   },
+   "capProbe": "PASS at 2560 — 0 of 12 rows failed",
+   "residuals": [
+    "content-diff yellow (artefacts): live inline digitalData <script> text counted as body copy; inline <style> text inside the live binoculars highlight SVG (kdl theme rules, stripped — icon itself recreated, paired by order).",
+    "header canon markup carries the home-only mobile menu item 'Nederlands' (tile-8) not present on this page's live header (yellow EXTRA) — canon chrome kept identical across prototypes; language alternates (desktop list + mobile Taalkeuze tile) re-pointed to this page's FR/DE/EN URLs with live titles.",
+    "footer: the home-derived footer's 'Let op, geld lenen kost ook geld.' loan warning is page-dependent and absent on this live page — dropped from this prototype's footer.",
+    "visual-diff advisory STRETCHED IMAGE on hero (object-fit:cover, center top — identical to live) — justified.",
+    "live wraps the four step illustrations in <a href=…svg> links to the asset itself; recreated as plain images (no content/visual change).",
+    "img width/height attributes added (step SVGs 160, split photos 950, page-link 200) so lazy images reserve height — without them the build stitch truncated at the pre-load document height (-202px); live markup has none.",
+    "home-intro hero rules duplicated from particulieren-nl-html.css (landing archetype) into this CSS rather than canon (canon frozen while form archetype in flight) — candidate canon module."
+   ],
+   "motion": {
+    "observed": [
+     "hover .btn--cta background sea-blue -> sea-blue-120 (220ms)",
+     "hover link colour primary-light -> primary-light-120 (text-image, highlight, rich-text ol, page-link)",
+     "360: header--mobilesticky / brand__row__container--top on scroll (canon.js)"
+    ],
+    "implemented": [
+     "CTA hover fill in per-archetype CSS; link hover + mobile sticky header via canon"
+    ],
+    "dead": [
+     "header scroll-morph at 1440 (static on live)"
+    ],
+    "compare": {
+     "360": "11 parity, 0 missing, 0 extra",
+     "1440": "12 parity, 0 missing, 0 extra"
+    }
+   },
+   "canonChanges": [],
+   "canonCandidates": [
+    "home-intro (introduction-block-home) hero rules now used by landing + article — move to canon",
+    "aem-btngroup / text-image base rules duplicated in program + article CSS — move to canon"
+   ],
+   "status": "passed"
+  },
+  "form": {
+   "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+   "liveUrl": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+   "prototype": "stardust/prototypes/particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html-proposed.html",
+   "css": "stardust/prototypes/particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html.css",
+   "assets": [
+    "stardust/prototypes/particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html-qr.png (captured awesome-qr bitmap, capture-state)"
+   ],
+   "iterations": {
+    "360": 3,
+    "1440": 2
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.54%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "structuralRedJustified": "same 11 digitalData + 2 canon EXTRA yellows",
+     "clipped": 0,
+     "overflow": "ok (360=360)",
+     "chromeCrop": {
+      "header": "99.62%",
+      "footer": "98.46%"
+     },
+     "chromeParity": "quiet (final --full)",
+     "postMotion": "0.54%"
+    },
+    "1440": {
+     "pixel": "0.17%",
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "structuralRedJustified": "0 red; 11 yellow MISSING BODY = inline digitalData analytics <script> text (4 main CTA, 7 header) — instrument artefact; 2 yellow EXTRA = canon drawer Nederlands button + icon (inherited canon)",
+     "clipped": 0,
+     "overflow": "ok (1440=1440)",
+     "chromeCrop": {
+      "header": "99.78%",
+      "footer": "99.16%"
+     },
+     "chromeParity": "header quiet; footer REGION Δy +24 (873→897) = live JS race, see residuals[0]",
+     "unitGeometry": "n/a (no units declared)",
+     "postMotion": "0.17% (gate.sh postmotion --full)"
+    }
+   },
+   "capProbe": "PASS at 2560 — 0 of 4 rows failed (wrapper 700=700, modules 500/329; DESIGN.json containerMaxWidth 1200 vs live content cap 700 is the shell note, informational)",
+   "residuals": [
+    "Live layout race at ≥992: the first .juridicaltext (last child of the 7-col container inside a responsivegrid--margin-collapse container) loses its 24px margin-bottom on some loads (inline margin-bottom:0 set by live JS, nondeterministic: 2 of 5 live loads incl. the cached gate live.png and the settled capture keep 24px; chrome-parity/measure loads read 0). Build follows the gate ground truth (24px, footer at 897); chrome-parity 1440 therefore reports footer Δy +24 against its live cache (873). Not a build defect; EDS should pick one (recommend 24px = captured state).",
+    "Device-conditional containers: live ships visible-on-deviceIsPC_match (process group + QR), deviceIsPC_nomatch (process group without QR) and deviceIsPhone_match (second image zichtrekening-nieuwelook17b). Gate runs a desktop UA at both widths, so PC_match is rendered; the other two are authored but hidden ([hidden]). EDS needs a device/UA decision (dynamics).",
+    "QR code is generated client-side by awesome-qr from a secure deeplink (d77-privateAccountRequest-myself via basisrekening-openen.kbc.securedeeplinks.nocache.json); recreated as the captured bitmap (capture-state). Functional deeplink QR = dynamics.",
+    "\"Ik ben al klant\" (href=#) is JS-wired on live: clicking navigates away (motion-observe click destroyed the context). Rendered as the static # link; the real target/handler is a dynamics item.",
+    "<992 the conditional-container wrapper (padding 0 12px in an unpadded column) puts the h3/buttons/QR at x=12 vs h1 at 16 — reproduced (margin 0 -4px).",
+    "Footer is the compact process variant (leading divider, secure4u, divider, loan warning, legal nav — no doormat); hrefs relative as captured on this page. 360 footer crop 98.46% = sub-pixel underline/icon antialiasing (all footer boxes measured Δ0).",
+    "Live language-link title quirk reproduced verbatim: DE title \"KBC-Basisrekening Er&amp;ouml;ffnen\" (double-escaped).",
+    "360 live capture shows the ≤991 sticky header re-painted over \"Ik ben nieuw bij KBC\" (stitch artefact); identical on build (canon header--mobilesticky), no hot band."
+   ],
+   "motion": {
+    "observed": [
+     "primary CTA hover background #009985→#007a6a 220ms",
+     "tertiary CTA hover color #009985→#007a6a 220ms",
+     "chrome behaviours as canon (header scroll-morph dead on this page)"
+    ],
+    "implemented": [
+     "both CTA hovers + .22s transitions (motion-compare: 8 parity, 0 missing, 0 extra)"
+    ],
+    "dead": [
+     "header scroll-morph at 1440"
+    ]
+   },
+   "canonChanges": [],
+   "status": "passed"
+  }
+ },
+ "siblings": {},
+ "migrate": {
+  "at": "2026-10-19T18:36:04.168Z",
+  "pages": 5,
+  "archetypes": 5,
+  "siblings": 0,
+  "thin": 0,
+  "gates": {
+   "content-fidelity": 5,
+   "pixel-gate-1440": 5,
+   "pixel-gate-360": 5,
+   "delivery-lint": 4,
+   "content-count": 4
+  },
+  "missing": {}
+ }
+}

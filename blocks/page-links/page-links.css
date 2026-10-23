@@ -1,0 +1,170 @@
+/* page-links — canon chaptertitle--page + .page-link cards on a light band (values from the
+   gated article prototype) */
+.page-links .page-links-head :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+@media (width >= 768px) {
+  .page-links .page-links-head :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.page-links .page-links-band {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-block: 48px;
+  background-color: var(--color-background-light);
+}
+
+.page-links .page-links-inner {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (width >= 768px) {
+  .page-links .page-links-inner {
+    max-width: 760px;
+  }
+}
+
+@media (width >= 992px) {
+  .page-links .page-links-inner {
+    display: flex;
+    max-width: 864px;
+  }
+
+  .page-links .page-links-col {
+    width: 33.3333%;
+  }
+}
+
+@media (width >= 1440px) {
+  .page-links .page-links-inner {
+    max-width: var(--max-width);
+  }
+}
+
+.page-links .page-links-col {
+  padding: 0 var(--gutter);
+}
+
+.page-links a.page-link {
+  position: relative;
+  display: block;
+  margin: 0 auto 24px;
+  border-bottom: none;
+}
+
+.page-links .page-link-image {
+  position: absolute;
+  top: 24px;
+  z-index: 1;
+  width: 144px;
+  height: 144px;
+}
+
+.page-links .page-link-image :is(p, picture) {
+  display: block;
+  margin: 0;
+}
+
+.page-links .page-link-image img {
+  display: block;
+  width: 144px;
+  height: 144px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.page-links .page-link-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 192px;
+  margin-left: 72px;
+  padding: 24px 24px 24px 94px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px var(--color-primary-dark-10);
+  color: var(--color-primary-dark);
+  background-color: var(--color-white);
+}
+
+.page-links .page-link-title {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--color-primary-light);
+}
+
+.page-links .page-link-title :is(p, h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.page-links .page-link-content {
+  display: block;
+  position: relative;
+}
+
+.page-links .page-link-description {
+  display: block;
+}
+
+.page-links .page-link-description p {
+  margin: 0;
+}
+
+@media (width <= 1199px) {
+  .page-links .page-link-description {
+    margin-bottom: 20px;
+  }
+}
+
+@media (width <= 575px) {
+  .page-links .page-link-description {
+    margin-top: 20px;
+  }
+
+  .page-links a.page-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+  }
+
+  .page-links .page-link-image {
+    position: relative;
+    top: 0;
+    z-index: 0;
+    width: 120px;
+    height: 120px;
+    margin-bottom: -67px;
+  }
+
+  .page-links .page-link-image img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .page-links .page-link-body {
+    min-width: 100%;
+    max-width: 500px;
+    margin-left: 0;
+    padding: 87px 0 24px;
+    text-align: center;
+  }
+
+  .page-links .page-link-content {
+    padding: 0 24px;
+  }
+}

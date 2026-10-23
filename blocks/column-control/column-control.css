@@ -1,0 +1,275 @@
+/* column-control — canon .column-control (listing archetype), values from the gated prototype */
+.column-control .column-control-head {
+  display: flow-root;
+  padding: 0 var(--gutter);
+}
+
+.column-control .column-control-head :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  font-weight: 700;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.column-control .column-control-head h1 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.column-control .column-control-head h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.column-control .column-control-head h3 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.column-control .column-control-head :is(h4, h5, h6) {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.column-control .column-control-body {
+  padding: 0 var(--gutter);
+}
+
+.column-control .column-control-row,
+.column-control .column-control-tiles-row {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.column-control .column-control-row::after,
+.column-control .column-control-tiles-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-control .column-control-grid,
+.column-control .column-control-tile-item {
+  clear: both;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.column-control .column-control-column {
+  margin-bottom: 24px;
+}
+
+.column-control .column-control-parsys {
+  padding-top: 1.2375em;
+  padding-bottom: 1.2375em;
+}
+
+/* chapter title inside a column (canon .chaptertitle + beta, left) */
+.column-control .column-control-title {
+  display: flow-root;
+}
+
+.column-control .column-control-title :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.column-control .column-control-rich li {
+  margin-bottom: 8px;
+}
+
+.column-control .column-control-btngroup {
+  margin-bottom: 24px;
+}
+
+/* image tiles (canon .block--image-tile) */
+.column-control .column-control-tiles {
+  margin: 0 -12px;
+}
+
+.column-control a.column-control-tile-link {
+  border-bottom: none;
+  color: inherit;
+}
+
+/* the whole tile is the link target (image stays outside the anchor) */
+.column-control a.column-control-tile-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.column-control .column-control-tile {
+  display: flex;
+  position: relative;
+  min-height: 5em;
+  margin-bottom: 24px;
+  border-radius: 3px;
+  background-color: var(--color-white);
+  color: var(--color-primary-light);
+  transition: color .22s ease-in-out, box-shadow .22s ease-in-out, transform .22s ease-in-out;
+}
+
+.column-control .column-control-tile-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 5em;
+  min-height: 5em;
+  overflow: hidden;
+  border-radius: 3px 0 0 3px;
+  background-color: var(--color-primary-dark-08);
+}
+
+.column-control .column-control-tile-image :is(p, picture) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.column-control .column-control-tile-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.column-control .column-control-tile-body {
+  display: table;
+  width: calc(100% - 5em);
+  min-height: 5em;
+  margin-left: 5em;
+  padding: 0 0 0 1em;
+  text-align: left;
+}
+
+.column-control .column-control-tile-body :is(h1, h2, h3, h4, h5, h6) {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+  padding: .625em .625em .625em 0;
+  font-size: 1.125em;
+  line-height: 1.485;
+  font-weight: 700;
+  color: var(--color-primary-light);
+  transition: all .22s ease-in-out;
+}
+
+.column-control .column-control-tile-linked:hover,
+.column-control .column-control-tile-linked:hover :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--color-primary-light-120);
+}
+
+/* WOW reveal (main.min.js .wow.fadeIn → .animated, 1s, delay .2s) */
+.column-control .column-control-wow.column-control-visible {
+  animation: column-control-fade-in 1s ease .2s both;
+}
+
+@keyframes column-control-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (width <= 767px) {
+  /* measured (live ≤767): the last tile keeps the 1.65em block margin */
+  .column-control .column-control-tile-item:last-child .column-control-tile {
+    margin-bottom: 1.65em;
+  }
+}
+
+@media (width >= 768px) {
+  .column-control .column-control-row,
+  .column-control .column-control-tiles-row {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .column-control .column-control-tiles {
+    margin: 0 -24px;
+  }
+
+  .column-control .column-control-tile-item {
+    position: relative;
+    float: left;
+    clear: none;
+    width: 50%;
+  }
+
+  .column-control .column-control-tile {
+    min-height: 5.625em;
+  }
+
+  .column-control .column-control-tile-image {
+    width: 50%;
+    height: 100%;
+    min-height: 0;
+  }
+
+  .column-control .column-control-tile-body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    margin-left: 0;
+    padding: 0 0 .165em 50%;
+  }
+
+  .column-control .column-control-tile-body :is(h1, h2, h3, h4, h5, h6) {
+    display: block;
+    padding: .825em .9375em;
+    font-size: 16px;
+    line-height: 23.76px;
+    overflow-wrap: break-word;
+  }
+
+  .column-control .column-control-tile-linked:hover {
+    box-shadow: 1px 1px 3px var(--color-primary-dark-40);
+    transform: translate(-1px, -1px);
+  }
+
+  .column-control .column-control-head h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (width >= 992px) {
+  .column-control .column-control-grid {
+    position: relative;
+    float: left;
+    clear: none;
+    width: 50%;
+  }
+
+  .column-control .column-control-cols-1 .column-control-grid {
+    width: 100%;
+  }
+
+  .column-control .column-control-cols-3 .column-control-grid {
+    width: 33.3333%;
+  }
+
+  .column-control .column-control-cols-2 .column-control-tile-item {
+    width: 66.6667%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .column-control .column-control-wow.column-control-visible {
+    animation: none;
+  }
+}

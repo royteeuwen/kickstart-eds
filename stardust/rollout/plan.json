@@ -1,0 +1,174 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-19T18:36:47.457Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-19T18:36:47.457Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "particulieren-nl-betalen-zichtrekeningen-html",
+    "particulieren-nl-html",
+    "particulieren-nl-pensioensparen-sleutelmoment-html",
+    "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+    "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html"
+  ],
+  "steps": [
+    {
+      "slug": "particulieren-nl-betalen-zichtrekeningen-html",
+      "path": "/particulieren/nl/betalen/zichtrekeningen",
+      "templateId": "particulieren-nl-betalen-zichtrekeningen-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "column-control",
+          "edsBlockName": "column-control"
+        },
+        {
+          "id": "comparison",
+          "edsBlockName": "comparison"
+        },
+        {
+          "id": "list",
+          "edsBlockName": "list"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "particulieren-nl-html",
+      "path": "/particulieren/nl",
+      "templateId": "particulieren-nl-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "home-intro",
+          "edsBlockName": "home-intro"
+        },
+        {
+          "id": "more-services",
+          "edsBlockName": "more-services"
+        },
+        {
+          "id": "visual-usp",
+          "edsBlockName": "visual-usp"
+        },
+        {
+          "id": "visual-usp-home",
+          "edsBlockName": "visual-usp-home"
+        },
+        {
+          "id": "contact-section",
+          "edsBlockName": "contact-section"
+        },
+        {
+          "id": "text-image",
+          "edsBlockName": "text-image"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "path": "/particulieren/nl/pensioensparen/sleutelmoment",
+      "templateId": "particulieren-nl-pensioensparen-sleutelmoment-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "key-steps",
+          "edsBlockName": "key-steps"
+        },
+        {
+          "id": "split",
+          "edsBlockName": "split"
+        },
+        {
+          "id": "highlight",
+          "edsBlockName": "highlight"
+        },
+        {
+          "id": "page-links",
+          "edsBlockName": "page-links"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "home-intro",
+          "edsBlockName": "home-intro",
+          "convertedBy": "particulieren-nl-html"
+        }
+      ]
+    },
+    {
+      "slug": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "path": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen",
+      "templateId": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "process-page",
+          "edsBlockName": "process-page"
+        },
+        {
+          "id": "quick-response",
+          "edsBlockName": "quick-response"
+        },
+        {
+          "id": "cta-btngroup",
+          "edsBlockName": "cta-btngroup"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "text-image",
+          "edsBlockName": "text-image",
+          "convertedBy": "particulieren-nl-html"
+        }
+      ]
+    },
+    {
+      "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "path": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen",
+      "templateId": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "introduction-block",
+          "edsBlockName": "introduction-block"
+        },
+        {
+          "id": "faq",
+          "edsBlockName": "faq"
+        },
+        {
+          "id": "download-list",
+          "edsBlockName": "download-list"
+        },
+        {
+          "id": "table",
+          "edsBlockName": "table"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "text-image",
+          "edsBlockName": "text-image",
+          "convertedBy": "particulieren-nl-html"
+        },
+        {
+          "id": "cta-btngroup",
+          "edsBlockName": "cta-btngroup",
+          "convertedBy": "particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+ "source": "file:///workspace/ede281e9/stardust/prototypes/particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "introduction-block",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Let op, geld lenen kost ook geld."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "KBC-Basisrekening"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "De zichtrekening voor al je dagelijkse verrichtingen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "2,50 euro per maand*"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Zichtrekening met 1 debetkaart inclusief gratis kredietkaart**"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Bankier online met Beste bankapp van de wereld, volgens Sia"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Open je rekening makkelijk online met itsme®"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Open nu je zichtrekening",
+     "href": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Woon je in Brussel?"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Ga dan verder met KBC Brussels.",
+     "href": "https://www.kbcbrussels.be/particulieren/nl/betalen/zichtrekeningen.html"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Woon je in Wallonië?"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Dan is CBC een betere keuze.",
+     "href": "https://www.cbc.be/particuliers/fr/produits/paiements/comptes-a-vue/ouvrez-compte-a-vue.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.richtext",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+/* cta-btngroup — canon .aem-cta-btngroup (cta-button.min.css values, gated form prototype) */
+.cta-btngroup {
+  margin-bottom: 24px;
+}
+
+.cta-btngroup .cta-btngroup-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  min-width: 100%;
+}
+
+.cta-btngroup .cta-btngroup-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 279px;
+  max-width: 100%;
+}
+
+.cta-btngroup .cta-btngroup-item p {
+  width: 100%;
+  margin: 0;
+}
+
+.cta-btngroup .cta-btngroup-item a:any-link {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 40px;
+  margin: 0;
+  padding: 7px 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  transition: background .22s ease-in-out, color .22s ease-in-out, border .22s ease-in-out;
+}
+
+/* tertiary: a plain (unformatted) link */
+.cta-btngroup .cta-btngroup-item a:any-link:not(.button) {
+  padding: 7px 0;
+  border: 0;
+  background-color: transparent;
+  color: var(--color-sea-blue);
+  text-decoration: underline;
+}
+
+.cta-btngroup .cta-btngroup-item a:any-link:not(.button):hover {
+  color: var(--color-sea-blue-120);
+}
+
+@media (width >= 768px) {
+  .cta-btngroup .cta-btngroup-list {
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 0 24px;
+  }
+
+  .cta-btngroup .cta-btngroup-item {
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: fit-content;
+  }
+
+  .cta-btngroup .cta-btngroup-item a:any-link {
+    width: auto;
+  }
+}

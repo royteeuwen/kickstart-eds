@@ -1,0 +1,96 @@
+/* Form archetype (process start: KBC-Basisrekening openen) — values lifted from KBC clientlibs:
+   breadcrumbs.min.css, global head.min.css (AEM responsive grid), process-group.min.css, deep-qr.min.css,
+   conditional-container.min.css, cta-button.min.css, rich-text.min.css, chaptertitle.min.css,
+   settings/wcm/designs/particulieren main.min.css (text-image, image--inset, juridical-text, social-proof-text).
+   Capture-state policy: the QR (awesome-qr secure deeplink, generated client-side) is the captured bitmap. */
+
+/* ---------- breadcrumb (breadcrumbs.min.css) ---------- */
+.breadcrumb-cmp { margin: 0 16px; }
+@media screen and (min-width: 768px) { .breadcrumb-cmp { margin: 0 32px; } }
+.breadcrumb { margin-bottom: 24px; }
+.crumbs { display: none; align-items: center; margin: 0; padding: 0; list-style: none; }
+@media screen and (min-width: 576px) { .crumbs { display: flex; } }
+.crumbs .crumb { display: flex; justify-content: center; align-items: center; margin-bottom: 0; font-size: 12px; line-height: 16px; font-weight: 300; color: var(--color-primary-dark); white-space: nowrap; }
+.crumbs .crumb a { display: block; font-size: 12px; color: var(--color-primary-dark-70); border-bottom: 1px solid var(--color-primary-dark-70); text-decoration: none; }
+.crumbs .crumb a:hover { color: var(--color-primary-dark-120); border-color: var(--color-primary-dark-120); }
+.crumbs .crumb__separator { display: block; }
+.crumbs .crumb__separator path { stroke: var(--color-primary-dark-70); }
+.crumbs .crumb--last { font-size: 12px; line-height: 16px; font-weight: 500; }
+.crumbs.crumbs--mobile { display: flex; flex-wrap: nowrap; }
+.crumbs.crumbs--mobile .crumb a, .crumbs.crumbs--mobile .crumb a:hover { border-color: transparent; }
+.crumbs.crumbs--mobile .crumb__separator { transform: rotate(180deg); }
+@media screen and (min-width: 576px) { .crumbs.crumbs--mobile { display: none; } }
+
+/* ---------- main container (.main.responsivegrid) ---------- */
+.main { max-width: 100%; margin: 0 auto; }
+@media screen and (min-width: 768px) { .main { max-width: 760px; } }
+@media screen and (min-width: 992px) { .main { max-width: 864px; margin-top: 48px; } }
+@media screen and (min-width: 1440px) { .main { max-width: 1200px; } }
+
+/* outer layout container: responsivegrid--spacing-medium (margin-bottom 48px) */
+.process-page { margin-bottom: 48px; }
+/* <992 no clearfix box: the last margin collapses through main, as live */
+@media screen and (min-width: 992px) { .process-page__grid::after { content: ""; display: table; clear: both; } }
+.process-page__media, .process-page__content { box-sizing: border-box; padding: 0 16px; }
+@media screen and (min-width: 992px) {
+  .process-page__media, .process-page__content { float: left; padding: 0 12px; }
+  .process-page__media { width: 41.6666666667%; }
+  .process-page__content { width: 58.3333333333%; }
+}
+
+/* ---------- image (text-image + image--inset) ---------- */
+.process-page__media .image { margin: 0; }
+.process-page__media img { display: block; width: 100%; height: auto; border-radius: 20px; object-fit: cover; object-position: center top; }
+@media screen and (max-width: 767px) { .media--hide-on-mobile { display: none; } }
+
+/* ---------- intro flow ---------- */
+.process-page__content .chaptertitle__text { margin-bottom: 8px; }
+.text-image--intro { margin-bottom: 16px; }
+.text-image--intro p { margin: 0; font-size: 16px; line-height: 24px; font-weight: 300; }
+.social-proof-text { font-size: 12px; line-height: 16px; font-weight: 700; color: var(--color-sea-blue); }
+@media screen and (min-width: 768px) { .social-proof-text { font-size: 14px; line-height: 20px; } }
+.process-page__content .aem__rich-text { margin-bottom: 16px; }
+.process-page__content .aem__rich-text ul { margin-bottom: 0; }
+
+/* ---------- process group (process-group.min.css) ---------- */
+/* device-conditional container wrapper: padding 0 12px inside an unpadded column (<992 the h3/QR sit 4px left of the h1) */
+@media screen and (max-width: 991px) { .process-page__content .conditional-container { margin: 0 -4px; } }
+.aem__process-group { margin-bottom: 48px; }
+@media screen and (min-width: 992px) { .aem__process-group { display: flex; gap: 24px; } }
+@media screen and (min-width: 1440px) { .aem__process-group { margin-bottom: 96px; } }
+.aem__process-group__title { margin-bottom: 24px; }
+.aem__process-group__title .chaptertitle__text { margin-bottom: 13.2px; padding-top: 13.2px; line-height: 23.76px; } /* measured on live: 13.2px padding-top + margin-bottom */
+.aem__process-group__text { word-break: break-word; margin-bottom: 48px; }
+.aem__process-group__actions { display: flex; flex-direction: column; width: 100%; align-items: center; }
+@media screen and (min-width: 768px) { .aem__process-group__actions { flex-direction: row; } }
+
+/* button group (cta-button.min.css) */
+.aem__process-group .aem-cta-btngroup { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0; min-width: 100%; }
+.aem__process-group .aem-cta-btngroup__wrapper { display: flex; flex-direction: column; justify-content: center; align-items: center; width: 279px; margin-bottom: 12px; }
+.aem__process-group .aem-cta-btngroup__wrapper:last-child { margin-bottom: 0; }
+.aem__process-group .btn--cta { display: block; width: 100%; min-height: 40px; margin: 0; padding: 0 24px; text-align: center; transition: background .22s ease-in-out, color .22s ease-in-out, border .22s ease-in-out; }
+.aem-btngroup__wrapper__btn--color-primary.aem-btngroup__wrapper__btn--primary { border: 1px solid var(--color-sea-blue); background-color: var(--color-sea-blue); color: var(--color-white); }
+.aem-btngroup__wrapper__btn--color-primary.aem-btngroup__wrapper__btn--primary:hover { background-color: var(--color-sea-blue-120); border-color: var(--color-sea-blue-120); }
+.aem-btngroup__wrapper__btn--color-primary.aem-btngroup__wrapper__btn--tertiary { padding: 0; border: 0; background-color: transparent; color: var(--color-sea-blue); text-decoration: underline; }
+.aem-btngroup__wrapper__btn--color-primary.aem-btngroup__wrapper__btn--tertiary:hover { color: var(--color-sea-blue-120); }
+@media screen and (min-width: 768px) {
+  .aem__process-group .aem-cta-btngroup { flex-direction: row; justify-content: start; align-items: start; }
+  .aem__process-group .aem-cta-btngroup__wrapper { flex-direction: row; justify-content: start; align-items: start; width: fit-content; margin-right: 24px; margin-bottom: 0; }
+  .aem__process-group .aem-cta-btngroup__wrapper:last-child { margin-right: 0; }
+  .aem__process-group .btn--cta { width: auto; }
+}
+
+/* ---------- QR (deep-qr.min.css) ---------- */
+.qr { margin-bottom: 1.65em; }
+.qr::after { content: ""; clear: both; display: table; }
+.qr__code { float: left; margin-right: .75em; background: url("particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html-qr.png") no-repeat; background-size: contain; }
+.qr__code--small { width: 6em; height: 6em; }
+.qr__description p { margin: 0 0 1.65em; font-size: 16px; line-height: 24px; font-weight: 300; }
+
+/* ---------- juridical text (main.min.css) ---------- */
+.juridicaltext { margin-bottom: 24px; }
+small.juridical-text { display: inline-block; margin: 0; font-size: 14px; line-height: 20px; font-weight: 300; color: var(--color-primary-dark-70); }
+.juridical-text p { margin-bottom: 1.65em; font-size: 14px; line-height: 20px; font-weight: 300; }
+.juridical-text p:last-child { margin-bottom: 0; }
+
+/* ---------- compact footer (process pages: no doormat; leading divider) ---------- */

@@ -1,0 +1,383 @@
+{
+  "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3759,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2259,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site__header aem-site__header",
+      "position": "relative",
+      "height": "88px",
+      "transform": "none",
+      "transition": "0.2s ease-in",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "details.faq__item > summary",
+      "frames": [
+        {
+          "t": 13947.40000000596,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14154.90000000596,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14361.300000011921,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14568,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".faq__item__title",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 54, 101)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 54, 101)",
+          "background": "rgba(0, 174, 239, 0.1)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.aem-Grid.aem-Grid--8.aem-Grid--tablet--10 > div.faq__item__container.aem-GridColumn--tablet--10.aem-GridColumn > details.faq__item > summary.faq__item__title > div.faq__item__title-wrapper",
+        "y": 847,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui",
+        "y": 400
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui > body.aem-body.device--desktop.os--macOS",
+        "y": 400
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 3759
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 1200
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 60
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 30
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 0
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui",
+        "y": 847
+      },
+      {
+        "added": [
+          "header--mobilesticky"
+        ],
+        "el": "html.js.mdrn.aem__author--classicui > body.aem-body.device--desktop.os--macOS",
+        "y": 847
+      },
+      {
+        "added": [
+          "brand__row__container--top"
+        ],
+        "el": "div.layoutContainer > div.cmp-container > div.header.header--white.header--text-primary-dark > header.site__header.aem-site__header > div.brand__row__container.brand__row__container--dropdownnav.brand__row__container--top",
+        "y": 846
+      }
+    ]
+  }
+}

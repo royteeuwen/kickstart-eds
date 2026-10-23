@@ -1,0 +1,1390 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-19T18:38:18.261Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.kbc.be"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": null
+ },
+ "routes": [
+  {
+   "id": "adobe-launch",
+   "vendor": "Adobe Launch",
+   "src": "https://assets.adobedtm.com/launch-EN0f6839f46e854ca791823915d04fd52b.min.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "consent: TrustArc / IAB CMP"
+ ],
+ "tagManagers": [
+  "Adobe Launch"
+ ],
+ "dataLayers": [
+  "digitalData"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "rules": [
+   {
+    "id": "RL015e6edd165a48b087531e15aaa3dbac",
+    "name": "[Pixel-P0497] KBC_MCC - Conversie - Retail vacatures_AW",
+    "paths": [
+     "/jobs/nl/expertises/retail/vacatures.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL01acc6853bde42fe8eb0553a3a53a4f9",
+    "name": "[GoogleAds - P0451] KBC_KBC - SLAM FE - overlijdensvzk - procespagina - CTA click_Click_AW-10831550709/UZprCOe5_5MYEPWx8awo",
+    "paths": [
+     "/particulieren/nl/proces/gezin/je-overlijdensverzekering.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL0208fdb82a2540cd82ef71bee8148a3b",
+    "name": "[GoogleAds - P0364] KBC_Conversie - IPEX_Click_AW-1008129255/7X12COO23ZMDEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/ipex\\\\.html"
+    ],
+    "selectors": [
+     "div.cta,div.aem-product-btngroup__wrapper,div.cta--block__footer"
+    ]
+   },
+   {
+    "id": "RL028102ffbb3f45ccbb734662630ba616",
+    "name": "[GoogleAds/Facebook - P0529] KBC_CTA: Naar Kate in KBC Mobile CTA: Ga naar Kate_AW-1008129255/FXLBCInZjKkZEOep2-AD_258861407627468",
+    "paths": [
+     "/particulieren/nl/campagne/tijdengeld.html",
+     "/particulieren/nl/campagne/bespaar-tijd-met-kate.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL02da2a1e4d8749feb85699b6ac559b46",
+    "name": "[GoogleAds - P0518] BXL_CTA: 'start met pensioensparen' en 'Contacteer ons'_AW-435497192/VhZcCP6bv4kZEOjR1M8B",
+    "paths": [
+     "/retail/en/pension-saving.html|/nl/pensioensparen.html|/fr/epargne-pension.html|/retail/en/pension-saving/pension-savings-fund.html|/particulieren/nl/pensioensparen/pensioenspaarfonds.html|/particuliers/fr/epargne-pension/fonds-d-epargne-pension.html|/retail/en/pension-saving/pension-savings-fund/pricos-pension-savings-fund.html|/particulieren/nl/pensioensparen/pensioenspaarfonds/pricos.html|/particuliers/fr/epargne-pension/fonds-d-epargne-pension/fonds-d-epargne-pension-pricos.html|/retail/en/pension-saving/pension-savings-fund/pricos-defensive-pension-savings-fund.html|/particulieren/nl/pensioensparen/pensioenspaarfonds/pensioenspaarfonds-pricos-defensive.html|/particuliers/fr/epargne-pension/fonds-d-epargne-pension/pensioenspaarfonds-pricos-defensive.html|/retail/en/pension-saving/pension-savings-insurance-plan.html|/particulieren/nl/pensioensparen/pensioenspaarverzekering.html|/particuliers/fr/epargne-pension/assurance-epargne-pension.html|/retail/en/pension-saving/pension-savings-insurance-plan/home-pension-plan.html|/particulieren/nl/pensioensparen/pensioenspaarverzekering/home-pension-plan.html|/particuliers/fr/epargne-pension/assurance-epargne-pension/home-pension-plan.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL033665e787ce4f11b6132e01c8167a55",
+    "name": "[GoogleAds - P0391] KBC_Conversie - Mijn Energie_Click_AW-1008129255/4HHLCKzj9c8DEOep2-AD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mijnenergie.html"
+    ],
+    "selectors": [
+     "a[data-analytics-cta-type]"
+    ]
+   },
+   {
+    "id": "RL05687d51351b409cbe030ce131e5691f",
+    "name": "[GoogleAds - P0367] KBC_Conversie - Monizze_Click_AW-1008129255/5My9COqkk5QDEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/maaltijdcheques-monizze\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL068842c3f4a24ac38196abcce9639344",
+    "name": "[GoogleAds - P0460] CBC_FinanceMyMaterial-RDV-ConfirmationPage_Pageview_AW-777911832/tPE7CPyOq6MYEJj89_IC",
+    "paths": [
+     "/entreprendre/fr/processus/demande-rendez-vous-credit-confirmation.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL07c809cd3bb042f897de59b883023733",
+    "name": "Survey Accept Click",
+    "paths": [],
+    "selectors": [
+     "a[data-analytics-track='survey-popup-accept']"
+    ]
+   },
+   {
+    "id": "RL0ba3fef122a44db4bdbe0eb714ab120d",
+    "name": "[GoogleAds - P0423] KBC_CTA Energielening_AW-1015431215/sR7HCLPd74cYEK-AmeQD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/wonen\\\\/groene-energielening-aanvragen\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL0d677fccedcd4095b2a0af20471f6069",
+    "name": "[GoogleAds - P0508] KBC_CTA: Ontdek de Kate Coin in KBC Mobile CTA: Ontdek je voordeel_AW-1008129255/dLxRCK7S5fwYEOep2-AD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/kate-coin.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL1112642a65784ecebf7874acd749e94d",
+    "name": "Third Party Service Offer - Page View",
+    "paths": [],
+    "selectors": [
+     ".aem__third-party-service-offer-page"
+    ]
+   },
+   {
+    "id": "RL11cef0b9667e4f6198c9b619b4fee3e2",
+    "name": "[GoogleAds - P0408] KBC_CTA: vraag je prepaidkaart online aan_AW-986543525/lt_FCNninoUYEKXrtdYD",
+    "paths": [
+     "/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/prepaid-kaart|\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten-en-prepaid-kaarten\\\\/vergelijk-kredietkaarten-en-prepaid\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL13728553de574240be4b8f7f8e4c9638",
+    "name": "[GoogleAds - P0439] KBC_CTA_AW-952022329/eUJiCOrMypEYELnq-sUD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/procespaginas-kate\\\\/kate-energie\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL14fa00a66a994691b7bfe4f22f3d6d81",
+    "name": "[Pixel-P0659] KBC_Conversie - back-to-school jongerenrekening_AW/FB",
+    "paths": [],
+    "selectors": [
+     "form#terug-naar-school, form#terug-naar-school-kbcmobile"
+    ]
+   },
+   {
+    "id": "RL160c37043d3a4792bc4ecdff1c0c63a3",
+    "name": "[GoogleAds - P0446] KBC_KBC - SLAM FE - gezinspolis - procespagina - CTA click_Click_AW-10831550709/qM6SCJOY_5MYEPWx8awo",
+    "paths": [
+     "/particulieren/nl/proces/gezin/je-familiale-verzekering.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL16859a698a1945efbeb4fd617fb2fba1",
+    "name": "AA - Succesful Search Click (Generic/Branch/Job/Fund)",
+    "paths": [],
+    "selectors": [
+     "a[data-analytics-track=short-search-click]",
+     "a[data-analytics-track='short-branch-search-click']"
+    ]
+   },
+   {
+    "id": "RL16d99c04f7e94d7287b928dfc04e8791",
+    "name": "[GoogleAds - P0369] KBC_Conversie - Telecom_Click_AW-1008129255/v63TCPWK3pMDEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/telecom\\\\.html"
+    ],
+    "selectors": [
+     "div.productbutton.button.base.section"
+    ]
+   },
+   {
+    "id": "RL16dbbe3ef4374039b1e5c5956a6a7ec2",
+    "name": "YouTube 100%",
+    "paths": [],
+    "selectors": [
+     "body"
+    ]
+   },
+   {
+    "id": "RL1a2ffdd542224545997ea9e09180feea",
+    "name": "[GoogleAds - P0360] KBC_Conversie - Deals_Click_AW-1008129255/wzffCMzfkpQDEOep2-AD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/deals.html|/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/deals/ervaringen-kate-deals.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL1a32ffddc49a4fb180d3ec0a20d40cc0",
+    "name": "[GoogleAds - P0509] KBC_CTA: Check nu je Kate Coins in KBC Mobile CTA: Check je Kate Coins in KBC Mobile_AW-1008129255/fRFXCI3p6PwYEOep2-AD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/katecoin.html",
+     "particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL1a7c10986cc34c4d98dbcc9717a15696",
+    "name": "[GoogleAds - P0379] KBC_KBC - SLAM MM - PA autoLOA - procespagina - CTA click_Click_AW-950883408/a3k0COfR1ZkDENCotcUD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/autolening-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/lening-elektrische-wagen-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/tweedehands-autolening-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/lening-nieuwe-auto-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/lening-benzine-diesel-auto-aanvragen\\\\.html|\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/autolening-aanvragen-hybride\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL222e432426b248e69ec3a2e57c31bd4f",
+    "name": "[GoogleAds - P0426] KBC_CTA HWB_AW-1015431215/HJD6CNGp9YcYEK-AmeQD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/sparen\\\\/spaarrekeningen\\\\/huurwaarborg\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL256a104589ad4de1a26c6697fce0c3c4",
+    "name": "[GoogleAds - P0442] KBC_CTA klik: vraag je shoppingpakket aan_Click_AW-986543525/iwdQCMz9p5MYEKXrtdYD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten\\\\/shoppingpakket\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL26f809afd5304a6aac43a964127ff292",
+    "name": "[GoogleAds - P0444] KBC_CTA klik: vraag je luxepakket aan_Click_AW-986543525/tlS1CJCts5MYEKXrtdYD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten\\\\/luxepakket\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL285d26e86c35475d9e24fc5384e83277",
+    "name": "[GoogleAds - P0538] KBC_KBC - SLAM FE - persoonlijke lening - productpagina - CTA click_Click_AW-10831550709/6HJQCKvn1LgZEPWx8awo",
+    "paths": [
+     "/particulieren/nl/lenen/persoonlijke-lening.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL285deb52f7fa4fab9c36d0461fd86f2e",
+    "name": "[GoogleAds/Facebook - P0523] KBC_Conversie - Impact_CTA_AW-1015431215/jdMXCJadxJIZEK-AmeQD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/impact.html",
+     "/particulieren/nl/lenen/wonen/verwarm-woning-duurzaam.html",
+     "/particulieren/nl/lenen/wonen/isoleer-je-woning.html",
+     "/particulieren/nl/lenen/wonen/besparen-met-ramen.html",
+     "/particulieren/nl/thema/myhome/producten/verwarmen-met-airco.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL2e40c331adb94a6ab393fa1256049e58",
+    "name": "[GoogleAds - P0474] KBC_Soft conversie - gezamenlijke rekening  - pageload_Pageview_AW-724289667/pH6ICJOcjIAYEIORr9kC",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/betalen\\\\/zichtrekeningen\\\\/plusrekening-openen\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL2f23f457ce7e4a7ca6cdefb887f9b834",
+    "name": "[GoogleAds - P0505] KBC_CTA: kies voor fiscaal voordelig sparen_AW-950561820/hwrJCP7dyvIYEJzYocUD",
+    "paths": [
+     "/particulieren/nl/beleggen/je-belegging.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL3132747970c54be495aed8e7ff8335d3",
+    "name": "[GoogleAds - P0458] CBC_PrivateBanking-RDV-ConfirmationPage_Pageview_AW-777911832/HF1dCNn6m6MYEJj89_IC",
+    "paths": [
+     "/private-banking/fr/contact/confirmation-rendez-vous.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL33449c44a8274030b87b243bb64bbf93",
+    "name": "[GoogleAds/Facebook - P0553] KBC_CTA's: Start je aanvraag in KBC Mobile_AW-948822784/0rgiCMbbnt0ZEIDGt8QD",
+    "paths": [
+     "/ondernemen/nl/campagne/zakelijke-kredieten.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL3450158665fc4f728a65e64e94456cfb",
+    "name": "[GoogleAds - P0485] CBC_RentaHouse - click CTA -page ass inc locataire_Click_AW-777911832/gNbMCJy51tgYEJj89_IC",
+    "paths": [
+     "/particuliers/fr/assurer/logement/assurance-incendie-locataire.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL37b50ac9fb844c0da7cb9c48b7d7c73d",
+    "name": "[GoogleAds - P0512] KBC_CTA: Vind je job (2x)_AW-11319519906/kBWKCIbd4YQZEKLVyJUq",
+    "paths": [
+     "/jobs/nl/waarom-werken-bij-kbc/verzekeringsagentschap.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL3811dcdddab24126a60a8fdf383a4c99",
+    "name": "[GoogleAds - P0378] KBC_Conversie - Monard Law_Click_AW-591681434/dxImCLCjlpQDEJqvkZoC",
+    "paths": [
+     "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/monard-law\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL397e72abfe4545cdad22a6749d790a2b",
+    "name": "[GoogleAds - P0452] KBC_Conversie - iChoosr_Click_AW-1015431215/mqJsCK-hsJUYEK-AmeQD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/ichoosr.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL3a5f20b94f944f7cb2e699729ce2bd23",
+    "name": "[GoogleAds - P0494] KBC_CTA: Akkoord gebruik gegevens en gids aanvragen_AW-803209525/p-KqCP_Ku8IDELWCgP8C",
+    "paths": [
+     "/private-banking/nl/proces/aanvraag-publicaties/vastgoedrapport-bedankt.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL3ac793254cfb4a209cc8f7961c018f9b",
+    "name": "[GoogleAds - P0384] KBC_KBC - SLAM MM - PA fietsVZK - procespagina - CTA click_Click_AW-863805644/Ut5UCJWx06gDEMzB8psD",
+    "paths": [
+     "/particulieren/nl/proces/voertuig/fietsverzekering-simuleren.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL3cb37e4dd96d4980aa765d249ba3cee8",
+    "name": "[GoogleAds - P0495] KBC_CTA: Bereken je persoonlijk tarief in KBC Touch_AW-986543525/9ddBCI3s7uIYEKXrtdYD",
+    "paths": [
+     "/ondernemen/nl/proces/financieren/voorafbetalingsplan-aanvragen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL3cd86be875a743efa3781a214560cee1",
+    "name": "[Pixel-P0464] KBC_Conversie - Beleggingsplan_AW/FB/UET",
+    "paths": [
+     "/particulieren/nl/beleggen/beleggingsplan.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL3d35a49a0b2748498861966920335541",
+    "name": "[GoogleAds - P0376] KBC_Conversie - Onkosten versturen_Click_AW-591681434/AOq3CPSOj5QDEJqvkZoC",
+    "paths": [
+     "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/onkostenbeheer\\\\.html"
+    ],
+    "selectors": [
+     "div.cta.base.aem-GridColumn.aem-GridColumn--default--12"
+    ]
+   },
+   {
+    "id": "RL4041387d24ed4ca7b7aeb9796c094a41",
+    "name": "[GoogleAds - P0473] KBC_Soft conversie - plusrekening openen - pageload_Pageview_AW-724289667/iowXCPH8qIAYEIORr9kC",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/betalen\\\\/zichtrekeningen\\\\/gezamenlijke-rekening-openen\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL40cfd60b2ebc4d07963777a530740bac",
+    "name": "Form Submit TransactionID",
+    "paths": [],
+    "selectors": [
+     "form"
+    ]
+   },
+   {
+    "id": "RL40e75ad181b94473b7088663b9fa4257",
+    "name": "[GoogleAds - P0425] KBC_CTA Woningpolis_AW-1015431215/zcS9CJSM8IcYEK-AmeQD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-eigenaar\\\\.html|\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-huurder\\\\.html|\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-verhuurder\\\\.html|\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-eigenaar-tweede-verblijf\\\\.html|\\\\/particulieren\\\\/nl\\\\/verzekeren\\\\/wonen\\\\/brandverzekering-huurder-tweede-verblijf\\\\.html|/particulieren/nl/verzekeren/wonen/brandverzekering.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL435522c7da984827a15813652dcd362a",
+    "name": "[GoogleAds - P0374] KBC_Conversie - Go Solid_Click_AW-591681434/CVQQCJ-D35MDEJqvkZoC",
+    "paths": [
+     "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/gosolid-wanbetalers\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL4356e407c16940888fcd6c273a33be8c",
+    "name": "[GoogleAds/Facebook - P0486] KBC_CTA klik 'Naar Kate in mobile'_CTA_AW-1008129255/JIOpCMqD9oYaEOep2-AD258861407627468",
+    "paths": [
+     "/particulieren/nl/campagne/bespaar-tijd-met-kate.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL44b1a7af9428419ea94043cb5810a8ea",
+    "name": "Hyperlink text clicks",
+    "paths": [],
+    "selectors": [
+     "div.text-image a"
+    ]
+   },
+   {
+    "id": "RL476473df8f7a482c993297cdab77f3b4",
+    "name": "[GoogleAds/Facebook - P0533] KBC_2x CTA Naar de Tesla-website_AW-11319519906/dpcsCLi_3LQZEKLVyJUq_258861407627468",
+    "paths": [
+     "/ondernemen/nl/product/kredieten/financiele-leasing-wagens/tijdelijke-actie-voor-tesla-model-y.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL48a72198b4694502a0e11d69001214a9",
+    "name": "[GoogleAds - P0519] BXL_CTA clicks naar procespagina_AW-435497192/1i2NCIKU5okZEOjR1M8B",
+    "paths": [
+     "/particulieren/nl/beleggen/beleggingsplan.html|/particuliers/fr/placements/plan-investissement.html|/retail/en/investments/investment-plan.html|/particulieren/nl/beleggen/slim-beleggen.html|/particuliers/fr/placements/slim-|beleggen.html|/retail/en/investments/slim-beleggen.html|/particulieren/nl/beleggen/beleggen-voor-een-kind.html|/particuliers/fr/placements/investir-pour-un-enfant.html|/retail/en/investments/investing-for-a-child.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL4971e26639294d3ebe8e8c7032f813c1",
+    "name": "[GoogleAds - P0365] KBC_Conversie - Kinepolis_Click_AW-1008129255/g7tyCIGWjJQDEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/vrije-tijd\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL4d755bff45f7466db2dbb7a83cc68c01",
+    "name": "[Pixel-P0438] CBC_BuyAHouse-click CTA-productpage_AW/FB/UET",
+    "paths": [
+     "\\\\/particuliers\\\\/fr\\\\/processus\\\\/logement\\\\/simulez-votre-pret-hypothecaire\\\\.html|/particuliers/fr/emprunter/logement/demarches-preparation-pret-hypothecaire.html|/particuliers/fr/emprunter/logement/taux-credit-hypothecaire-fixe-variable.html|/particuliers/fr/emprunter/logement/astuces-achat-habitation.html|/particuliers/fr/emprunter/quel-montant-puis-je-emprunter.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL5051287c40094341948af1c6ca58850a",
+    "name": "[GoogleAds - P0457] CBC_2CTA Button: J'ouvre mon compte bancaire gratuit AND 2 links je suis d\\xe9j\\xe0 client_AW-777911832/6CVECMiuoosYEJj89_IC",
+    "paths": [
+     "/particuliers/fr/produits/paiements/cartes-de-paiement/cartes-de-credit-et-cartes-prepayees/gratuit-mastercard-prepaid.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL509c695e88ae42059dd86b605382db77",
+    "name": "[GoogleAds - P0547] KBC_CTA: Simuleer nu je autolening_AW-952022329/0FjVCNCCtNAZELnq-sUD",
+    "paths": [
+     "/particulieren/nl/lenen/voertuig/autolening.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL518b9fe6a2f9415b9df23cf7bfd854cd",
+    "name": "[GoogleAds - P0502] KBC_CTA: simuleer je tarief_AW-986543525/IYlXCM2bwPIYEKXrtdYD",
+    "paths": [
+     "/ondernemen/nl/product/kredieten/werkkapitaalfinanciering.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL51a8e6bc4db94b9694388d624356e0ce",
+    "name": "[Pixel-P0652] KBC_Conversie - Beleggen_AW/FB/UET",
+    "paths": [
+     "/particulieren/nl/beleggen/start-beleggen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL51e839e0feae43e2bb1626a187ac1f8b",
+    "name": "[GoogleAds - P0531] KBC_CTA: Contacteer je relatiebeheerder (2x)_AW-952249978/m5yVCIihhqwZEPrciMYD",
+    "paths": [
+     "/corporate/nl/product/betalingsverkeer/services/kbc-invoicing-services.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL52420e2a45c94179b8a77e677c5aca62",
+    "name": "[GoogleAds/Facebook - P0526] KBC_CTA: open eerst een zichtrekening_AW-986543525/vL7nCI3GsJ0ZEKXrtdYD_258861407627468",
+    "paths": [
+     "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/je-reisplannen-beginnen-met-je-kredietkaart-b.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL5b9f69555bc24bcea550f39e708962d9",
+    "name": "[GoogleAds - P0447] KBC_KBC - SLAM FE - ongevallenvzk - procespagina - CTA click_Click_AW-10831550709/m1QLCO3L-JMYEPWx8awo",
+    "paths": [
+     "/particulieren/nl/proces/gezin/ongevallenverzekering.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL5c2d61df263541589b8c299536b91229",
+    "name": "[GoogleAds - P0517] KBC_CTA: 'Krijg persoonlijk beleggingsadvies'_AW-950561820/eA_OCJ_k54kZEJzYocUD",
+    "paths": [
+     "/particulieren/nl/beleggen/digitaal-beleggingsvoorstel.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL5f8429009d7245c686351e661fb78f44",
+    "name": "Old cookie consent banner click",
+    "paths": [],
+    "selectors": [
+     "[data-cookies-interact]"
+    ]
+   },
+   {
+    "id": "RL5faf49500c5140039b759de8622f3799",
+    "name": "[GoogleAds - P0441] KBC_CTA klik: vraag aan in Mobile/Touch_Click_AW-986543525/ADp8CKjTp5MYEKXrtdYD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten\\\\/vraag-je-kredietkaart-aan\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL61fb1d8f34864ea6935cfb0722081d99",
+    "name": "[GoogleAds - P0490] CBC_all CTA: Calculez le prix de votre assurance incendie_AW-777911832/z_wKCKiJn-EYEJj89_IC",
+    "paths": [
+     "/particuliers/fr/assurer/logement/assurance-incendie-locataire.html|/particuliers/fr/assurer/logement/assurance-incendie.html|/particuliers/fr/assurer/logement/assurance-incendie-bailleur.html|/particuliers/fr/assurer/logement/assurance-incendie-proprietaire.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL63b00c137d7e4b1cbbe7e1b1b55fd2f7",
+    "name": "[GoogleAds/Facebook - P0541] KBC_Alle CTA's: 'koppel je maaltijdcheques in KBC Mobile'_AW-986543525/wOVPCOSJz7sZEKXrtdYD_258861407627468",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/betalen-met-maaltijdcheques-in-mobile.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL666d206ad84a4ca6a930e340396933a8",
+    "name": "[GoogleAds - P0539] KBC_KBC - SLAM FE - kasplanningskrediet - productpagina - CTA click_Click_AW-10831550709/UjEtCKLt1LgZEPWx8awo",
+    "paths": [
+     "/ondernemen/nl/product/kredieten/kasplanningskrediet.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL69db86f6662d4879b5fe85306ef76955",
+    "name": "[GoogleAds - P0459] CBC_BusinessPureOnline-click CTA-productpage_Click_AW-777911832/e18JCJPwnaMYEJj89_IC",
+    "paths": [
+     "/entreprendre/fr/produits/payer-et-etre-paye/comptes-professionnels/business-pure-online.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL6b1acd3d78d5442383be8dd006df2e2d",
+    "name": "YouTube 50%",
+    "paths": [],
+    "selectors": [
+     "body"
+    ]
+   },
+   {
+    "id": "RL70d49724dbcd4720879fa4637bf1d5e6",
+    "name": "[GoogleAds - P0373] KBC_Conversie - Billit_Click_AW-591681434/gd_gCKfglJQDEJqvkZoC",
+    "paths": [
+     "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/billit-facturatieprogramma\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL71e69060ef824df5978427b99d3c0495",
+    "name": "[GoogleAds - P0540] KBC_KBC - SLAM FE - overlijdensvzk - productpagina - CTA click_Click_AW-10831550709/-GTHCMaA2LgZEPWx8awo",
+    "paths": [
+     "/particulieren/nl/verzekeren/gezin/overlijdensverzekering.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL7502e91965f9496087adce9154a687ca",
+    "name": "[GoogleAds - P0383] KBC_KBC - SLAM MM - PA fietsLOA - procespagina - CTA click_Click_AW-950883408/9rkzCPXZz6gDENCotcUD",
+    "paths": [
+     "/particulieren/nl/proces/voertuig/lening-fiets-aanvragen.html|/particulieren/nl/proces/voertuig/tweedehands-fiets-of-steplening-aanvragen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL778aa58f787642a4bcb1fd904e2aec9e",
+    "name": "[GoogleAds - P0382] KBC_IKRL bedrijfsmateriaal procespagina_Click_AW-1015431215/KrNcCKqTiYobEK-AmeQD",
+    "paths": [
+     "/ondernemen/nl/proces/financieren/krediet-bedrijfsuitrusting-simuleren.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL7c779d0a28d14a609ba926a1b23d4f7f",
+    "name": "[GoogleAds - P0395] KBC_Conversie - The click_Click_AW-1008129255/MTtcCJq-iIAYEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/the-click\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL7ccd3f7400d74f4ba303814786c54e64",
+    "name": "[GoogleAds - P0493] KBC_CTA: Akkoord gebruik gegevens en gids ontvangen_AW-803209525/KFGQCIiNvsIDELWCgP8C",
+    "paths": [
+     "/private-banking/nl/proces/aanvraag-publicaties/gids-nieuw-erfrecht-bedankpagina.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL814f91ae72414dbba8b88eabea326c62",
+    "name": "[GoogleAds - P0456] CBC_2CTA Button: J'ouvre mon compte bancaire gratuit_AW-777911832/6CVECMiuoosYEJj89_IC",
+    "paths": [
+     "/particuliers/fr/paiements/cartes-de-paiement/cartes-de-credit/offre-gratuite.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL81cc7120641643f9bbacc6b384cd972c",
+    "name": "[GoogleAds - P0449] KBC_KBC - SLAM FE - cyber secure - productpagina - CTA click_Click_AW-10831550709/DYoWCOqq_5MYEPWx8awo",
+    "paths": [
+     "/particulieren/nl/verzekeren/gezin/cybersecure-verzekering.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL827e678ff6274649a15066e0f9dc8127",
+    "name": "[GoogleAds - P0472] KBC_Soft conversie - basisrekening openen - pageload_Pageview_AW-724289667/4eASCJq8iIAYEIORr9kC",
+    "paths": [
+     "\\\\/particulieren\\\\/nl/proces\\\\/betalen\\\\/zichtrekeningen\\\\/basisrekening-openen\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL8287e952301b45059721a0ba48b6ad6f",
+    "name": "[GoogleAds - P0484] CBC_PureOnline-ProcessPage-pageload_Pageview_AW-777911832/8N-BCNXtkNcYEJj89_IC",
+    "paths": [
+     "/particuliers/fr/processus/paiements/comptes-a-vue/ouvrir-compte-bancaire-gratuit.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL82f9081d68894547b35d06761373d8d2",
+    "name": "[Pixel-P0645] KBC_Conversie - overzichtspagina spaarrekeningen_AW",
+    "paths": [],
+    "selectors": [
+     ".aem-highlight a"
+    ]
+   },
+   {
+    "id": "RL834331e4d73d48169b69e5515732c03e",
+    "name": "[Pixel-P0557] CBC_BusinessPureOnline-click CTA-productpage_FB/UET",
+    "paths": [
+     "/entreprendre/fr/produits/payer-et-etre-paye/comptes-professionnels/business-pure-online.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL83c46a5d7cf0470d8dad4f6bf17c13dd",
+    "name": "[GoogleAds - P0500] KBC_CTA: vraag een kredietlijn aan en ga onder nul_AW-986543525/g6QMCN3_wvIYEKXrtdYD",
+    "paths": [
+     "/ondernemen/nl/product/kredieten/geldreserve-business-budgetfaciliteit.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL89dacc9557cb49c690159da03eeae610",
+    "name": "[GoogleAds/Facebook - P0624] KBC_Klik op CTA: vraag gratis aan. _AW-724289667/bHmUCM3JuPcbEIORr9kC",
+    "paths": [
+     "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/reis-zorgeloos-met-de-kbc-kredietkaart.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL8ad46ec9c70341f6989a6ce5b77916dc",
+    "name": "[GoogleAds - P0453] BXL_CTA: Simuleer nu je brandverzekering_AW-1015431215/jZ0-CM-t6ZUYEK-AmeQD",
+    "paths": [
+     "/particuliers/fr/assurer/logement/assurance-incendie-general.html|/particuliers/fr/assurer/logement/assurance-incendie-proprietaire.html|/particuliers/fr/assurer/logement/assurance-incendie-locataire.html|/particuliers/fr/assurer/logement/assurance-incendie-bailleur.html|/particuliers/fr/assurer/logement/assurance-incendie-proprietaire-residence-secondaire.html|/particuliers/fr/assurer/logement/assurance-incendie-locataire-residence-secondaire.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL8c03522e39ae46f798f40d9257283555",
+    "name": "[GoogleAds/Facebook - P0525] KBC_CTA: Vraag je kredietkaart aan_AW-986543525/HfX0CNGxqZ0ZEKXrtdYD_258861407627468",
+    "paths": [
+     "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/je-reisplannen-beginnen-met-je-kredietkaart.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL94e250cd8c3b46129238f5d0652fcb31",
+    "name": "[GoogleAds - P0375] KBC_Conversie - Graydon_Click_AW-591681434/lJbrCMaHj5QDEJqvkZoC",
+    "paths": [
+     "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/graydon-bedrijfsinformatie\\\\.html"
+    ],
+    "selectors": [
+     "div.cta.base.aem-GridColumn.aem-GridColumn--default--12,div.cta--block__footer"
+    ]
+   },
+   {
+    "id": "RL95f6f5841f3d4fa69127b41bb42a2edf",
+    "name": "[GoogleAds - P0501] KBC_CTA: bereken je tarief in KBC Touch_AW-986543525/15tKCOD_wvIYEKXrtdYD",
+    "paths": [
+     "/ondernemen/nl/proces/financieren/business-budgetfaciliteit-aanvragen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL9691e84dc8d94c4eb8a8e8b6becf1821",
+    "name": "[GoogleAds - P0461] CBC_FinanceMyMaterial-click CTA-processpage_Click_AW-777911832/vEY_COOY6qMYEJj89_IC",
+    "paths": [
+     "/entreprendre/fr/processus/financer/demande-credit-investissement.html|/entreprendre/fr/processus/financer/simuler-credit.html|/entreprendre/fr/processus/financer/leasing-bedrijfsuitrusting-aanvragen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL9776b1506bfa4597bbeafb230be77e70",
+    "name": "[Pixel-P0650] KBC_MCC - Conversie - IT vacatures_AW",
+    "paths": [
+     "/jobs/nl/expertises/informatietechnologie/vacatures-in-informatietechnologie.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL98a61e38c4174b32a3ae00c2c0560c94",
+    "name": "[GoogleAds - P0496] KBC_CTA: Bereken nu je tarief_AW-986543525/lhW5CM2swegYEKXrtdYD",
+    "paths": [
+     "/ondernemen/nl/product/kredieten/voorafbetalingsplan.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL994614b2a5ad401a8db959b7698c29ab",
+    "name": "YouTube 75%",
+    "paths": [],
+    "selectors": [
+     "body"
+    ]
+   },
+   {
+    "id": "RL9b7c96072433417cb05b0f86addaa2e9",
+    "name": "[GoogleAds/Facebook - P0498] KBC_CTA: Doe nu je storting_AW-11319519906/UKdHCLe--O8YEKLVyJUq",
+    "paths": [
+     "/particulieren/nl/sponsoring-actie/acties/de-warmste-week.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL9cb6aed60ff84d6d90de44ddb50d7621",
+    "name": "[GoogleAds - P0445] KBC_KBC - SLAM FE - reisvzk - procespagina - CTA click_Click_AW-10831550709/f_pZCPrngJQYEPWx8awo",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/gezin\\\\/reis-en-vakantieverzekering-aanvragen\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL9e2495671a08449c930e252f1fd89774",
+    "name": "[GoogleAds - P0487] KBC_Conversie - Setle_CTA_AW-1015431215/-kqSCLTp6NoYEK-AmeQD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/setle.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLa131f1ca8a05419684ff66fbcda0f9d1",
+    "name": "[GoogleAds - P0368] KBC_Conversie - Parkeren_Click_AAW-950883408/ij7LCMnH2tkZENCotcUD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/auto.html",
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/4411.html",
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/q-park.html",
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/daguitstapjes.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLa16dce6c03b5481eae3d5f8c4cdd82b7",
+    "name": "[GoogleAds - P0480] KBC_CTA: Open een jongerenrekening online _Click_AW-1007353803/aYXdCPyjroUYEMv_q-AD",
+    "paths": [
+     "/particulieren/nl/proces/betalen/zichtrekeningen/jongerenrekening-zelf-openen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLa51360c23eb94fd4820c18438836da56",
+    "name": "[Facebook - P0516] KBC_CTA: vraag je kredietkaart online aan_258861407627468",
+    "paths": [
+     "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/kredietkaart-voor-tijdens-en-na-je-reis.html|/particulieren/nl/betalen/betaalkaarten/kredietkaarten/bouwen-of-renoveren-met-je-kredietkaart.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLa7134ac777dd4502b97658a098efebe3",
+    "name": "[GoogleAds - P0470] CBC_PrivateBanking-click CTA-podcast_Click_AW-777911832/jswRCK3zuswYEJj89_IC",
+    "paths": [
+     "/private-banking/fr/podcast-finance-bourse-economie/acheter-bien-en-couple.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLa9e8deb19cf1495bbe6108f4d1b9a7f0",
+    "name": "[GoogleAds/Facebook - P0506] KBC_CTA: Open een termijnrekening_AW-950561820/rO4uCPvUpPoYEJzYocUD",
+    "paths": [
+     "/particulieren/nl/sparen/termijnrekening.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLaced818f1b9646a9b902886a36c7227b",
+    "name": "[GoogleAds - P0454] BXL_CTA: Faites une simulation_AW-1015431215/ijCkCKazsJYYEK-AmeQD",
+    "paths": [
+     "/particuliers/fr/processus/logement/simulez-votre-projet-immobilier.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLae108c7eadbd407fa8ece819079793fc",
+    "name": "[GoogleAds - P0396] KBC_Conversie - Laadpalen_Click_AW-591681434/hnpaCLnHiIAYEJqvkZoC",
+    "paths": [
+     "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/laadstation\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLaee9e772317b42f58d85efeb99093b83",
+    "name": "Cookie Interaction",
+    "paths": [],
+    "selectors": [
+     "[data-cookies-interact]"
+    ]
+   },
+   {
+    "id": "RLb241ba91d2f04c8d931dafdaefe3fc9c",
+    "name": "[GoogleAds - P0504] KBC_CTA: bekijk alle beleggingsoplossingen_AW-950561820/PA-FCPvdyvIYEJzYocUD",
+    "paths": [
+     "/particulieren/nl/beleggen/je-belegging.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLb299a514ac92460b88f6804def39bf6b",
+    "name": "[GoogleAds - P0514] KBC_CTA: Vraag je kaart meteen aan_AW-986543525/x62XCOv72ocZEKXrtdYD",
+    "paths": [
+     "/ondernemen/nl/product/betalen-en-betaald-worden/kaarten/mastercard-business-essential.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLb33d28880fe84d62a45605dad5bb7070",
+    "name": "[Pixel-P0433] _PureOnline-click CTA-productpage_AW/UET",
+    "paths": [
+     "\\\\/particuliers\\\\/fr\\\\/produits\\\\/paiements\\\\/comptes-a-vue\\\\/compte-bancaire-gratuit\\\\.html|/particuliers/fr/produits/paiements/cartes-de-paiement/cartes-de-credit-et-cartes-prepayees/gratuit-mastercard-prepaid.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLb386e4776a7d4f568ae891daca9aab1e",
+    "name": "[GoogleAds - P0475] KBC_Soft conversie - mobile download_Pageview_AW-724289667/DA0VCIDOqIAYEIORr9kC",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/starten-met-kbc-mobile.html|/particulieren/nl/proces/betalen/zelf-bankieren/installeer-mobile.html|/particulieren/nl/proces/betalen/zelf-bankieren/installeer-mobile-extra-diensten.html|/particulieren/nl/proces/betalen/zelf-bankieren/installeer-mobile-kate.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLb3ee4cc84a0d4652bc99ba2a2893442a",
+    "name": "[GoogleAds - P0450] KBC_KBC - SLAM FE - kasplanningskrediet - procespagina - CTA click_Click_AW-10831550709/FngKCNKw_5MYEPWx8awo",
+    "paths": [
+     "/ondernemen/nl/proces/financieren/kasplanningkrediet-aanvragen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLb510e1620fa640029163f157f1accfe9",
+    "name": "[GoogleAds - P0521] BXL_CTA: 'Krijg persoonlijk beleggingsadvies'_AW-435497192/7CILCNLs5YkZEOjR1M8B",
+    "paths": [
+     "/particulieren/nl/beleggen/digitaal-beleggingsvoorstel.html|/particuliers/fr/placements/proposition-d-investissement-digitale.html|/retail/en/investments/digital-investment-proposal.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLb74dde57fe7f431795240a97b234f027",
+    "name": "[GoogleAds - P0528] CBC_Click op all CTA_AW-777911832/rBgQCKzZn6UZEJj89_IC",
+    "paths": [
+     "/particuliers/fr/paiements/cartes-de-paiement/cartes-de-credit/carte-de-credit.html|/particuliers/fr/paiements/cartes-de-paiement/cartes-de-credit/une-carte-de-credit-pour-avant-pendant-et-apres-le-voyage.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLb7f3fed391684b7ca1f1baa5e0674173",
+    "name": "[Pixel-P0489] KBC_MCC - Conversie - Sollicitatie verstuurd_AW",
+    "paths": [],
+    "selectors": [
+     "form#_content_jobs_classic_form"
+    ]
+   },
+   {
+    "id": "RLb86214b62dc44493b0ae1203205e96e0",
+    "name": "[Pixel-P0535] KBC_Conversie - Reisverzekering_AW/FB/UET",
+    "paths": [
+     "/particulieren/nl/verzekeren/gezin/reisverzekering.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLba12d4949ebb4726b6bc8340fa1a998e",
+    "name": "[GoogleAds/Facebook - P0544] KBC_CTA: Verzenden_AW-793142725/-fI-CNTJ0cYZEMXLmfoC_258861407627468",
+    "paths": [
+     "/particulieren/nl/campagne/dreams-launchwedstrijd/bedankt.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLba46964e40064cd5bec46cc635edbdfd",
+    "name": "[GoogleAds - P0437] CBC_CTA Button: ouvrir un compte commun gratuit (on top + sticky button)_AW-777911832/6CVECMiuoosYEJj89_IC",
+    "paths": [
+     "\\\\/particuliers\\\\/fr\\\\/produits\\\\/paiements\\\\/comptes-a-vue\\\\/compte-bancaire-commun-gratuit\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLbb32e7e878844c899e961e3239f00cbd",
+    "name": "[Pixel-P0407] KBC_Conversie - Langetermijnsparen_AW/FB/UET",
+    "paths": [
+     "/particulieren/nl/sparen/tak-21/home-long-term-plan.html",
+     "/particulieren/nl/sparen/tak-23/life-long-term-fund-plan.html",
+     "/particulieren/nl/sparen/wat-is-langetermijnsparen.html",
+     "/particulieren/nl/sparen/start-langetermijnsparen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLbeeff5ccd4574a35bff2ff62591a248c",
+    "name": "Survey Close Click",
+    "paths": [],
+    "selectors": [
+     "button[data-analytics-track='survey-popup-close']"
+    ]
+   },
+   {
+    "id": "RLc0d78cbafc604999b14a2b8a48655532",
+    "name": "[GoogleAds - P0366] KBC_Conversie - Klantenkaarten_Click_AW-1008129255/FCzrCMafjJQDEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/klantenkaarten\\\\.html"
+    ],
+    "selectors": [
+     "div.productbutton.button.base.section"
+    ]
+   },
+   {
+    "id": "RLc39e1de70318493d971d07e4aca0ace9",
+    "name": "[GoogleAds - P0359] KBC_Conversie - NMBS_Click_AW-950883408/BxPHCK-L3tkZENCotcUD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/openbaar-vervoer.html",
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/uitstap-met-gezin.html",
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/uitstap-met-vrienden.html",
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/zomer-date.html",
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/nmbs.html",
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/daguitstapjes.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLc4d11a84242e43c385d7e8989ed68a7f",
+    "name": "Support Click",
+    "paths": [],
+    "selectors": [
+     "a[data-analytics-track=support]"
+    ]
+   },
+   {
+    "id": "RLc68793b9e4f14404b6077dfc2f078f48",
+    "name": "[GoogleAds - P0455] KBC_CTA: open eerst een zichtrekening_AW-986543525/8S3KCJ7ox5sYEKXrtdYD",
+    "paths": [
+     "/particulieren/nl/betalen/betaalkaarten/kredietkaarten/kbc-kredietkaart.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLc6c60eb75cea4e1c9c11a6418c0d49f9",
+    "name": "[Pixel-P0614] KBC_Conversie - Slim beleggen_AW/FB/UET",
+    "paths": [
+     "/particulieren/nl/beleggen/slim-beleggen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLc7803533b73b4bf58f5fbfe8394dff4b",
+    "name": "[GoogleAds - P0377] KBC_Conversie - Nowjobs_Click_AW-591681434/05qGCLqWj5QDEJqvkZoC",
+    "paths": [
+     "\\\\/ondernemen\\\\/nl\\\\/product\\\\/betalen-en-betaald-worden\\\\/extra-diensten\\\\/nowjobs-personeel-zoeken\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLc8f62d682789428098a08001e874a6ef",
+    "name": "[GoogleAds - P0432] CBC_CTA Button_AW-777911832/Xdi-CNvuoIsYEJj89_IC",
+    "paths": [
+     "\\\\/particuliers\\\\/fr\\\\/emprunter\\\\/logement\\\\/pret-hypothecaire\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLca2f3a51c8ed43218289076e292c3f06",
+    "name": "[Pixel-P0633] KBC_Conversie - Business pro_AW/FB",
+    "paths": [],
+    "selectors": [
+     ".aem-btngroup__wrapper__btn--primary"
+    ]
+   },
+   {
+    "id": "RLcb39e68e78064026a9cd5a2b3337be0e",
+    "name": "[GoogleAds/Facebook - P0545] KBC_Pageview: https://www.kbc.be/particulieren/nl/beleggen/overzicht.html_AW-950561820/Wp0FCNrg3sYZEJzYocUD_258861407627468",
+    "paths": [
+     "/particulieren/nl/beleggen/overzicht.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLcd36389d3ab6470ca7a7305242f44598",
+    "name": "[GoogleAds - P0503] KBC_CTA: bereken je tarief in KBC Touch_AW-986543525/O1RiCNCbwPIYEKXrtdYD",
+    "paths": [
+     "/ondernemen/nl/proces/financieren/kredieten-werkkapitaal-aanvragen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLd094d5bd9c9a4b2c8eb77113df7454dd",
+    "name": "Kate Search Click",
+    "paths": [],
+    "selectors": [
+     "a[data-analytics-track=kate-search-click]"
+    ]
+   },
+   {
+    "id": "RLd0a1d5703fa94869a929eba7fa8c9590",
+    "name": "[GoogleAds - P0422] KBC_CTA Renovatielening_AW-1015431215/sf_MCM7g8IcYEK-AmeQD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/wonen\\\\/renovatielening-aanvragen\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLd1b0b15eaad946a087cd25c542c856b4",
+    "name": "[GoogleAds - P0507] BXL_CTA: Open een termijnrekening_AW-435497192/f4ZxCPqxqvoYEOjR1M8B",
+    "paths": [
+     "/ondernemen/nl/product/sparen-beleggen/termijnrekening.html|/entreprendre/fr/produits/epargne-et-placements/compte-a-terme.html|/business/en/products/saving-and-investing/time-deposit-account%20.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLd2e83be8e97d40eb87da93776e8b539e",
+    "name": "[GoogleAds - P0363] KBC_Conversie - Financieel nieuws_Click_AW-1008129255/EUnCCNqw3ZMDEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/financieel-nieuws\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLd58bf5f25ec94da1917d3c7b5e3fab06",
+    "name": "[GoogleAds - P0532] KBC_CTA: Start met pensioensparen (3x)_AW-950561820/q6MPCOH1y7AZEJzYocUD",
+    "paths": [
+     "/particulieren/nl/pensioensparen/open-je-pensioenspaarfonds.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLd7cea524edcd404b8a24eb6db430e4e5",
+    "name": "Social share click",
+    "paths": [],
+    "selectors": [
+     "a[data-analytics-track=social-share], button[data-analytics-track=social-share]"
+    ]
+   },
+   {
+    "id": "RLda37d3b634f8489da3a9c61acf7078e3",
+    "name": "[GoogleAds - P0466] KBC_Spaarrekening - click op CTA_Click_AW-950561820/rBtOCL_Xk7gYEJzYocUD",
+    "paths": [
+     "/particulieren/nl/sparen/spaarrekeningen/spaarrekening.html",
+     "/particulieren/nl/sparen/spaarrekeningen/start2save.html",
+     "/particulieren/nl/sparen/spaarrekeningen/start2save4.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLdb0e0eb6624749238bc9008407024321",
+    "name": "[Pixel-P0465] KBC_Conversie - Beleggen met je wisselgeld_AW/FB/UET",
+    "paths": [
+     "/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html|/particulieren/nl/beleggen/start-beleggen-met-je-wisselgeld.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLdb934c50f2e74bdca87036d285193aaa",
+    "name": "YouTube 0%",
+    "paths": [],
+    "selectors": [
+     "body"
+    ]
+   },
+   {
+    "id": "RLdbfe2a0f4e6546aa8031a8c1b4253a51",
+    "name": "YouTube 25%",
+    "paths": [],
+    "selectors": [
+     "body"
+    ]
+   },
+   {
+    "id": "RLdfe3882f62194a249978241e5e2d5a57",
+    "name": "[GoogleAds - P0427] KBC_CTA: Simuleer nu je financiering in je Business Dashboard; Simuleer en vergelijk je financiering in je Business Dashboard; Simuleer en vergelijk_AW-952249978/6SAACO7shIkYEPrciMYD",
+    "paths": [
+     "\\\\/corporate\\\\/nl\\\\/product\\\\/financieren\\\\/leasing\\\\/je-bedrijfsvoertuig-financieren\\\\.html|\\\\/corporate\\\\/fr\\\\/produit\\\\/financer\\\\/leasing\\\\/je-bedrijfsvoertuig-financieren\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLdfe8f468879e4d5eb88ad82c7cad84c4",
+    "name": "[Pixel-P0380] KBC_Conversie - CTA autoverzekering_AW/FB/UET",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/voertuig\\\\/autoverzekering-simuleren\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLe22bd38a722f4ec89d523ae76760c49d",
+    "name": "Message banner view",
+    "paths": [],
+    "selectors": [
+     ".aem-app-banner-content-component[data-component-tracking-view]"
+    ]
+   },
+   {
+    "id": "RLe4462443f10f4a5aaf28780ace3eac9b",
+    "name": "[GoogleAds - P0463] KBC_2306 ATL Beleggen_Click_AW-950561820/PnovCOKT9aoYEJzYocUD",
+    "paths": [
+     "/particulieren/nl/beleggen/jouw-belegging.html",
+     "/particulieren/nl/beleggen/overzicht.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLe49267823d8c47e4851d1fb971333122",
+    "name": "[GoogleAds - P0524] KBC_Conversie - Energyathome_CTA_AW-1015431215/YPHtCI6ruJIZEK-AmeQD",
+    "paths": [
+     "/particulieren/nl/lenen/wonen/zonnepanelen-en-thuisbatterij.html|/particulieren/nl/proces/wonen/zonnepanelen-en-thuisbatterij-fb.html|/particulieren/nl/lenen/wonen/voordeel-thuisbatterij-plaatsen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLe4af45b8b77c422b872207d221b90996",
+    "name": "[GoogleAds - P0424] KBC_CTA Woonkrediet_AW-1015431215/R9PbCJP-8IcYEK-AmeQD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/proces\\\\/wonen\\\\/woonproject-simuleren\\\\.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLe81efd1e4a414d47ada2ecc03b20efb8",
+    "name": "[GoogleAds - P0372] KBC_Conversie - Dienstencheques_Click_AW-1008129255/Etr_CLDsjJQDEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/sodexo\\\\.html"
+    ],
+    "selectors": [
+     "div.cta,div.aem-product-btngroup__wrapper,div.cta--block__footer"
+    ]
+   },
+   {
+    "id": "RLe917ff3608944ae1a5586e1c00c42070",
+    "name": "[GoogleAds/Facebook - P0522] KBC_CTA: teken in _AW-11319519906/daEaCNv-n5AZEKLVyJUq258861407627468",
+    "paths": [
+     "/particulieren/nl/product/beleggen/aandelen/cera-e-aandelen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLe9460a37043641eaaecc5ea7c4e87564",
+    "name": "[GoogleAds - P0499] KBC_CTA: Koop een vlammetje_AW-11319519906/HeCWCLq--O8YEKLVyJUq",
+    "paths": [
+     "/particulieren/nl/sponsoring-actie/acties/de-warmste-week.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLeb9e6f1e846f4c738e77cbe29bea5395",
+    "name": "Survey Cancel Click",
+    "paths": [],
+    "selectors": [
+     "button[data-analytics-track='survey-popup-cancel']"
+    ]
+   },
+   {
+    "id": "RLee673e9f6b9e4905973412bbef90aac3",
+    "name": "[GoogleAds - P0492] KBC_CTA: Verzenden_AW-803209525/YejJCI3wiMIDELWCgP8C",
+    "paths": [
+     "/private-banking/nl/contact/bevestiging-afspraak.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLf212705270b442999e2f03ee0a1e589f",
+    "name": "[GoogleAds - P0488] KBC_Conversie - Eliq (Inzicht energieverbruik)_CTA_AW-1015431215/AfaUCIL83doYEK-AmeQD",
+    "paths": [
+     "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/energie-inzichten.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLf282d4f66ed74874b9026470cb53dd55",
+    "name": "[GoogleAds - P0479] KBC_CTA: Open een jongerenrekening in KBC Touch  / Mobile_Click_AW-1007353803/g48wCPmjroUYEMv_q-AD",
+    "paths": [
+     "/particulieren/nl/proces/betalen/zichtrekeningen/jongerenrekening-zelf-openen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLf5185b7c4732456699aa49c450d8a4b5",
+    "name": "[GoogleAds - P0481] KBC_Conversie - Pro Rekening openen_Pageview_AW-1008848615/TA-bCMbqx4sYEOedh-ED",
+    "paths": [
+     "/ondernemen/nl/proces/business-pro-openen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLf5220584ad0e4fb7b48c57f0db9af927",
+    "name": "[GoogleAds - P0469] CBC_ParcoursRse-click CTA-contentpage_Click_AW-777911832/YTjECP-C7MsYEJj89_IC",
+    "paths": [
+     "/entreprendre/fr/article/croissance-et-gestion-de-votre-entreprise/organisation/responsabilite-societale-entreprises.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLf7b3ae734be54c42a658c42c89fba15b",
+    "name": "Kate Search Read More Click",
+    "paths": [],
+    "selectors": [
+     "a[data-analytics-track=kate-search-click]"
+    ]
+   },
+   {
+    "id": "RLf7e54cbda3ff49e9bdc68a7a8ef812a2",
+    "name": "[GoogleAds - P0491] KBC_CTA:Versturen_AW-1008129255/JwCGCLqa0uEYEOep2-AD",
+    "paths": [
+     "/particulieren/nl/campagne/mobiliteit-wedstrijd.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLf835cf42b3ef4982a19f1722363b7c89",
+    "name": "[GoogleAds - P0543] KBC_CTA: Kom met ons praten_AW-952249978/NkjTCPfO4cMZEPrciMYD",
+    "paths": [
+     "/corporate/nl/duurzaamheid.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLf8b7766d8a6c4f259740fe4f824f1017",
+    "name": "[GoogleAds - P0362] KBC_Conversie - Digitale kluis_Click_AW-1008129255/14S2CNmp3ZMDEOep2-AD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/product\\\\/betalen\\\\/zelf-bankieren\\\\/met-je-smartphone\\\\/mobile\\\\/digitale-kluis\\\\.html"
+    ],
+    "selectors": [
+     "div.cta,div.aem-product-btngroup__wrapper,div.cta--block__footer"
+    ]
+   },
+   {
+    "id": "RLf8c7e92d44da4e9ca15f6e8b2401a04b",
+    "name": "[GoogleAds - P0471] KBC_Degroof prospecten afspraken_Click_AW-803209525/b0RCCJ3dk88YELWCgP8C",
+    "paths": [
+     "/private-banking/nl/over-ons/klant-worden-bij-kbc-private-banking.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLf9e156a6255a4974bb9a4cfd403dea49",
+    "name": "[GoogleAds - P0448] KBC_KBC - SLAM FE - loa divers - procespagina - CTA click_Click_AW-10831550709/vzFSCIvS-JMYEPWx8awo",
+    "paths": [
+     "/particulieren/nl/proces/gezin/persoonlijke-lening-aanvragen.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLfb7fe7f6d3704fa398371d2c01286db5",
+    "name": "[GoogleAds/Facebook - P0622] KBC_Click op CTA 'Check het in MyNWS!'_AW-724289667/BUZaCOry_eobEIORr9kC",
+    "paths": [
+     "particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mynws.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLfbc601bee0e347bea33a4d2c04a1bfbd",
+    "name": "[GoogleAds - P0520] BXL_CTA: 'Beleg met je wisselgeld'_AW-435497192/Se1WCNe37okZEOjR1M8B",
+    "paths": [
+     "/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html|/particuliers/fr/placements/investir-votre-menue-monnaie.html|/retail/en/investments/invest-your-spare-change.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLfced2c26f92a4232854b641015f1d267",
+    "name": "[GoogleAds - P0443] KBC_CTA klik: vraag je reispakket aan_Click_AW-986543525/R-SvCNTIopMYEKXrtdYD",
+    "paths": [
+     "\\\\/particulieren\\\\/nl\\\\/betalen\\\\/betaalkaarten\\\\/kredietkaarten\\\\/reispakket\\\\.html"
+    ],
+    "selectors": []
+   }
+  ],
+  "dataElements": [
+   {
+    "name": "Has Faceted Search",
+    "selectors": [
+     "section[data-id="
+    ]
+   },
+   {
+    "name": "TrustArc Feature Enabled",
+    "selectors": [
+     ".aem__third-party-service-offer-page"
+    ]
+   },
+   {
+    "name": "Demo Total Steps",
+    "selectors": [
+     "[aem-demo-item="
+    ]
+   },
+   {
+    "name": "pagination current page PA",
+    "selectors": [
+     "div.pagination div ul li.current span"
+    ]
+   },
+   {
+    "name": "Last Demo Item",
+    "selectors": [
+     "[aem-demo-item]",
+     "[aem-demo-item][active="
+    ]
+   },
+   {
+    "name": "Demo Navigate To Step Number",
+    "selectors": [
+     "[aem-demo-item][active=",
+     "[aem-demo-item="
+    ]
+   },
+   {
+    "name": "help-me-choose-active-checkboxes",
+    "selectors": [
+     ".help-me-choose__checkbox--active"
+    ]
+   },
+   {
+    "name": "pagination current page LO",
+    "selectors": [
+     "ul.pagination li.current span"
+    ]
+   },
+   {
+    "name": "CSP Nonce",
+    "selectors": [
+     "script[nonce]"
+    ]
+   }
+  ],
+  "library": "Adobe Launch",
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": {
+  "atjs": {
+   "from": "launch",
+   "extension": "adobe-target-v2"
+  },
+  "webSdk": null,
+  "enabled": false
+ }
+}

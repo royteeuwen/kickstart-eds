@@ -1,0 +1,14 @@
+{
+  "media/basisrekening-openen/basisrekening-openen-qr.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-form/media/basisrekening-openen-qr.png",
+    "size": 40940,
+    "sha256": "d20039656bd6531a844aa5cebd927c6918f7c364d6a45091115bc75224f5cd3f",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/ede281e9/media/basisrekening-openen/basisrekening-openen-qr.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-19T20:24:56.500Z"
+  }
+}

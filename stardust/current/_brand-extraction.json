@@ -1,0 +1,1122 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-19T16:40:10.625Z",
+    "stardustVersion": "0.33.0",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/assets/css/*"
+    ],
+    "notes": "Aggregated across all 5 extracted pages at 1440 and 360."
+  },
+  "origins": [
+    {
+      "origin": "https://www.kbc.be",
+      "role": "primary",
+      "pages": 5
+    }
+  ],
+  "logo": {
+    "source": "inline-svg",
+    "path": "stardust/current/assets/logo.svg",
+    "selector": "header .logo a.aem-logo svg",
+    "href": "https://www.kbc.be/particulieren/nl.html?zone=topnav"
+  },
+  "favicon": {
+    "path": "stardust/current/assets/favicon.ico"
+  },
+  "palette": [
+    {
+      "hex": "#003665",
+      "roles": [
+        "text",
+        "heading"
+      ],
+      "weight": 660,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "#main-menu > ul > li:nth-of-type(1) > button > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > button > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "#main-menu > ul > li:nth-of-type(1) > button > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#003665b3",
+      "roles": [
+        "border"
+      ],
+      "weight": 613,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "header > div:nth-of-type(1) > div > div > div > ul > li:nth-of-type(1) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "header > div:nth-of-type(1) > div > div > div > ul > li:nth-of-type(1) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "header > div:nth-of-type(1) > div > div > div > ul > li:nth-of-type(1) > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff",
+      "roles": [
+        "background"
+      ],
+      "weight": 336,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "#container-e48f18d2a0 > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "body > div:nth-of-type(3) > div > div > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "header > div:nth-of-type(1) > div > div > div > ul > li:nth-of-type(1) > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#00aeef",
+      "roles": [
+        "secondary"
+      ],
+      "weight": 271,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "div > div > div > div:nth-of-type(1) > a > div > div:nth-of-type(2) > h3",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "#dropdown-0 > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "div > div > div:nth-of-type(6) > div > div > ul:nth-of-type(1) > li > a",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#009985",
+      "roles": [
+        "primary"
+      ],
+      "weight": 182,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > div > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > a:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > a:nth-of-type(1)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#00aeef0a",
+      "roles": [
+        "surface"
+      ],
+      "weight": 47,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "#dropdown-0 > tbody > tr:nth-of-type(3)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "div > div > div > div:nth-of-type(1) > table > thead > tr > th:nth-of-type(3)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#0036651a",
+      "roles": [],
+      "weight": 127,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "#container-b2d59e6c49 > div:nth-of-type(5) > div > div > div:nth-of-type(1) > details > summary",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "div > div > div > div:nth-of-type(1) > div > div > div > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "div:nth-of-type(4) > div > div > div > div:nth-of-type(1) > table > tbody > tr:nth-of-type(1)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#00aeef80",
+      "roles": [],
+      "weight": 48,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "div > div > div:nth-of-type(6) > div > div > ul:nth-of-type(1) > li > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "div > div:nth-of-type(5) > div > div:nth-of-type(1) > div > div > p > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > ul > li:nth-of-type(5) > a",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#0036653d",
+      "roles": [],
+      "weight": 8,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "#main-content > div:nth-of-type(12) > div > div > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "header > div:nth-of-type(1) > div > div > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "header > div:nth-of-type(1) > div > div > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#00366566",
+      "roles": [],
+      "weight": 6,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff52",
+      "roles": [],
+      "weight": 5,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "header > div:nth-of-type(1) > div > div > div",
+          "prop": "border"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "MuseoSans",
+        "count": 264,
+        "headings": 114,
+        "text": 109,
+        "buttons": 41
+      }
+    ],
+    "headingFamily": "MuseoSans",
+    "bodyFamily": "MuseoSans",
+    "sizes": [
+      {
+        "px": 40,
+        "count": 2,
+        "headings": 2,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 30,
+        "count": 6,
+        "headings": 6,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 8,
+        "headings": 8,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 20,
+        "count": 39,
+        "headings": 38,
+        "text": 1,
+        "buttons": 0
+      },
+      {
+        "px": 18,
+        "count": 23,
+        "headings": 22,
+        "text": 1,
+        "buttons": 0
+      },
+      {
+        "px": 16,
+        "count": 157,
+        "headings": 38,
+        "text": 78,
+        "buttons": 41
+      },
+      {
+        "px": 14,
+        "count": 29,
+        "headings": 0,
+        "text": 29,
+        "buttons": 0
+      }
+    ],
+    "weights": [
+      {
+        "weight": "700",
+        "count": 112,
+        "headings": 110,
+        "text": 2,
+        "buttons": 0
+      },
+      {
+        "weight": "300",
+        "count": 99,
+        "headings": 0,
+        "text": 99,
+        "buttons": 0
+      },
+      {
+        "weight": "500",
+        "count": 53,
+        "headings": 4,
+        "text": 8,
+        "buttons": 41
+      }
+    ],
+    "levels": {
+      "h1": {
+        "fontSize": 30,
+        "fontWeight": "700",
+        "count": 6,
+        "score": 128.6
+      },
+      "h2": {
+        "fontSize": 20,
+        "fontWeight": "700",
+        "count": 38,
+        "score": 215.75
+      },
+      "h3": {
+        "fontSize": 18,
+        "fontWeight": "700",
+        "count": 22,
+        "score": 147.75
+      },
+      "h4": {
+        "fontSize": 16,
+        "fontWeight": "700",
+        "count": 32,
+        "score": 158.39
+      }
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "steps": [
+        40,
+        30,
+        24,
+        20,
+        18,
+        16,
+        14
+      ]
+    },
+    "files": [
+      {
+        "family": "MuseoSans",
+        "weight": 300,
+        "path": "stardust/current/assets/fonts/museosans-300-webfont.woff2",
+        "sourceUrl": "https://wcmassets.kbc.be/etc.clientlibs/kbc/fonts/shared/museo/resources/font/museosans-300-webfont.woff2",
+        "licensing": "commercial (exljbris Museo Sans) — not rehosted; loaded from the owner CDN (ACAO *)"
+      },
+      {
+        "family": "MuseoSans",
+        "weight": 500,
+        "path": "stardust/current/assets/fonts/museosans-500-webfont.woff2",
+        "sourceUrl": "https://wcmassets.kbc.be/etc.clientlibs/kbc/fonts/shared/museo/resources/font/museosans-500-webfont.woff2",
+        "licensing": "commercial (exljbris Museo Sans) — not rehosted; loaded from the owner CDN (ACAO *)"
+      },
+      {
+        "family": "MuseoSans",
+        "weight": 700,
+        "path": "stardust/current/assets/fonts/museosans-700-webfont.woff2",
+        "sourceUrl": "https://wcmassets.kbc.be/etc.clientlibs/kbc/fonts/shared/museo/resources/font/museosans-700-webfont.woff2",
+        "licensing": "commercial (exljbris Museo Sans) — not rehosted; loaded from the owner CDN (ACAO *)"
+      }
+    ]
+  },
+  "iconFont": {
+    "families": [
+      "FontAwesome",
+      "iconskbc"
+    ],
+    "files": [
+      "https://wcmassets.kbc.be/etc.clientlibs/kbc/fonts/websites/icons-kbc/resources/font/icons-kbc.v31.woff"
+    ],
+    "glyphs": [
+      {
+        "class": "fa fa-angle-left",
+        "pseudo": "::before",
+        "codepoint": "U+F104",
+        "fontFamily": "FontAwesome",
+        "count": 10,
+        "sources": [
+          "https://www.kbc.be/particulieren/nl.html",
+          "https://www.kbc.be/particulieren/nl.html",
+          "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services"
+        ]
+      }
+    ]
+  },
+  "motifs": {
+    "radius": {
+      "mode": "8px",
+      "areaMode": "8px",
+      "pill": "100px",
+      "values": [
+        {
+          "value": "100px",
+          "count": 47,
+          "area": 412513,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "div > div > div > div > div:nth-of-type(3) > div > div > a"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "div:nth-of-type(8) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > a"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "div:nth-of-type(9) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:nth-of-type(1) > a"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > a:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > span > a:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "8px",
+          "count": 38,
+          "area": 3216004,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(10) > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(12) > div > div > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(12) > div > div > div > div:nth-of-type(2) > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div:nth-of-type(1) > div > div > div > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-0"
+            }
+          ]
+        },
+        {
+          "value": "3px",
+          "count": 31,
+          "area": 3150061,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(1) > div > div > picture > img"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(10) > div > div:nth-of-type(1) > img"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#footer-container > div:nth-of-type(2) > div > a > img"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div > div:nth-of-type(1) > a > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div > div:nth-of-type(2) > a > div"
+            }
+          ]
+        },
+        {
+          "value": "4px",
+          "count": 22,
+          "area": 452978,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-0 > tbody > tr:nth-of-type(3) > td:nth-of-type(1) > p > span"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-1 > tbody > tr:nth-of-type(3) > td:nth-of-type(1) > p > span"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-2 > tbody > tr:nth-of-type(3) > td:nth-of-type(1) > p > span"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div:nth-of-type(1) > table > thead > tr > th:nth-of-type(3) > p"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div:nth-of-type(7) > div > div > div:nth-of-type(1) > a > div > div:nth-of-type(2) > div"
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 17,
+          "area": 2039654,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(8) > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(9) > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "#container-84c5aaf81b > div > div > figure > img"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "div > div:nth-of-type(1) > div > div > div > div > figure > img"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "div > div:nth-of-type(2) > div > div > div > div > figure > img"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 0px 8px",
+          "count": 11,
+          "area": 144312,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-0 > tbody > tr:nth-of-type(4) > td:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-1 > tbody > tr:nth-of-type(4) > td:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-2 > tbody > tr:nth-of-type(4) > td:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 8px",
+          "count": 11,
+          "area": 144312,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-0 > tbody > tr:nth-of-type(4) > td:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-1 > tbody > tr:nth-of-type(4) > td:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "#dropdown-2 > tbody > tr:nth-of-type(4) > td:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 3px 3px",
+          "count": 6,
+          "area": 150960,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div:nth-of-type(1) > a > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div:nth-of-type(2) > a > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div:nth-of-type(3) > a > div > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 6,
+          "area": 105408,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "#main-content > div:nth-of-type(11) > div > div > div:nth-of-type(1) > a > img"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "#main-content > div:nth-of-type(11) > div > div > div:nth-of-type(2) > a > img"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "#main-content > div:nth-of-type(11) > div > div > div:nth-of-type(3) > a > img"
+            }
+          ]
+        },
+        {
+          "value": "3px 0px 0px 3px",
+          "count": 6,
+          "area": 67800,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div:nth-of-type(1) > a > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div:nth-of-type(2) > a > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div:nth-of-type(3) > a > div > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "0px 8px 8px 0px",
+          "count": 5,
+          "area": 6480,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > button"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > button"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > button"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > button"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > button"
+            }
+          ]
+        },
+        {
+          "value": "5px",
+          "count": 5,
+          "area": 1826031,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(1) > table"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+              "selector": "div:nth-of-type(2) > details > div > div > div > div > div > table"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+              "selector": "#container-b2d59e6c49 > div:nth-of-type(8) > div > table"
+            }
+          ]
+        },
+        {
+          "value": "8px 0px 0px 8px",
+          "count": 5,
+          "area": 51120,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+              "selector": "div > div > div > div > div:nth-of-type(1) > form > div > div"
+            }
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 4,
+          "area": 807712,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "#container-edcd3dbdb2 > div > div"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+              "selector": "#main-content > div:nth-of-type(8) > div > div > div > div"
+            }
+          ]
+        },
+        {
+          "value": "0px 16px 0px 0px",
+          "count": 2,
+          "area": 364188,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(8) > div > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "16px 0px 0px",
+          "count": 2,
+          "area": 364188,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(9) > div > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "20px 0px 0px 20px",
+          "count": 2,
+          "area": 500576,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(8) > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+              "selector": "#container-b2d59e6c49 > div:nth-of-type(1) > section > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 8px 8px",
+          "count": 1,
+          "area": 17171,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div:nth-of-type(1) > table > tfoot > tr:nth-of-type(2) > td:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "0px 20px 20px 0px",
+          "count": 1,
+          "area": 112404,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl.html",
+              "selector": "#main-content > div:nth-of-type(9) > div > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "8px 8px 0px 0px",
+          "count": 1,
+          "area": 15113,
+          "sources": [
+            {
+              "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+              "selector": "div > div > div > div:nth-of-type(1) > table > thead > tr > th:nth-of-type(3)"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 54, 101, 0.08) 0px 4px 16px 0px",
+        "count": 10,
+        "sources": [
+          {
+            "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+            "selector": "div > div > div:nth-of-type(7) > div > div > div:nth-of-type(5) > a > div"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+            "selector": "div > div > div:nth-of-type(7) > div > div > div:nth-of-type(6) > a > div"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+            "selector": "div > div > div:nth-of-type(7) > div > div > div:nth-of-type(7) > a > div"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+            "selector": "div > div > div:nth-of-type(7) > div > div > div:nth-of-type(1) > a > div"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+            "selector": "div > div > div:nth-of-type(7) > div > div > div:nth-of-type(2) > a > div"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.1) 0px 20px 20px -20px",
+        "count": 6,
+        "sources": [
+          {
+            "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+            "selector": "header"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+            "selector": "header > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+            "selector": "header"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+            "selector": "header > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+            "selector": "header"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 54, 101, 0.1) 0px 4px 16px 0px",
+        "count": 6,
+        "sources": [
+          {
+            "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+            "selector": "#main-content > div:nth-of-type(11) > div > div > div:nth-of-type(1) > a > div"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+            "selector": "#main-content > div:nth-of-type(11) > div > div > div:nth-of-type(2) > a > div"
+          },
+          {
+            "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+            "selector": "#main-content > div:nth-of-type(11) > div > div > div:nth-of-type(3) > a > div"
+          }
+        ]
+      }
+    ],
+    "gradients": []
+  },
+  "hover": [
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(0, 174, 239)"
+      },
+      "to": {
+        "color": "rgb(0, 139, 191)"
+      },
+      "count": 16,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "#container-9a77dbbf85 > div:nth-of-type(2) > div > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > ul > li:nth-of-type(5) > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "#container-9a77dbbf85 > div:nth-of-type(2) > div > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > ul > li:nth-of-type(5) > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "div:nth-of-type(1) > div > div > div > div > div > div:nth-of-type(1) > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(0, 153, 133)",
+        "borderColor": "rgb(0, 153, 133)"
+      },
+      "to": {
+        "backgroundColor": "rgb(0, 122, 106)",
+        "borderColor": "rgb(0, 122, 106)"
+      },
+      "count": 10,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "div > div > div > div > div:nth-of-type(3) > div > div > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > div > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(0, 174, 239)",
+        "borderColor": "rgb(0, 174, 239)"
+      },
+      "to": {
+        "backgroundColor": "rgb(0, 139, 191)",
+        "borderColor": "rgb(0, 139, 191)"
+      },
+      "count": 6,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(4) > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > span > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=more-services",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > span > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/pensioensparen/sleutelmoment.html",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > span > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > span > a:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "color": "rgb(0, 153, 133)",
+        "borderColor": "rgb(0, 153, 133)"
+      },
+      "to": {
+        "color": "rgb(0, 122, 106)",
+        "borderColor": "rgb(0, 122, 106)"
+      },
+      "count": 2,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "div:nth-of-type(9) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "div:nth-of-type(9) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:nth-of-type(2) > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(0, 153, 133)"
+      },
+      "to": {
+        "color": "rgb(0, 122, 106)"
+      },
+      "count": 2,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+          "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(0, 54, 101)"
+      },
+      "to": {
+        "color": "rgb(0, 139, 191)"
+      },
+      "count": 2,
+      "sources": [
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "#container-9a77dbbf85 > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.kbc.be/particulieren/nl.html",
+          "selector": "#container-9a77dbbf85 > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        }
+      ]
+    }
+  ],
+  "voice": {
+    "heroHeadline": "Vind je volgende auto in KBC Mobile",
+    "heroLede": null,
+    "ctaSamples": [
+      "Ontdek het aanbod in KBC Mobile",
+      "Maak je toekomstplan",
+      "Download KBC Mobile"
+    ],
+    "heroImage": "https://wcmassets.kbc.be/content/dam/particulieren/homepage/2026/ATL-Mobility-Rerun-2026-homepagebanner-2000x910-NL.jpg/_jcr_content/renditions/cq5dam.web.2000.9999.jpeg.cdn.res/last-modified/1792418462024/cq5dam.web.2000.9999.jpeg",
+    "heroMedium": null,
+    "firstParagraph": "Van veraf tot net met pensioen: wat kun je vandaag doen dat straks het verschil maakt? Denk vooruit, plan en maak bewuste keuzes. Zo bouw je meer vrijheid en zekerheid op."
+  },
+  "systemComponents": [
+    {
+      "id": "site-header",
+      "selector": "header.site__header",
+      "pages": 5,
+      "notes": "top site-switch bar + search + contact + language; brand row with logo, mega-menu main nav, Word klant / Aanmelden buttons"
+    },
+    {
+      "id": "site-footer",
+      "selector": "footer",
+      "pages": 5,
+      "notes": "4 link columns (Ons aanbod, Contacteer ons, Over ons, Andere websites), Secure4U strip, loan warning \"Let op, geld lenen kost ook geld.\", legal links, social"
+    },
+    {
+      "id": "breadcrumb",
+      "selector": ".breadcrumb",
+      "pages": 4
+    },
+    {
+      "id": "loan-warning",
+      "selector": ".loan-warning",
+      "pages": 5
+    }
+  ]
+}

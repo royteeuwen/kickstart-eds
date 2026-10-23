@@ -1,0 +1,81 @@
+{
+ "source": "file:///workspace/ede281e9/stardust/prototypes/particulieren-nl-proces-betalen-zichtrekeningen-basisrekening-openen-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [],
+   "note": "page trail (outside <main> in the prototype; first section on EDS)"
+  },
+  {
+   "section": "process-page",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Open nu je KBC-Basisrekening"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Snel, eenvoudig én volledig online met itsme®"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Start meteen met online bankieren"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Beste bankapp van de wereld, volgens Sia"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Krijg je debetkaart gratis per post"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Open in een paar minuten:"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Ik ben nieuw bij KBC",
+     "href": "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/zichtrekening-openen.html?producttype=3845&synonym=#/account/request/holder-selection"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Ik ben al klant",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Open je rekening in KBC Mobile en ontdek meteen waarom het de beste bankapp van de wereld is."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Al een KBC-Plusrekening op je naam? Dan is de KBC-Basisrekening gratis!"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Woon je in Brussel of Waals-Brabant? Dan is een rekening bij KBC Brussels of CBC handiger. Open 'm op www.kbcbrussels.be of www.cbc.be."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 8,
+   "repeats": [],
+   "note": "device-conditional (dynamic-features #14, static-snapshot): the PC group is delivered (QR = captured image); the hidden non-PC group and the phone-only image are not authored. EDS splits it into process-page (media + head) + default h3 + cta-btngroup + quick-response + default juridical text"
+  }
+ ]
+}

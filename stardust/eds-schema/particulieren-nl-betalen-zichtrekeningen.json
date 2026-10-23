@@ -1,0 +1,1337 @@
+{
+ "source": "file:///workspace/ede281e9/stardust/prototypes/particulieren-nl-betalen-zichtrekeningen-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [],
+   "note": "page trail (outside <main> in the prototype; first section on EDS)"
+  },
+  {
+   "section": "column-control",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Waarom onze klanten kiezen voor een zichtrekening bij KBC"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "KBC Mobile is de Beste bankapp van de wereld, volgens Sia, met allerlei extra diensten en kortingen om te ontdekken."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Gratis debetkaart en contactloos betalen."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Altijd in realtime overschrijvingen doen naar eigen en andere rekeningen."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Vergelijk onze zichtrekeningen",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/zichtrekeningen-vergelijken.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid",
+     "count": 2,
+     "unit": {
+      "headings": 3,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "comparison",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": ",50 euro/maand*"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": ",25 euro/maand"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Gratis"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "van 10 t.e.m. 24 jaar"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Kredietkaart"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "**"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Gratis"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Gratis"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Gratis"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Tweede debetkaart"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "0,75 euro/maand"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Foto op debetkaart"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "10 euro"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Geld opnemen in euro aan KBC-/CBC-/KBC Brussels-automaten"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Geld opnemen in euro aan andere geldautomaten in Europa"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "0,50 euro vanaf de 25ste verrichting"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Geld opnemen in euro aan het loket"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "2 euro/verrichting"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Online bankieren"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Instant overschrijvingen"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Gratis dienst in KBC Mobile: digitale kluis (vanaf 18 jaar)"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Opladen beperkt tot 5 MB"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Onbeperkt opladen"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Onbeperkt opladen"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Apple Pay"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Open nu",
+     "href": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Open nu",
+     "href": "/particulieren/nl/proces/betalen/zichtrekeningen/plusrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Open nu",
+     "href": "/particulieren/nl/proces/betalen/zichtrekeningen/jongerenrekening-zelf-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Meer info",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Meer info",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Meer info",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Kies een kenmerk"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Kredietkaart"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "**"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Tweede debetkaart"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Foto op debetkaart"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Geld opnemen in euro aan KBC-/CBC-/KBC Brussels-automaten"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Geld opnemen in euro aan andere geldautomaten in Europa"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Geld opnemen in euro aan het loket"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Online bankieren"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Instant overschrijvingen"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Gratis dienst in KBC Mobile: digitale kluis (vanaf 18 jaar)"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Apple Pay"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": ",50 euro/maand*"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": ",25 euro/maand"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Gratis"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "van 10 t.e.m. 24 jaar"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Kredietkaart"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "**"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Gratis"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Gratis"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Gratis"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Tweede debetkaart"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "0,75 euro/maand"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "ja"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Foto op debetkaart"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "10 euro"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "ja"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Geld opnemen in euro aan KBC-/CBC-/KBC Brussels-automaten"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "Geld opnemen in euro aan andere geldautomaten in Europa"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "0,50 euro vanaf de 25ste verrichting"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "ja"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Geld opnemen in euro aan het loket"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "2 euro/verrichting"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "ja"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "ja"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Online bankieren"
+    },
+    {
+     "role": "cta",
+     "order": 120,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 122,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "Instant overschrijvingen"
+    },
+    {
+     "role": "cta",
+     "order": 126,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 127,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 128,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "Gratis dienst in KBC Mobile: digitale kluis (vanaf 18 jaar)"
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 133,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 134,
+     "text": "Opladen beperkt tot 5 MB"
+    },
+    {
+     "role": "cta",
+     "order": 135,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "body",
+     "order": 137,
+     "text": "Onbeperkt opladen"
+    },
+    {
+     "role": "cta",
+     "order": 138,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "Onbeperkt opladen"
+    },
+    {
+     "role": "body",
+     "order": 140,
+     "text": "Apple Pay"
+    },
+    {
+     "role": "cta",
+     "order": 141,
+     "text": "Meer info",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 142,
+     "text": "KBC-Basisrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 143,
+     "text": "KBC-Plusrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 144,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "cta",
+     "order": 145,
+     "text": "Gratis jongerenrekening",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 146,
+     "text": "* Heb je als rekeninghouder van een KBC-Plusrekening daarnaast ook een KBC-Basisrekening? Dan blijft die KBC-Basisrekening gratis. Opgelet: de rekeninghouders van de KBC-Plusrekening en de KBC-Basisrekening moeten exact dezelfde zijn."
+    },
+    {
+     "role": "body",
+     "order": 147,
+     "text": "** Onder voorbehoud van goedkeuring van je aanvraag. De KBC-Kredietkaart is een kredietkaart met als kaartuitgever: KBC Bank NV, met zetel in Havenlaan 2, 1080 Brussel, België. BTW BE 0462.920.226, RPR Brussel, FSMA 026 256 A. Het KBC Flex Budget is een kredietopening van onbepaalde duur met de KBC-Kredietkaart als bijkomend kredietopnemingsmiddel.Kredietgever en kaartuitgever: KBC Bank nv. Onder voorbehoud van goedkeuring van je kaartaanvraag of kredietaanvraag door KBC Bank NV."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 40,
+   "repeats": [
+    {
+     "unitSelector": "DIV.juridicaltext",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TH.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TR.",
+     "count": 11,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.aem-comparison-cmp__header__wrapper",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.aem-comparison-cmp__text-cell",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.aem-comparison-cmp__text-cell",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.aem-comparison-cmp__text-cell",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.aem-comparison-cmp__text-cell",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TR.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.aem-comparison-cmp__footer__cta",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.aem-comparison-cmp__footer__link",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TABLE.aem-comparison-cmp__item",
+     "count": 11,
+     "unit": {
+      "headings": 0,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.aem-dropdown-option",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "comparison",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "KBC-Basisrekening"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "2,50 euro"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "per maand*"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Met gratis kredietkaart"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "**"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "1 debetkaart"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Contactloos betalen"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Online bankieren"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Kosteloos geld opnemen aan alle KBC-automaten"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Google Pay"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Open nu",
+     "href": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Meer info",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Meest gekozen"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "KBC-Plusrekening"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "4,25 euro"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "per maand"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Met gratis kredietkaart"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "**"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "2 debetkaarten"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Contactloos betalen"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Gratis eigen foto op debetkaart"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Online bankieren"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "App-meldingen bij stortingen"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Apple Pay en Google Pay"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Kosteloos geld opnemen in euro aan alle bankautomaten in Europa"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Open nu",
+     "href": "/particulieren/nl/proces/betalen/zichtrekeningen/plusrekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Meer info",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Jongerenrekening"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Gratis"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "tot en met 24 jaar"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Met gratis kredietkaart"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "**"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "2 debetkaarten"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Contactloos betalen"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Gratis eigen foto op debetkaart"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Online bankieren"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "App-meldingen bij stortingen"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Apple Pay en Google Pay"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Kosteloos geld opnemen in euro aan alle bankautomaten in Europa"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Open nu",
+     "href": "/particulieren/nl/proces/betalen/zichtrekeningen/jongerenrekening-zelf-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Meer info",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "* Heb je als rekeninghouder van een KBC-Plusrekening daarnaast ook een KBC-Basisrekening? Dan blijft die KBC-Basisrekening gratis. Opgelet: de rekeninghouders van de KBC-Plusrekening en de KBC-Basisrekening moeten exact dezelfde zijn."
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "** Onder voorbehoud van goedkeuring van je aanvraag. De KBC-Kredietkaart is een kredietkaart met als kaartuitgever: KBC Bank NV, met zetel in Havenlaan 2, 1080 Brussel, België. BTW BE 0462.920.226, RPR Brussel, FSMA 026 256 A. Het KBC Flex Budget is een kredietopening van onbepaalde duur met de KBC-Kredietkaart als bijkomend kredietopnemingsmiddel.Kredietgever en kaartuitgever: KBC Bank nv. Onder voorbehoud van goedkeuring van je kaartaanvraag of kredietaanvraag door KBC Bank NV."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.comparison-panel",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 12
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.juridicaltext",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "list",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Open een gezamenlijke rekening Een gezamenlijke rekening is een zichtrekening op naam van jou en een of meerdere andere personen.",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/gezamenlijke-rekening.html"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "KBC-Business PRO Hou zakelijk en privé gescheidenVerplicht voor vennootschappen100% fiscaal aftrekbaar",
+     "href": "/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Veranderen van bank: hoe doe je dat? Met de gratis bankoverstapdienst van KBC kan het makkelijk digitaal.",
+     "href": "/particulieren/nl/info/bankoverstapdienst-veranderen-van-bank.html"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zichtrekening voor je kind Gratis voor jongeren van 10 tot en met 24 jaar. Jij volgt als ouder alles op de voet via KBC Mobile of KBC Touch.",
+     "href": "/particulieren/nl/betalen/zichtrekening-voor-mijn-kind.html"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Online rekening openen Een rekening online openen? Da’s snel, makkelijk en praktisch. Geen papierwerk, vanuit je luie zetel, op elk moment van de dag.",
+     "href": "/particulieren/nl/betalen/online-rekening-openen.html"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Universele Bankdienst van KBC Heb je geen smartphone, computer of tablet of regel je jouw bankzaken liever niet digitaal? Dan is dit voor jou de ideale oplossing.",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/universele-bankdienst.html"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "De KBC-Basisbankdienst Het basispakket voor essentiële bankverrichtingen. Enkel voor wie minder dan 10.239 euro ter beschikking heeft.",
+     "href": "/particulieren/nl/product/betalen/zichtrekeningen/basisbankdienst.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid",
+     "count": 7,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

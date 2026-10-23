@@ -1,0 +1,267 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics",
+  "writtenAt": "2026-10-19T21:20:24.876360Z"
+ },
+ "method": "static recreation per archetype; chrome rebuilt native; martech carried over with every contract part disabled; interim rows carry named owner decisions",
+ "features": [
+  {
+   "id": "chrome-menu",
+   "feature": "header mega menus",
+   "class": "M",
+   "pages": 5,
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "265 header nav links on /; header contract chrome-compare at C0 panel geometry 7/7",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl",
+     "selector": "header nav a",
+     "min": 200
+    },
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl/betalen/zichtrekeningen",
+     "selector": "header nav a",
+     "min": 200
+    }
+   ]
+  },
+  {
+   "id": "chrome-drawer",
+   "feature": "mobile drawer",
+   "class": "M",
+   "pages": 5,
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "header contract at 390 (C0); 31 header controls",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl",
+     "selector": "header button",
+     "min": 20
+    }
+   ]
+  },
+  {
+   "id": "site-search",
+   "feature": "header search",
+   "class": "S",
+   "pages": 5,
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "verifiedBy": "header form posts to the source results page",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl",
+     "selector": "header form",
+     "min": 1
+    }
+   ],
+   "owner": "widen scope to migrate /particulieren/nl/zoek.html or keep the source results page"
+  },
+  {
+   "id": "locale-switch",
+   "feature": "NL/FR/DE/EN + site switch",
+   "class": "I18N",
+   "pages": 5,
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "verifiedBy": "other locales link to the source pages",
+   "checks": [],
+   "owner": "FR/DE/EN trees in scope or not"
+  },
+  {
+   "id": "consent-trustarc",
+   "feature": "TrustArc consent notice",
+   "class": "T",
+   "pages": 5,
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "verifiedBy": "martech contract consent part disabled; see martech feature",
+   "checks": [],
+   "owner": "switch on TrustArc (martech-handoff.md)"
+  },
+  {
+   "id": "tags-launch",
+   "feature": "Adobe Launch + digitalData",
+   "class": "T",
+   "pages": 5,
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "verifiedBy": "route disabled in the contract; see martech feature",
+   "checks": [],
+   "owner": "enable the Launch route and rewrite the listed rules"
+  },
+  {
+   "id": "rum-agents",
+   "feature": "Elastic RUM agent config",
+   "class": "A",
+   "pages": 5,
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "verifiedBy": "not wired (monitoring only)",
+   "checks": [],
+   "owner": "RUM monitoring on the new host"
+  },
+  {
+   "id": "profile-conditions",
+   "feature": "personalisation profiles",
+   "class": "D",
+   "pages": 4,
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "verifiedBy": "anonymous default variant as captured",
+   "checks": [],
+   "owner": "segment source for personalised variants"
+  },
+  {
+   "id": "secure-deeplinks",
+   "feature": "proces page deep links",
+   "class": "D",
+   "pages": 1,
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "3 settled links authored in main",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen",
+     "selector": "main a",
+     "min": 3
+    }
+   ]
+  },
+  {
+   "id": "share-by-mail",
+   "feature": "e-mail this page dialog",
+   "class": "F/CR",
+   "pages": 5,
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-backend",
+   "status": "interim",
+   "verifiedBy": "no visible surface at rest; not rebuilt",
+   "checks": [],
+   "owner": "send endpoint for the share-by-mail dialog"
+  },
+  {
+   "id": "cookie-prefs-link",
+   "feature": "Cookie Voorkeursinstellingen footer trigger",
+   "class": "M",
+   "pages": 5,
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "footer link present; opens TrustArc preferences once #5 is enabled",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl",
+     "selector": "footer a",
+     "min": 30
+    }
+   ]
+  },
+  {
+   "id": "account-links",
+   "feature": "Aanmelden / Word klant / KBC Touch",
+   "class": "X",
+   "pages": 3,
+   "disposition": "embed-passthrough",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "links to the source apps in /nav",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl",
+     "selector": "header a[href*='aanmelden']",
+     "min": 1
+    }
+   ]
+  },
+  {
+   "id": "faq-accordion",
+   "feature": "FAQ accordions",
+   "class": "M",
+   "pages": 1,
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "8 aria-expanded toggles on the product page",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen",
+     "selector": ".faq [aria-expanded]",
+     "min": 8
+    }
+   ]
+  },
+  {
+   "id": "device-conditional",
+   "feature": "proces page PC group + QR",
+   "class": "CR",
+   "pages": 1,
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "verifiedBy": "PC group delivered, QR as captured image",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen",
+     "selector": ".quick-response img",
+     "min": 1
+    }
+   ],
+   "owner": "choose per-device groups on EDS"
+  },
+  {
+   "id": "js-nav-link",
+   "feature": "Ik ben al klant link",
+   "class": "X",
+   "pages": 1,
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "verifiedBy": "static link as captured",
+   "checks": [],
+   "owner": "target app URL"
+  },
+  {
+   "id": "page-errors",
+   "feature": "no uncaught exceptions",
+   "class": "-",
+   "pages": 5,
+   "disposition": "-",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "0 page errors on the 5 pages",
+   "checks": [
+    {
+     "type": "no-page-errors",
+     "paths": [
+      "/particulieren/nl",
+      "/particulieren/nl/betalen/zichtrekeningen",
+      "/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen",
+      "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen",
+      "/particulieren/nl/pensioensparen/sleutelmoment"
+     ]
+    }
+   ]
+  }
+ ]
+}

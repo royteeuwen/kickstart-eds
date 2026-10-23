@@ -1,0 +1,872 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-19T16:30:50.837Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html",
+  "url": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-19T16:30:50.837Z",
+  "finalUrl": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html",
+  "title": "Ontdek de KBC-Basisrekening - KBC Bank & Verzekering",
+  "description": "De KBC-Basisrekening? Dat is alles wat een zichtrekening hoort te zijn! Inclusief kredietkaart, debetkaart, pc-banking en mobile banking. Open nu je zichtrekening online!",
+  "og": {
+    "title": "Ontdek de KBC-Basisrekening - KBC Bank & Verzekering",
+    "description": "De KBC-Basisrekening? Dat is alles wat een zichtrekening hoort te zijn! Inclusief kredietkaart, debetkaart, pc-banking en mobile banking. Open nu je zichtrekening online!",
+    "image": "https://wcmassets.kbc.be/content/dam/particulieren/nl/betalen/bankrekening/zichtrekening-nieuwelook17.jpeg/_jcr_content/renditions/cq5dam.web.1200.9999.jpeg.cdn.res/last-modified/1687852295006/cq5dam.web.1200.9999.jpeg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "KBC-Basisrekening"
+    },
+    {
+      "tag": "h2",
+      "text": "Waarom een KBC-Basisrekening?"
+    },
+    {
+      "tag": "h2",
+      "text": "Meer info over deze zichtrekening"
+    },
+    {
+      "tag": "h2",
+      "text": "Rekeningdetails"
+    },
+    {
+      "tag": "h3",
+      "text": "Gebruik je veel extra opties?"
+    },
+    {
+      "tag": "h2",
+      "text": "Meer info"
+    },
+    {
+      "tag": "h4",
+      "text": "Ons aanbod"
+    },
+    {
+      "tag": "h4",
+      "text": "Contacteer ons"
+    },
+    {
+      "tag": "h4",
+      "text": "Over ons"
+    },
+    {
+      "tag": "h4",
+      "text": "Andere websites"
+    }
+  ],
+  "body": [
+    "De zichtrekening voor al je dagelijkse verrichtingen",
+    "Zichtrekening met 1 debetkaart inclusief gratis kredietkaart**",
+    "Bankier online met Beste bankapp van de wereld, volgens Sia",
+    "Open je rekening makkelijk online met itsme®",
+    "Woon je in Brussel? Ga dan verder met KBC Brussels.",
+    "Woon je in Wallonië? Dan is CBC een betere keuze.",
+    "De KBC-Basisrekening is ideaal voor al je dagelijkse bankverrichtingen. Heb je meer nodig? Dan kun je kiezen voor extra opties. Je betaalt enkel bij voor wat je gebruikt.",
+    "Met je debetkaart betaal je veilig en vlot contactloos. Via de gratis KBC Mobile-app profiteer je bovendien van alle extra diensten.",
+    "Contactloos betalen met je kaart",
+    "Mobile banking met je smartphone of tablet (KBC Mobile)",
+    "Online banking met je computer (KBC Touch)",
+    "Geld afhalen aan KBC/KBC Brussels/CBC-automaten",
+    "Geld afhalen (24 keer) aan niet KBC/KBC Brussels/CBC-automaten of Bancontact CASH-punt",
+    "Bankieren aan KBC-automaten",
+    "Dan is een KBC-Plusrekening misschien iets voor jou. Je kunt heel vlot overschakelen. Mét behoud van je kaart en rekeningnummer.",
+    "Pakketreglement",
+    "Algemene bankvoorwaarden",
+    "Informatiedocument betreffende de vergoedingen",
+    "Reglement KBC-Debetkaart",
+    "Zie hier voor meer info over de debetkaart.",
+    "* Heb je als rekeninghouder van een KBC-Plusrekening daarnaast ook een KBC-Basisrekening? Dan blijft die KBC-Basisrekening gratis. Opgelet: de rekeninghouders van de KBC-Plusrekening en de KBC-Basisrekening moeten exact dezelfde zijn.",
+    "** Onder voorbehoud van goedkeuring van je aanvraag",
+    "De KBC-Kredietkaart is een kredietkaart met als kaartuitgever: KBC Bank NV, met zetel in Havenlaan 2, 1080 Brussel, België. BTW BE 0462.920.226, RPR Brussel, FSMA 026 256 A.",
+    "Het KBC Flex Budget is een kredietopening van onbepaalde duur met de KBC-Kredietkaart als bijkomend kredietopnemingsmiddel.",
+    "Kredietgever en kaartuitgever: KBC Bank nv. Onder voorbehoud van goedkeuring van je kaartaanvraag of kredietaanvraag door KBC Bank NV.",
+    "Je tussenpersoon is het eerste aanspreekpunt voor klachten. Als je niet tot overeenstemming komt, kun je terecht bij KBC-Klachtenmanagement, Brusselsesteenweg 100, 3000 Leuven, klachten@kbc.be, tel. 016 43 25 94 of bij ombudsman@ombudsfin.be, https://www.ombudsfin.be/. Je behoudt evenwel steeds het recht om een gerechtelijke procedure in te leiden."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Ondernemers",
+      "href": "https://www.kbc.be/ondernemen/nl.html?zone=topnav"
+    },
+    {
+      "label": "Private Banking",
+      "href": "https://www.kbc.be/private-banking/nl.html?zone=topnav"
+    },
+    {
+      "label": "Commercial Banking",
+      "href": "https://www.kbc.be/commercial-banking/nl.html?zone=topnav"
+    },
+    {
+      "label": "Jongvolwassenen",
+      "href": "https://www.kbc.be/young-adults?zone=topnav"
+    },
+    {
+      "label": "Alle websites",
+      "href": "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html?zone=topnav"
+    },
+    {
+      "label": "Contact",
+      "href": "https://www.kbc.be/particulieren/nl/contact.html?zone=topnav"
+    },
+    {
+      "label": "NL",
+      "href": null
+    },
+    {
+      "label": "KBC Particulieren",
+      "href": "/particulieren/nl.html?zone=topnav"
+    },
+    {
+      "label": "Betalen",
+      "href": null
+    },
+    {
+      "label": "Sparen",
+      "href": null
+    },
+    {
+      "label": "Beleggen",
+      "href": null
+    },
+    {
+      "label": "Lenen",
+      "href": null
+    },
+    {
+      "label": "Verzekeren",
+      "href": null
+    },
+    {
+      "label": "MyHome",
+      "href": null
+    },
+    {
+      "label": "MyMobility",
+      "href": null
+    },
+    {
+      "label": "Word klant",
+      "href": "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav"
+    },
+    {
+      "label": "Aanmelden",
+      "href": "https://www.kbc.be/proces/aanmelden/bankieren-op-je-pc.html?zone=topnav"
+    },
+    {
+      "label": "Home",
+      "href": "/particulieren/nl.html?zone=breadcrumb"
+    },
+    {
+      "label": "Producten",
+      "href": "/particulieren/nl/product.html?zone=breadcrumb"
+    },
+    {
+      "label": "Betalen",
+      "href": "/particulieren/nl/product/betalen.html?zone=breadcrumb"
+    },
+    {
+      "label": "Zichtrekeningen",
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen.html?zone=breadcrumb"
+    },
+    {
+      "label": "Open nu je zichtrekening",
+      "href": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+      "label": "Ga dan verder met KBC Brussels.",
+      "href": "https://www.kbcbrussels.be/particulieren/nl/betalen/zichtrekeningen.html"
+    },
+    {
+      "label": "Dan is CBC een betere keuze.",
+      "href": "https://www.cbc.be/particuliers/fr/produits/paiements/comptes-a-vue/ouvrez-compte-a-vue.html"
+    },
+    {
+      "label": "demo",
+      "href": "/particulieren/nl/product/betalen/zelf-bankieren/stappenplannen-digitaal-bankieren/demos-mobile/zichtrekening-openen.html"
+    },
+    {
+      "label": "met de gratis bankoverstapdienst",
+      "href": "/particulieren/nl/info/bankoverstapdienst-veranderen-van-bank.html"
+    },
+    {
+      "label": "KBC-Business PRO rekening",
+      "href": "/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html"
+    },
+    {
+      "label": "Jongerenrekening",
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html"
+    },
+    {
+      "label": "kun je een zichtrekening online aanvragen",
+      "href": "/particulieren/nl/proces/betalen/zichtrekeningen/zichtrekening-openen.html?producttype=3845&synonym=#/account/request/holder-selection"
+    },
+    {
+      "label": "Open nu je zichtrekening",
+      "href": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+      "label": "KBC-Plusrekening",
+      "href": "/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html"
+    },
+    {
+      "label": "Open nu je zichtrekening",
+      "href": "/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html"
+    },
+    {
+      "label": "Pakketreglement",
+      "href": "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/betalen/kbc-particulier-pakketreglement.pdf"
+    },
+    {
+      "label": "Algemene bankvoorwaarden",
+      "href": "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/kbc-algemene-bankvoorwaarden.pdf"
+    },
+    {
+      "label": "Informatiedocument betreffende de vergoedingen",
+      "href": "https://www.kbc.be/particulieren/nl/info/tarieven.html"
+    },
+    {
+      "label": "Reglement KBC-Debetkaart",
+      "href": "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/BETALEN/KAARTEN/kbc-debetkaart-reglement.pdf"
+    },
+    {
+      "label": "hier",
+      "href": "/particulieren/nl/betalen/betaalkaarten/debetkaarten/bankkaart.html"
+    },
+    {
+      "label": "klachten@kbc.be",
+      "href": "mailto:klachten@kbc.be"
+    },
+    {
+      "label": "ombudsman@ombudsfin.be",
+      "href": "mailto:ombudsman@ombudsfin.be"
+    },
+    {
+      "label": "https://www.ombudsfin.be/",
+      "href": "https://www.ombudsfin.be/nl"
+    },
+    {
+      "label": "Betalen en zelf bankieren",
+      "href": "/particulieren/nl/product/betalen.html?zone=footer-1"
+    },
+    {
+      "label": "Sparen",
+      "href": "/particulieren/nl/sparen.html?zone=footer-1"
+    },
+    {
+      "label": "Fiscaal sparen",
+      "href": "/content/particulieren/nl/pensioensparen/fiscaal-sparen-vergelijken?zone=footer-1"
+    },
+    {
+      "label": "Beleggen",
+      "href": "/particulieren/nl/beleggen.html?zone=footer-1"
+    },
+    {
+      "label": "Lenen",
+      "href": "/particulieren/nl/lenen.html?zone=footer-1"
+    },
+    {
+      "label": "Verzekeren",
+      "href": "/particulieren/nl/verzekeren.html?zone=footer-1"
+    },
+    {
+      "label": "Maak een afspraak",
+      "href": "/particulieren/nl/proces/maak-je-afspraak-online.html?zone=footer-2"
+    },
+    {
+      "label": "Vind een kantoor",
+      "href": "/particulieren/nl/kantoor.html?zone=footer-2"
+    },
+    {
+      "label": "Contacteer ons",
+      "href": "/particulieren/nl/contact.html?zone=footer-2"
+    },
+    {
+      "label": "Card Stop 078 170 170",
+      "href": "/content/particulieren/nl/product/betalen/betaalkaarten/kaart-kwijt-gestolen-of-ingeslikt?zone=footer-2"
+    },
+    {
+      "label": "Meld internetfraude",
+      "href": "/particulieren/nl/info/secure4u/meld-fraude.html?zone=footer-2"
+    },
+    {
+      "label": "Veilig online bankieren",
+      "href": "/particulieren/nl/info/secure4u.html?zone=footer-2"
+    },
+    {
+      "label": "Stel je vraag aan Kate",
+      "href": "/particulieren/nl/campagne/bespaar-tijd-met-kate.html?zone=footer-2"
+    },
+    {
+      "label": "De KBC-groep",
+      "href": "https://www.kbc.com/nl.html?zone=footer-3"
+    },
+    {
+      "label": "KBC Trakteert",
+      "href": "/particulieren/nl/sponsoring-actie/kbc-trakteert.html?zone=footer-3"
+    },
+    {
+      "label": "Persberichten",
+      "href": "https://www.kbc.com/nl/newsroom/persberichtenarchief.html?zone=footer-3"
+    },
+    {
+      "label": "Sponsoring",
+      "href": "/particulieren/nl/sponsoring-actie/sponsoring.html?zone=footer-3"
+    },
+    {
+      "label": "Jobs",
+      "href": "/jobs/nl.html?zone=footer-3"
+    },
+    {
+      "label": "Duurzaamheid",
+      "href": "/particulieren/nl/duurzaamheid/samen-meer-duurzaamheid.html?zone=footer-3"
+    },
+    {
+      "label": "Kate Coins",
+      "href": "/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html?zone=footer-3"
+    },
+    {
+      "label": "Ondernemers",
+      "href": "/ondernemen/nl.html?zone=footer-4"
+    },
+    {
+      "label": "Commercial Banking",
+      "href": "/commercial-banking/nl.html?zone=footer-4"
+    },
+    {
+      "label": "Private banking",
+      "href": "/private-banking/nl.html?zone=footer-4"
+    },
+    {
+      "label": "KBC Brussels",
+      "href": "https://www.kbcbrussels.be/particulieren/nl.html?zone=footer-4"
+    },
+    {
+      "label": "KBC Groep",
+      "href": "https://www.kbc.com/nl.html?zone=footer-4"
+    },
+    {
+      "label": "Alle websites",
+      "href": "/particulieren/nl/info/alle-kbc-sites.html?zone=footer-4"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/particulieren/nl/sitemap.html?zone=doormat"
+    },
+    {
+      "label": "Tarieven",
+      "href": "/particulieren/nl/info/tarieven.html?zone=doormat"
+    },
+    {
+      "label": "Juridische info",
+      "href": "/particulieren/nl/juridische-info.html?zone=doormat"
+    },
+    {
+      "label": "Uitschrijven",
+      "href": "/particulieren/nl/contact/uitschrijven.html?zone=doormat"
+    },
+    {
+      "label": "Responsible disclosure",
+      "href": "/particulieren/nl/info/secure4u/responsible-disclosure-beleid.html?zone=doormat"
+    },
+    {
+      "label": "Toegankelijkheid",
+      "href": "/particulieren/nl/toegankelijkheid.html?zone=doormat"
+    }
+  ],
+  "links": [
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/basisrekening-openen.html#main-content",
+    "https://www.kbc.be/ondernemen/nl.html?zone=topnav",
+    "https://www.kbc.be/private-banking/nl.html?zone=topnav",
+    "https://www.kbc.be/commercial-banking/nl.html?zone=topnav",
+    "https://www.kbc.be/young-adults?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/contact.html?zone=topnav",
+    "https://www.kbc.be/particuliers/fr/produits/paiements/comptes-a-vue/ouvrir-un-compte-de-base.html?zone=topnav",
+    "https://www.kbc.be/privatkunden/de/bankgeschaefte/zahlungen/girokonten/basiskonto-eroffnen.html?zone=topnav",
+    "https://www.kbc.be/retail/en/products/payments/current-accounts/open-a-basic-account.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl.html?zone=mobile-menu",
+    "https://www.kbc.be/private-banking/nl.html?zone=mobile-menu",
+    "https://www.kbc.be/commercial-banking/nl.html?zone=mobile-menu",
+    "https://www.kbc.be/young-adults?zone=mobile-menu",
+    "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html",
+    "https://www.kbc.be/proces/aanmelden/bankieren-op-je-pc.html?zone=topnav",
+    "https://www.kbc.be/proces/aanmelden/bankieren-op-je-android-phone.html?zone=topnav",
+    "https://www.kbc.be/proces/aanmelden/bankieren-op-je-iphone.html?zone=topnav",
+    "https://www.kbc.be/proces/aanmelden/bankieren-op-je-windows-phone.html?zone=topnav",
+    "https://www.kbc.be/proces/aanmelden/bankieren-op-je-tablet.html?zone=topnav",
+    "https://www.kbc.be/proces/aanmelden/bankieren-op-je-ipad.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/cash.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-tablet-of-pc.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/betaalmethodes.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mobilepay.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten/debetkaarten/bankkaart-met-foto.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/voordelen-kredietkaart.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/info/secure4u.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/betalen.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/online-bankieren.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/sleutelmomenten/extra-diensten.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/spaarrekening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/groeispaarrekening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/huurwaarborgspaarrekening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/pamperrekening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarfonds.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/bijleren-fiscaal.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/fiscaal-sparen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/wat-betekent-langetermijnsparen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering/home-long-term-plan.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/tak-23/life-long-term-fund-plan.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/artikel/einde-ondernemerscarriere/pensioen/vrij-aanvullend-pensioen-zelfstandigen.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/poz.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/ipt-individuele-pensioentoezegging.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/proces/beleggen/fondsenzoeker.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/slim-beleggen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/aandelen/online-beleggen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/fondsen-bijkopen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/thematisch-beleggen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/duurzaam-beleggen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggingen-opvolgen-in-mobile-en-touch.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggingsplan.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-een-kind.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-beginners.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/bijleren.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/bijleren/sparen-en-beleggen.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/business-invest-service.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/expert-vermogensopbouw-voor-ondernemers.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/online-beleggen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/hypothecaire-lening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/overbruggingskrediet.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/renovatielening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/groene-energielening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/interieurlening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/tuinlening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/lenen-voor-je-woning.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-benzine-diesel.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-hybride-auto.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig/lening-elektrische-wagen.html?zone=topnav",
+    "https://www.kbc.be/content/particulieren/nl/lenen/voertuig#tweewieler.html?zone=topnav",
+    "https://www.kbc.be/content/particulieren/nl/lenen/voertuig#ander.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-plus.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/gezin.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/persoonlijke-lening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/kbc-flex-budget.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfswagens-vergelijken.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfsuitrusting-vergelijken.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/financieren/werkkapitaal.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/kredieten/vergelijking-kredieten-onroerend.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen/brandverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen/bijstandaanhuis.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen/schuldsaldoverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen/welke-verzekeringen-voor-een-woning.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/autoverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-elektrische-auto.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/fietsverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-voor-je-scooter-of-speed-pedelec.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/motorverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/schade-of-diefstal.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/reisverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/je-familiale-verzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/hospitalisatieverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/ongevallenverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/overlijdensverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/uitvaartverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/waarom-kiezen-voor-levensverzekering.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/cybersecure-verzekering.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/verzekeren/aansprakelijkheid-en-rechtsbijstand.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/verzekeren/lichamelijke-schade-en-gevolgen.html?zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/verzekeren/materiele-schade-en-gevolgen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/schade-aangeven.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/huis-kopen-zonder-zorgen.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/renoveren.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/energiezuinig-optimaliseren.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/thema/mymobility.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/thema/mymobility/product/car-sales.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/open-een-zichtrekening.html?zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/zichtrekeningen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/in-het-rood-gaan.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/cash.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/zelf-bankieren.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-tablet-of-pc.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/betaalmethodes.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/mobile/mobilepay.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten/debetkaarten/bankkaart-met-foto.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/voordelen-kredietkaart.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/info/secure4u.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/betalen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/online-bankieren.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/sleutelmomenten/extra-diensten.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/spaarrekeningen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/spaarrekening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/groeispaarrekening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/huurwaarborgspaarrekening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/spaarrekeningen/pamperrekening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/pensioensparen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarfonds.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/bijleren-fiscaal.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/fiscaal-sparen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/wat-betekent-langetermijnsparen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/pensioensparen/pensioenspaarverzekering/home-long-term-plan.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/sparen/tak-23/life-long-term-fund-plan.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/artikel/einde-ondernemerscarriere/pensioen/vrij-aanvullend-pensioen-zelfstandigen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/poz.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/verzekeringen/jezelf-en-je-medewerkers/gezin/ipt-individuele-pensioentoezegging.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/ervaren.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/proces/beleggen/fondsenzoeker.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/slim-beleggen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/aandelen/online-beleggen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/fondsen-bijkopen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/thematisch-beleggen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/duurzaam-beleggen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggingen-opvolgen-in-mobile-en-touch.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/starter.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggingsplan.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-een-kind.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggen-voor-beginners.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/bijleren.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/beleggen-met-je-wisselgeld.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/sparen/bijleren/sparen-en-beleggen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/private-banking/nl.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/business-invest-service.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/expert-vermogensopbouw-voor-ondernemers.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/sparen-beleggen/online-beleggen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/hypothecaire-lening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/overbruggingskrediet.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/renovatielening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/groene-energielening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/interieurlening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/tuinlening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/lenen-voor-je-woning.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-benzine-diesel.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-hybride-auto.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig/lening-elektrische-wagen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/content/particulieren/nl/lenen/voertuig#tweewieler.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/content/particulieren/nl/lenen/voertuig#ander.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/voertuig/autolening-plus.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/gezin.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/persoonlijke-lening.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/product/betalen/betaalkaarten/kredietkaarten-en-prepaid-kaarten/kbc-flex-budget.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfswagens-vergelijken.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/kredieten/kredieten-voor-bedrijfsuitrusting-vergelijken.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/financieren/werkkapitaal.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/product/kredieten/vergelijking-kredieten-onroerend.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen/brandverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen/bijstandaanhuis.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen/schuldsaldoverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/wonen/welke-verzekeringen-voor-een-woning.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/autoverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-elektrische-auto.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/fietsverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/verzekering-voor-je-scooter-of-speed-pedelec.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/motorverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/voertuig/schade-of-diefstal.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/reisverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/je-familiale-verzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/hospitalisatieverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/ongevallenverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/overlijdensverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/uitvaartverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/beleggen/waarom-kiezen-voor-levensverzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/gezin/cybersecure-verzekering.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/verzekeren/aansprakelijkheid-en-rechtsbijstand.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/verzekeren/lichamelijke-schade-en-gevolgen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/ondernemen/nl/verzekeren/materiele-schade-en-gevolgen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/verzekeren/schade-aangeven.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/thema/myhome.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/huis-kopen-zonder-zorgen.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/renoveren.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/lenen/wonen/energiezuinig-optimaliseren.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/thema/mymobility.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl/thema/mymobility/product/car-sales.html?zone=topnav&zone=topnav",
+    "https://www.kbc.be/particulieren/nl.html?zone=breadcrumb",
+    "https://www.kbc.be/particulieren/nl/product.html?zone=breadcrumb",
+    "https://www.kbc.be/particulieren/nl/product/betalen.html?zone=breadcrumb",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen.html?zone=breadcrumb",
+    "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/basisrekening-openen.html",
+    "https://www.kbcbrussels.be/particulieren/nl/betalen/zichtrekeningen.html",
+    "https://www.cbc.be/particuliers/fr/produits/paiements/comptes-a-vue/ouvrez-compte-a-vue.html",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/stappenplannen-digitaal-bankieren/demos-mobile/zichtrekening-openen.html",
+    "https://www.kbc.be/particulieren/nl/info/bankoverstapdienst-veranderen-van-bank.html",
+    "https://www.kbc.be/ondernemen/nl/product/betalen-en-betaald-worden/zakelijke-rekeningen/business-pro.html",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/jongerenrekening.html",
+    "https://www.kbc.be/particulieren/nl/proces/betalen/zichtrekeningen/zichtrekening-openen.html?producttype=3845&synonym=#/account/request/holder-selection",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zichtrekeningen/plusrekening-rekening-openen.html",
+    "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/betalen/kbc-particulier-pakketreglement.pdf",
+    "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/kbc-algemene-bankvoorwaarden.pdf",
+    "https://www.kbc.be/particulieren/nl/info/tarieven.html",
+    "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/BETALEN/KAARTEN/kbc-debetkaart-reglement.pdf",
+    "https://www.kbc.be/particulieren/nl/betalen/betaalkaarten/debetkaarten/bankkaart.html",
+    "mailto:klachten@kbc.be",
+    "mailto:ombudsman@ombudsfin.be",
+    "https://www.ombudsfin.be/nl",
+    "https://www.kbc.be/particulieren/nl/info/secure4u.html",
+    "https://www.kbc.be/particulieren/nl/product/betalen.html?zone=footer-1",
+    "https://www.kbc.be/particulieren/nl/sparen.html?zone=footer-1",
+    "https://www.kbc.be/content/particulieren/nl/pensioensparen/fiscaal-sparen-vergelijken?zone=footer-1",
+    "https://www.kbc.be/particulieren/nl/beleggen.html?zone=footer-1",
+    "https://www.kbc.be/particulieren/nl/lenen.html?zone=footer-1",
+    "https://www.kbc.be/particulieren/nl/verzekeren.html?zone=footer-1",
+    "https://www.kbc.be/particulieren/nl/proces/maak-je-afspraak-online.html?zone=footer-2",
+    "https://www.kbc.be/particulieren/nl/kantoor.html?zone=footer-2",
+    "https://www.kbc.be/particulieren/nl/contact.html?zone=footer-2",
+    "https://www.kbc.be/content/particulieren/nl/product/betalen/betaalkaarten/kaart-kwijt-gestolen-of-ingeslikt?zone=footer-2",
+    "https://www.kbc.be/particulieren/nl/info/secure4u/meld-fraude.html?zone=footer-2",
+    "https://www.kbc.be/particulieren/nl/info/secure4u.html?zone=footer-2",
+    "https://www.kbc.be/particulieren/nl/campagne/bespaar-tijd-met-kate.html?zone=footer-2",
+    "https://www.kbc.com/nl.html?zone=footer-3",
+    "https://www.kbc.be/particulieren/nl/sponsoring-actie/kbc-trakteert.html?zone=footer-3",
+    "https://www.kbc.com/nl/newsroom/persberichtenarchief.html?zone=footer-3",
+    "https://www.kbc.be/particulieren/nl/sponsoring-actie/sponsoring.html?zone=footer-3",
+    "https://www.kbc.be/jobs/nl.html?zone=footer-3",
+    "https://www.kbc.be/particulieren/nl/duurzaamheid/samen-meer-duurzaamheid.html?zone=footer-3",
+    "https://www.kbc.be/particulieren/nl/product/betalen/zelf-bankieren/met-je-smartphone/krijg-verdien-kate-coins.html?zone=footer-3",
+    "https://www.kbc.be/ondernemen/nl.html?zone=footer-4",
+    "https://www.kbc.be/commercial-banking/nl.html?zone=footer-4",
+    "https://www.kbc.be/private-banking/nl.html?zone=footer-4",
+    "https://www.kbcbrussels.be/particulieren/nl.html?zone=footer-4",
+    "https://www.kbc.com/nl.html?zone=footer-4",
+    "https://www.kbc.be/particulieren/nl/info/alle-kbc-sites.html?zone=footer-4",
+    "https://www.kbc.be/particulieren/nl/sitemap.html?zone=doormat",
+    "https://www.kbc.be/particulieren/nl/info/tarieven.html?zone=doormat",
+    "https://www.kbc.be/particulieren/nl/juridische-info.html?zone=doormat",
+    "https://www.kbc.be/particulieren/nl/contact/uitschrijven.html?zone=doormat",
+    "https://www.kbc.be/particulieren/nl/info/secure4u/responsible-disclosure-beleid.html?zone=doormat",
+    "https://www.kbc.be/particulieren/nl/toegankelijkheid.html?zone=doormat",
+    "https://www.facebook.com/KBCBankEnVerzekering",
+    "https://twitter.com/kbc_be",
+    "https://www.linkedin.com/company/kbc-bank-en-verzekering",
+    "https://insights.ipsosinteractive.com/mriweb/mriweb.dll?i.project=S25027915&i.user2=P"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wcmassets.kbc.be/content/dam/particulieren/nl/betalen/bankrekening/zichtrekening-nieuwelook17.jpeg/_jcr_content/renditions/cq5dam.web.480.9999.jpeg.cdn.res/last-modified/1687852295006/cq5dam.web.480.9999.jpeg",
+        "alt": "Fashion afro american woman after shopping with paper bags standing in city and using phone",
+        "w": 480,
+        "h": 319
+      },
+      {
+        "src": "https://wcmassets.kbc.be/content/dam/kdl-assets/logos/k/logos-kbc.svg.cdn.res/last-modified/1733244069305/logos-kbc.svg",
+        "alt": "logo",
+        "w": 320,
+        "h": 320
+      },
+      {
+        "src": "https://wcmassets.kbc.be/content/dam/particulieren/nl/product/betalen/betaalkaarten/bankkaarten/bankkaart/bankkaarten-jonge-vrouw-2022-hero-kdl.jpg/_jcr_content/renditions/cq5dam.web.960.9999.jpeg.cdn.res/last-modified/1651501440990/cq5dam.web.960.9999.jpeg",
+        "alt": "Open een gratis zichtrekening bij KBC",
+        "w": 960,
+        "h": 570
+      },
+      {
+        "src": "https://wcmassets.kbc.be/content/dam/particulieren/technical/logo-list-item-secure4u-3x.png/_jcr_content/renditions/cq5dam.web.480.9999.png.cdn.res/last-modified/1588066461786/cq5dam.web.480.9999.png",
+        "alt": "secure4u",
+        "w": 105,
+        "h": 19
+      },
+      {
+        "src": "https://wcmassets.kbc.be/content/dam/kdl-assets/logos/k/logos-kbc.svg.cdn.res/last-modified/1733244069305/logos-kbc.svg",
+        "alt": "kbc logo",
+        "w": 320,
+        "h": 320
+      }
+    ],
+    "allImgCount": 6,
+    "cssBackgrounds": [],
+    "modals": [
+      "action-func-mini-cross Je toestel werkt met een oudere versie van Windows. Binnenkort zal deze app niet meer werken met die versie. We raden je daarom aan een upgrade van Windows uit te voeren (als je toestel dat ondersteunt). Zo is een vlotte werking gegarandeerd en kun je alle functies blijven gebruiken.",
+      "var digitalData = digitalData || {}; digitalData.component = digitalData.component || {}; digitalData.component['9ffdba57-e179-48b9-9e54-10c9815c81ea'] = (function () { var digitalData = digitalData || {};digitalData.event=digitalData.event || [];digitalData.event[0]=digitalData.event[0] || {};digitalData.event[0].eventInfo = digitalData.event[0].eventInfo || {};digitalData.user = digitalData.user || {};digitalData.user.attributes = digitalData.user.attributes || {};digitalData.event[0].eventInfo.eventCode = \"0108\";digitalData.event[0].eventInfo.eventTypeCode = \"0003\";digitalData.event[0].eventInfo.eventSubTypeCode = \"0003\";digitalData.event[0].eventInfo.eventNameCode = \"0034\";digitalData.event[0].eventInfo.eventDetailCode = \"0030\";digitalData.event[0].eventInfo.eventDetail = \"view\";digitalData.user.attributes.loggedIn = \"not logged in\"; return digitalData; })(); digitalData.component['8059cbfe-6f8b-402d-bde2-a8b0637ee996'] = (function () { var digitalData = digitalData || {};digitalData.event=digitalData.event || [];digitalData.event[0]=digitalData.event[0] || {};digitalData.event[0].eventInfo = digitalData.event[0].eventInfo || {};digitalData.user = digitalData.user || {};digitalData.user.attributes = digitalData.user.attributes || {};digitalData.event[0].eventInfo.eventCode = \"0108\";digitalData.event[0].eventInfo.eventTypeCode = \"0002\";digitalData.event[0].eventInfo.eventSubTypeCode = \"0003\";digitalData.event[0].eventInfo.eventNameCode = \"0034\";digitalData.event[0].eventInfo.eventDetailCode = \"0011\";digitalData.event[0].eventInfo.eventDetail = \"Wegklikken\";digitalData.user.attributes.loggedIn = \"not logged in\"; return digitalData; })(); digitalData.component['81e81ebc-7ac3-4500-9f5b-caed3a803e34'] = (function () { var digitalData = digitalData || {};digitalData.event=digitalData.event || [];digitalData.event[0]=digitalData.event[0] || {};digitalData.event[0].eventInfo = digitalData.event[0].eventInfo || {};digitalData.user = digitalData.user || {};digitalData.user.attributes = digitalData.user.attributes || {};digitalData.event[0].eventInfo.eventCode = \"0108\";digitalData.event[0].eventInfo.eventTypeCode = \"0002\";digitalData.event[0].eventInfo.eventSubTypeCode = \"0003\";digitalData.event[0].eventInfo.eventNameCode = \"0034\";digitalData.event[0].eventInfo.eventDetailCode = \"0009\";digitalData.event[0].eventInfo.eventDetail = \"Ja\";digitalData.user.attributes.loggedIn = \"not logged in\"; return digitalData; })(); digitalData.component['72864c11-a56d-41f8-b936-ff2b61f4e8b4'] = (function () { var digitalData = digitalData || {};digitalData.event=digitalData.event || [];digitalData.event[0]=digitalData.event[0] || {};digitalData.event[0].eventInfo = digitalData.event[0].eventInfo || {};digitalData.user = digitalData.user || {};digitalData.user.attributes = digitalData.user.attributes || {};digitalData.event[0].eventInfo.eventCode = \"0108\";digitalData.event[0].eventInfo.eventTypeCode = \"0002\";digitalData.event[0].eventInfo.eventSubTypeCode = \"0003\";digitalData.event[0].eventInfo.eventNameCode = \"0034\";digitalData.event[0].eventInfo.eventDetailCode = \"0010\";digitalData.event[0].eventInfo.eventDetail = \"Nee\";digitalData.user.attributes.loggedIn = \"not logged in\"; return digitalData; })(); Jouw mening is belangrijk! Help jij ons om de KBC-website te verbeteren? In 6 korte vragen is het zo gebeurd! Alle gegevens blijven overigens volledig vertrouwelijk. Dit onderzoek loopt in samenwerking met het onafhankelijke marktonderzoeksbureau Ipsos. Ja, ik neem deel Nee, liever niet",
+      "Deel pagina via mail Het e-mailadres van je bestemmeling Interessante pagina:"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--truste-box-overlay-height": "520px",
+    "--truste-box-overlay-margin-left": "auto",
+    "--truste-box-overlay-inner-height": "520px",
+    "--truste-popframe-height": "520px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 10,
+    "mainTextLen": 9727,
+    "realImageCount": 5,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.kbc.be",
+        "path": "/x0a-p-analytics/set-fpid.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 51,
+        "hits": 1,
+        "example": "https://www.kbc.be/x0a-p-analytics/set-fpid.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "es6-elasticapm.kbc.be",
+        "path": "/config/v1/rum/agents",
+        "query": [
+          "service.environment",
+          "service.name"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3,
+        "hits": 1,
+        "example": "https://es6-elasticapm.kbc.be/config/v1/rum/agents",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "consent.truste.com",
+        "path": "/analytics",
+        "query": [
+          "action",
+          "domain",
+          "implied",
+          "new",
+          "referer",
+          "session"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 43,
+        "hits": 2,
+        "example": "https://consent.truste.com/analytics",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.truste.com",
+        "path": "/cm/exp-w1.kbc.be/modalconfig",
+        "query": [
+          "country",
+          "layout",
+          "locale",
+          "type"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent.truste.com/cm/exp-w1.kbc.be/modalconfig",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "es6-elasticapm.kbc.be",
+        "path": "/intake/v2/rum/events",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 202,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://es6-elasticapm.kbc.be/intake/v2/rum/events",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 4
+      },
+      {
+        "host": "consent.truste.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [
+      {
+        "action": "https://www.kbc.be/particulieren/nl/zoek.html",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 3,
+      "thirdPartyEndpoints": 2,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html.png",
+  "renderedHtml": "pages/particulieren-nl-product-betalen-zichtrekeningen-basisrekening-openen-html.html"
+}
